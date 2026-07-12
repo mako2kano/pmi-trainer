@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mako2kano/pmi-trainer/schemas/taxonomy.schema.json",
+  "title": "taxonomy.<exam>.json — ECO転記（SPEC_v2.md §4）",
+  "description": "PMI公式ECOのドメイン・タスク・出題比率の転記先。weight_percentの合計は100であること（テストで検証）。tasksはECOタスクの原文複製ではなく要約・参照ラベルとして転記する（SPEC_v2.md §11）。",
+  "type": "object",
+  "required": ["exam", "domains", "cross_tags"],
+  "properties": {
+    "exam": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+    "eco_source": { "type": "string" },
+    "eco_version": { "type": "string" },
+    "verified_against_official_eco": { "type": "boolean" },
+    "_note": { "type": "string" },
+    "domains": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "weight_percent", "tasks"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^D[0-9]+$" },
+          "name": { "type": "string", "minLength": 1 },
+          "name_ja": { "type": "string" },
+          "weight_percent": { "type": "number", "minimum": 0, "maximum": 100 },
+          "tasks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "summary"],
+              "additionalProperties": false,
+              "properties": {
+                "id": { "type": "string", "pattern": "^T[0-9]+$" },
+                "summary": { "type": "string", "minLength": 1 },
+                "summary_ja": { "type": "string" },
+                "cross_perspective_eligible": {
+                  "type": "boolean",
+                  "description": "このタスクでクロス視点distractorが成立し得るか（SPEC_v2.md §6「可能なタスクに限る」）"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "cross_tags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": ["governance", "stakeholder", "benefits_value", "risk"]
+      },
+      "description": "exam間の唯一の橋渡し（DR-04）。出題優先度ヒントにのみ使用し、マスタリーは持ち越さない。"
+    }
+  }
+}

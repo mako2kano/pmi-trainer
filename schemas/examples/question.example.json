@@ -1,0 +1,24 @@
+{
+  "id": "pgmp-D1-0001",
+  "exam": "pgmp",
+  "domain": "D1",
+  "task": "T1",
+  "cross_tags": ["governance", "benefits_value"],
+  "scenario": "You are the program manager for a digital transformation program consisting of three component projects at a large manufacturing company. During a mid-program review, you learn that one component project is forecast to deliver only 40% of its planned benefits. Senior executives are divided on whether the project should continue.",
+  "stem": "What should the program manager do first?",
+  "options": [
+    "Compare the project's benefits realization plan against the program benefits register and assess the impact on the program's overall benefits",
+    "Recalculate the return on investment across the portfolio and compare the project's resource allocation against other investment opportunities",
+    "Terminate the project immediately and reallocate its remaining budget to the other component projects",
+    "Postpone the program's phase gate review until the executives reach a consensus"
+  ],
+  "answer_index": 0,
+  "distractor_types": [null, "cross_perspective", "plausible", "plausible"],
+  "explanation": "プログラムマネジャーの責務は便益デリバリーであり、まず構成プロジェクトの便益低下がプログラム全体の便益実現計画に与える影響を評価する（A）。Bはポートフォリオ視点（投資判断者）では正しい行動になり得るが、投資機会間の比較・選択はポートフォリオマネジメントの責務であり、プログラムマネジャーが最初に取る行動ではない。Cは影響評価前の早計な判断、Dは意思決定の先送りでガバナンスの機能不全を招く。",
+  "evaluator": {
+    "perspective_check": 0.9,
+    "model": "claude-sonnet-example",
+    "evaluated_at": "2026-07-12T00:00:00Z"
+  },
+  "reviewed": true
+}

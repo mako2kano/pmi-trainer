@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mako2kano/pmi-trainer/schemas/question.schema.json",
+  "title": "question — 問題バンク1問分（SPEC_v2.md §6・§7）",
+  "description": "選択肢は4択。distractor_typesはoptionsと同じ長さで、正解位置（answer_index）はnull、誤答位置はdistractorの型を持つ。誤答のうち最大1つを cross_perspective とする（可能なタスクに限る）。言語はDR-10に従う: scenario/stem/optionsは英語（実試験に合わせる）、explanationは日本語。",
+  "type": "object",
+  "required": [
+    "id", "exam", "domain", "task", "cross_tags",
+    "scenario", "stem", "options", "answer_index",
+    "distractor_types", "explanation"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(pgmp|pfmp)-D[0-9]+-[0-9]{4}$",
+      "description": "例: pgmp-D1-0001"
+    },
+    "exam": { "enum": ["pgmp", "pfmp"] },
+    "domain": { "type": "string", "pattern": "^D[0-9]+$" },
+    "task": {
+      "type": "string",
+      "pattern": "^T[0-9]+$",
+      "description": "taxonomy.<exam>.json の当該ドメイン内タスクID"
+    },
+    "cross_tags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "enum": ["governance", "stakeholder", "benefits_value", "risk"] }
+    },
+    "scenario": {
+      "type": "string",
+      "minLength": 1,
+      "description": "英語（DR-10）"
+    },
+    "stem": {
+      "type": "string",
+      "minLength": 1,
+      "description": "英語（DR-10）"
+    },
+    "options": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "answer_index": { "type": "integer", "minimum": 0, "maximum": 3 },
+    "distractor_types": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "enum": ["plausible", "cross_perspective", null]
+      },
+      "description": "optionsと同じ並び。正解位置はnull（テストでanswer_indexとの整合を検証）。"
+    },
+    "explanation": {
+      "type": "string",
+      "minLength": 1,
+      "description": "日本語（DR-10）。cross_perspective distractorを含む場合、もう一方の視点でなぜ誤りかを明示すること（SPEC_v2.md §6）"
+    },
+    "evaluator": {
+      "type": "object",
+      "description": "生成パイプライン（M2）のEvaluator採点結果",
+      "additionalProperties": false,
+      "properties": {
+        "perspective_check": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "正解が当該試験の視点で一意に定まるか（SPEC_v2.md §6）"
+        },
+        "model": { "type": "string" },
+        "evaluated_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "reviewed": {
+      "type": "boolean",
+      "description": "作者レビュー済みフラグ（M2/M6の完了条件）"
+    }
+  }
+}

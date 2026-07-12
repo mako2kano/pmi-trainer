@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Node / PWA（M3〜）
+node_modules/
+dist/
+.vite/
+
+# 端末からのエクスポート・個人データはコミットしない
+exports/
+data/
+
+# OS / editor
+.DS_Store
+Thumbs.db

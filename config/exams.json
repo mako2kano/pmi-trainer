@@ -1,0 +1,16 @@
+{
+  "pgmp": {
+    "name": "PgMP",
+    "mock_questions": 170,
+    "mock_minutes": 240,
+    "domains": ["D1", "D2", "D3", "D4", "D5"],
+    "theme": "indigo"
+  },
+  "pfmp": {
+    "name": "PfMP",
+    "mock_questions": 170,
+    "mock_minutes": 240,
+    "domains": ["D1", "D2", "D3", "D4", "D5"],
+    "theme": "teal"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mako2kano/pmi-trainer/schemas/question_bank.schema.json",
+  "title": "questions/<exam>/<domain>.json — ドメイン別問題バンク",
+  "type": "object",
+  "required": ["exam", "domain", "questions"],
+  "additionalProperties": false,
+  "properties": {
+    "exam": { "enum": ["pgmp", "pfmp"] },
+    "domain": { "type": "string", "pattern": "^D[0-9]+$" },
+    "questions": {
+      "type": "array",
+      "items": { "$ref": "question.schema.json" }
+    }
+  }
+}

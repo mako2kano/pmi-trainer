@@ -1,0 +1,45 @@
+{
+  "exam": "pgmp",
+  "eco_source": "PMI Program Management Professional (PgMP) Examination Content Outline",
+  "eco_version": "TODO: 公式ECO PDFの版を記載",
+  "verified_against_official_eco": false,
+  "_note": "ドメイン名・比率は一般公知情報のプレフィル。⚠️ 作者が公式ECO PDFと照合し、tasksを転記のうえ verified_against_official_eco を true にすること（SPEC_v2.md §4）。比率は模試のドメイン配分（mock_questions の按分）に使用する。",
+  "domains": [
+    {
+      "id": "D1",
+      "name": "Strategic Program Management",
+      "name_ja": "戦略的プログラムマネジメント",
+      "weight_percent": 15,
+      "tasks": []
+    },
+    {
+      "id": "D2",
+      "name": "Program Life Cycle",
+      "name_ja": "プログラムライフサイクル",
+      "weight_percent": 44,
+      "tasks": []
+    },
+    {
+      "id": "D3",
+      "name": "Benefits Management",
+      "name_ja": "便益マネジメント",
+      "weight_percent": 11,
+      "tasks": []
+    },
+    {
+      "id": "D4",
+      "name": "Stakeholder Management",
+      "name_ja": "ステークホルダーマネジメント",
+      "weight_percent": 16,
+      "tasks": []
+    },
+    {
+      "id": "D5",
+      "name": "Governance",
+      "name_ja": "ガバナンス",
+      "weight_percent": 14,
+      "tasks": []
+    }
+  ],
+  "cross_tags": ["governance", "stakeholder", "benefits_value", "risk"]
+}

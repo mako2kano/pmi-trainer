@@ -1,0 +1,45 @@
+{
+  "exam": "pfmp",
+  "eco_source": "PMI Portfolio Management Professional (PfMP) Examination Content Outline",
+  "eco_version": "TODO: 公式ECO PDFの版を記載",
+  "verified_against_official_eco": false,
+  "_note": "ドメイン名・比率は一般公知情報のプレフィル。⚠️ 作者が公式ECO PDFと照合し、tasksを転記のうえ verified_against_official_eco を true にすること（SPEC_v2.md §4）。PfMPのドメイン比率は模試配分に必須。",
+  "domains": [
+    {
+      "id": "D1",
+      "name": "Strategic Alignment",
+      "name_ja": "戦略整合",
+      "weight_percent": 25,
+      "tasks": []
+    },
+    {
+      "id": "D2",
+      "name": "Governance",
+      "name_ja": "ガバナンス",
+      "weight_percent": 20,
+      "tasks": []
+    },
+    {
+      "id": "D3",
+      "name": "Portfolio Performance",
+      "name_ja": "ポートフォリオパフォーマンス",
+      "weight_percent": 25,
+      "tasks": []
+    },
+    {
+      "id": "D4",
+      "name": "Portfolio Risk Management",
+      "name_ja": "ポートフォリオリスクマネジメント",
+      "weight_percent": 15,
+      "tasks": []
+    },
+    {
+      "id": "D5",
+      "name": "Communications Management",
+      "name_ja": "コミュニケーションマネジメント",
+      "weight_percent": 15,
+      "tasks": []
+    }
+  ],
+  "cross_tags": ["governance", "stakeholder", "benefits_value", "risk"]
+}

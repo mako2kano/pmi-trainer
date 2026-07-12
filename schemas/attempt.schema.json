@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mako2kano/pmi-trainer/schemas/attempt.schema.json",
+  "title": "attempt — 解答履歴1件分（SPEC_v2.md §7 / DR-03）",
+  "description": "IndexedDBはexamごとに独立テーブルだが、examフィールドを冗長に持つ（エクスポート単体で自己完結させるため）。selected_distractor_typeによりクロス視点誤答率を独立集計できる（§6・§10）。",
+  "type": "object",
+  "required": ["exam", "question_id", "ts", "mode", "selected_index", "correct"],
+  "additionalProperties": false,
+  "properties": {
+    "exam": { "enum": ["pgmp", "pfmp"] },
+    "question_id": { "type": "string", "pattern": "^(pgmp|pfmp)-D[0-9]+-[0-9]{4}$" },
+    "ts": { "type": "string", "format": "date-time" },
+    "mode": { "enum": ["drill", "mock"] },
+    "selected_index": { "type": "integer", "minimum": 0, "maximum": 3 },
+    "correct": { "type": "boolean" },
+    "selected_distractor_type": {
+      "enum": ["plausible", "cross_perspective", null],
+      "description": "誤答時に選んだdistractorの型。正解時はnull。"
+    },
+    "elapsed_ms": { "type": "integer", "minimum": 0 },
+    "mock_session_id": {
+      "type": "string",
+      "description": "模試モードの回次識別子。ドリルでは省略。"
+    }
+  }
+}
