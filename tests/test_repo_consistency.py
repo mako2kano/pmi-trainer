@@ -29,6 +29,20 @@ def test_taxonomy_weights_sum_to_100():
         assert abs(total - 100) < 0.01, f"{exam_id}: {total}"
 
 
+def test_taxonomy_fully_transcribed():
+    """M1完了条件: 両試験のECO転記完了。各ドメインにタスクが転記済みで、
+    公式ECOのタスク数と一致すること（PgMP March 2024 / PfMP 2013）。"""
+    expected = {
+        "pgmp": {"D1": 11, "D2": 35, "D3": 8, "D4": 7, "D5": 11},
+        "pfmp": {"D1": 8, "D2": 5, "D3": 10, "D4": 6, "D5": 6},
+    }
+    for exam_id, per_domain in expected.items():
+        taxonomy = load_json(REPO_ROOT / "config" / f"taxonomy.{exam_id}.json")
+        assert taxonomy["verified_against_official_eco"] is True, exam_id
+        counts = {d["id"]: len(d["tasks"]) for d in taxonomy["domains"]}
+        assert counts == per_domain, f"{exam_id}: {counts}"
+
+
 def test_question_banks_exist_for_all_domains():
     """G5: PfMP対応は問題バンク追加のみ。両examのバンクファイルが最初から存在する。"""
     exams = load_json(REPO_ROOT / "config" / "exams.json")

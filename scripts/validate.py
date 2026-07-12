@@ -73,7 +73,9 @@ def validate_taxonomy(taxonomy: dict, exam_id: str, exams: dict) -> list[str]:
     return errors
 
 
-def validate_question(q: dict, exam_id: str, domain_id: str) -> list[str]:
+def validate_question(
+    q: dict, exam_id: str, domain_id: str, valid_tasks: set[str] | None = None
+) -> list[str]:
     errors = []
     qid = q.get("id", "<no id>")
     prefix = f"{exam_id}/{domain_id} {qid}"
@@ -84,6 +86,11 @@ def validate_question(q: dict, exam_id: str, domain_id: str) -> list[str]:
         errors.append(f"{prefix}: domain がバンクの {domain_id} と不一致")
     if not str(qid).startswith(f"{exam_id}-{domain_id}-"):
         errors.append(f"{prefix}: id が {exam_id}-{domain_id}-NNNN 形式でない")
+
+    if valid_tasks is not None and q.get("task") not in valid_tasks:
+        errors.append(
+            f"{prefix}: task {q.get('task')} が taxonomy の {domain_id} に存在しない"
+        )
 
     options = q.get("options", [])
     if len(options) != NUM_OPTIONS:
@@ -123,7 +130,9 @@ def validate_question(q: dict, exam_id: str, domain_id: str) -> list[str]:
     return errors
 
 
-def validate_bank(bank: dict, exam_id: str, domain_id: str) -> list[str]:
+def validate_bank(
+    bank: dict, exam_id: str, domain_id: str, valid_tasks: set[str] | None = None
+) -> list[str]:
     errors = []
     prefix = f"questions/{exam_id}/{domain_id}.json"
     if bank.get("exam") != exam_id:
@@ -136,7 +145,7 @@ def validate_bank(bank: dict, exam_id: str, domain_id: str) -> list[str]:
     if len(ids) != len(set(ids)):
         errors.append(f"{prefix}: 問題IDに重複がある")
     for q in questions:
-        errors.extend(validate_question(q, exam_id, domain_id))
+        errors.extend(validate_question(q, exam_id, domain_id, valid_tasks))
     return errors
 
 
@@ -148,17 +157,27 @@ def validate_repo(root: Path = REPO_ROOT) -> list[str]:
 
     for exam_id in exams:
         tax_path = root / "config" / f"taxonomy.{exam_id}.json"
+        tasks_by_domain: dict[str, set[str]] = {}
         if not tax_path.exists():
             errors.append(f"config/taxonomy.{exam_id}.json がない")
         else:
-            errors.extend(validate_taxonomy(load_json(tax_path), exam_id, exams))
+            taxonomy = load_json(tax_path)
+            errors.extend(validate_taxonomy(taxonomy, exam_id, exams))
+            tasks_by_domain = {
+                d.get("id"): {t.get("id") for t in d.get("tasks", [])}
+                for d in taxonomy.get("domains", [])
+            }
 
         for domain_id in exams[exam_id].get("domains", []):
             bank_path = root / "questions" / exam_id / f"{domain_id}.json"
             if not bank_path.exists():
                 errors.append(f"questions/{exam_id}/{domain_id}.json がない")
             else:
-                errors.extend(validate_bank(load_json(bank_path), exam_id, domain_id))
+                # taxonomyが読めた場合のみtask実在チェックを有効化（空set=チェックしない）
+                valid_tasks = tasks_by_domain.get(domain_id) or None
+                errors.extend(
+                    validate_bank(load_json(bank_path), exam_id, domain_id, valid_tasks)
+                )
     return errors
 
 

@@ -60,6 +60,12 @@ def test_exam_mismatch_detected(question):
     assert validate_question(question, "pfmp", "D1")
 
 
+def test_task_must_exist_in_taxonomy(question):
+    assert validate_question(question, "pgmp", "D1", valid_tasks={"T1", "T2"}) == []
+    errors = validate_question(question, "pgmp", "D1", valid_tasks={"T2", "T3"})
+    assert any("taxonomy" in e for e in errors)
+
+
 def test_unknown_cross_tag_detected(question):
     q = copy.deepcopy(question)
     q["cross_tags"] = ["governance", "schedule"]

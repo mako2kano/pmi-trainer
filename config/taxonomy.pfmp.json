@@ -1,44 +1,84 @@
 {
   "exam": "pfmp",
   "eco_source": "PMI Portfolio Management Professional (PfMP) Examination Content Outline",
-  "eco_version": "TODO: 公式ECO PDFの版を記載",
-  "verified_against_official_eco": false,
-  "_note": "ドメイン名・比率は一般公知情報のプレフィル。⚠️ 作者が公式ECO PDFと照合し、tasksを転記のうえ verified_against_official_eco を true にすること（SPEC_v2.md §4）。PfMPのドメイン比率は模試配分に必須。",
+  "eco_version": "2013",
+  "verified_against_official_eco": true,
+  "_note": "作者提供の公式ECO PDF（©2013版）から転記（DR-11）。ドメイン名・weight_percentは公式値と一致。tasksのsummary/summary_jaはECO原文の複製ではなく要約（SPEC_v2.md §11）であり、作者のスポットチェックを推奨。cross_perspective_eligibleは、ポートフォリオ視点(投資判断者)とプログラム視点(便益デリバリー責任者)が紛れやすくクロス視点distractorが成立しやすいタスクへのGenerator向けヒント（§6）。",
   "domains": [
     {
       "id": "D1",
       "name": "Strategic Alignment",
       "name_ja": "戦略整合",
       "weight_percent": 25,
-      "tasks": []
+      "tasks": [
+        { "id": "T1", "summary": "Evaluate organizational strategic goals and objectives using document reviews and interviews to understand strategic priorities.", "summary_ja": "文書レビューや面談で組織の戦略目標・目的を評価し、戦略的優先事項を理解する。" },
+        { "id": "T2", "summary": "Identify prioritization criteria (legislative, dependencies, ROI, stakeholder expectations, strategic fit) as a basis for decision-making.", "summary_ja": "優先順位付け基準（法規制・依存関係・ROI・ステークホルダー期待・戦略適合）を特定し、意思決定の基礎を作る。", "cross_perspective_eligible": true },
+        { "id": "T3", "summary": "Rank strategic priorities with key stakeholders using qualitative and quantitative analysis to operationalize strategic goals.", "summary_ja": "主要ステークホルダーと定性・定量分析で戦略的優先度をランク付けし、戦略目標を実行可能にする。", "cross_perspective_eligible": true },
+        { "id": "T4", "summary": "Identify existing and potential portfolio components by reviewing documentation to create portfolio scenarios.", "summary_ja": "文書レビューで既存/潜在のポートフォリオ構成要素を特定し、ポートフォリオシナリオを作る。" },
+        { "id": "T5", "summary": "Create portfolio scenarios (what-if) by evaluating components against prioritization criteria to select viable options.", "summary_ja": "構成要素を優先順位付け基準で評価してポートフォリオシナリオ（what-if）を作成し、実行可能な選択肢を選ぶ。", "cross_perspective_eligible": true },
+        { "id": "T6", "summary": "Recommend portfolio scenario(s) and related components based on prioritization analysis to give governance a rationale.", "summary_ja": "優先順位分析に基づきポートフォリオシナリオと構成要素を推奨し、ガバナンスに意思決定の根拠を提供する。", "cross_perspective_eligible": true },
+        { "id": "T7", "summary": "Determine the impact to the portfolio from changes in strategic goals and objectives to sustain strategic alignment.", "summary_ja": "戦略目標の変化がポートフォリオに与える影響を判断し、戦略整合を維持する。", "cross_perspective_eligible": true },
+        { "id": "T8", "summary": "Create a high-level portfolio roadmap (prioritization, interdependency analysis, constraints) to communicate sequencing and alignment.", "summary_ja": "高レベルのポートフォリオロードマップ（優先順位・相互依存分析・制約）を作り、順序と整合を伝える。" }
+      ]
     },
     {
       "id": "D2",
       "name": "Governance",
       "name_ja": "ガバナンス",
       "weight_percent": 20,
-      "tasks": []
+      "tasks": [
+        { "id": "T1", "summary": "Define and establish a governance model (structure, policies, decision-making roles, rights, authorities) to support effective decisions.", "summary_ja": "ガバナンスモデル（構造・方針・意思決定の役割・権限）を定義・確立し、効果的な意思決定を支える。", "cross_perspective_eligible": true },
+        { "id": "T2", "summary": "Determine portfolio management standards, protocols, rules, and best practices to establish consistent practices.", "summary_ja": "ポートフォリオマネジメントの標準・プロトコル・規則・ベストプラクティスを定め、一貫した実務を確立する。" },
+        { "id": "T3", "summary": "Define or modify portfolio processes and procedures (benefits, information, performance, communication, risk, stakeholder, resource, change).", "summary_ja": "ポートフォリオのプロセス・手順（便益・情報・パフォーマンス・コミュニケーション・リスク・ステークホルダー・資源・変更）を定義/修正する。" },
+        { "id": "T4", "summary": "Create the portfolio management plan (roles, governance model, escalation, risk tolerances, thresholds, KPIs, prioritization model, communication).", "summary_ja": "ポートフォリオマネジメント計画（役割・ガバナンスモデル・エスカレーション・リスク許容度・閾値・KPI・優先順位付けモデル・コミュニケーション）を作成する。" },
+        { "id": "T5", "summary": "Make recommendations and obtain approval for portfolio decisions (components, plans, budget, roadmap) to authorize execution.", "summary_ja": "ポートフォリオの意思決定（構成要素・計画・予算・ロードマップ）を提言・承認取得し、実行を認可する。", "cross_perspective_eligible": true }
+      ]
     },
     {
       "id": "D3",
       "name": "Portfolio Performance",
       "name_ja": "ポートフォリオパフォーマンス",
       "weight_percent": 25,
-      "tasks": []
+      "tasks": [
+        { "id": "T1", "summary": "Initiate the portfolio using the roadmap and supporting artifacts to authorize the structure and activate components.", "summary_ja": "ロードマップと補助成果物でポートフォリオを立ち上げ、構造を認可し構成要素を稼働させる。" },
+        { "id": "T2", "summary": "Collect and consolidate key performance metric data as defined by governance to measure portfolio health.", "summary_ja": "ガバナンスが定めた主要パフォーマンス指標データを収集・集約し、ポートフォリオの健全性を測る。" },
+        { "id": "T3", "summary": "Monitor portfolio performance on an ongoing basis (reports, dashboards, audits) to ensure effectiveness and maintain alignment.", "summary_ja": "ポートフォリオのパフォーマンスを継続監視（報告・ダッシュボード・監査）し、有効性と戦略整合を維持する。" },
+        { "id": "T4", "summary": "Manage and escalate issues by communicating recommended actions to decision makers for timely approval.", "summary_ja": "課題を管理・エスカレーションし、推奨アクションを意思決定者に伝えて迅速な承認を得る。" },
+        { "id": "T5", "summary": "Manage portfolio changes using change management techniques to improve performance and maintain strategic alignment.", "summary_ja": "変更管理手法でポートフォリオの変更を管理し、パフォーマンス改善と戦略整合を維持する。" },
+        { "id": "T6", "summary": "Balance the portfolio and prioritize components using established criteria to optimize resource utilization.", "summary_ja": "確立された基準でポートフォリオをバランスし構成要素を優先順位付けして、資源活用を最適化する。", "cross_perspective_eligible": true },
+        { "id": "T7", "summary": "Analyze and optimize allocation of capacity (people, tools, materials, technology, facilities, financial) via supply/demand and scenario analysis.", "summary_ja": "需給・シナリオ分析でキャパシティ（人・ツール・資材・技術・施設・財務）の配分を分析・最適化する。", "cross_perspective_eligible": true },
+        { "id": "T8", "summary": "Update and refine portfolio roadmaps using change analysis to facilitate reallocation of organizational resources.", "summary_ja": "変更分析でポートフォリオロードマップを更新・洗練し、組織資源の再配分を促す。" },
+        { "id": "T9", "summary": "Measure aggregated portfolio performance against business or strategic goals to demonstrate progress.", "summary_ja": "集約したポートフォリオのパフォーマンスを事業/戦略目標に照らして測定し、進捗を示す。", "cross_perspective_eligible": true },
+        { "id": "T10", "summary": "Maintain records by capturing portfolio artifacts (approvals, prioritizations, decisions) to ensure compliance.", "summary_ja": "ポートフォリオ成果物（承認・優先順位付け・意思決定）を記録し、コンプライアンスを確保する。" }
+      ]
     },
     {
       "id": "D4",
       "name": "Portfolio Risk Management",
       "name_ja": "ポートフォリオリスクマネジメント",
       "weight_percent": 15,
-      "tasks": []
+      "tasks": [
+        { "id": "T1", "summary": "Determine an acceptable level of risk for the portfolio based on organizational and stakeholder risk tolerances as input to governance.", "summary_ja": "組織・ステークホルダーのリスク許容度に基づきポートフォリオの許容リスク水準を定め、ガバナンスへの入力とする。", "cross_perspective_eligible": true },
+        { "id": "T2", "summary": "Develop the portfolio risk management plan to capitalize on opportunities and respond to risks.", "summary_ja": "ポートフォリオのリスク管理計画を策定し、機会を活かしリスクに対応する。" },
+        { "id": "T3", "summary": "Perform dependency analysis to identify and monitor inter- and intradependency risks across portfolios for decision-making.", "summary_ja": "依存関係分析を行い、ポートフォリオ内外の相互/内部依存リスクを特定・監視して意思決定を支える。" },
+        { "id": "T4", "summary": "Develop, monitor, and maintain the portfolio-level risk register (strategic, business value, escalated component risks).", "summary_ja": "ポートフォリオレベルのリスク登録簿（戦略・事業価値・構成要素からのエスカレーションリスク）を策定・監視・維持する。" },
+        { "id": "T5", "summary": "Promote common understanding and stakeholder ownership of portfolio risks to facilitate risk response.", "summary_ja": "ポートフォリオリスクの共通理解とステークホルダーの当事者意識を促し、リスク対応を円滑にする。" },
+        { "id": "T6", "summary": "Provide recommendations and obtain approval for a portfolio management reserve based on aggregate risk exposure.", "summary_ja": "総リスクエクスポージャーに基づきポートフォリオマネジメントリザーブを提言・承認取得する。", "cross_perspective_eligible": true }
+      ]
     },
     {
       "id": "D5",
       "name": "Communications Management",
       "name_ja": "コミュニケーションマネジメント",
       "weight_percent": 15,
-      "tasks": []
+      "tasks": [
+        { "id": "T1", "summary": "Analyze internal and external stakeholders (meetings, interviews, surveys) to identify expectations, interests, and influence.", "summary_ja": "内外のステークホルダーを分析（会議・面談・調査）し、期待・関心・影響力を特定する。" },
+        { "id": "T2", "summary": "Create the aggregate communication strategy and plan (methods, recipients, vehicles, timelines, frequencies) for effective communication.", "summary_ja": "集約コミュニケーション戦略・計画（手法・受信者・媒体・時期・頻度）を作り、効果的な伝達を可能にする。" },
+        { "id": "T3", "summary": "Engage stakeholders through oral and written communication to ensure awareness, manage expectations, and foster support.", "summary_ja": "口頭・書面のコミュニケーションでステークホルダーを巻き込み、認知・期待管理・支持醸成を行う。" },
+        { "id": "T4", "summary": "Maintain the communication strategy and plan by evaluating capabilities, identifying gaps, and documenting to meet requirements.", "summary_ja": "コミュニケーション能力を評価しギャップを特定・文書化して、戦略・計画を要求に合わせ維持する。" },
+        { "id": "T5", "summary": "Prepare and facilitate stakeholder understanding of portfolio processes and protocols using organizational assets.", "summary_ja": "組織資産を用いて、ポートフォリオのプロセス・手順へのステークホルダーの理解を促進する。" },
+        { "id": "T6", "summary": "Verify accuracy, consistency, and completeness of portfolio communication using governance guidelines to maintain credibility.", "summary_ja": "ガバナンス指針に沿ってポートフォリオコミュニケーションの正確性・一貫性・網羅性を検証し、信頼性を保つ。" }
+      ]
     }
   ],
   "cross_tags": ["governance", "stakeholder", "benefits_value", "risk"]

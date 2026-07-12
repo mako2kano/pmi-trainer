@@ -1,44 +1,121 @@
 {
   "exam": "pgmp",
   "eco_source": "PMI Program Management Professional (PgMP) Examination Content Outline",
-  "eco_version": "TODO: 公式ECO PDFの版を記載",
-  "verified_against_official_eco": false,
-  "_note": "ドメイン名・比率は一般公知情報のプレフィル。⚠️ 作者が公式ECO PDFと照合し、tasksを転記のうえ verified_against_official_eco を true にすること（SPEC_v2.md §4）。比率は模試のドメイン配分（mock_questions の按分）に使用する。",
+  "eco_version": "March 2024",
+  "verified_against_official_eco": true,
+  "_note": "作者提供の公式ECO PDF（March 2024版）から転記（DR-11）。ドメイン名・weight_percentは公式値と一致。tasksのsummary/summary_jaはECO原文の複製ではなく要約（SPEC_v2.md §11）であり、作者のスポットチェックを推奨。cross_perspective_eligibleは、プログラム視点(便益デリバリー責任者)とポートフォリオ視点(投資判断者)が紛れやすくクロス視点distractorが成立しやすいタスクへのGenerator向けヒント（§6）。",
   "domains": [
     {
       "id": "D1",
-      "name": "Strategic Program Management",
-      "name_ja": "戦略的プログラムマネジメント",
+      "name": "Strategic Program Alignment",
+      "name_ja": "戦略的プログラム整合",
       "weight_percent": 15,
-      "tasks": []
+      "tasks": [
+        { "id": "T1", "summary": "Perform an initial program assessment (objectives, requirements, risks) to ensure alignment with the organization's strategic plan.", "summary_ja": "初期プログラムアセスメント（目的・要求・リスク）を行い、企業戦略との整合を確認する。" },
+        { "id": "T2", "summary": "Establish a high-level roadmap with milestones and preliminary estimates to obtain sponsor validation and approval.", "summary_ja": "マイルストーンと概算を含む高レベルロードマップを作り、スポンサーの検証・承認を得る。" },
+        { "id": "T3", "summary": "Define the high-level roadmap and financial framework to baseline program definition, planning, and execution.", "summary_ja": "高レベルロードマップと財務フレームワークを定義し、定義・計画・実行のベースラインを設定する。" },
+        { "id": "T4", "summary": "Define the program mission statement from stakeholder concerns and expectations to set program direction.", "summary_ja": "ステークホルダーの関心・期待からミッションステートメントを定義し、方向性を定める。" },
+        { "id": "T5", "summary": "Evaluate the program business case to develop and validate objectives, priority, feasibility, readiness, and strategic alignment.", "summary_ja": "ビジネスケースを評価し、目的・優先度・実現性・準備状況・戦略整合を検証する。", "cross_perspective_eligible": true },
+        { "id": "T6", "summary": "Analyze organizational strategies and program drivers to identify and quantify expected benefits and define the benefits realization plan.", "summary_ja": "組織戦略とプログラムドライバーを分析し、期待便益を特定・定量化して便益実現計画を定義する。", "cross_perspective_eligible": true },
+        { "id": "T7", "summary": "Estimate the financial framework and nonfinancial benefits to secure funding and drive prioritization of projects within the program.", "summary_ja": "財務フレームワークと非財務便益を見積もり、資金確保とプログラム内プロジェクトの優先順位付けを推進する。", "cross_perspective_eligible": true },
+        { "id": "T8", "summary": "Evaluate objectives against regulatory, legal, social, sustainability, cultural, political, and ethical factors for alignment and deliverability.", "summary_ja": "規制・法・社会・持続可能性・文化・政治・倫理の観点で目的を評価し、整合と実現性を担保する。" },
+        { "id": "T9", "summary": "Obtain leadership approval via the program charter (costs, milestone schedule, benefits) to authorize initiation.", "summary_ja": "プログラム憲章（コスト・マイルストーン・便益）で経営承認を得て、立ち上げを認可する。" },
+        { "id": "T10", "summary": "Identify and evaluate integration opportunities (HR, facilities, finance, assets, processes, systems) to align benefits across the organization.", "summary_ja": "統合機会（人材・施設・財務・資産・プロセス・システム）を特定・評価し、組織横断で便益を整合させる。", "cross_perspective_eligible": true },
+        { "id": "T11", "summary": "Exploit strategic opportunities for change to maximize benefits realization.", "summary_ja": "変革の戦略的機会を活用し、便益実現を最大化する。", "cross_perspective_eligible": true }
+      ]
     },
     {
       "id": "D2",
-      "name": "Program Life Cycle",
-      "name_ja": "プログラムライフサイクル",
+      "name": "Program Life Cycle Management",
+      "name_ja": "プログラムライフサイクルマネジメント",
       "weight_percent": 44,
-      "tasks": []
+      "tasks": [
+        { "id": "T1", "summary": "Develop the program charter (scope, constraints, risks, benefits, stakeholders, resources) tying the program to the business case.", "summary_ja": "プログラム憲章（スコープ・制約・リスク・便益・ステークホルダー・資源）を作り、ビジネスケースと結びつける。" },
+        { "id": "T2", "summary": "Translate strategic objectives into high-level program scope statements by negotiating with stakeholders.", "summary_ja": "戦略目的をステークホルダー交渉を通じて高レベルのプログラムスコープ記述に変換する。" },
+        { "id": "T3", "summary": "Develop a program roadmap from goals and historical information to align with strategy and manage expectations.", "summary_ja": "目標と過去情報からプログラムロードマップを作成し、戦略整合と期待管理を行う。" },
+        { "id": "T4", "summary": "Develop a responsibility assignment matrix and build the core team, distinguishing program from project resources.", "summary_ja": "責任分担マトリクスを作りコアチームを編成、プログラムとプロジェクトの資源を区別する。" },
+        { "id": "T5", "summary": "Define standard measurement criteria and KPIs with review points across components to monitor and control.", "summary_ja": "各構成要素の標準測定基準・KPIとレビューポイントを定義し、監視・統制する。" },
+        { "id": "T6", "summary": "Conduct program kick-off with key stakeholders to build organizational familiarity and buy-in.", "summary_ja": "主要ステークホルダーとキックオフを行い、組織の理解と賛同を得る。" },
+        { "id": "T7", "summary": "Develop a detailed program scope statement incorporating vision and internal/external objectives.", "summary_ja": "ビジョンと内外の目的を織り込んだ詳細プログラムスコープ記述を作成する。" },
+        { "id": "T8", "summary": "Develop the program WBS to plan and assign tasks and deliverables.", "summary_ja": "プログラムWBSを作成し、タスクと成果物を計画・割当する。" },
+        { "id": "T9", "summary": "Establish the program management plan and schedule by integrating component plans and support functions (quality, risk, communication, resources).", "summary_ja": "構成要素の計画と支援機能（品質・リスク・コミュニケーション・資源）を統合し、プログラムマネジメント計画とスケジュールを確立する。" },
+        { "id": "T10", "summary": "Optimize the program plan by leveling resource requirements to gain efficiencies and synergies among components.", "summary_ja": "資源要求を平準化してプログラム計画を最適化し、構成要素間の効率とシナジーを高める。" },
+        { "id": "T11", "summary": "Define the PMIS (tools and processes) to share knowledge and documentation across components per governance.", "summary_ja": "PMIS（ツール・プロセス）を定義し、ガバナンスに沿って構成要素間で知識・文書を共有する。" },
+        { "id": "T12", "summary": "Identify and manage unresolved project-level issues via monitoring and escalation for benefits realization.", "summary_ja": "未解決のプロジェクトレベル課題を監視・エスカレーションで管理し、便益実現につなげる。" },
+        { "id": "T13", "summary": "Develop the benefits management plan (integration, transition, sustainment) with exit criteria to meet obligations at completion.", "summary_ja": "便益管理計画（統合・移行・維持）を出口基準とともに策定し、完了時の義務履行を確保する。", "cross_perspective_eligible": true },
+        { "id": "T14", "summary": "Develop KPIs via decomposition/mapping and implement scope and quality management.", "summary_ja": "分解・マッピングでKPIを策定し、スコープと品質のマネジメントを導入する。" },
+        { "id": "T15", "summary": "Monitor human resources for program/project roles, improve team motivation, and negotiate contracts to meet benefits objectives.", "summary_ja": "プログラム/プロジェクトの人的資源を監視し、動機付け改善と契約交渉で便益目標を達成する。" },
+        { "id": "T16", "summary": "Charter and initiate components by assigning project managers and allocating resources.", "summary_ja": "PMを任命し資源を配分して、構成プロジェクト/コンポーネントを立ち上げる。" },
+        { "id": "T17", "summary": "Establish consistency by deploying the governance framework, standards, tools, and processes for informed decision-making.", "summary_ja": "ガバナンスフレームワーク・標準・ツール・プロセスを展開し、一貫性と情報に基づく意思決定を確立する。" },
+        { "id": "T18", "summary": "Establish a communication feedback and reporting process to capture lessons learned throughout the program.", "summary_ja": "コミュニケーションのフィードバック・報告プロセスを確立し、教訓を継続的に収集する。" },
+        { "id": "T19", "summary": "Lead HR functions (train, coach, mentor, recognize) to improve engagement and commitment to program goals.", "summary_ja": "人的資源機能（育成・コーチング・メンタリング・承認）を主導し、関与とコミットメントを高める。" },
+        { "id": "T20", "summary": "Review project managers' performance to maximize their contribution to program goals.", "summary_ja": "PMのパフォーマンスをレビューし、プログラム目標への貢献を最大化する。" },
+        { "id": "T21", "summary": "Execute the program management plans (quality, risk, communication, resourcing) and audit results for strategic alignment and benefits.", "summary_ja": "プログラムマネジメント計画（品質・リスク・コミュニケーション・資源）を実行し、監査で戦略整合と便益を確認する。" },
+        { "id": "T22", "summary": "Consolidate project and program data via reporting tools to monitor and control performance and communicate to stakeholders.", "summary_ja": "報告ツールでプロジェクト/プログラムデータを集約し、パフォーマンスを監視・統制してステークホルダーに伝える。" },
+        { "id": "T23", "summary": "Evaluate program status to monitor and control while maintaining current program information.", "summary_ja": "プログラム状況を評価して監視・統制し、最新情報を維持する。" },
+        { "id": "T24", "summary": "Approve closure of components upon completion of deliverables to ensure scope compliance.", "summary_ja": "成果物完了時に構成要素のクローズを承認し、スコープ適合を確保する。" },
+        { "id": "T25", "summary": "Analyze variances and trends (cost, schedule, quality, risk) comparing actual and forecast to planned to identify corrective actions.", "summary_ja": "コスト・スケジュール・品質・リスクの差異と傾向を実績/予測と計画で分析し、是正措置を特定する。" },
+        { "id": "T26", "summary": "Update program plans with corrective actions to employ resources effectively and deliver benefits.", "summary_ja": "是正措置を反映してプログラム計画を更新し、資源を有効活用して便益を実現する。" },
+        { "id": "T27", "summary": "Manage program-level issues (HR, financial, technology, scheduling) consistent with scope, constraints, and objectives.", "summary_ja": "プログラムレベルの課題（人材・財務・技術・スケジュール）をスコープ・制約・目的に沿って管理する。" },
+        { "id": "T28", "summary": "Manage changes per the change management plan (scope, quality, schedule, cost, contracts, risks) to achieve benefits.", "summary_ja": "変更管理計画に沿って変更（スコープ・品質・スケジュール・コスト・契約・リスク）を管理し、便益を達成する。" },
+        { "id": "T29", "summary": "Conduct impact assessments for program changes and recommend decisions for approval per governance.", "summary_ja": "プログラム変更の影響評価を行い、ガバナンスに沿って承認向けの意思決定を提言する。", "cross_perspective_eligible": true },
+        { "id": "T30", "summary": "Manage risk per the risk management plan to ensure benefits realization.", "summary_ja": "リスク管理計画に沿ってリスクを管理し、便益実現を確保する。" },
+        { "id": "T31", "summary": "Complete a program performance analysis report comparing actual to planned scope, quality, cost, schedule, and resources.", "summary_ja": "スコープ・品質・コスト・スケジュール・資源の実績と計画を比較したパフォーマンス分析報告を作成する。" },
+        { "id": "T32", "summary": "Conduct program closure within the boundaries of the governance framework.", "summary_ja": "ガバナンスフレームワークの範囲内でプログラムクローズを実施する。" },
+        { "id": "T33", "summary": "Execute transition and close-out of the program and components (admin/PMIS closure, archiving, transfer to operations).", "summary_ja": "プログラムと構成要素の移行・クローズアウト（管理/PMISクローズ・アーカイブ・運用移管）を実行する。" },
+        { "id": "T34", "summary": "Conduct post-review meetings presenting performance reports to obtain feedback and capture lessons learned.", "summary_ja": "パフォーマンス報告を提示するポストレビュー会議を行い、フィードバックと教訓を得る。" },
+        { "id": "T35", "summary": "Report lessons learned and best practices and archive to the knowledge repository for future programs.", "summary_ja": "教訓とベストプラクティスを報告し、将来のプログラムのため知識リポジトリにアーカイブする。" }
+      ]
     },
     {
       "id": "D3",
       "name": "Benefits Management",
       "name_ja": "便益マネジメント",
       "weight_percent": 11,
-      "tasks": []
+      "tasks": [
+        { "id": "T1", "summary": "Develop the benefits realization plan and its measurement criteria to baseline and communicate to stakeholders.", "summary_ja": "便益実現計画と測定基準を策定し、ベースライン化してステークホルダーに伝える。", "cross_perspective_eligible": true },
+        { "id": "T2", "summary": "Identify and capture synergies and efficiencies across the life cycle to update and communicate the benefits realization plan.", "summary_ja": "ライフサイクル全体でシナジーと効率を特定・獲得し、便益実現計画を更新・伝達する。", "cross_perspective_eligible": true },
+        { "id": "T3", "summary": "Develop a sustainment plan (processes, measures, metrics, tools) for managing benefits beyond program completion.", "summary_ja": "プログラム完了後の便益管理のため維持計画（プロセス・尺度・指標・ツール）を策定する。" },
+        { "id": "T4", "summary": "Monitor metrics (forecasting, variance, what-if, causal analysis) to take corrective actions and improve benefits realization.", "summary_ja": "指標を監視（予測・差異・what-if・因果分析）し、是正措置で便益実現を維持・改善する。", "cross_perspective_eligible": true },
+        { "id": "T5", "summary": "Verify that close, transition, and integration of components meet benefit realization criteria for strategic objectives.", "summary_ja": "構成要素のクローズ・移行・統合が便益実現基準を満たし、戦略目的を達成することを検証する。", "cross_perspective_eligible": true },
+        { "id": "T6", "summary": "Maintain the benefits register and record progress to report benefits to stakeholders via the communications plan.", "summary_ja": "便益登録簿を維持し進捗を記録して、コミュニケーション計画で便益をステークホルダーに報告する。" },
+        { "id": "T7", "summary": "Analyze and update benefits realization and sustainment plans for risk to determine corrective actions.", "summary_ja": "便益実現・維持計画をリスク観点で分析・更新し、是正措置の要否を判断する。", "cross_perspective_eligible": true },
+        { "id": "T8", "summary": "Develop a transition plan to operations to sustain the products and benefits delivered by the program.", "summary_ja": "運用への移行計画を策定し、プログラムが生んだ成果物と便益を維持する。", "cross_perspective_eligible": true }
+      ]
     },
     {
       "id": "D4",
-      "name": "Stakeholder Management",
-      "name_ja": "ステークホルダーマネジメント",
+      "name": "Stakeholder Engagement",
+      "name_ja": "ステークホルダーエンゲージメント",
       "weight_percent": 16,
-      "tasks": []
+      "tasks": [
+        { "id": "T1", "summary": "Identify stakeholders (including sponsors/steering committee) and create the stakeholder matrix documenting their position.", "summary_ja": "ステークホルダー（スポンサー/ステアリング委員会含む）を特定し、立場を示すマトリクスを作る。" },
+        { "id": "T2", "summary": "Perform stakeholder analysis (history, interviews, agreements) to create the stakeholder engagement plan.", "summary_ja": "ステークホルダー分析（履歴・面談・合意）を行い、エンゲージメント計画を作成する。" },
+        { "id": "T3", "summary": "Negotiate stakeholder support with clear expectations and acceptance criteria to maintain alignment with program benefits.", "summary_ja": "明確な期待と受入基準でステークホルダーの支持を交渉し、便益との整合を維持する。", "cross_perspective_eligible": true },
+        { "id": "T4", "summary": "Generate and maintain program visibility and confirm stakeholder support for strategic objectives.", "summary_ja": "プログラムの可視性を高め維持し、戦略目的への支持を確認する。" },
+        { "id": "T5", "summary": "Define and maintain communications adapted to different stakeholders to ensure their support.", "summary_ja": "ステークホルダー別に適応させたコミュニケーションを定義・維持し、支持を確保する。" },
+        { "id": "T6", "summary": "Evaluate stakeholder-identified risks and incorporate them into the program risk management plan.", "summary_ja": "ステークホルダーが特定したリスクを評価し、プログラムのリスク管理計画に取り込む。" },
+        { "id": "T7", "summary": "Develop and foster stakeholder relationships to improve communication and enhance program support.", "summary_ja": "ステークホルダーとの関係を構築・醸成し、コミュニケーションと支持を強化する。" }
+      ]
     },
     {
       "id": "D5",
       "name": "Governance",
       "name_ja": "ガバナンス",
       "weight_percent": 14,
-      "tasks": []
+      "tasks": [
+        { "id": "T1", "summary": "Develop program and project management standards and structure (governance, tools, finance, reporting) for efficiency and consistency.", "summary_ja": "プログラム/プロジェクトマネジメントの標準と構造（ガバナンス・ツール・財務・報告）を策定し、効率と一貫性を高める。" },
+        { "id": "T2", "summary": "Select a governance framework (policies, procedures, standards) that conforms program practices to the organization's governance.", "summary_ja": "組織ガバナンスに適合するガバナンスフレームワーク（方針・手順・標準）を選定する。" },
+        { "id": "T3", "summary": "Obtain authorizations and approvals through stage gate reviews to proceed to the next program phase.", "summary_ja": "ステージゲートレビューを通じて認可・承認を得て、次フェーズに進む。", "cross_perspective_eligible": true },
+        { "id": "T4", "summary": "Evaluate KPIs (risks, financials, compliance, quality, safety, satisfaction) to monitor benefits across the life cycle.", "summary_ja": "KPI（リスク・財務・コンプライアンス・品質・安全・満足度）を評価し、ライフサイクル全体で便益を監視する。", "cross_perspective_eligible": true },
+        { "id": "T5", "summary": "Develop and utilize the PMIS and integrate processes to manage information and communicate status to stakeholders.", "summary_ja": "PMISを整備しプロセスを統合して情報を管理し、状況をステークホルダーに伝える。" },
+        { "id": "T6", "summary": "Regularly evaluate new and existing risks impacting strategic objectives and present an updated risk plan to the governance board.", "summary_ja": "戦略目的に影響する新規/既存リスクを定期評価し、更新したリスク計画をガバナンスボードに提示する。", "cross_perspective_eligible": true },
+        { "id": "T7", "summary": "Establish escalation policies and procedures to ensure risks are handled at the appropriate level.", "summary_ja": "エスカレーションの方針・手順を確立し、リスクを適切なレベルで処理する。" },
+        { "id": "T8", "summary": "Develop and contribute to an information repository of program lessons learned, processes, and documentation.", "summary_ja": "プログラムの教訓・プロセス・文書を収める情報リポジトリを構築・貢献する。" },
+        { "id": "T9", "summary": "Identify and apply lessons learned to influence existing and future programs or organizational improvement.", "summary_ja": "教訓を特定・適用し、既存/将来のプログラムや組織改善に活かす。" },
+        { "id": "T10", "summary": "Monitor the business environment, functionality requirements, and benefits realization to keep the program strategically aligned.", "summary_ja": "事業環境・機能要件・便益実現を監視し、プログラムの戦略整合を維持する。", "cross_perspective_eligible": true },
+        { "id": "T11", "summary": "Develop and support the program integration management plan to ensure operational alignment with strategic objectives.", "summary_ja": "プログラム統合マネジメント計画を策定・支援し、運用と戦略目的の整合を確保する。" }
+      ]
     }
   ],
   "cross_tags": ["governance", "stakeholder", "benefits_value", "risk"]

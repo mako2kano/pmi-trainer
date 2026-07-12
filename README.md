@@ -41,7 +41,7 @@ python -m scripts.validate    # config/・questions/ の整合チェック
 
 ## ステータス（マイルストーン）
 
-- [x] M1: リポジトリ初期化＋exams.json/taxonomy整備（⚠️ ECOタスク転記は公式PDF照合待ち）
+- [x] M1: リポジトリ初期化＋exams.json/taxonomy整備（両ECO転記完了: PgMP 72タスク/PfMP 35タスク）
 - [ ] M2: 生成パイプライン＋PgMPパイロット50問
 - [ ] M3: PWA骨格（ドリル・exam切替機構）
 - [ ] M4: PgMPフルバンク500問＋適応出題
