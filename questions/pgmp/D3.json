@@ -1,5 +1,46 @@
 {
   "exam": "pgmp",
   "domain": "D3",
-  "questions": []
+  "questions": [
+    {
+      "id": "pgmp-D3-0001",
+      "exam": "pgmp",
+      "domain": "D3",
+      "task": "T1",
+      "cross_tags": ["benefits_value"],
+      "scenario": "At program initiation, the program manager must establish how the program's benefits will be measured and reported to the steering committee throughout the life cycle.",
+      "stem": "Which is the program manager's primary responsibility here?",
+      "options": [
+        "Develop the benefits realization plan and its measurement criteria to set the program baseline and communicate it to stakeholders, including the sponsors and steering committee.",
+        "Establish portfolio-level value metrics to compare this program's expected value against other portfolio components for funding decisions.",
+        "Wait to define benefit measures until benefits begin to materialize during execution.",
+        "Delegate benefit measurement entirely to the constituent project managers."
+      ],
+      "answer_index": 0,
+      "distractor_types": [null, "cross_perspective", "plausible", "plausible"],
+      "explanation": "便益管理では、便益実現計画と測定基準を策定してプログラムのベースラインを設定し、ステークホルダーに伝えることが第一の責務（A）。Bはポートフォリオ視点で構成要素の価値を比較し資金判断に使う指標づくりであり、投資判断者の役割。Cは測定の後回しでベースラインを欠く、Dは便益責任を各プロジェクトに丸投げしてプログラム全体の便益統括を放棄している。",
+      "evaluator": { "perspective_check": 0.86, "model": "manual-pilot", "evaluated_at": "2026-07-13T00:00:00Z" },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D3-0002",
+      "exam": "pgmp",
+      "domain": "D3",
+      "task": "T5",
+      "cross_tags": ["benefits_value", "governance"],
+      "scenario": "Two constituent projects have completed their deliverables and are ready to close. Before approving their closure, the program manager reviews their contribution to the program's intended benefits.",
+      "stem": "What should the program manager verify before approving closure of the components?",
+      "options": [
+        "That the close, transition, and integration of the components meet or exceed the benefit realization criteria required for the program's strategic objectives.",
+        "That closing the components improves the portfolio's overall balance and frees investment capacity for higher-priority components.",
+        "That all project deliverables are technically complete, regardless of whether benefits are being realized.",
+        "That the project managers have submitted their final administrative status reports."
+      ],
+      "answer_index": 0,
+      "distractor_types": [null, "cross_perspective", "plausible", "plausible"],
+      "explanation": "クローズ承認前に確認すべきは、構成要素のクローズ・移行・統合が、プログラムの戦略目的に必要な便益実現基準を満たす（超える）ことである（A）。Bはポートフォリオのバランスと投資余力という投資判断者の関心であり、プログラムの便益検証とは別。Cは便益を無視した技術的完了のみの確認、Dは事務手続きの確認にとどまり便益検証になっていない。",
+      "evaluator": { "perspective_check": 0.82, "model": "manual-pilot", "evaluated_at": "2026-07-13T00:00:00Z" },
+      "reviewed": false
+    }
+  ]
 }

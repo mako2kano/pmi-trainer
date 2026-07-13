@@ -1,5 +1,46 @@
 {
   "exam": "pgmp",
   "domain": "D1",
-  "questions": []
+  "questions": [
+    {
+      "id": "pgmp-D1-0001",
+      "exam": "pgmp",
+      "domain": "D1",
+      "task": "T5",
+      "cross_tags": ["benefits_value", "governance"],
+      "scenario": "You are the program manager of a multi-year customer-experience transformation program. Six months in, a competitor's launch has shifted the market, and the program's original business case now shows a materially lower projected benefit. The executive sponsor asks for your recommendation at the next steering committee.",
+      "stem": "What should the program manager do first?",
+      "options": [
+        "Reassess the program's business case—objectives, feasibility, readiness, and benefits—against the changed conditions and quantify the impact on the benefits realization plan before recommending any change.",
+        "Compare the program's revised return against the organization's other investment options and recommend reallocating its funding to a higher-yielding initiative.",
+        "Continue executing the approved business case unchanged to avoid destabilizing the program team.",
+        "Recommend terminating the program immediately because the business case has weakened."
+      ],
+      "answer_index": 0,
+      "distractor_types": [null, "cross_perspective", "plausible", "plausible"],
+      "explanation": "プログラムマネジャーはまず、変化した前提の下でビジネスケース（目的・実現性・準備状況・便益）を再評価し、便益実現計画への影響を定量化してから提言する（A）。Bはポートフォリオ視点（投資判断者）では妥当になり得るが、投資機会間で資金を再配分する判断はポートフォリオマネジメントの責務であり、プログラムマネジャーが最初に取る行動ではない。Cは市場変化を無視、Dは評価前の早計な結論。",
+      "evaluator": { "perspective_check": 0.88, "model": "manual-pilot", "evaluated_at": "2026-07-13T00:00:00Z" },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D1-0002",
+      "exam": "pgmp",
+      "domain": "D1",
+      "task": "T6",
+      "cross_tags": ["benefits_value"],
+      "scenario": "You are the program manager initiating a supply-chain modernization program. Stakeholders across three business units each describe benefits they expect from the program; some overlap and some conflict with one another.",
+      "stem": "How should the program manager proceed to define the benefits realization plan?",
+      "options": [
+        "Analyze the organizational strategy and program drivers to identify and quantify the expected benefits, then consolidate them into a single benefits realization plan with measurable criteria.",
+        "Rank the three business units' initiatives as competing portfolio components and fund only the units whose benefits score highest against prioritization criteria.",
+        "Adopt each business unit's stated benefits verbatim to secure their buy-in.",
+        "Defer benefits definition until the program's constituent projects have been chartered."
+      ],
+      "answer_index": 0,
+      "distractor_types": [null, "cross_perspective", "plausible", "plausible"],
+      "explanation": "便益実現計画の定義では、組織戦略とプログラムドライバーを分析して期待便益を特定・定量化し、測定可能な基準を伴う単一の計画に統合する（A）。Bはポートフォリオ視点での構成要素の優先順位付け・選別（投資判断）であり、プログラム内の便益統合を行うべきプログラムマネジャーの役割ではない。Cは対立を放置し定量化を欠く、Dは便益定義を後回しにして初期の戦略整合を損なう。",
+      "evaluator": { "perspective_check": 0.85, "model": "manual-pilot", "evaluated_at": "2026-07-13T00:00:00Z" },
+      "reviewed": false
+    }
+  ]
 }

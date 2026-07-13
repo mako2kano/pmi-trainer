@@ -1,5 +1,26 @@
 {
   "exam": "pgmp",
   "domain": "D5",
-  "questions": []
+  "questions": [
+    {
+      "id": "pgmp-D5-0001",
+      "exam": "pgmp",
+      "domain": "D5",
+      "task": "T3",
+      "cross_tags": ["governance"],
+      "scenario": "A program has completed a phase, and the program manager seeks authorization to proceed to the next phase. The governance board wants evidence of program status before granting approval.",
+      "stem": "What should the program manager do to obtain authorization to proceed?",
+      "options": [
+        "Present the program status at a stage gate review to the governance authorities to obtain the authorizations and approvals needed to proceed to the next phase.",
+        "Ask the investment committee to re-evaluate the program against competing portfolio components and reauthorize its funding allocation.",
+        "Proceed to the next phase without a stage gate review to avoid delaying the program.",
+        "Delegate the authorization decision to the constituent project managers."
+      ],
+      "answer_index": 0,
+      "distractor_types": [null, "cross_perspective", "plausible", "plausible"],
+      "explanation": "ガバナンス上、次フェーズへの移行認可は、ステージゲートレビューでガバナンス当局にプログラム状況を提示して認可・承認を得ることで行う（A）。Bは投資委員会による構成要素間の再評価・資金再認可というポートフォリオ視点の判断であり、フェーズゲート通過の手続きとは異なる。Cはゲートを飛ばす統制不全、Dは認可権限のないプロジェクトマネジャーへの委譲で不適切。",
+      "evaluator": { "perspective_check": 0.85, "model": "manual-pilot", "evaluated_at": "2026-07-13T00:00:00Z" },
+      "reviewed": false
+    }
+  ]
 }

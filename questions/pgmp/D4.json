@@ -1,5 +1,46 @@
 {
   "exam": "pgmp",
   "domain": "D4",
-  "questions": []
+  "questions": [
+    {
+      "id": "pgmp-D4-0001",
+      "exam": "pgmp",
+      "domain": "D4",
+      "task": "T3",
+      "cross_tags": ["stakeholder", "benefits_value"],
+      "scenario": "A key sponsor is wavering in their support for the program because they doubt it will deliver its promised benefits. The program manager needs to secure and maintain the sponsor's alignment with the program objectives.",
+      "stem": "What is the most effective action for the program manager?",
+      "options": [
+        "Negotiate the sponsor's support by agreeing on clear expectations and acceptance criteria (for example, KPIs) for the program benefits to keep them aligned with the program objectives.",
+        "Advise the sponsor to reprioritize the enterprise portfolio so that funding shifts toward initiatives with clearer near-term returns.",
+        "Reassure the sponsor verbally that the benefits will be delivered, without agreeing on any measurable criteria.",
+        "Escalate the sponsor's doubt to the governance board and wait for instruction before acting."
+      ],
+      "answer_index": 0,
+      "distractor_types": [null, "cross_perspective", "plausible", "plausible"],
+      "explanation": "ステークホルダーエンゲージメントでは、便益に関する明確な期待と受入基準（KPI等）を合意してスポンサーの支持を交渉し、プログラム目的との整合を維持する（A）。Bはポートフォリオの優先順位再編という投資判断者への助言であり、プログラムマネジャーがスポンサーの支持を得る手段としては筋違い。Cは測定基準なき口頭の安心付与、Dは自ら関与せず放置しており、いずれも能動的な期待管理になっていない。",
+      "evaluator": { "perspective_check": 0.8, "model": "manual-pilot", "evaluated_at": "2026-07-13T00:00:00Z" },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D4-0002",
+      "exam": "pgmp",
+      "domain": "D4",
+      "task": "T1",
+      "cross_tags": ["stakeholder"],
+      "scenario": "You have just been assigned as the program manager for a newly authorized program spanning several departments and multiple external vendors.",
+      "stem": "What is the appropriate first step in stakeholder engagement?",
+      "options": [
+        "Identify the stakeholders, including the sponsors and steering committee, and create a stakeholder matrix documenting their position relative to the program.",
+        "Begin drafting detailed communications before identifying who the stakeholders are.",
+        "Engage only the executive sponsor and defer all other stakeholders until execution begins.",
+        "Assume the constituent projects' stakeholder lists are complete and reuse them unchanged."
+      ],
+      "answer_index": 0,
+      "distractor_types": [null, "plausible", "plausible", "plausible"],
+      "explanation": "ステークホルダーエンゲージメントの起点は、スポンサーやステアリング委員会を含むステークホルダーを特定し、プログラムに対する立場を示すマトリクスを作成することである（A）。Bは特定前の伝達で順序が逆、Cは対象を過度に限定、Dはプロジェクトの一覧を無検証で流用しておりプログラムレベルの網羅性を欠く。",
+      "evaluator": { "perspective_check": 0.9, "model": "manual-pilot", "evaluated_at": "2026-07-13T00:00:00Z" },
+      "reviewed": false
+    }
+  ]
 }

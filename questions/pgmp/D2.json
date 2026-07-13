@@ -1,5 +1,66 @@
 {
   "exam": "pgmp",
   "domain": "D2",
-  "questions": []
+  "questions": [
+    {
+      "id": "pgmp-D2-0001",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T13",
+      "cross_tags": ["benefits_value", "governance"],
+      "scenario": "A program is approaching the delivery of its first major capability. The program manager is developing the benefits management plan and must decide how the delivered capability will be handed over and kept delivering value after the program ends.",
+      "stem": "Which action best reflects the program manager's responsibility?",
+      "options": [
+        "Define benefits integration, transition, and sustainment with exit criteria so the delivered capability is handed to operations and its benefits are sustained after program closure.",
+        "Decide whether the capability should remain in the enterprise portfolio or be divested based on its ongoing contribution to investment returns.",
+        "Transfer the capability to operations immediately upon technical completion, before any sustainment measures are defined.",
+        "Retain the capability within the program indefinitely to keep direct control of its performance."
+      ],
+      "answer_index": 0,
+      "distractor_types": [null, "cross_perspective", "plausible", "plausible"],
+      "explanation": "プログラムマネジャーの責務は、便益の統合・移行・維持を出口基準とともに定義し、成果物を運用に引き渡してプログラム完了後も便益が維持されるようにすること（A）。Bはポートフォリオ視点での資産の保有/売却という投資判断であり、プログラムの便益移行設計とは別レイヤーの責務。Cは維持策定前の拙速な移管、Dは移行を怠りプログラムを不必要に延命させる。",
+      "evaluator": { "perspective_check": 0.84, "model": "manual-pilot", "evaluated_at": "2026-07-13T00:00:00Z" },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0002",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T29",
+      "cross_tags": ["governance", "risk"],
+      "scenario": "A constituent project requests a scope change that would accelerate one program benefit but increases overall program risk and cost. The program manager must respond within the established governance framework.",
+      "stem": "What is the program manager's most appropriate next step?",
+      "options": [
+        "Conduct an impact assessment of the change across scope, cost, schedule, risk, and benefits, and recommend a decision to the governance board per the change management plan.",
+        "Decide the change by weighing it against other portfolio components competing for the same enterprise funding.",
+        "Approve the change immediately because it accelerates a program benefit.",
+        "Reject the change outright to protect the program's cost baseline."
+      ],
+      "answer_index": 0,
+      "distractor_types": [null, "cross_perspective", "plausible", "plausible"],
+      "explanation": "プログラム変更に対しては、スコープ・コスト・スケジュール・リスク・便益への影響評価を行い、変更管理計画に沿ってガバナンスボードに意思決定を提言する（A）。Bはポートフォリオ視点で構成要素間の投資配分と比較する判断であり、単一プログラム内の変更対応としては越権。Cは影響評価前の承認、Dは便益機会を無視した拒否で、いずれもガバナンス手続きを飛ばしている。",
+      "evaluator": { "perspective_check": 0.83, "model": "manual-pilot", "evaluated_at": "2026-07-13T00:00:00Z" },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0003",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T9",
+      "cross_tags": [],
+      "scenario": "You are the program manager finalizing the program management plan. The constituent project schedules were built independently and contain conflicting resource assumptions and misaligned milestones.",
+      "stem": "What should the program manager do to establish the program management plan and schedule?",
+      "options": [
+        "Integrate the constituent project plans and the supporting function plans (quality, risk, communication, resources) into a coherent program plan and schedule, resolving the conflicting assumptions.",
+        "Publish the program schedule as the simple sum of the project schedules without reconciling the conflicts.",
+        "Let each project keep its own independent schedule and manage the program only by exception.",
+        "Freeze all project schedules and forbid changes until program closure."
+      ],
+      "answer_index": 0,
+      "distractor_types": [null, "plausible", "plausible", "plausible"],
+      "explanation": "プログラムマネジメント計画とスケジュールは、構成プロジェクトの計画と支援機能（品質・リスク・コミュニケーション・資源）の計画を統合し、資源前提の矛盾を解消して一貫性を持たせて確立する（A）。Bは矛盾を残したままの単純合算、Cは統合を放棄、Dは硬直化で変更に対応できない。いずれも統合という中核責務を果たしていない。",
+      "evaluator": { "perspective_check": 0.9, "model": "manual-pilot", "evaluated_at": "2026-07-13T00:00:00Z" },
+      "reviewed": false
+    }
+  ]
 }
