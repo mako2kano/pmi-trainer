@@ -7,19 +7,220 @@
       "exam": "pgmp",
       "domain": "D5",
       "task": "T3",
-      "cross_tags": ["governance"],
+      "cross_tags": [
+        "governance"
+      ],
       "scenario": "A program has completed a phase, and the program manager seeks authorization to proceed to the next phase. The governance board wants evidence of program status before granting approval.",
       "stem": "What should the program manager do to obtain authorization to proceed?",
       "options": [
-        "Present the program status at a stage gate review to the governance authorities to obtain the authorizations and approvals needed to proceed to the next phase.",
         "Ask the investment committee to re-evaluate the program against competing portfolio components and reauthorize its funding allocation.",
         "Proceed to the next phase without a stage gate review to avoid delaying the program.",
-        "Delegate the authorization decision to the constituent project managers."
+        "Delegate the authorization decision to the constituent project managers.",
+        "Present the program status at a stage gate review to the governance authorities to obtain the authorizations and approvals needed to proceed to the next phase."
+      ],
+      "answer_index": 3,
+      "distractor_types": [
+        "cross_perspective",
+        "plausible",
+        "plausible",
+        null
+      ],
+      "explanation": "ガバナンス上、次フェーズへの移行認可は、ステージゲートレビューでガバナンス当局にプログラム状況を提示して認可・承認を得ることで行う（D）。Aは投資委員会による構成要素間の再評価・資金再認可というポートフォリオ視点の判断であり、フェーズゲート通過の手続きとは異なる。Bはゲートを飛ばす統制不全、Cは認可権限のないプロジェクトマネジャーへの委譲で不適切。",
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D5-0002",
+      "exam": "pgmp",
+      "domain": "D5",
+      "task": "T4",
+      "cross_tags": [
+        "governance",
+        "benefits_value"
+      ],
+      "scenario": "The governance board wants ongoing assurance that the program is delivering value across risk, finance, compliance, quality, safety, and satisfaction.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Evaluate key performance indicators—risks, financials, compliance, quality, safety, and stakeholder satisfaction—to monitor benefits throughout the program life cycle.",
+        "Report only final benefits at program closure.",
+        "Ask the investment committee to re-score the program against other portfolio components each period.",
+        "Track schedule alone as a proxy for all value."
       ],
       "answer_index": 0,
-      "distractor_types": [null, "cross_perspective", "plausible", "plausible"],
-      "explanation": "ガバナンス上、次フェーズへの移行認可は、ステージゲートレビューでガバナンス当局にプログラム状況を提示して認可・承認を得ることで行う（A）。Bは投資委員会による構成要素間の再評価・資金再認可というポートフォリオ視点の判断であり、フェーズゲート通過の手続きとは異なる。Cはゲートを飛ばす統制不全、Dは認可権限のないプロジェクトマネジャーへの委譲で不適切。",
-      "evaluator": { "perspective_check": 0.85, "model": "manual-pilot", "evaluated_at": "2026-07-13T00:00:00Z" },
+      "distractor_types": [
+        null,
+        "plausible",
+        "cross_perspective",
+        "plausible"
+      ],
+      "explanation": "ライフサイクル全体での便益監視には、リスク・財務・コンプライアンス・品質・安全・満足度のKPIを評価する（A）。Cは各期にプログラムを他の構成要素と再スコアリングする投資判断者の動きで、ガバナンス上の便益監視とは別レイヤー。Bは終結時のみ、Dは単一指標への矮小化。",
+      "evaluator": {
+        "perspective_check": 0.82,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D5-0003",
+      "exam": "pgmp",
+      "domain": "D5",
+      "task": "T6",
+      "cross_tags": [
+        "risk",
+        "governance"
+      ],
+      "scenario": "New risks to the program's strategic objectives have emerged since the last governance cycle, and the board needs an updated basis for decisions.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Wait for the risks to become issues before informing the board.",
+        "Regularly evaluate new and existing risks that impact strategic objectives and present an updated risk management plan to the governance board for approval.",
+        "Refer the risks to the portfolio for re-prioritization of the program's funding.",
+        "Update the risk register privately without board involvement."
+      ],
+      "answer_index": 1,
+      "distractor_types": [
+        "plausible",
+        null,
+        "cross_perspective",
+        "plausible"
+      ],
+      "explanation": "戦略目的に影響する新規/既存リスクは定期評価し、更新したリスク管理計画をガバナンスボードに提示して承認を得る（B）。Cはプログラムの資金を再優先順位付けするポートフォリオへの付託で、ガバナンス上のリスク承認手続きとは異なる。Aは事後対応、Dはボード関与の欠如。",
+      "evaluator": {
+        "perspective_check": 0.82,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D5-0004",
+      "exam": "pgmp",
+      "domain": "D5",
+      "task": "T10",
+      "cross_tags": [
+        "governance",
+        "benefits_value"
+      ],
+      "scenario": "Market and business conditions are shifting, and there is a risk the program drifts away from the strategic objectives it was meant to serve.",
+      "stem": "What should the program manager do within governance?",
+      "options": [
+        "Assume the original strategic alignment still holds without rechecking.",
+        "Escalate to the portfolio board to decide whether to keep investing in the program.",
+        "Monitor the business environment, program functionality requirements, and benefits realization to ensure the program remains aligned with strategic objectives.",
+        "Focus only on internal execution metrics and ignore the environment."
+      ],
+      "answer_index": 2,
+      "distractor_types": [
+        "plausible",
+        "cross_perspective",
+        null,
+        "plausible"
+      ],
+      "explanation": "戦略整合の維持には、事業環境・プログラムの機能要件・便益実現を監視し、プログラムが戦略目的に整合し続けることを保証する（C）。Bはプログラムへの投資継続可否をポートフォリオボードに委ねる投資判断者の動きで、ガバナンス上の整合監視とは別。Aは無検証の前提、Dは環境の無視。",
+      "evaluator": {
+        "perspective_check": 0.81,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D5-0005",
+      "exam": "pgmp",
+      "domain": "D5",
+      "task": "T1",
+      "cross_tags": [
+        "governance"
+      ],
+      "scenario": "Projects within the program use inconsistent management standards and reporting, undermining efficiency and comparability.",
+      "stem": "What should the program manager develop?",
+      "options": [
+        "A rule that reporting is optional for each project.",
+        "Entirely separate standards for every project.",
+        "Standards copied from an unrelated industry without adaptation.",
+        "Program and project management standards and structure—governance, tools, finance, and reporting—using industry best practices and organizational standards to drive efficiency and consistency."
+      ],
+      "answer_index": 3,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        "plausible",
+        null
+      ],
+      "explanation": "非効率と比較不能には、業界ベストプラクティスと組織標準を用いて、ガバナンス・ツール・財務・報告の標準と構造を策定し、効率と一貫性を高める（D）。A・B・Cは標準化を欠く、または無適応の流用で、目的を果たさない。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D5-0006",
+      "exam": "pgmp",
+      "domain": "D5",
+      "task": "T2",
+      "cross_tags": [
+        "governance"
+      ],
+      "scenario": "The program's practices must conform to the organization's overall governance structure, but no framework has been selected to ensure this.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Select a governance framework—policies, procedures, and standards—that conforms program practices with the organization's governance structure to deliver objectives consistently.",
+        "Invent ad hoc rules per situation with no framework.",
+        "Adopt a framework that conflicts with organizational governance.",
+        "Leave governance undefined to maximize speed."
+      ],
+      "answer_index": 0,
+      "distractor_types": [
+        null,
+        "plausible",
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "組織ガバナンスへの適合には、方針・手順・標準からなるガバナンスフレームワークを選定し、プログラム実務を組織構造に整合させて一貫して目的を達成する（A）。Bは場当たり、Cは組織との矛盾、Dは未定義で、統制を成立させない。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D5-0007",
+      "exam": "pgmp",
+      "domain": "D5",
+      "task": "T5",
+      "cross_tags": [
+        "governance",
+        "stakeholder"
+      ],
+      "scenario": "Program information is scattered across tools, and stakeholders receive inconsistent status because processes are not integrated.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Maintain separate, unlinked tools with no integration.",
+        "Develop and utilize the program management information system and integrate the different processes as needed to manage program information and communicate status to stakeholders.",
+        "Communicate status only verbally and keep no system of record.",
+        "Restrict all information to the program manager alone."
+      ],
+      "answer_index": 1,
+      "distractor_types": [
+        "plausible",
+        null,
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "情報の散在と不整合には、PMISを整備し必要に応じてプロセスを統合して、プログラム情報を管理しステークホルダーに状況を伝える（B）。A・C・Dは統合や記録・共有を欠き、一貫した状況伝達を妨げる。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
       "reviewed": false
     }
   ]

@@ -7,19 +7,31 @@
       "exam": "pgmp",
       "domain": "D4",
       "task": "T3",
-      "cross_tags": ["stakeholder", "benefits_value"],
+      "cross_tags": [
+        "stakeholder",
+        "benefits_value"
+      ],
       "scenario": "A key sponsor is wavering in their support for the program because they doubt it will deliver its promised benefits. The program manager needs to secure and maintain the sponsor's alignment with the program objectives.",
       "stem": "What is the most effective action for the program manager?",
       "options": [
-        "Negotiate the sponsor's support by agreeing on clear expectations and acceptance criteria (for example, KPIs) for the program benefits to keep them aligned with the program objectives.",
         "Advise the sponsor to reprioritize the enterprise portfolio so that funding shifts toward initiatives with clearer near-term returns.",
         "Reassure the sponsor verbally that the benefits will be delivered, without agreeing on any measurable criteria.",
-        "Escalate the sponsor's doubt to the governance board and wait for instruction before acting."
+        "Escalate the sponsor's doubt to the governance board and wait for instruction before acting.",
+        "Negotiate the sponsor's support by agreeing on clear expectations and acceptance criteria (for example, KPIs) for the program benefits to keep them aligned with the program objectives."
       ],
-      "answer_index": 0,
-      "distractor_types": [null, "cross_perspective", "plausible", "plausible"],
-      "explanation": "ステークホルダーエンゲージメントでは、便益に関する明確な期待と受入基準（KPI等）を合意してスポンサーの支持を交渉し、プログラム目的との整合を維持する（A）。Bはポートフォリオの優先順位再編という投資判断者への助言であり、プログラムマネジャーがスポンサーの支持を得る手段としては筋違い。Cは測定基準なき口頭の安心付与、Dは自ら関与せず放置しており、いずれも能動的な期待管理になっていない。",
-      "evaluator": { "perspective_check": 0.8, "model": "manual-pilot", "evaluated_at": "2026-07-13T00:00:00Z" },
+      "answer_index": 3,
+      "distractor_types": [
+        "cross_perspective",
+        "plausible",
+        "plausible",
+        null
+      ],
+      "explanation": "ステークホルダーエンゲージメントでは、便益に関する明確な期待と受入基準（KPI等）を合意してスポンサーの支持を交渉し、プログラム目的との整合を維持する（D）。Aはポートフォリオの優先順位再編という投資判断者への助言であり、プログラムマネジャーがスポンサーの支持を得る手段としては筋違い。Bは測定基準なき口頭の安心付与、Cは自ら関与せず放置しており、いずれも能動的な期待管理になっていない。",
+      "evaluator": {
+        "perspective_check": 0.8,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
       "reviewed": false
     },
     {
@@ -27,7 +39,9 @@
       "exam": "pgmp",
       "domain": "D4",
       "task": "T1",
-      "cross_tags": ["stakeholder"],
+      "cross_tags": [
+        "stakeholder"
+      ],
       "scenario": "You have just been assigned as the program manager for a newly authorized program spanning several departments and multiple external vendors.",
       "stem": "What is the appropriate first step in stakeholder engagement?",
       "options": [
@@ -37,9 +51,206 @@
         "Assume the constituent projects' stakeholder lists are complete and reuse them unchanged."
       ],
       "answer_index": 0,
-      "distractor_types": [null, "plausible", "plausible", "plausible"],
+      "distractor_types": [
+        null,
+        "plausible",
+        "plausible",
+        "plausible"
+      ],
       "explanation": "ステークホルダーエンゲージメントの起点は、スポンサーやステアリング委員会を含むステークホルダーを特定し、プログラムに対する立場を示すマトリクスを作成することである（A）。Bは特定前の伝達で順序が逆、Cは対象を過度に限定、Dはプロジェクトの一覧を無検証で流用しておりプログラムレベルの網羅性を欠く。",
-      "evaluator": { "perspective_check": 0.9, "model": "manual-pilot", "evaluated_at": "2026-07-13T00:00:00Z" },
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D4-0003",
+      "exam": "pgmp",
+      "domain": "D4",
+      "task": "T2",
+      "cross_tags": [
+        "stakeholder"
+      ],
+      "scenario": "The stakeholder matrix exists, but the program manager needs a deeper understanding of stakeholders to plan how to engage them.",
+      "stem": "What should the program manager do next?",
+      "options": [
+        "Send identical mass communications to everyone regardless of their needs.",
+        "Perform stakeholder analysis—using history, interviews, knowledge bases, and review of formal agreements—to create the stakeholder engagement plan.",
+        "Engage only the stakeholders who volunteer.",
+        "Assume the matrix alone is sufficient and skip analysis."
+      ],
+      "answer_index": 1,
+      "distractor_types": [
+        "plausible",
+        null,
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "マトリクスの次は、履歴・面談・知識ベース・正式合意のレビューを用いたステークホルダー分析を行い、エンゲージメント計画を作成する（B）。Aは画一的伝達、Cは対象の偏り、Dは分析の省略で、計画の土台を欠く。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D4-0004",
+      "exam": "pgmp",
+      "domain": "D4",
+      "task": "T4",
+      "cross_tags": [
+        "stakeholder"
+      ],
+      "scenario": "As the program progresses, stakeholder attention drifts and support for the program's strategic objectives is weakening.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Stop communicating to avoid bothering stakeholders.",
+        "Assume support is permanent once initially given.",
+        "Generate and maintain visibility for the program and confirm stakeholder support to achieve the program's strategic objectives.",
+        "Shift all engagement to after the program ends."
+      ],
+      "answer_index": 2,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        null,
+        "plausible"
+      ],
+      "explanation": "支持の低下には、プログラムの可視性を生み出し維持して、戦略目的達成に向けたステークホルダー支持を確認する（C）。Aは可視性の喪失、Bは支持の固定視、Dは時期の誤りで、支持を保てない。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D4-0005",
+      "exam": "pgmp",
+      "domain": "D4",
+      "task": "T5",
+      "cross_tags": [
+        "stakeholder"
+      ],
+      "scenario": "Different stakeholder groups need different information and framing, but the program currently sends one-size-fits-all updates.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Continue identical updates for all groups.",
+        "Communicate only with the sponsor and no one else.",
+        "Reduce all communication to a single annual report.",
+        "Define and maintain communications adapted to different stakeholders, including sponsors and the steering committee, to ensure their support."
+      ],
+      "answer_index": 3,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        "plausible",
+        null
+      ],
+      "explanation": "画一的更新では支持を保てないため、スポンサーやステアリング委員会を含む各ステークホルダーに適応させたコミュニケーションを定義・維持する（D）。A・B・Cは適応性や頻度を欠き、支持確保に失敗する。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D4-0006",
+      "exam": "pgmp",
+      "domain": "D4",
+      "task": "T6",
+      "cross_tags": [
+        "stakeholder",
+        "risk"
+      ],
+      "scenario": "A steering-committee member raises a risk the program team had not captured, which could affect program outcomes.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Evaluate the stakeholder-identified risk and incorporate it into the program risk management plan as necessary.",
+        "Dismiss the risk because it did not originate with the program team.",
+        "Record it only in meeting minutes with no follow-up.",
+        "Immediately halt the program over a single raised risk."
+      ],
+      "answer_index": 0,
+      "distractor_types": [
+        null,
+        "plausible",
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "ステークホルダーが指摘したリスクは評価し、必要に応じてプログラムのリスク管理計画に取り込む（A）。Bは出所を理由にした軽視、Cは追跡なしの記録、Dは過剰反応で、いずれも適切なリスク統合になっていない。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D4-0007",
+      "exam": "pgmp",
+      "domain": "D4",
+      "task": "T7",
+      "cross_tags": [
+        "stakeholder"
+      ],
+      "scenario": "Communication with several key stakeholders is transactional, and their support tends to waver at difficult moments.",
+      "stem": "What should the program manager do to strengthen support?",
+      "options": [
+        "Contact stakeholders only when a problem arises.",
+        "Develop and foster relationships with stakeholders, including sponsors and the steering committee, to improve communication and enhance their support.",
+        "Keep interactions strictly formal and infrequent.",
+        "Rely solely on written status reports for all relationships."
+      ],
+      "answer_index": 1,
+      "distractor_types": [
+        "plausible",
+        null,
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "支持の不安定さには、スポンサーやステアリング委員会を含むステークホルダーとの関係を構築・醸成し、コミュニケーションと支持を強化する（B）。A・C・Dは関係構築を欠き、困難時の支持を確保できない。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D4-0008",
+      "exam": "pgmp",
+      "domain": "D4",
+      "task": "T3",
+      "cross_tags": [
+        "stakeholder",
+        "benefits_value"
+      ],
+      "scenario": "A newly onboarded sponsor is enthusiastic but has not agreed to any measurable criteria for what the program's benefits must achieve.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Advise the sponsor to compare the program against other portfolio investments before committing.",
+        "Accept the sponsor's enthusiasm as sufficient without criteria.",
+        "Negotiate the sponsor's support by setting clear expectations and acceptance criteria (for example, KPIs) for the program benefits to achieve and maintain alignment with program objectives.",
+        "Postpone any agreement on criteria until late in the program."
+      ],
+      "answer_index": 2,
+      "distractor_types": [
+        "cross_perspective",
+        "plausible",
+        null,
+        "plausible"
+      ],
+      "explanation": "熱意はあるが基準未合意のスポンサーには、便益に関する明確な期待と受入基準（KPI等）を合意して支持を交渉し、プログラム目的との整合を維持/確立する（C）。Aはプログラムを他の投資と比較させる投資判断者への誘導で、支持獲得の手段として筋違い。Bは基準なしの受容、Dは合意の先送り。",
+      "evaluator": {
+        "perspective_check": 0.8,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
       "reviewed": false
     }
   ]

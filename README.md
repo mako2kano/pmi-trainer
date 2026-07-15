@@ -25,7 +25,7 @@ config/
   taxonomy.pgmp.json / taxonomy.pfmp.json
                     ECO転記（ドメイン・タスク・出題比率）
 questions/
-  pgmp/D1..D5.json  ドメイン別問題バンク（M2較正バッチ10問投入済み・M4で500問へ）
+  pgmp/D1..D5.json  ドメイン別問題バンク（M2パイロット50問投入済み・M4で500問へ）
   pfmp/D1..D5.json  （M6で生成）
 schemas/            上記JSONのスキーマ定義（構造の正）＋examples/（テスト基準データ）
 scripts/validate.py config/questions のファイル間整合チェック（純粋Python・CLI兼用）
@@ -44,7 +44,7 @@ python -m scripts.validate    # config/・questions/ の整合チェック
 ## ステータス（マイルストーン）
 
 - [x] M1: リポジトリ初期化＋exams.json/taxonomy整備（両ECO転記完了: PgMP 72タスク/PfMP 35タスク）
-- [~] M2: 生成パイプライン（`pipeline/`）完成。PgMPパイロット較正バッチ10問投入済み（作者レビュー・50問への拡張待ち）
+- [~] M2: 生成パイプライン（`pipeline/`）完成。PgMPパイロット50問投入済み・全問Evaluator通過（作者レビュー待ち）
 - [ ] M3: PWA骨格（ドリル・exam切替機構）
 - [ ] M4: PgMPフルバンク500問＋適応出題
 - [ ] M5: ダッシュボード＋模試モード

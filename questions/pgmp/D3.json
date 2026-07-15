@@ -7,19 +7,30 @@
       "exam": "pgmp",
       "domain": "D3",
       "task": "T1",
-      "cross_tags": ["benefits_value"],
+      "cross_tags": [
+        "benefits_value"
+      ],
       "scenario": "At program initiation, the program manager must establish how the program's benefits will be measured and reported to the steering committee throughout the life cycle.",
       "stem": "Which is the program manager's primary responsibility here?",
       "options": [
-        "Develop the benefits realization plan and its measurement criteria to set the program baseline and communicate it to stakeholders, including the sponsors and steering committee.",
         "Establish portfolio-level value metrics to compare this program's expected value against other portfolio components for funding decisions.",
         "Wait to define benefit measures until benefits begin to materialize during execution.",
+        "Develop the benefits realization plan and its measurement criteria to set the program baseline and communicate it to stakeholders, including the sponsors and steering committee.",
         "Delegate benefit measurement entirely to the constituent project managers."
       ],
-      "answer_index": 0,
-      "distractor_types": [null, "cross_perspective", "plausible", "plausible"],
-      "explanation": "便益管理では、便益実現計画と測定基準を策定してプログラムのベースラインを設定し、ステークホルダーに伝えることが第一の責務（A）。Bはポートフォリオ視点で構成要素の価値を比較し資金判断に使う指標づくりであり、投資判断者の役割。Cは測定の後回しでベースラインを欠く、Dは便益責任を各プロジェクトに丸投げしてプログラム全体の便益統括を放棄している。",
-      "evaluator": { "perspective_check": 0.86, "model": "manual-pilot", "evaluated_at": "2026-07-13T00:00:00Z" },
+      "answer_index": 2,
+      "distractor_types": [
+        "cross_perspective",
+        "plausible",
+        null,
+        "plausible"
+      ],
+      "explanation": "便益管理では、便益実現計画と測定基準を策定してプログラムのベースラインを設定し、ステークホルダーに伝えることが第一の責務（C）。Aはポートフォリオ視点で構成要素の価値を比較し資金判断に使う指標づくりであり、投資判断者の役割。Bは測定の後回しでベースラインを欠く、Dは便益責任を各プロジェクトに丸投げしてプログラム全体の便益統括を放棄している。",
+      "evaluator": {
+        "perspective_check": 0.86,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
       "reviewed": false
     },
     {
@@ -27,19 +38,126 @@
       "exam": "pgmp",
       "domain": "D3",
       "task": "T5",
-      "cross_tags": ["benefits_value", "governance"],
+      "cross_tags": [
+        "benefits_value",
+        "governance"
+      ],
       "scenario": "Two constituent projects have completed their deliverables and are ready to close. Before approving their closure, the program manager reviews their contribution to the program's intended benefits.",
       "stem": "What should the program manager verify before approving closure of the components?",
       "options": [
-        "That the close, transition, and integration of the components meet or exceed the benefit realization criteria required for the program's strategic objectives.",
         "That closing the components improves the portfolio's overall balance and frees investment capacity for higher-priority components.",
         "That all project deliverables are technically complete, regardless of whether benefits are being realized.",
-        "That the project managers have submitted their final administrative status reports."
+        "That the project managers have submitted their final administrative status reports.",
+        "That the close, transition, and integration of the components meet or exceed the benefit realization criteria required for the program's strategic objectives."
+      ],
+      "answer_index": 3,
+      "distractor_types": [
+        "cross_perspective",
+        "plausible",
+        "plausible",
+        null
+      ],
+      "explanation": "クローズ承認前に確認すべきは、構成要素のクローズ・移行・統合が、プログラムの戦略目的に必要な便益実現基準を満たす（超える）ことである（D）。Aはポートフォリオのバランスと投資余力という投資判断者の関心であり、プログラムの便益検証とは別。Bは便益を無視した技術的完了のみの確認、Cは事務手続きの確認にとどまり便益検証になっていない。",
+      "evaluator": {
+        "perspective_check": 0.82,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D3-0003",
+      "exam": "pgmp",
+      "domain": "D3",
+      "task": "T2",
+      "cross_tags": [
+        "benefits_value"
+      ],
+      "scenario": "Partway through the program, the program manager discovers synergies between two components that could increase realized benefits if captured and communicated.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Identify and capture the synergies and efficiencies, then update and communicate the benefits realization plan to stakeholders, including the sponsors and steering committee.",
+        "Reassess whether the components should remain funded portfolio investments given the new synergy value.",
+        "Keep the synergy informal and undocumented.",
+        "Wait until program closure to mention the synergy."
       ],
       "answer_index": 0,
-      "distractor_types": [null, "cross_perspective", "plausible", "plausible"],
-      "explanation": "クローズ承認前に確認すべきは、構成要素のクローズ・移行・統合が、プログラムの戦略目的に必要な便益実現基準を満たす（超える）ことである（A）。Bはポートフォリオのバランスと投資余力という投資判断者の関心であり、プログラムの便益検証とは別。Cは便益を無視した技術的完了のみの確認、Dは事務手続きの確認にとどまり便益検証になっていない。",
-      "evaluator": { "perspective_check": 0.82, "model": "manual-pilot", "evaluated_at": "2026-07-13T00:00:00Z" },
+      "distractor_types": [
+        null,
+        "cross_perspective",
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "ライフサイクル途中で見つけたシナジーは、特定・獲得したうえで便益実現計画を更新し、スポンサー等ステークホルダーに伝える（A）。Bはシナジー価値に基づき構成要素を投資として継続すべきか再評価する投資判断者の発想で、便益実現の更新という役割から外れる。Cは記録の欠如、Dは共有の遅延。",
+      "evaluator": {
+        "perspective_check": 0.83,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D3-0004",
+      "exam": "pgmp",
+      "domain": "D3",
+      "task": "T4",
+      "cross_tags": [
+        "benefits_value",
+        "risk"
+      ],
+      "scenario": "Benefit metrics are trending below plan in one area, and the program manager must decide how to respond to keep benefits on track.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Escalate to the portfolio committee to decide whether the program still merits its investment allocation.",
+        "Monitor the metrics—using forecasting, variance analysis, what-if scenarios, and causal analysis—to take corrective actions and maintain or improve benefits realization.",
+        "Wait to see whether the metrics recover on their own.",
+        "Change the metric definitions so the numbers look on-plan."
+      ],
+      "answer_index": 1,
+      "distractor_types": [
+        "cross_perspective",
+        null,
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "便益指標の下振れには、予測・差異分析・what-if・因果分析で指標を監視し、是正措置で便益実現を維持/改善する（B）。Aは投資配分の是非を投資判断者に委ねる動きで、プログラム内の便益是正という役割ではない。Cは受動的放置、Dは指標操作で不正。",
+      "evaluator": {
+        "perspective_check": 0.82,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D3-0005",
+      "exam": "pgmp",
+      "domain": "D3",
+      "task": "T6",
+      "cross_tags": [
+        "benefits_value",
+        "stakeholder"
+      ],
+      "scenario": "Stakeholders repeatedly ask for the current status of benefits, but there is no single reliable source of benefit progress.",
+      "stem": "What should the program manager maintain?",
+      "options": [
+        "A private spreadsheet shared with no one.",
+        "Only final benefit figures disclosed at closure.",
+        "A benefits register, recording program progress to report benefits to stakeholders via the communications plan.",
+        "Verbal updates with no recorded baseline."
+      ],
+      "answer_index": 2,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        null,
+        "plausible"
+      ],
+      "explanation": "便益の状況照会には、便益登録簿を維持し進捗を記録して、コミュニケーション計画に沿ってステークホルダーへ報告する（C）。Aは非共有、Bは終結時のみの開示、Dは記録なしの口頭で、信頼できる便益進捗の源にならない。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
       "reviewed": false
     }
   ]

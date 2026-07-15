@@ -7,7 +7,10 @@
       "exam": "pgmp",
       "domain": "D2",
       "task": "T13",
-      "cross_tags": ["benefits_value", "governance"],
+      "cross_tags": [
+        "benefits_value",
+        "governance"
+      ],
       "scenario": "A program is approaching the delivery of its first major capability. The program manager is developing the benefits management plan and must decide how the delivered capability will be handed over and kept delivering value after the program ends.",
       "stem": "Which action best reflects the program manager's responsibility?",
       "options": [
@@ -17,9 +20,18 @@
         "Retain the capability within the program indefinitely to keep direct control of its performance."
       ],
       "answer_index": 0,
-      "distractor_types": [null, "cross_perspective", "plausible", "plausible"],
+      "distractor_types": [
+        null,
+        "cross_perspective",
+        "plausible",
+        "plausible"
+      ],
       "explanation": "プログラムマネジャーの責務は、便益の統合・移行・維持を出口基準とともに定義し、成果物を運用に引き渡してプログラム完了後も便益が維持されるようにすること（A）。Bはポートフォリオ視点での資産の保有/売却という投資判断であり、プログラムの便益移行設計とは別レイヤーの責務。Cは維持策定前の拙速な移管、Dは移行を怠りプログラムを不必要に延命させる。",
-      "evaluator": { "perspective_check": 0.84, "model": "manual-pilot", "evaluated_at": "2026-07-13T00:00:00Z" },
+      "evaluator": {
+        "perspective_check": 0.84,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
       "reviewed": false
     },
     {
@@ -27,19 +39,31 @@
       "exam": "pgmp",
       "domain": "D2",
       "task": "T29",
-      "cross_tags": ["governance", "risk"],
+      "cross_tags": [
+        "governance",
+        "risk"
+      ],
       "scenario": "A constituent project requests a scope change that would accelerate one program benefit but increases overall program risk and cost. The program manager must respond within the established governance framework.",
       "stem": "What is the program manager's most appropriate next step?",
       "options": [
-        "Conduct an impact assessment of the change across scope, cost, schedule, risk, and benefits, and recommend a decision to the governance board per the change management plan.",
         "Decide the change by weighing it against other portfolio components competing for the same enterprise funding.",
+        "Conduct an impact assessment of the change across scope, cost, schedule, risk, and benefits, and recommend a decision to the governance board per the change management plan.",
         "Approve the change immediately because it accelerates a program benefit.",
         "Reject the change outright to protect the program's cost baseline."
       ],
-      "answer_index": 0,
-      "distractor_types": [null, "cross_perspective", "plausible", "plausible"],
-      "explanation": "プログラム変更に対しては、スコープ・コスト・スケジュール・リスク・便益への影響評価を行い、変更管理計画に沿ってガバナンスボードに意思決定を提言する（A）。Bはポートフォリオ視点で構成要素間の投資配分と比較する判断であり、単一プログラム内の変更対応としては越権。Cは影響評価前の承認、Dは便益機会を無視した拒否で、いずれもガバナンス手続きを飛ばしている。",
-      "evaluator": { "perspective_check": 0.83, "model": "manual-pilot", "evaluated_at": "2026-07-13T00:00:00Z" },
+      "answer_index": 1,
+      "distractor_types": [
+        "cross_perspective",
+        null,
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "プログラム変更に対しては、スコープ・コスト・スケジュール・リスク・便益への影響評価を行い、変更管理計画に沿ってガバナンスボードに意思決定を提言する（B）。Aはポートフォリオ視点で構成要素間の投資配分と比較する判断であり、単一プログラム内の変更対応としては越権。Cは影響評価前の承認、Dは便益機会を無視した拒否で、いずれもガバナンス手続きを飛ばしている。",
+      "evaluator": {
+        "perspective_check": 0.83,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
       "reviewed": false
     },
     {
@@ -51,15 +75,616 @@
       "scenario": "You are the program manager finalizing the program management plan. The constituent project schedules were built independently and contain conflicting resource assumptions and misaligned milestones.",
       "stem": "What should the program manager do to establish the program management plan and schedule?",
       "options": [
-        "Integrate the constituent project plans and the supporting function plans (quality, risk, communication, resources) into a coherent program plan and schedule, resolving the conflicting assumptions.",
         "Publish the program schedule as the simple sum of the project schedules without reconciling the conflicts.",
         "Let each project keep its own independent schedule and manage the program only by exception.",
+        "Integrate the constituent project plans and the supporting function plans (quality, risk, communication, resources) into a coherent program plan and schedule, resolving the conflicting assumptions.",
         "Freeze all project schedules and forbid changes until program closure."
       ],
+      "answer_index": 2,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        null,
+        "plausible"
+      ],
+      "explanation": "プログラムマネジメント計画とスケジュールは、構成プロジェクトの計画と支援機能（品質・リスク・コミュニケーション・資源）の計画を統合し、資源前提の矛盾を解消して一貫性を持たせて確立する（C）。Aは矛盾を残したままの単純合算、Bは統合を放棄、Dは硬直化で変更に対応できない。いずれも統合という中核責務を果たしていない。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0004",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T1",
+      "cross_tags": [
+        "governance"
+      ],
+      "scenario": "A newly authorized program has an approved business case, but no charter yet exists to anchor scope, benefits, stakeholders, and resources.",
+      "stem": "What should the program manager produce to initiate and design the program?",
+      "options": [
+        "A detailed WBS for every constituent project before anything else.",
+        "A communications plan sent to all stakeholders before scope is defined.",
+        "A closure checklist to prepare for eventual program end.",
+        "The program charter—scope, assumptions, constraints, high-level risks and benefits, key stakeholders, and resource allocation—tying the program to the business case."
+      ],
+      "answer_index": 3,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        "plausible",
+        null
+      ],
+      "explanation": "プログラムの立ち上げ・設計には、スコープ・前提・制約・高レベルリスク/便益・主要ステークホルダー・資源配分を含むプログラム憲章を作り、ビジネスケースと結びつける（D）。Aは順序が飛躍、Bはスコープ未定義での伝達、Cは時期尚早なクローズ準備。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0005",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T2",
+      "cross_tags": [
+        "stakeholder"
+      ],
+      "scenario": "Leadership has stated strategic objectives at a high level, but the program's scope has not yet been articulated in a way stakeholders agree on.",
+      "stem": "How should the program manager proceed?",
+      "options": [
+        "Translate the strategic objectives into high-level program scope statements by negotiating with stakeholders, including sponsors and the steering committee.",
+        "Write the scope alone and publish it as final without stakeholder input.",
+        "Copy the scope from a previous, unrelated program.",
+        "Skip scope definition and move directly to scheduling."
+      ],
       "answer_index": 0,
-      "distractor_types": [null, "plausible", "plausible", "plausible"],
-      "explanation": "プログラムマネジメント計画とスケジュールは、構成プロジェクトの計画と支援機能（品質・リスク・コミュニケーション・資源）の計画を統合し、資源前提の矛盾を解消して一貫性を持たせて確立する（A）。Bは矛盾を残したままの単純合算、Cは統合を放棄、Dは硬直化で変更に対応できない。いずれも統合という中核責務を果たしていない。",
-      "evaluator": { "perspective_check": 0.9, "model": "manual-pilot", "evaluated_at": "2026-07-13T00:00:00Z" },
+      "distractor_types": [
+        null,
+        "plausible",
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "戦略目的を、スポンサーやステアリング委員会を含むステークホルダーとの交渉を通じて高レベルのプログラムスコープ記述に変換する（A）。Bは合意形成を欠く独断、Cは無関係な流用、Dはスコープ定義の省略で後続を破綻させる。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0006",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T3",
+      "cross_tags": [
+        "governance"
+      ],
+      "scenario": "The program manager needs an artifact that aligns the program to strategy and manages stakeholder expectations about sequencing and dependencies over time.",
+      "stem": "Which artifact should the program manager develop?",
+      "options": [
+        "A detailed daily task list for the program team.",
+        "A program roadmap built from the program's goals, historical information, and benefits realization plan.",
+        "A procurement contract for the largest vendor.",
+        "A closure report template."
+      ],
+      "answer_index": 1,
+      "distractor_types": [
+        "plausible",
+        null,
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "戦略整合と期待管理を担うのはプログラムロードマップで、目標・過去情報・便益実現計画から作成する（B）。A・C・Dは粒度や目的が異なり、順序・依存関係の期待管理という役割を果たさない。",
+      "evaluator": {
+        "perspective_check": 0.91,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0007",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T4",
+      "cross_tags": [
+        "stakeholder"
+      ],
+      "scenario": "As the program ramps up, roles are unclear and it is uncertain which work belongs to the program versus the constituent projects.",
+      "stem": "What should the program manager create?",
+      "options": [
+        "A single shared inbox for all decisions.",
+        "A rule that the program manager personally approves every task.",
+        "A responsibility assignment matrix that builds the core team and differentiates program from project resources.",
+        "An org chart of the customer's company only."
+      ],
+      "answer_index": 2,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        null,
+        "plausible"
+      ],
+      "explanation": "役割の明確化には責任分担マトリクスを作成し、コアチームを編成してプログラムとプロジェクトの資源を区別する（C）。A・B・Dは責任の所在やプログラム/プロジェクト境界を明確にできない。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0008",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T5",
+      "cross_tags": [
+        "governance"
+      ],
+      "scenario": "Constituent projects report progress inconsistently, making it hard to compare their contribution to program success.",
+      "stem": "What should the program manager establish?",
+      "options": [
+        "A rule that each project defines its own private metrics.",
+        "A single end-of-program review with no interim checkpoints.",
+        "Subjective status colors chosen by each project manager.",
+        "Standard measurement criteria and KPIs, with review points across all constituent projects, based on stakeholder expectations."
+      ],
+      "answer_index": 3,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        "plausible",
+        null
+      ],
+      "explanation": "成功の比較可能性には、ステークホルダー期待に基づく標準測定基準・KPIと、全構成プロジェクト横断のレビューポイントを定義する（D）。A・B・Cは基準がばらつき、または点検機会を欠いて監視・統制を成立させない。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0009",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T6",
+      "cross_tags": [
+        "stakeholder"
+      ],
+      "scenario": "The program is authorized and planned, and the organization needs to be brought on board before execution accelerates.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Conduct a program kick-off with key stakeholders to build familiarity and obtain buy-in.",
+        "Skip any kickoff and begin execution silently.",
+        "Announce the program only after it is complete.",
+        "Hold a kickoff with the program team but exclude sponsors."
+      ],
+      "answer_index": 0,
+      "distractor_types": [
+        null,
+        "plausible",
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "実行加速の前に、主要ステークホルダーとキックオフを行い、組織の理解と賛同を得る（A）。Bは周知の欠如、Cは事後告知、Dはスポンサー除外で賛同形成に失敗する。",
+      "evaluator": {
+        "perspective_check": 0.91,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0010",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T7",
+      "cross_tags": [
+        "governance"
+      ],
+      "scenario": "The high-level scope exists, but planning teams need a fuller articulation incorporating the program vision and internal and external objectives.",
+      "stem": "What should the program manager develop?",
+      "options": [
+        "A one-line scope summary only.",
+        "A detailed program scope statement incorporating the program vision and all internal and external objectives, goals, influences, and variables.",
+        "A scope statement limited to internal objectives, ignoring external ones.",
+        "A budget spreadsheet in place of scope."
+      ],
+      "answer_index": 1,
+      "distractor_types": [
+        "plausible",
+        null,
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "全体計画を支えるには、プログラムビジョンと内外の目的・目標・影響・変数を織り込んだ詳細プログラムスコープ記述を作成する（B）。Aは粒度不足、Cは外部要因の欠落、Dはスコープの代替になっていない。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0011",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T8",
+      "cross_tags": [
+        "governance"
+      ],
+      "scenario": "The program needs a structured decomposition so that tasks and deliverables can be planned and assigned consistently.",
+      "stem": "Which tool should the program manager develop?",
+      "options": [
+        "A stakeholder register.",
+        "A risk register.",
+        "The program WBS, to determine, plan, and assign program tasks and deliverables.",
+        "A lessons-learned archive."
+      ],
+      "answer_index": 2,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        null,
+        "plausible"
+      ],
+      "explanation": "タスクと成果物を一貫して計画・割当するには、プログラムWBSを作成する（C）。A・B・Dは別目的の成果物で、作業分解による計画・割当の役割を担わない。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0012",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T10",
+      "cross_tags": [
+        "risk"
+      ],
+      "scenario": "Reviewing the integrated plan, the program manager finds resource requirements are uneven—some periods overloaded, others idle—reducing efficiency across projects.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Hire enough staff to cover every peak regardless of cost.",
+        "Let overloaded projects slip without adjusting the plan.",
+        "Freeze resources at current levels and forbid reallocation.",
+        "Optimize the program management plan by identifying, reviewing, and leveling resource requirements to gain efficiencies and synergies among components."
+      ],
+      "answer_index": 3,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        "plausible",
+        null
+      ],
+      "explanation": "資源の凹凸には、資源要求を特定・レビュー・平準化してプログラム計画を最適化し、構成要素間の効率とシナジーを得る（D）。Aはコスト度外視、Bは放置、Cは硬直化でいずれも最適化にならない。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0013",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T11",
+      "cross_tags": [
+        "governance"
+      ],
+      "scenario": "Constituent projects are duplicating documents and losing knowledge because there is no common way to share information across the program.",
+      "stem": "What should the program manager define?",
+      "options": [
+        "A PMIS (tools and processes) to share knowledge, intellectual property, and documentation across components per the governance framework.",
+        "A rule banning all documentation to save time.",
+        "Separate, disconnected file stores for each project.",
+        "A single person who memorizes all program information."
+      ],
+      "answer_index": 0,
+      "distractor_types": [
+        null,
+        "plausible",
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "情報共有の欠如には、ガバナンスに沿って構成要素間で知識・知財・文書を共有するPMIS（ツール・プロセス）を定義する（A）。B・C・Dは共有を阻害し、相乗効果と便益実現を損なう。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0014",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T12",
+      "cross_tags": [
+        "risk",
+        "governance"
+      ],
+      "scenario": "A project-level issue remains unresolved and is beginning to threaten the program's benefits, but no escalation path was agreed.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Wait for the project manager to resolve it eventually.",
+        "Identify and manage the unresolved issue by establishing a monitoring and escalation mechanism and selecting a course of action consistent with program constraints and objectives.",
+        "Absorb the issue into the program budget silently.",
+        "Cancel the constituent project immediately."
+      ],
+      "answer_index": 1,
+      "distractor_types": [
+        "plausible",
+        null,
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "未解決のプロジェクトレベル課題には、監視・エスカレーションの仕組みを確立し、プログラムの制約・目的に整合する対応を選ぶ（B）。Aは放置、Cは不透明な吸収、Dは過剰反応で、いずれも便益実現につながる管理になっていない。",
+      "evaluator": {
+        "perspective_check": 0.89,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0015",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T14",
+      "cross_tags": [
+        "governance"
+      ],
+      "scenario": "The program needs measurable indicators derived from its objectives so that scope and quality can be managed consistently.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Use only anecdotal feedback instead of indicators.",
+        "Adopt a competitor's KPIs without mapping to program objectives.",
+        "Develop KPIs via decomposition and mapping, and implement a scope and quality management system within the program.",
+        "Measure activity counts unrelated to objectives."
+      ],
+      "answer_index": 2,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        null,
+        "plausible"
+      ],
+      "explanation": "スコープ・品質を一貫管理するには、分解・マッピングでKPIを策定し、プログラム内にスコープ・品質マネジメントを導入する（C）。A・B・Dは目的に紐づかない、または指標を欠き、管理の基盤にならない。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0016",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T16",
+      "cross_tags": [
+        "governance"
+      ],
+      "scenario": "With the program plan in place, the constituent projects have not yet been formally started or resourced.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Let projects self-start without charters or assigned managers.",
+        "Delay all projects until the program is nearly complete.",
+        "Assign one manager to personally execute every project.",
+        "Charter and initiate the constituent projects by assigning project managers and allocating appropriate resources to achieve program objectives."
+      ],
+      "answer_index": 3,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        "plausible",
+        null
+      ],
+      "explanation": "構成プロジェクトの開始には、PMを任命し適切な資源を配分して憲章化・立ち上げを行う（D）。Aは憲章・責任者の欠如、Bは不合理な遅延、Cは非現実的な集中で、プログラム目的の達成を妨げる。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0017",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T17",
+      "cross_tags": [
+        "governance"
+      ],
+      "scenario": "Projects within the program apply inconsistent standards and tools, causing rework and unreliable decision information.",
+      "stem": "What should the program manager establish?",
+      "options": [
+        "Consistency by deploying the governance framework, uniform standards, resources, infrastructure, tools, and processes to enable informed decision-making.",
+        "A policy letting each project choose entirely different standards.",
+        "No standards at all, to maximize flexibility.",
+        "Standards that apply only to the largest project."
+      ],
+      "answer_index": 0,
+      "distractor_types": [
+        null,
+        "plausible",
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "一貫性の確立には、ガバナンスフレームワーク・統一標準・資源・基盤・ツール・プロセスを展開し、情報に基づく意思決定を可能にする（A）。B・C・Dは不整合を残し、意思決定情報の信頼性を損なう。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0018",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T21",
+      "cross_tags": [
+        "risk",
+        "governance"
+      ],
+      "scenario": "Execution is underway, and the program manager must ensure the various management plans (quality, risk, communication, resourcing) are actually being carried out and are delivering the intended results.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Assume the plans are being followed without verification.",
+        "Execute the appropriate program management plans using the planned tools and audit the results to ensure outcomes align with strategy and deliver benefits.",
+        "Discard the plans once execution begins.",
+        "Execute only the quality plan and ignore the others."
+      ],
+      "answer_index": 1,
+      "distractor_types": [
+        "plausible",
+        null,
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "実行段階では、計画したツールを用いて各マネジメント計画を実行し、結果を監査して成果が戦略整合し便益を生むことを確認する（B）。Aは検証の欠如、Cは計画の放棄、Dは部分的実行で、統制が成立しない。",
+      "evaluator": {
+        "perspective_check": 0.89,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0019",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T25",
+      "cross_tags": [
+        "risk"
+      ],
+      "scenario": "Program dashboards show costs and schedule drifting from plan in several components, and the program manager must understand why before acting.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "React to each daily fluctuation with immediate plan changes.",
+        "Ignore variances until program closure.",
+        "Analyze variances and trends in cost, schedule, quality, and risk by comparing actual and forecast to planned values to identify corrective actions or opportunities.",
+        "Report only favorable variances to stakeholders."
+      ],
+      "answer_index": 2,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        null,
+        "plausible"
+      ],
+      "explanation": "計画からの乖離には、コスト・スケジュール・品質・リスクの差異と傾向を実績/予測と計画で分析し、是正措置や機会を特定する（C）。Aは過剰反応、Bは放置、Dは選択的報告で透明性を欠く。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0020",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T28",
+      "cross_tags": [
+        "governance",
+        "risk"
+      ],
+      "scenario": "Multiple change requests are arriving that affect scope, cost, schedule, and contracts, and the program manager must keep them under control to protect benefits.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Approve every requested change to keep requesters satisfied.",
+        "Refuse all changes regardless of merit.",
+        "Let each project apply changes without program coordination.",
+        "Manage changes per the change management plan to control scope, quality, schedule, cost, contracts, risks, and rewards to achieve program benefits."
+      ],
+      "answer_index": 3,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        "plausible",
+        null
+      ],
+      "explanation": "変更の統制は、変更管理計画に沿ってスコープ・品質・スケジュール・コスト・契約・リスクを管理し、便益達成につなげる（D）。Aは無制限承認、Bは一律拒否、Cはプログラム調整の欠如で、いずれも統制になっていない。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0021",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T30",
+      "cross_tags": [
+        "risk"
+      ],
+      "scenario": "Program risks are materializing and threaten benefits, but responses are being handled ad hoc by individual projects.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Manage risk per the risk management plan to ensure benefits realization.",
+        "Address risks only after benefits are already lost.",
+        "Transfer all risk decisions to the projects with no program oversight.",
+        "Remove risks from reporting to avoid alarming stakeholders."
+      ],
+      "answer_index": 0,
+      "distractor_types": [
+        null,
+        "plausible",
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "リスクは、リスク管理計画に沿って管理し便益実現を確保する（A）。Bは事後対応、Cはプログラム統括の放棄、Dは可視性の隠蔽で、便益を守れない。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0022",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T33",
+      "cross_tags": [
+        "governance"
+      ],
+      "scenario": "The program's objectives are met and the program manager must wind it down, handing ongoing activities to the functional organization and preserving knowledge.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Disband the team overnight without transition or archiving.",
+        "Execute the transition and close-out of the program and its components—administrative and PMIS closure, archiving documents and lessons learned, and transferring ongoing activities to operations.",
+        "Keep the program open indefinitely to retain control.",
+        "Delete program records to simplify closure."
+      ],
+      "answer_index": 1,
+      "distractor_types": [
+        "plausible",
+        null,
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "終結では、プログラムと構成要素の移行・クローズアウト（管理/PMISクローズ・文書と教訓のアーカイブ・運用への活動移管）を実行する（B）。Aは移行/保全の欠如、Cは不要な延命、Dは記録の破棄で、便益維持と組織学習を損なう。",
+      "evaluator": {
+        "perspective_check": 0.9,
+        "model": "manual-pilot",
+        "evaluated_at": "2026-07-13T00:00:00Z"
+      },
       "reviewed": false
     }
   ]
