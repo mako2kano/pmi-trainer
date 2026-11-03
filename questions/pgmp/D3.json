@@ -159,6 +159,220 @@
         "evaluated_at": "2026-07-13T00:00:00Z"
       },
       "reviewed": false
+    },
+    {
+      "id": "pgmp-D3-0006",
+      "exam": "pgmp",
+      "domain": "D3",
+      "task": "T8",
+      "cross_tags": [
+        "benefits_value"
+      ],
+      "principles": [
+        "Benefits Realization"
+      ],
+      "scenario": "A component project has delivered all of its outputs and is ready to close. However, the related benefits are expected to materialize about 18 months later.",
+      "stem": "What is the MOST appropriate action?",
+      "options": [
+        "Keep the component project team in place until the benefits are fully realized, so that the people who built the outputs can resolve any issues affecting the benefits.",
+        "Close the component and transition responsibility for benefits sustainment to the operational owner, with the measures defined in the benefits register.",
+        "Report to the portfolio that the benefits have been delivered, since the outputs are complete.",
+        "Delay the component closure until the first benefit measurements are available."
+      ],
+      "answer_index": 1,
+      "distractor_types": [
+        "plausible",
+        null,
+        "cross_perspective",
+        "plausible"
+      ],
+      "explanation": "PgMPでは「アウトプット（成果物）→ アウトカム（成果）→ ベネフィット（便益）」を区別します。ベネフィットは成果物を引き渡した後に出ることが多いので、コンポーネントは閉じたうえで、運用側への移行（transition）と維持（sustainment）を計画的に行います。",
+      "scenario_ja": "あるコンポーネント・プロジェクトがすべてのアウトプットを引き渡し、終結できる状態になった。しかし、関連するベネフィットが実現するのは約18か月後の見込みである。",
+      "stem_ja": "最も適切な対応はどれか。",
+      "options_ja": [
+        "成果物を作ったメンバーがベネフィットに影響する問題に対応できるよう、ベネフィットが完全に実現するまでコンポーネント・プロジェクトのチームを維持する。",
+        "コンポーネントを終結し、ベネフィット登録簿で定めた測定指標とともに、ベネフィット維持の責任を運用側の責任者に移行する。",
+        "アウトプットが完成したので、ベネフィットは実現済みとポートフォリオに報告する。",
+        "最初のベネフィット測定結果が出るまで、コンポーネントの終結を延期する。"
+      ],
+      "option_explanations": [
+        "成果物を納めたプロジェクトのチームを、ベネフィットが出るまで残すのは非効率です。ベネフィットの維持は運用側の役割です。",
+        "正解。コンポーネントは終結させ、ベネフィットの維持責任と測定方法を運用側の責任者に引き継ぎます。",
+        "アウトプット（成果物）とベネフィット（便益）は別物です。成果物ができただけでは、ベネフィットが出たことにはなりません。",
+        "クローズを先延ばしすると、コストとリソースを無駄に抱え続けることになります。"
+      ],
+      "vocab": [
+        {
+          "en": "component",
+          "ja": "コンポーネント",
+          "note": "プログラムを構成するプロジェクト、サブプログラム、その他の活動"
+        },
+        {
+          "en": "materialize",
+          "ja": "実現する・具体化する"
+        },
+        {
+          "en": "benefits sustainment",
+          "ja": "ベネフィットの維持"
+        },
+        {
+          "en": "transition",
+          "ja": "移行",
+          "note": "成果物やベネフィットの責任を運用部門などへ引き渡すこと"
+        },
+        {
+          "en": "benefits register",
+          "ja": "ベネフィット登録簿",
+          "note": "ベネフィットごとの指標・責任者・時期をまとめた一覧"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D3-0007",
+      "exam": "pgmp",
+      "domain": "D3",
+      "task": "T4",
+      "cross_tags": [
+        "benefits_value"
+      ],
+      "principles": [
+        "Benefits Realization"
+      ],
+      "scenario": "Midway through the program, benefit measurements show that a key benefit is trending significantly below its planned target.",
+      "stem": "What should the program manager do NEXT?",
+      "options": [
+        "Revise the benefit target downward to reflect current performance.",
+        "Wait until program closure to evaluate whether the benefit was achieved.",
+        "Analyze the root cause and evaluate corrective actions, including possible changes to components, and report findings to program governance.",
+        "Recommend that the portfolio reallocate the program's funding to other initiatives that are more likely to deliver the expected strategic value to the organization."
+      ],
+      "answer_index": 2,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        null,
+        "cross_perspective"
+      ],
+      "explanation": "ベネフィットが計画を下回っているときは、まず原因を分析して是正策（コンポーネントの追加・変更・中止も含む）を検討し、ガバナンスに報告します。プログラムでは、ベネフィットを出すためにコンポーネントの構成を変えることもありえます。",
+      "scenario_ja": "プログラムの中盤で、ベネフィットの測定結果から、主要なベネフィットが計画上の目標値を大きく下回る傾向にあることがわかった。",
+      "stem_ja": "プログラムマネージャーが次にすべきことは何か。",
+      "options_ja": [
+        "現在の実績に合わせて、ベネフィットの目標値を引き下げる。",
+        "そのベネフィットが達成されたかどうかは、プログラム終結まで待って評価する。",
+        "根本原因を分析し、コンポーネントの変更も含めて是正処置を検討し、結果をプログラム・ガバナンスに報告する。",
+        "組織に期待される戦略的価値をもたらす可能性がより高い他の取り組みに、プログラムの資金を再配分するよう、ポートフォリオに提言する。"
+      ],
+      "option_explanations": [
+        "原因を分析せずに目標値を下げるのは、ベースラインのつじつま合わせです。ガバナンスの承認なしにはできません。",
+        "ベネフィットはライフサイクル全体を通じて監視するものです。最後まで待つのは誤りです。",
+        "正解。根本原因を分析し、コンポーネントの変更も含めて対策を検討し、ガバナンスに報告します。",
+        "資金の再配分はポートフォリオ側の判断で、まだ原因分析もしていない段階です。視点が飛びすぎています。"
+      ],
+      "vocab": [
+        {
+          "en": "trending below",
+          "ja": "下回る傾向にある"
+        },
+        {
+          "en": "planned target",
+          "ja": "計画上の目標値"
+        },
+        {
+          "en": "root cause",
+          "ja": "根本原因"
+        },
+        {
+          "en": "corrective action",
+          "ja": "是正処置"
+        },
+        {
+          "en": "reallocate",
+          "ja": "再配分する"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D3-0008",
+      "exam": "pgmp",
+      "domain": "D3",
+      "task": "T2",
+      "cross_tags": [
+        "benefits_value"
+      ],
+      "principles": [
+        "Synergy",
+        "Benefits Realization"
+      ],
+      "scenario": "During a quarterly review, the program manager discovers that two components each plan to procure and implement their own analytics platform with similar capabilities. Combined, the two purchases account for about 12 percent of the program budget.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Allow both procurements, since each component has its own approved budget.",
+        "Cancel one component's procurement to eliminate the duplication, and transfer the savings to the portfolio reserve for reallocation to other priorities.",
+        "Let the two component managers decide whether to share a platform.",
+        "Evaluate a shared platform as a synergy, update the benefits realization plan, and communicate the change to stakeholders."
+      ],
+      "answer_index": 3,
+      "distractor_types": [
+        "plausible",
+        "cross_perspective",
+        "plausible",
+        null
+      ],
+      "explanation": "相乗効果（synergy）は、プログラムとしてまとめて管理する理由そのものです。見つけたら、評価 → ベネフィット実現計画の更新 → ステークホルダーへの伝達、と進めます。第5版でも「Synergy」は8つの原則の1つです。",
+      "scenario_ja": "四半期レビューで、プログラムマネージャーは、2つのコンポーネントが、似た機能を持つ分析基盤をそれぞれ独自に調達・導入しようとしていることに気づいた。2つの購入を合わせると、プログラム予算の約12%になる。",
+      "stem_ja": "プログラムマネージャーはどうすべきか。",
+      "options_ja": [
+        "各コンポーネントには承認済みの予算があるので、両方の調達を認める。",
+        "重複をなくすため、一方のコンポーネントの調達を中止し、浮いた予算はポートフォリオの予備費に移して他の優先事項に再配分する。",
+        "基盤を共有するかどうかは、2つのコンポーネントのマネージャーに決めさせる。",
+        "共有基盤を相乗効果として評価し、ベネフィット実現計画を更新して、ステークホルダーに変更を伝える。"
+      ],
+      "option_explanations": [
+        "コンポーネント単位の最適化にとどまり、プログラムとしての相乗効果を逃しています。",
+        "評価もせずに中止し、予算の扱いまで決めています。プログラムの権限とプロセスを飛ばしています。",
+        "コンポーネントをまたぐ相乗効果は、プログラムマネージャーが主導して取り込むものです。",
+        "正解。ライフサイクルを通じて相乗効果と効率化を見つけて取り込み、ベネフィット実現計画を更新して伝えます（ECO III-2）。"
+      ],
+      "vocab": [
+        {
+          "en": "procure",
+          "ja": "調達する"
+        },
+        {
+          "en": "synergy",
+          "ja": "相乗効果・シナジー"
+        },
+        {
+          "en": "efficiency",
+          "ja": "効率（化）"
+        },
+        {
+          "en": "benefits realization plan",
+          "ja": "ベネフィット実現計画"
+        },
+        {
+          "en": "reserve",
+          "ja": "予備費"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
     }
   ]
 }

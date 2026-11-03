@@ -252,6 +252,349 @@
         "evaluated_at": "2026-07-13T00:00:00Z"
       },
       "reviewed": false
+    },
+    {
+      "id": "pgmp-D4-0009",
+      "exam": "pgmp",
+      "domain": "D4",
+      "task": "T2",
+      "cross_tags": [
+        "stakeholder"
+      ],
+      "principles": [
+        "Stakeholders",
+        "Change"
+      ],
+      "scenario": "The head of an operations department, a key stakeholder, is openly resisting the changes the program will introduce.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Meet with the stakeholder to understand their concerns and update the stakeholder engagement strategy accordingly.",
+        "Ask the program sponsor to mandate the stakeholder's cooperation.",
+        "Increase the frequency of status reports sent to the stakeholder.",
+        "Proceed as planned and record the resistance as a program risk."
+      ],
+      "answer_index": 0,
+      "distractor_types": [
+        null,
+        "plausible",
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "ステークホルダーが抵抗していたら、まず懸念を理解するための対話をし、エンゲージメント戦略（計画）を更新します。運用部門の協力がないとベネフィットは定着しないので、プログラムにとって特に重要なステークホルダーです。",
+      "scenario_ja": "主要なステークホルダーである運用部門の責任者が、プログラムがもたらす変化に公然と抵抗している。",
+      "stem_ja": "プログラムマネージャーはどうすべきか。",
+      "options_ja": [
+        "そのステークホルダーと面談して懸念を理解し、それに応じてステークホルダー・エンゲージメント戦略を更新する。",
+        "プログラム・スポンサーに、そのステークホルダーの協力を命じてもらう。",
+        "そのステークホルダーへの状況報告の頻度を増やす。",
+        "計画どおり進め、その抵抗をプログラム・リスクとして記録する。"
+      ],
+      "option_explanations": [
+        "正解。抵抗の理由を理解し、エンゲージメント戦略を見直します。運用部門はベネフィットを受け取り、維持していく当事者です。",
+        "すぐスポンサーの権限に頼るのは最後の手段です。抵抗の原因をつかまないまま押し付けると、ベネフィットの定着を妨げます。",
+        "情報を一方的に送る回数を増やしても、懸念は解けません。必要なのは双方向のエンゲージメントです。",
+        "リスクとして記録するだけで、エンゲージメント活動をしないのは消極的すぎます。"
+      ],
+      "vocab": [
+        {
+          "en": "openly resisting",
+          "ja": "公然と抵抗している"
+        },
+        {
+          "en": "mandate",
+          "ja": "（権限で）命じる・義務づける"
+        },
+        {
+          "en": "stakeholder engagement",
+          "ja": "ステークホルダー・エンゲージメント",
+          "note": "単なる情報伝達ではなく、関与・合意形成を指す"
+        },
+        {
+          "en": "accordingly",
+          "ja": "それに応じて"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D4-0010",
+      "exam": "pgmp",
+      "domain": "D4",
+      "task": "T2",
+      "cross_tags": [
+        "stakeholder"
+      ],
+      "principles": [
+        "Stakeholders"
+      ],
+      "scenario": "Eighteen months into a wastewater treatment upgrade program, a national environmental regulator announces that it will review discharge standards for all new facilities. The regulator was not included in the original stakeholder register because existing permits were considered sufficient.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Continue with the current plan, since the existing permits are still valid.",
+        "Add the regulator to the stakeholder register, analyze its influence and expectations, and update the stakeholder engagement plan.",
+        "Ask the legal department to challenge the regulator's review.",
+        "Pause all construction components until the new discharge standards are published, to avoid rework if the facility designs must change."
+      ],
+      "answer_index": 1,
+      "distractor_types": [
+        "plausible",
+        null,
+        "plausible",
+        "cross_perspective"
+      ],
+      "explanation": "ステークホルダーの特定は、立ち上げ時に一度やれば終わりではありません。プログラムの期間中、新しいステークホルダーが出てきたら、登録 → 分析 → エンゲージメント計画の更新、という流れで扱います。規制当局は影響力が大きいので、早めに関与してもらうことが重要です。",
+      "scenario_ja": "下水処理施設の更新プログラムの開始から18か月後、国の環境規制当局が、すべての新設施設の排出基準を見直すと発表した。既存の許認可で十分と考えられていたため、この規制当局は当初のステークホルダー登録簿に含まれていなかった。",
+      "stem_ja": "プログラムマネージャーはどうすべきか。",
+      "options_ja": [
+        "既存の許認可はまだ有効なので、現在の計画のまま進める。",
+        "規制当局をステークホルダー登録簿に加え、その影響力と期待を分析して、ステークホルダー・エンゲージメント計画を更新する。",
+        "法務部門に、規制当局の見直しに異議を申し立てるよう依頼する。",
+        "施設の設計を変更しなければならなくなった場合の手戻りを避けるため、新しい排出基準が公表されるまで、建設系のコンポーネントをすべて停止する。"
+      ],
+      "option_explanations": [
+        "規制の変更は、プログラムの実現性とベネフィットに直結します。影響の大きいステークホルダーを無視しています。",
+        "正解。新しいステークホルダーを特定したら、登録・分析し、エンゲージメント計画に反映します（ECO IV-1、IV-2）。",
+        "対立的な対応から入るのは不適切です。まず理解と関与が必要です。",
+        "影響を分析しないまま、全面停止という重い判断をしています。止めるかどうかはガバナンスが決めることです。"
+      ],
+      "vocab": [
+        {
+          "en": "wastewater treatment",
+          "ja": "下水処理"
+        },
+        {
+          "en": "regulator",
+          "ja": "規制当局"
+        },
+        {
+          "en": "discharge standards",
+          "ja": "排出基準"
+        },
+        {
+          "en": "permit",
+          "ja": "許認可"
+        },
+        {
+          "en": "stakeholder register",
+          "ja": "ステークホルダー登録簿"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D4-0011",
+      "exam": "pgmp",
+      "domain": "D4",
+      "task": "T5",
+      "cross_tags": [
+        "stakeholder"
+      ],
+      "principles": [
+        "Stakeholders"
+      ],
+      "scenario": "Members of the executive steering committee complain that the monthly program status report, a 40-page document consolidating all component reports, is too detailed for them to identify decisions they need to make. Operational managers, however, find the same report useful.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Replace the current report with a two-page summary for all audiences, and make the detailed component reports available on the program portal on request.",
+        "Keep the current report, since it contains all the information needed.",
+        "Tailor communications by audience, providing executives with a decision-focused summary while maintaining detailed reports for operational managers.",
+        "Ask the steering committee to read only the executive summary section."
+      ],
+      "answer_index": 2,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        null,
+        "plausible"
+      ],
+      "explanation": "ECO IV-5は「ステークホルダーごとに合わせたコミュニケーションを定義し、維持する」タスクです。誰かの不満を解消するために別の誰かのニーズを切り捨てる選択肢は、誤答になりやすいです。",
+      "scenario_ja": "運営委員会の役員たちが、毎月のプログラム状況報告（全コンポーネントの報告をまとめた40ページの文書）は詳しすぎて、自分たちが下すべき判断がどれなのかわからないと不満を述べている。一方、運用部門のマネージャーたちは、同じ報告を役に立つと感じている。",
+      "stem_ja": "プログラムマネージャーはどうすべきか。",
+      "options_ja": [
+        "現在の報告を、すべての読み手向けの2ページの要約に置き換え、コンポーネントの詳しい報告は、求めがあればプログラムのポータルで見られるようにする。",
+        "必要な情報はすべて含まれているので、現在の報告を維持する。",
+        "読み手に合わせてコミュニケーションを調整し、役員には判断事項に絞った要約を、運用部門のマネージャーには詳しい報告を引き続き提供する。",
+        "運営委員会には、エグゼクティブサマリーの部分だけを読むよう依頼する。"
+      ],
+      "option_explanations": [
+        "全員向けに要約に置き換えると、詳しい報告を定期的に使っている運用部門のニーズに応えられません。求めに応じて見られるようにするだけでは不十分です。",
+        "情報が「ある」ことと「伝わる」ことは違います。役員の不満を放置しています。",
+        "正解。ステークホルダーごとにコミュニケーションを調整し、それぞれの支援を維持します（ECO IV-5）。",
+        "工夫を読み手に押し付けています。判断事項をはっきり示すことにもなっていません。"
+      ],
+      "vocab": [
+        {
+          "en": "executive",
+          "ja": "経営幹部・役員"
+        },
+        {
+          "en": "audience",
+          "ja": "（情報の）受け手・読み手"
+        },
+        {
+          "en": "tailor",
+          "ja": "（相手に合わせて）調整する"
+        },
+        {
+          "en": "decision-focused",
+          "ja": "判断事項に焦点を当てた"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D4-0012",
+      "exam": "pgmp",
+      "domain": "D4",
+      "task": "T6",
+      "cross_tags": [
+        "stakeholder",
+        "risk"
+      ],
+      "principles": [
+        "Stakeholders",
+        "Risk"
+      ],
+      "scenario": "During a town hall meeting for a coastal flood defense program, community representatives raise concerns that construction traffic could block the only evacuation route during the typhoon season. This concern is not in the program risk register.",
+      "stem": "What should the program manager do NEXT?",
+      "options": [
+        "Thank the representatives, explain that traffic management is the contractor's responsibility, and ask the contractor to respond to the community directly.",
+        "Reschedule all construction to avoid the typhoon season.",
+        "Escalate the concern to the local government for a decision.",
+        "Evaluate the risk raised by the community and incorporate it into the program risk management plan with appropriate responses."
+      ],
+      "answer_index": 3,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        "plausible",
+        null
+      ],
+      "explanation": "ステークホルダーは、リスク情報の重要な情報源です。指摘されたリスクは、評価 → リスク管理計画への組み込み → 対応策の検討、の順で扱います。「NEXT」と聞かれたら、まず評価して計画に組み込む選択肢を選びます。",
+      "scenario_ja": "沿岸の高潮・洪水対策プログラムの住民説明会で、地域の代表者が、台風シーズンに工事車両が唯一の避難経路をふさいでしまうのではないかという懸念を示した。この懸念はプログラムのリスク登録簿に載っていない。",
+      "stem_ja": "プログラムマネージャーが次にすべきことは何か。",
+      "options_ja": [
+        "代表者に礼を述べ、交通管理は施工業者の責任であると説明したうえで、施工業者から地域に直接回答させる。",
+        "台風シーズンを避けるよう、すべての工事のスケジュールを組み直す。",
+        "懸念を地方自治体にエスカレーションし、判断を求める。",
+        "地域が提起したリスクを評価し、適切な対応策とともにプログラムのリスク管理計画に組み込む。"
+      ],
+      "option_explanations": [
+        "ステークホルダーが指摘したリスクを、評価もせず受け流しています。地域との関係も損ないます。",
+        "評価もせずに、対応の1案を全面的に採用しています。影響が大きすぎます。",
+        "プログラムとして評価すべきリスクを、外部に丸投げしています。",
+        "正解。ステークホルダーが特定したリスクを評価し、必要に応じてプログラムのリスク管理計画に組み込みます（ECO IV-6）。"
+      ],
+      "vocab": [
+        {
+          "en": "town hall meeting",
+          "ja": "住民説明会・タウンホールミーティング"
+        },
+        {
+          "en": "flood defense",
+          "ja": "洪水・高潮対策"
+        },
+        {
+          "en": "evacuation route",
+          "ja": "避難経路"
+        },
+        {
+          "en": "incorporate",
+          "ja": "組み込む"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D4-0013",
+      "exam": "pgmp",
+      "domain": "D4",
+      "task": "T7",
+      "cross_tags": [
+        "stakeholder"
+      ],
+      "principles": [
+        "Team of Teams",
+        "Leadership"
+      ],
+      "scenario": "A smart city program has five components delivered by three different vendors and two internal departments. Each team meets its own milestones, but the program manager notices duplicated work, late discovery of integration defects, and teams that rarely talk to each other except through formal status reports.",
+      "stem": "What is the BEST way for the program manager to address this situation?",
+      "options": [
+        "Establish an integrated team structure with shared program goals, a synchronized cadence, and cross-component forums where teams resolve dependencies directly.",
+        "Increase the frequency of formal status reports so that the program manager can coordinate all dependencies centrally.",
+        "Add penalty clauses to the vendor contracts for integration defects to make each vendor accountable for quality.",
+        "Recommend that the portfolio board consolidate all components under a single vendor, eliminating the coordination problems between organizations in the program."
+      ],
+      "answer_index": 0,
+      "distractor_types": [
+        null,
+        "plausible",
+        "plausible",
+        "cross_perspective"
+      ],
+      "explanation": "第5版では、原則「チームのチーム（Team of Teams）」と、新しいパフォーマンス・ドメイン「コラボレーション」が加わりました。プログラムマネージャーがすべてを中央で調整するのではなく、共有された目標とリズムのもとで、チーム同士が直接つながる構造をつくります。個々のチームがマイルストーンを守っていても、プログラム全体の最適にはなっていない、という状況が典型的な出題パターンです。",
+      "scenario_ja": "あるスマートシティ・プログラムには5つのコンポーネントがあり、3社のベンダーと2つの社内部門が担当している。各チームは自分のマイルストーンを守っているが、プログラムマネージャーは、作業の重複、結合時の欠陥の発見の遅れ、そして正式な状況報告以外ではチーム同士がほとんど話さないことに気づいた。",
+      "stem_ja": "プログラムマネージャーがこの状況に対処する最善の方法はどれか。",
+      "options_ja": [
+        "プログラム共通の目標、同期したリズム（ケイデンス）、チーム同士が直接依存関係を解消するコンポーネント横断の場を持つ、統合されたチーム構造をつくる。",
+        "正式な状況報告の頻度を上げ、すべての依存関係をプログラムマネージャーが一元的に調整できるようにする。",
+        "各ベンダーに品質の責任を持たせるため、結合時の欠陥についてベンダー契約に違約金条項を加える。",
+        "プログラム内の組織間の調整の問題をなくすため、すべてのコンポーネントを1社のベンダーにまとめるよう、ポートフォリオ委員会に提言する。"
+      ],
+      "option_explanations": [
+        "正解。第5版の「チームのチーム」の原則そのものです。共有された戦略のもとで縦横のつながりをつくり、シナジーを生みます（Collaborationドメイン）。",
+        "すべてをプログラムマネージャー経由にすると、そこがボトルネックになります。チーム同士の直接の協働が生まれません。",
+        "契約で縛っても、チームが分断されている根本の問題は解決しません。対立をかえって強めるおそれもあります。",
+        "調達の構造を大きく変える判断で、協働の問題への対処としては過剰です。分析もしていません。"
+      ],
+      "vocab": [
+        {
+          "en": "integrated team structure",
+          "ja": "統合されたチーム構造"
+        },
+        {
+          "en": "synchronized cadence",
+          "ja": "同期したリズム（ケイデンス）"
+        },
+        {
+          "en": "cross-component forum",
+          "ja": "コンポーネント横断の会議体"
+        },
+        {
+          "en": "penalty clause",
+          "ja": "違約金条項"
+        },
+        {
+          "en": "consolidate",
+          "ja": "統合する・まとめる"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
     }
   ]
 }

@@ -222,6 +222,208 @@
         "evaluated_at": "2026-07-13T00:00:00Z"
       },
       "reviewed": false
+    },
+    {
+      "id": "pgmp-D5-0008",
+      "exam": "pgmp",
+      "domain": "D5",
+      "task": "T3",
+      "cross_tags": [
+        "governance"
+      ],
+      "principles": [
+        "Governance"
+      ],
+      "scenario": "A program is approaching a phase-gate review at the end of its definition phase.",
+      "stem": "Who is PRIMARILY responsible for deciding whether the program should proceed to the next phase?",
+      "options": [
+        "The program manager",
+        "The portfolio review board that allocates investment funds across programs",
+        "The component project managers",
+        "The program steering committee"
+      ],
+      "answer_index": 3,
+      "distractor_types": [
+        "plausible",
+        "cross_perspective",
+        "plausible",
+        null
+      ],
+      "explanation": "フェーズゲート（決定ポイント）では、プログラムの運営委員会がベネフィットの見通し、リスク、戦略との整合を見て、継続・修正・中止を決めます。役割分担（誰が決めるか）はPgMPでよく問われます。",
+      "scenario_ja": "プログラムが定義フェーズの終わりのフェーズゲート審査を迎えようとしている。",
+      "stem_ja": "プログラムを次のフェーズに進めるかどうかを決定する主たる責任を負うのは誰か。",
+      "options_ja": [
+        "プログラムマネージャー",
+        "複数のプログラムに投資資金を配分するポートフォリオ審査委員会",
+        "コンポーネントのプロジェクトマネージャーたち",
+        "プログラム運営委員会"
+      ],
+      "option_explanations": [
+        "プログラムマネージャーは判断材料を用意して提言する役割で、最終的に決めるのはガバナンスです。",
+        "ポートフォリオの委員会は、プログラム間の投資配分を決める立場です。ポートフォリオ視点では正しく聞こえますが、プログラムのフェーズゲートで継続を判断するのは、プログラムのガバナンス（運営委員会）です。",
+        "コンポーネントの責任者には、プログラム全体の継続を決める権限はありません。",
+        "正解。フェーズゲートで継続・変更・中止を決めるのは、運営委員会（ガバナンス機関）です。"
+      ],
+      "vocab": [
+        {
+          "en": "phase-gate review",
+          "ja": "フェーズゲート審査",
+          "note": "フェーズの区切りで継続の可否を判断する場"
+        },
+        {
+          "en": "primarily responsible",
+          "ja": "主たる責任を負う"
+        },
+        {
+          "en": "proceed",
+          "ja": "先に進む"
+        },
+        {
+          "en": "PMO",
+          "ja": "プログラム／プロジェクトマネジメントオフィス"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D5-0009",
+      "exam": "pgmp",
+      "domain": "D5",
+      "task": "T7",
+      "cross_tags": [
+        "governance",
+        "risk"
+      ],
+      "principles": [
+        "Risk",
+        "Governance"
+      ],
+      "scenario": "A currency fluctuation has increased the forecast cost of imported equipment by 18 percent. The program's governance plan states that any risk with a potential cost impact above 10 percent of the program budget must be handled by the governance board. The program manager has already identified two possible responses.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Escalate the risk to the governance board per the escalation policy, presenting the impact analysis and recommended response options.",
+        "Implement the lower-cost response immediately to limit the cost impact, and then inform the governance board at its next scheduled meeting.",
+        "Ask each component to absorb its share of the cost increase.",
+        "Wait until the currency stabilizes before taking any action."
+      ],
+      "answer_index": 0,
+      "distractor_types": [
+        null,
+        "plausible",
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "エスカレーションの基本は「権限のしきい値を超えたら、決められた手順で、分析と推奨案を持って上げる」です。PgMPでは「何も持たずに上げる」のも「権限を超えて自分で決める」のも誤りです。",
+      "scenario_ja": "為替の変動により、輸入機器のコスト予測が18%上がった。プログラムのガバナンス計画では、プログラム予算の10%を超えるコスト影響が見込まれるリスクは、ガバナンス委員会が扱うと定めている。プログラムマネージャーはすでに、2つの対応案を特定している。",
+      "stem_ja": "プログラムマネージャーはどうすべきか。",
+      "options_ja": [
+        "エスカレーション方針に従ってリスクをガバナンス委員会に上げ、影響分析と推奨する対応案を提示する。",
+        "コストへの影響を抑えるため、コストの低いほうの対応案を直ちに実行し、次回の定例会議でガバナンス委員会に報告する。",
+        "各コンポーネントに、コスト増のうち自分の分を吸収するよう求める。",
+        "為替が落ち着くまで、何も行動しない。"
+      ],
+      "option_explanations": [
+        "正解。しきい値を超えたリスクは、決められた手順に従って適切なレベルに上げます（ECO V-7）。分析と推奨案を添えるのがポイントです。",
+        "決められたしきい値を超えているので、プログラムマネージャーの権限では決められません。",
+        "エスカレーションの規定を無視しています。コンポーネントに押し付けても、プログラム全体のリスクは消えません。",
+        "リスクを放置しています。しきい値を超えているのに報告もしていません。"
+      ],
+      "vocab": [
+        {
+          "en": "currency fluctuation",
+          "ja": "為替の変動"
+        },
+        {
+          "en": "forecast cost",
+          "ja": "予測コスト"
+        },
+        {
+          "en": "threshold",
+          "ja": "しきい値"
+        },
+        {
+          "en": "escalation policy",
+          "ja": "エスカレーション方針"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D5-0010",
+      "exam": "pgmp",
+      "domain": "D5",
+      "task": "T2",
+      "cross_tags": [
+        "governance"
+      ],
+      "principles": [
+        "Governance",
+        "Team of Teams"
+      ],
+      "scenario": "After a corporate merger, a program includes components from both companies. Components from the acquired company use an agile delivery approach and their own reporting templates, while the rest follow a predictive approach. Steering committee members say they cannot compare component status.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Require all components to adopt the predictive approach and existing reporting templates so that the steering committee can compare their status consistently across the whole program.",
+        "Establish common program-level reporting standards and metrics aligned with organizational governance, while allowing components to tailor their delivery approach.",
+        "Allow each component to continue reporting in its own format.",
+        "Ask the PMO of the acquired company to translate its reports into the existing format."
+      ],
+      "answer_index": 1,
+      "distractor_types": [
+        "plausible",
+        null,
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "ガバナンスで問われるのは「一貫性（比較できる、判断できる）」と「柔軟性（コンポーネントごとの最適な進め方）」の両立です。報告の指標はそろえ、進め方は調整を許す、というのが第5版の流れにも合った答えです。",
+      "scenario_ja": "企業の合併後、あるプログラムには両社のコンポーネントが含まれることになった。買収された会社のコンポーネントはアジャイル型の進め方と独自の報告テンプレートを使い、残りのコンポーネントは予測型の進め方をとっている。運営委員会のメンバーは、コンポーネントの状況を比較できないと言っている。",
+      "stem_ja": "プログラムマネージャーはどうすべきか。",
+      "options_ja": [
+        "運営委員会がプログラム全体で一貫して状況を比較できるよう、すべてのコンポーネントに予測型の進め方と既存の報告テンプレートを採用させる。",
+        "組織のガバナンスに沿ったプログラム共通の報告標準と指標を定め、そのうえでコンポーネントが進め方を調整（テーラリング）できるようにする。",
+        "各コンポーネントには、引き続き独自の形式で報告させる。",
+        "買収された会社のPMOに、報告を既存の形式に変換するよう依頼する。"
+      ],
+      "option_explanations": [
+        "進め方まで画一的にそろえる必要はありません。アジャイルが適しているコンポーネントの価値を損なうおそれがあります。",
+        "正解。組織のガバナンスに沿った枠組みと共通の指標で一貫性を確保しつつ、コンポーネントの進め方は調整を許します（ECO V-1、V-2）。",
+        "運営委員会が判断できないという問題を放置しています。",
+        "その場しのぎで、プログラムとしての標準やガバナンスの枠組みを作ることになっていません。"
+      ],
+      "vocab": [
+        {
+          "en": "merger / acquired company",
+          "ja": "合併／買収された会社"
+        },
+        {
+          "en": "predictive approach",
+          "ja": "予測型（ウォーターフォール型）アプローチ"
+        },
+        {
+          "en": "conform to",
+          "ja": "～に適合する・従う"
+        },
+        {
+          "en": "tailor",
+          "ja": "テーラリングする（状況に合わせて調整する）"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
     }
   ]
 }

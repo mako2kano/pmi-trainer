@@ -686,6 +686,1105 @@
         "evaluated_at": "2026-07-13T00:00:00Z"
       },
       "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0023",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T28",
+      "cross_tags": [
+        "governance"
+      ],
+      "principles": [
+        "Synergy",
+        "Governance"
+      ],
+      "scenario": "A component project manager requests a scope change that is within the component's budget but will delay a deliverable that another component depends on.",
+      "stem": "How should this change be handled?",
+      "options": [
+        "Approve the change at the component level, since it is within the component's budget.",
+        "Let the two component project managers negotiate a solution between themselves, since they best understand the technical details of both deliverables.",
+        "Evaluate the change's impact across the program and submit it through the program change control process.",
+        "Escalate the change directly to the portfolio review board."
+      ],
+      "answer_index": 2,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        null,
+        "cross_perspective"
+      ],
+      "explanation": "コンポーネント間の依存関係（interdependency）を管理するのがプログラムマネジメントの中心です。1つのコンポーネントの中で収まっていても、他に影響が出る変更はプログラムレベルで評価し、定められた変更管理プロセスを通します。",
+      "scenario_ja": "あるコンポーネントのプロジェクトマネージャーがスコープ変更を要求した。変更はそのコンポーネントの予算内に収まるが、別のコンポーネントが依存している成果物が遅れることになる。",
+      "stem_ja": "この変更はどう扱うべきか。",
+      "options_ja": [
+        "コンポーネントの予算内なので、コンポーネントレベルで変更を承認する。",
+        "両方の成果物の技術的な詳細を最もよく理解しているのは当事者なので、2人のコンポーネント・プロジェクトマネージャー同士で解決策を交渉させる。",
+        "プログラム全体への影響を評価し、プログラムの変更管理プロセスに提出する。",
+        "変更をポートフォリオ・レビュー委員会に直接エスカレーションする。"
+      ],
+      "option_explanations": [
+        "予算の範囲内でも、他のコンポーネントへ影響する変更はコンポーネント単位では決められません。",
+        "当事者同士の調整に任せると、プログラム全体のベネフィットへの影響が評価されません。",
+        "正解。コンポーネント間の依存関係に影響するので、プログラムレベルで評価し、変更管理プロセスに乗せます。",
+        "まずはプログラムのガバナンスで扱うべきです。ポートフォリオに上げるのは、プログラムの権限を超える場合に限られます。"
+      ],
+      "vocab": [
+        {
+          "en": "scope change",
+          "ja": "スコープ変更"
+        },
+        {
+          "en": "deliverable",
+          "ja": "成果物"
+        },
+        {
+          "en": "depend on / interdependency",
+          "ja": "依存する／相互依存関係"
+        },
+        {
+          "en": "change control process",
+          "ja": "変更管理プロセス"
+        },
+        {
+          "en": "escalate",
+          "ja": "上位に判断を上げる"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0024",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T1",
+      "cross_tags": [
+        "governance"
+      ],
+      "principles": [
+        "Governance"
+      ],
+      "scenario": "During program formulation, the sponsor wants to formally authorize the program and give the program manager authority to use organizational resources.",
+      "stem": "Which document should be developed?",
+      "options": [
+        "Program management plan",
+        "Business case",
+        "Project charter for the first component",
+        "Program charter"
+      ],
+      "answer_index": 3,
+      "distractor_types": [
+        "plausible",
+        "cross_perspective",
+        "plausible",
+        null
+      ],
+      "explanation": "プログラム定義フェーズ（program definition）は「formulation（構想）」と「planning（計画）」に分かれます。formulationでビジネスケースとプログラム憲章を作り、憲章によってプログラムが正式に承認されます。プログラムマネジメント計画書はその後のplanningで作ります。",
+      "scenario_ja": "プログラムの構想（formulation）段階で、スポンサーはプログラムを正式に承認し、プログラムマネージャーに組織のリソースを使う権限を与えたいと考えている。",
+      "stem_ja": "どの文書を作成すべきか。",
+      "options_ja": [
+        "プログラムマネジメント計画書",
+        "ビジネスケース",
+        "最初のコンポーネントのプロジェクト憲章",
+        "プログラム憲章"
+      ],
+      "option_explanations": [
+        "プログラムマネジメント計画書は、承認された後の計画段階（program planning）で作ります。承認そのものの文書ではありません。",
+        "ビジネスケースは投資の正当性を示す文書です。プログラムを正式に承認し、権限を与えるものではありません。",
+        "これはコンポーネント（プロジェクト）を承認する文書で、プログラム全体の承認ではありません。",
+        "正解。プログラム憲章によってプログラムが正式に承認され、プログラムマネージャーに権限が与えられます。"
+      ],
+      "vocab": [
+        {
+          "en": "formulation",
+          "ja": "構想・策定"
+        },
+        {
+          "en": "authorize",
+          "ja": "正式に承認する・権限を与える"
+        },
+        {
+          "en": "charter",
+          "ja": "憲章",
+          "note": "立ち上げを承認し、権限を与える文書"
+        },
+        {
+          "en": "business case",
+          "ja": "ビジネスケース",
+          "note": "投資の妥当性（なぜやるか）を示す文書"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0025",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T27",
+      "cross_tags": [
+        "governance",
+        "benefits_value"
+      ],
+      "principles": [
+        "Governance",
+        "Benefits Realization"
+      ],
+      "scenario": "The portfolio management team decides to move a critical engineering resource from your program to a higher-priority program.",
+      "stem": "What is the BEST response?",
+      "options": [
+        "Accept the decision, assess the impact on the program roadmap and benefits, and communicate the adjustments to the steering committee.",
+        "Refuse the request and explain to the portfolio team that losing the resource would put your program's committed benefits and milestones at risk.",
+        "Negotiate directly with the other program manager to share the resource part-time.",
+        "Comply silently and absorb the impact within the current schedule."
+      ],
+      "answer_index": 0,
+      "distractor_types": [
+        null,
+        "plausible",
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "プログラムは、ポートフォリオの中の1つの投資です。ポートフォリオレベルの優先順位の判断は尊重し、そのうえで自分のプログラムへの影響を分析・調整・報告します。「ポートフォリオの判断を受け入れつつ、プログラムとして責任を果たす」という、視点の切り替えを問う問題です。",
+      "scenario_ja": "ポートフォリオマネジメント・チームが、あなたのプログラムの重要なエンジニアリング・リソースを、より優先度の高いプログラムに移すことを決定した。",
+      "stem_ja": "最善の対応はどれか。",
+      "options_ja": [
+        "決定を受け入れ、プログラム・ロードマップとベネフィットへの影響を評価し、調整内容を運営委員会に伝える。",
+        "要請を断り、そのリソースを失うとプログラムが約束したベネフィットとマイルストーンが危うくなることを、ポートフォリオ・チームに説明する。",
+        "もう一方のプログラムマネージャーと直接交渉し、そのリソースを兼務で共有する。",
+        "黙って従い、影響を現在のスケジュール内で吸収する。"
+      ],
+      "option_explanations": [
+        "正解。ポートフォリオの決定を受け入れたうえで、自分のプログラムへの影響を分析して計画を調整し、ガバナンスに伝えます。",
+        "自分のプログラムだけを優先する部分最適な発想です。ポートフォリオの優先順位は組織全体の視点で決まります。",
+        "ポートフォリオが決めたことを、現場の交渉で覆そうとするのは不適切です。",
+        "影響を分析も報告もせず抱え込むと、ガバナンスが正しく判断できなくなります。"
+      ],
+      "vocab": [
+        {
+          "en": "critical resource",
+          "ja": "重要な（替えのきかない）リソース"
+        },
+        {
+          "en": "higher-priority",
+          "ja": "より優先度の高い"
+        },
+        {
+          "en": "comply",
+          "ja": "従う"
+        },
+        {
+          "en": "absorb the impact",
+          "ja": "影響を（内部で）吸収する"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0026",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T33",
+      "cross_tags": [
+        "governance",
+        "benefits_value"
+      ],
+      "principles": [
+        "Benefits Realization",
+        "Governance"
+      ],
+      "scenario": "All component projects have delivered their outputs.",
+      "stem": "What must be confirmed before the program can be formally closed?",
+      "options": [
+        "That all component budgets have been fully spent.",
+        "That benefits have been transitioned to sustaining owners and the governance board has approved closure.",
+        "That all deliverables have been accepted by the component customers.",
+        "That the portfolio has approved funding for a follow-on program."
+      ],
+      "answer_index": 1,
+      "distractor_types": [
+        "plausible",
+        null,
+        "plausible",
+        "cross_perspective"
+      ],
+      "explanation": "プログラムのクローズでは、ベネフィットが運用側に引き継がれていること（またはプログラムを続ける理由がなくなったこと）を確認し、ガバナンスの承認を得ます。教訓の記録やリソースの解放も行います。「成果物が全部できた＝クローズ」ではありません。",
+      "scenario_ja": "すべてのコンポーネント・プロジェクトがアウトプットを引き渡した。",
+      "stem_ja": "プログラムを正式に終結する前に、何を確認しなければならないか。",
+      "options_ja": [
+        "すべてのコンポーネント予算が使い切られていること。",
+        "ベネフィットが維持責任者に移行され、ガバナンス委員会が終結を承認していること。",
+        "すべての成果物がコンポーネントの顧客に受け入れられていること。",
+        "後続プログラムへの資金拠出をポートフォリオが承認していること。"
+      ],
+      "option_explanations": [
+        "予算を使い切ったかどうかは、クローズの条件ではありません。",
+        "正解。ベネフィットの維持責任が引き継がれ、ガバナンスがクローズを承認していることが条件です。",
+        "成果物が受け入れられているのはコンポーネント単位の条件です。プログラムのクローズにはそれだけでは足りません。",
+        "後続プログラムの投資判断は、このプログラムのクローズとは別の話です。"
+      ],
+      "vocab": [
+        {
+          "en": "formally closed",
+          "ja": "正式に終結する"
+        },
+        {
+          "en": "accepted",
+          "ja": "受け入れ（検収）された"
+        },
+        {
+          "en": "follow-on",
+          "ja": "後続の"
+        },
+        {
+          "en": "sustaining owner",
+          "ja": "（ベネフィットの）維持責任者"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0027",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T10",
+      "cross_tags": [],
+      "principles": [
+        "Synergy"
+      ],
+      "scenario": "Two components need the same scarce specialist during the same period. Their project managers cannot agree on how to share the specialist.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Allocate the specialist on a first-come, first-served basis.",
+        "Let the specialist's functional manager decide.",
+        "Resolve the conflict at the program level based on each component's contribution to program benefits and the critical interdependencies.",
+        "Immediately hire an external contractor with the same expertise for one of the components so that both components can keep their current schedules."
+      ],
+      "answer_index": 2,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        null,
+        "plausible"
+      ],
+      "explanation": "コンポーネント間でリソースが競合したら、プログラムマネージャーが「プログラム全体のベネフィットが最大になるように」解決します。これがプログラムとしてまとめて管理する価値の1つです。",
+      "scenario_ja": "2つのコンポーネントが、同じ時期に同じ希少な専門家を必要としている。両方のプロジェクトマネージャーは、その専門家の分け方について合意できない。",
+      "stem_ja": "プログラムマネージャーはどうすべきか。",
+      "options_ja": [
+        "先着順でその専門家を割り当てる。",
+        "その専門家の機能部門の管理者に決めさせる。",
+        "各コンポーネントのプログラム・ベネフィットへの貢献度と、重要な相互依存関係に基づいて、プログラムレベルで対立を解決する。",
+        "両方のコンポーネントが現在のスケジュールを守れるよう、同じ専門性を持つ外部の請負業者を、直ちに一方のコンポーネント用に雇う。"
+      ],
+      "option_explanations": [
+        "早い者勝ちには、ベネフィットへの貢献という判断基準がありません。",
+        "機能部門の管理者は、プログラムのベネフィットや優先順位を判断できる立場にありません。",
+        "正解。リソースの競合はプログラムレベルで、ベネフィットへの貢献度と依存関係を基準に解決します。",
+        "分析もせずに外部リソースを確保するのは早計です。選択肢の1つではありますが、最初にやることではありません。"
+      ],
+      "vocab": [
+        {
+          "en": "scarce",
+          "ja": "希少な・不足している"
+        },
+        {
+          "en": "allocate",
+          "ja": "割り当てる"
+        },
+        {
+          "en": "first-come, first-served",
+          "ja": "早い者勝ち・先着順"
+        },
+        {
+          "en": "functional manager",
+          "ja": "機能部門の管理者（ライン長）"
+        },
+        {
+          "en": "contractor",
+          "ja": "外部委託先・請負業者"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0028",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T25",
+      "cross_tags": [
+        "governance"
+      ],
+      "principles": [
+        "Governance"
+      ],
+      "scenario": "You are managing a three-year smart water metering program for a regional utility, with four constituent projects and a total budget of USD 40 million. At the end of the second quarter, the consolidated program data shows a planned value of USD 4.0 million, an earned value of USD 3.6 million, and an actual cost of USD 4.5 million.",
+      "stem": "Which statement BEST describes the program's status and the appropriate next step?",
+      "options": [
+        "The program is ahead of schedule but over budget; reduce scope in the remaining components to recover the cost overrun.",
+        "The program is behind schedule and over budget; request additional funding from the portfolio board to cover the forecast overrun.",
+        "The program is on track overall because the cost and schedule variances offset each other at the program level.",
+        "The program is behind schedule and over budget; analyze the variances by component to identify root causes and corrective actions."
+      ],
+      "answer_index": 3,
+      "distractor_types": [
+        "plausible",
+        "cross_perspective",
+        "plausible",
+        null
+      ],
+      "explanation": "EVMの基本：SV＝EV−PV＝−40万ドル（遅れ）、CV＝EV−AC＝−90万ドル（超過）、SPI＝0.9、CPI＝0.8。PgMPでは計算だけでなく、「次に何をするか」までがセットで問われます。プログラムレベルでは、統合した数値からコンポーネント別の分析に下りて原因を特定するのが定石です。「メーター」「4,000万ドル」は判断に関係のない情報です。",
+      "scenario_ja": "あなたは地域の水道事業者向けに、3年間のスマート水道メーター導入プログラムをマネジメントしている。構成プロジェクトは4つ、総予算は4,000万米ドルである。第2四半期末の統合データでは、計画価値（PV）が400万ドル、アーンドバリュー（EV）が360万ドル、実コスト（AC）が450万ドルだった。",
+      "stem_ja": "プログラムの状況と、次にとるべき行動を最もよく表しているのはどれか。",
+      "options_ja": [
+        "プログラムはスケジュールが前倒しだが、予算を超過している。残りのコンポーネントのスコープを削ってコスト超過を取り戻す。",
+        "プログラムはスケジュールが遅れ、予算も超過している。予測される超過分をまかなうため、ポートフォリオ委員会に追加資金を要求する。",
+        "コストとスケジュールの差異がプログラムレベルで相殺されるので、全体としては順調である。",
+        "プログラムはスケジュールが遅れ、予算も超過している。コンポーネント別に差異を分析し、根本原因と是正処置を特定する。"
+      ],
+      "option_explanations": [
+        "SPIは0.9で遅れているので、状況の判断が誤りです。また、分析する前にスコープを削るとベネフィットを損なうおそれがあります。",
+        "状況の判断は正しいですが、原因を分析する前に追加資金を求めるのは順序が違います。",
+        "SPIとCPIはどちらも1を下回っていて、相殺はしません。統合した数値で問題を見過ごす典型的な誤りです。",
+        "正解。SPI＝EV÷PV＝0.9（遅れ）、CPI＝EV÷AC＝0.8（超過）。統合した数字だけでは原因がわからないので、コンポーネント別に分析して是正処置を探します（ECO II-25）。"
+      ],
+      "vocab": [
+        {
+          "en": "planned value (PV)",
+          "ja": "計画価値"
+        },
+        {
+          "en": "earned value (EV)",
+          "ja": "アーンドバリュー（出来高）"
+        },
+        {
+          "en": "actual cost (AC)",
+          "ja": "実コスト"
+        },
+        {
+          "en": "consolidated",
+          "ja": "統合された・連結した"
+        },
+        {
+          "en": "overrun",
+          "ja": "（予算・期間の）超過"
+        },
+        {
+          "en": "offset",
+          "ja": "相殺する"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0029",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T12",
+      "cross_tags": [
+        "risk"
+      ],
+      "principles": [
+        "Synergy",
+        "Risk"
+      ],
+      "scenario": "A component project manager in a hospital digitalization program escalates an issue that has remained unresolved for three weeks: a medical device vendor refuses to share interface specifications without a revised contract. Two other components depend on this integration, and the next stage gate is in six weeks.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Assess the impact on dependent components and benefits, evaluate options such as renegotiating the contract, and select a course of action within program constraints.",
+        "Return the issue to the component project manager with coaching on contract negotiation, since vendor management is a project-level responsibility defined in the component charter.",
+        "Escalate the issue immediately to the steering committee for a decision.",
+        "Ask the procurement department to replace the vendor as soon as possible."
+      ],
+      "answer_index": 0,
+      "distractor_types": [
+        null,
+        "plausible",
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "ECO II-12は「プロジェクトレベルで未解決の課題を、監視とエスカレーションの仕組みで拾い、プログラムの制約と目的に沿った行動方針を選ぶ」タスクです。正解のパターンは、①差し戻さない、②すぐ上に投げない、③影響を評価し、選択肢を比較して決める、です。",
+      "scenario_ja": "病院のデジタル化プログラムで、あるコンポーネントのプロジェクトマネージャーが、3週間未解決の課題をエスカレーションしてきた。医療機器ベンダーが、契約を改定しない限りインターフェース仕様を開示しないというのである。他の2つのコンポーネントがこの連携に依存しており、次のステージゲートは6週間後である。",
+      "stem_ja": "プログラムマネージャーはどうすべきか。",
+      "options_ja": [
+        "依存しているコンポーネントとベネフィットへの影響を評価し、契約の再交渉などの選択肢を検討して、プログラムの制約の範囲内で行動方針を選ぶ。",
+        "ベンダー管理はコンポーネント憲章で定められたプロジェクトレベルの責任なので、契約交渉についてのコーチングを添えて、課題をコンポーネントのプロジェクトマネージャーに差し戻す。",
+        "直ちに運営委員会に課題をエスカレーションし、判断を仰ぐ。",
+        "できるだけ早くベンダーを替えるよう、調達部門に依頼する。"
+      ],
+      "option_explanations": [
+        "正解。プロジェクトレベルで解決できない課題は、プログラムが引き取って影響を評価し、プログラムの制約と目的に沿った対応を選びます（ECO II-12）。",
+        "すでにプロジェクトレベルでは解決できず、他のコンポーネントにも影響する課題です。差し戻すのはエスカレーションの仕組みを無視することになります。",
+        "プログラムマネージャーが自分の権限内で選択肢を評価する前に、丸投げしています。ガバナンスに上げるのは、権限を超える場合です。",
+        "選択肢の1つではありますが、影響も比較もしないまま決め打ちしています。"
+      ],
+      "vocab": [
+        {
+          "en": "unresolved",
+          "ja": "未解決の"
+        },
+        {
+          "en": "interface specification",
+          "ja": "インターフェース仕様"
+        },
+        {
+          "en": "course of action",
+          "ja": "行動方針・対応策"
+        },
+        {
+          "en": "renegotiation",
+          "ja": "再交渉"
+        },
+        {
+          "en": "procurement",
+          "ja": "調達"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0030",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T24",
+      "cross_tags": [
+        "governance",
+        "benefits_value"
+      ],
+      "principles": [
+        "Governance",
+        "Benefits Realization"
+      ],
+      "scenario": "A component that delivers a customer self-service portal has completed all deliverables defined in its charter, and acceptance has been signed off. During the closure review, business stakeholders request two additional features that they say will increase adoption.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Keep the component open and add the features, since they will improve benefits realization.",
+        "Approve the closure of the component and submit the new requests through the program change management process for evaluation.",
+        "Reject the requests because the component's scope is closed.",
+        "Ask the portfolio board to fund a new program for the additional features."
+      ],
+      "answer_index": 1,
+      "distractor_types": [
+        "plausible",
+        null,
+        "plausible",
+        "cross_perspective"
+      ],
+      "explanation": "コンポーネントのクローズは頻出です。基準は「定義された成果物が完了したか」です。新しい要求は捨てずに、プログラムの変更管理で評価します。「クローズしない」も「却下する」も誤りという組み立ての問題です。",
+      "scenario_ja": "顧客向けセルフサービス・ポータルを提供するコンポーネントが、憲章で定めた成果物をすべて完成させ、受け入れの承認も済んだ。クローズのレビューの場で、業務側のステークホルダーが、利用率を上げるためだとして機能を2つ追加するよう求めてきた。",
+      "stem_ja": "プログラムマネージャーはどうすべきか。",
+      "options_ja": [
+        "ベネフィット実現が向上するので、コンポーネントを継続して機能を追加する。",
+        "コンポーネントのクローズを承認し、新しい要求はプログラムの変更管理プロセスに提出して評価する。",
+        "コンポーネントのスコープは閉じているので、要求を却下する。",
+        "追加機能のために新しいプログラムを立ち上げる資金を、ポートフォリオ委員会に求める。"
+      ],
+      "option_explanations": [
+        "定義した成果物が完了したコンポーネントを開いたまま、スコープを足すことになります。スコープ・クリープの典型です。",
+        "正解。定義した成果物が完了したら、コンポーネントのクローズを承認します（ECO II-24）。追加の要求は、プログラムの変更として評価します（必要なら新しいコンポーネントにする）。",
+        "ベネフィットにつながるかもしれない要求を、評価もせず却下するのは誤りです。",
+        "2つの機能追加なら、まずは既存のプログラムの中で変更として評価する規模です。"
+      ],
+      "vocab": [
+        {
+          "en": "signed off",
+          "ja": "承認された・サインオフされた"
+        },
+        {
+          "en": "adoption",
+          "ja": "（利用者による）採用・利用の定着"
+        },
+        {
+          "en": "closure review",
+          "ja": "クローズのレビュー"
+        },
+        {
+          "en": "scope creep",
+          "ja": "スコープ・クリープ（なし崩しのスコープ拡大）"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0031",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T9",
+      "cross_tags": [],
+      "principles": [
+        "Synergy",
+        "Team of Teams"
+      ],
+      "scenario": "While consolidating component plans into the program management plan, the program manager notices that two components assume different release dates for a shared data platform: one assumes March and the other assumes June. Both component plans have already been reviewed by their project teams.",
+      "stem": "What should the program manager do FIRST?",
+      "options": [
+        "Accept both component plans as already reviewed by their teams, and record the difference in release dates as a risk in the program risk register.",
+        "Instruct the March component to adopt the June date to be conservative.",
+        "Clarify the actual platform release date and resolve the interdependency in the integrated program schedule with both component managers.",
+        "Escalate the conflict to the steering committee."
+      ],
+      "answer_index": 2,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        null,
+        "plausible"
+      ],
+      "explanation": "プログラムマネジメント計画書は、コンポーネント計画を単に集めたものではありません。統合する過程で、前提と依存関係のずれを解消します。「FIRST」と聞かれたら、まず事実を確認し、関係者と調整する選択肢を選びます。",
+      "scenario_ja": "コンポーネントの計画をプログラムマネジメント計画書に統合している途中で、プログラムマネージャーは、共有データ基盤のリリース日について2つのコンポーネントの前提が食い違っていることに気づいた。一方は3月、もう一方は6月を前提にしている。どちらのコンポーネント計画も、それぞれのプロジェクトチームのレビューを終えている。",
+      "stem_ja": "プログラムマネージャーが最初にすべきことは何か。",
+      "options_ja": [
+        "どちらもチームのレビュー済みなので両方のコンポーネント計画を受け入れ、リリース日の違いはプログラムのリスク登録簿にリスクとして記録する。",
+        "安全側をとって、3月を前提にしているコンポーネントに6月を採用するよう指示する。",
+        "共有基盤の実際のリリース日を確認し、両方のコンポーネントのマネージャーとともに、統合プログラム・スケジュールの中で依存関係を解消する。",
+        "この食い違いを運営委員会にエスカレーションする。"
+      ],
+      "option_explanations": [
+        "前提の食い違いはすでに確定している問題で、「起きるかもしれない」リスクではありません。統合の段階で解消すべきものです。",
+        "依存関係やクリティカルパス、ベネフィットへの影響を分析しないまま、一方的に決めています。",
+        "正解。コンポーネントの計画を統合するとき、相互依存を見つけて解消するのがプログラムマネージャーの役割です（ECO II-9）。",
+        "プログラムマネージャーの権限内で解決できることです。いきなりガバナンスに上げるのは早すぎます。"
+      ],
+      "vocab": [
+        {
+          "en": "consolidate",
+          "ja": "統合する・まとめる"
+        },
+        {
+          "en": "shared data platform",
+          "ja": "共有データ基盤"
+        },
+        {
+          "en": "integrated program schedule",
+          "ja": "統合プログラム・スケジュール（マスタースケジュール）"
+        },
+        {
+          "en": "conservative",
+          "ja": "安全側の・保守的な"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0032",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T30",
+      "cross_tags": [
+        "risk"
+      ],
+      "principles": [
+        "Risk"
+      ],
+      "scenario": "A component team in a railway signaling modernization program identifies a risk that a key supplier may lose its safety certification. The component manager has recorded it in the component risk register. The same supplier also provides equipment to two other components in the program.",
+      "stem": "What is the MOST appropriate action for the program manager?",
+      "options": [
+        "Leave the risk in the component register, since the component team identified it.",
+        "Direct all three affected components to qualify alternative suppliers immediately so that the program is protected if the certification is lost.",
+        "Report the risk to the portfolio management office and wait for guidance.",
+        "Elevate it to the program risk register, assign a program-level risk owner, and coordinate responses across the affected components."
+      ],
+      "answer_index": 3,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        "cross_perspective",
+        null
+      ],
+      "explanation": "リスクを管理する場所（レベル）の判断は頻出です。1つのコンポーネントの中で収まるならコンポーネントで、複数のコンポーネントやベネフィットに影響するならプログラムで、プログラムの許容範囲を超えるならガバナンス（またはポートフォリオ）で扱います。",
+      "scenario_ja": "鉄道信号の近代化プログラムで、あるコンポーネントのチームが、主要なサプライヤーが安全認証を失うかもしれないというリスクを特定した。コンポーネントのマネージャーは、それをコンポーネントのリスク登録簿に記録している。同じサプライヤーは、プログラム内の他の2つのコンポーネントにも機器を供給している。",
+      "stem_ja": "プログラムマネージャーにとって最も適切な行動はどれか。",
+      "options_ja": [
+        "コンポーネントのチームが特定したものなので、リスクはコンポーネントのリスク登録簿に残しておく。",
+        "認証が失われてもプログラムが守られるよう、影響を受ける3つのコンポーネントすべてに、直ちに代替サプライヤーの選定を指示する。",
+        "ポートフォリオ・マネジメント・オフィスにリスクを報告し、指示を待つ。",
+        "プログラムのリスク登録簿に引き上げ、プログラムレベルのリスクオーナーを割り当て、影響を受けるコンポーネント全体で対応を調整する。"
+      ],
+      "option_explanations": [
+        "複数のコンポーネントに影響するリスクを、1つのコンポーネントだけで管理するのは不十分です。",
+        "まだリスク（起きていない事象）の段階です。分析もせずに最もコストの高い対応を決めています。",
+        "プログラムの中で管理できるリスクです。指示を待つのは責任の放棄です。",
+        "正解。複数のコンポーネントに影響するリスクはプログラムレベルに引き上げ、リスク管理計画に沿って一元的に対応します（ECO II-30）。"
+      ],
+      "vocab": [
+        {
+          "en": "safety certification",
+          "ja": "安全認証"
+        },
+        {
+          "en": "risk register",
+          "ja": "リスク登録簿"
+        },
+        {
+          "en": "elevate",
+          "ja": "（上位レベルへ）引き上げる"
+        },
+        {
+          "en": "risk owner",
+          "ja": "リスクオーナー（リスク対応の責任者）"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0033",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T16",
+      "cross_tags": [
+        "governance"
+      ],
+      "principles": [
+        "Governance"
+      ],
+      "scenario": "According to the program roadmap, the third component of a manufacturing automation program is scheduled to start next quarter. A senior engineer has already begun informal design work using budget left over from another component.",
+      "stem": "What should the program manager do to properly initiate the third component?",
+      "options": [
+        "Obtain authorization per the governance framework, then issue a component charter that assigns a project manager and allocates resources.",
+        "Allow the informal work to continue, since it will accelerate the component.",
+        "Appoint the senior engineer as the component project manager to preserve continuity, and ask the engineer to document the design work completed so far.",
+        "Ask the finance department to transfer the leftover budget formally to the third component."
+      ],
+      "answer_index": 0,
+      "distractor_types": [
+        null,
+        "plausible",
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "コンポーネントは、プログラムの中で「承認 → 憲章 → PM任命・リソース配分」の順に立ち上げます。非公式に始まった作業や予算の流用は、正式な手続きに戻します。予算の付け替えも含め、ガバナンスの承認と変更管理を経ることが必要です。",
+      "scenario_ja": "製造自動化プログラムのロードマップでは、3番目のコンポーネントが来四半期に開始する予定になっている。ところが、あるシニアエンジニアが、別のコンポーネントの余った予算を使って、非公式に設計作業を始めてしまっている。",
+      "stem_ja": "3番目のコンポーネントを正しく立ち上げるために、プログラムマネージャーは何をすべきか。",
+      "options_ja": [
+        "ガバナンスの枠組みに沿って承認を得てから、プロジェクトマネージャーの任命とリソースの割り当てを含むコンポーネント憲章を発行する。",
+        "コンポーネントの前倒しにつながるので、非公式な作業を続けさせる。",
+        "継続性を保つため、そのシニアエンジニアをコンポーネントのプロジェクトマネージャーに任命し、これまでの設計作業を文書化するよう求める。",
+        "財務部門に、余った予算を正式に3番目のコンポーネントへ移すよう依頼する。"
+      ],
+      "option_explanations": [
+        "正解。コンポーネントは、承認を得たうえで憲章を発行し、PMの任命とリソース配分を行って立ち上げます（ECO II-16）。",
+        "承認されていない作業と予算の流用を黙認すると、ガバナンスが機能しなくなります。",
+        "誰をPMにするかの前に、正式な承認と立ち上げの手続きが必要です。非公式な作業の追認にもなってしまいます。",
+        "予算の付け替えも、ガバナンスの承認を経るべきものです。手続きの一部しか見ていません。"
+      ],
+      "vocab": [
+        {
+          "en": "informal",
+          "ja": "非公式の"
+        },
+        {
+          "en": "leftover budget",
+          "ja": "余った予算"
+        },
+        {
+          "en": "initiate",
+          "ja": "立ち上げる・開始する"
+        },
+        {
+          "en": "allocate resources",
+          "ja": "リソースを割り当てる"
+        },
+        {
+          "en": "continuity",
+          "ja": "継続性"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0034",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T18",
+      "cross_tags": [],
+      "principles": [
+        "Team of Teams",
+        "Leadership"
+      ],
+      "scenario": "In the first year of a five-year public infrastructure program, the program manager plans to collect lessons learned only at program closure to avoid distracting the teams. A newly appointed PMO lead disagrees.",
+      "stem": "Which approach is MOST appropriate?",
+      "options": [
+        "Collect lessons learned only at closure, as planned, to minimize overhead.",
+        "Establish a communication feedback process to capture lessons learned throughout the program and share them across components.",
+        "Delegate lessons learned to each component project manager, who will report them at component closure using a standard program template.",
+        "Let the PMO lead decide, since lessons learned are a PMO responsibility."
+      ],
+      "answer_index": 1,
+      "distractor_types": [
+        "plausible",
+        null,
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "PgMPでは、教訓は「最後にまとめて」ではなく「継続的に収集し、共有し、リポジトリに蓄積する」ものです。ECOでもII-18、II-35、V-8、V-9と複数のドメインに出てきます。",
+      "scenario_ja": "5か年の公共インフラ・プログラムの1年目に、プログラムマネージャーは、チームの気を散らさないよう、教訓はプログラム終結時にだけ収集する計画を立てた。新しく着任したPMOのリーダーはこれに反対している。",
+      "stem_ja": "最も適切なアプローチはどれか。",
+      "options_ja": [
+        "負担を最小にするため、計画どおり終結時にだけ教訓を収集する。",
+        "フィードバックのためのコミュニケーション・プロセスを確立し、プログラム全体を通じて教訓を収集して、コンポーネント間で共有する。",
+        "教訓の収集は各コンポーネントのプロジェクトマネージャーに任せ、コンポーネントのクローズ時に、プログラム共通のテンプレートで報告させる。",
+        "教訓はPMOの責任なので、PMOのリーダーに決めさせる。"
+      ],
+      "option_explanations": [
+        "5年間の知見を最後にまとめて集めると、記憶が薄れて抜け落ちます。途中のコンポーネントにも活かせません。",
+        "正解。教訓はライフサイクル全体を通じて収集し、後続のコンポーネントに活かします（ECO II-18、V-8、V-9）。",
+        "コンポーネント単位で終わってしまい、プログラムとしての横展開や、組織の知識リポジトリへの蓄積が抜けます。",
+        "PMOは支援役です。教訓のプロセスを確立する責任はプログラムマネージャーにあります。"
+      ],
+      "vocab": [
+        {
+          "en": "lessons learned",
+          "ja": "教訓"
+        },
+        {
+          "en": "overhead",
+          "ja": "（管理上の）負担・間接コスト"
+        },
+        {
+          "en": "throughout",
+          "ja": "～の全期間を通じて"
+        },
+        {
+          "en": "delegate",
+          "ja": "委任する・任せる"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0035",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T20",
+      "cross_tags": [],
+      "principles": [
+        "Leadership"
+      ],
+      "scenario": "For three consecutive months, a component project manager has reported the component status as green. However, the program's consolidated data shows that two of the component's milestones have slipped and its contribution to an interim benefit is at risk.",
+      "stem": "What should the program manager do FIRST?",
+      "options": [
+        "Replace the component project manager for inaccurate reporting.",
+        "Report the discrepancy to the PM's functional manager.",
+        "Review the component's performance against its plan with the project manager to understand the discrepancy and agree on corrective actions.",
+        "Accept the green status for now, since component reporting is the project manager's responsibility, and revisit it at the next phase-gate review."
+      ],
+      "answer_index": 2,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        null,
+        "plausible"
+      ],
+      "explanation": "ECO II-20は「プロジェクトマネージャーの業績を計画に照らしてレビューし、プログラムへの貢献を最大化する」タスクです。人の問題でも、「事実確認と対話 → 是正」の順が基本です。交代やエスカレーションは、そのあとの選択肢です。",
+      "scenario_ja": "あるコンポーネントのプロジェクトマネージャーは、3か月続けてコンポーネントの状況を「緑（順調）」と報告している。しかし、プログラムの統合データでは、そのコンポーネントのマイルストーンが2つ遅れており、途中段階のベネフィットへの貢献が危うくなっている。",
+      "stem_ja": "プログラムマネージャーが最初にすべきことは何か。",
+      "options_ja": [
+        "報告が不正確なので、コンポーネントのプロジェクトマネージャーを交代させる。",
+        "この食い違いを、PMの所属部門の上司に報告する。",
+        "プロジェクトマネージャーとともに、計画に対するコンポーネントの実績をレビューし、食い違いの理由を把握して是正処置に合意する。",
+        "コンポーネントの報告はプロジェクトマネージャーの責任なので、ひとまず「緑」の報告を受け入れ、次のフェーズゲート審査で改めて確認する。"
+      ],
+      "option_explanations": [
+        "事実を確認しないまま、最も重い措置をとっています。",
+        "プログラムの中で扱うべき業績の問題を、プログラムの外に投げています。",
+        "正解。まず本人と一緒に計画と実績を確認し、原因を理解したうえで是正処置を決めます（ECO II-20）。必要ならコーチングもします。",
+        "データと報告が食い違っているのを放置することになります。ベネフィットへの影響も無視しています。"
+      ],
+      "vocab": [
+        {
+          "en": "consecutive",
+          "ja": "連続した"
+        },
+        {
+          "en": "slip",
+          "ja": "（予定が）遅れる・ずれ込む"
+        },
+        {
+          "en": "interim benefit",
+          "ja": "途中段階のベネフィット"
+        },
+        {
+          "en": "discrepancy",
+          "ja": "食い違い・不一致"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0036",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T21",
+      "cross_tags": [
+        "governance",
+        "benefits_value"
+      ],
+      "principles": [
+        "Governance",
+        "Benefits Realization"
+      ],
+      "scenario": "Each component in a regional healthcare records program passes its own quality assurance reviews. However, an audit of the integrated system shows that patient data definitions are inconsistent across components, which threatens the expected benefit of reducing duplicate tests.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Accept the results, since each component has passed its quality assurance review.",
+        "Ask each component team to correct the data definitions within its own quality plan before the next release and report completion at the next status meeting.",
+        "Report the audit findings to the steering committee and request a decision on whether to continue the program.",
+        "Define program-level quality standards for shared data, audit the components against them, and update the program plans with the corrective actions."
+      ],
+      "answer_index": 3,
+      "distractor_types": [
+        "plausible",
+        "plausible",
+        "cross_perspective",
+        null
+      ],
+      "explanation": "体験記で「プログラムの品質は、プロジェクトのQAではなくプログラムのガバナンスで管理する」と指摘されている論点です。コンポーネントごとに合格していても、統合した結果がベネフィットを生まなければ、プログラムとしては品質の問題です。ECO II-21は「計画を実行し、結果を監査して、成果が戦略と合いベネフィットを生むことを確かめる」タスクです。",
+      "scenario_ja": "地域医療記録プログラムでは、各コンポーネントがそれぞれの品質保証レビューに合格している。しかし、統合されたシステムの監査で、患者データの定義がコンポーネント間でばらばらであることがわかった。これは、重複検査を減らすという期待ベネフィットを脅かしている。",
+      "stem_ja": "プログラムマネージャーはどうすべきか。",
+      "options_ja": [
+        "各コンポーネントは品質保証レビューに合格しているので、結果を受け入れる。",
+        "次のリリースまでに、各コンポーネントのチームに、それぞれの品質計画の範囲内でデータ定義を直させ、次回の状況報告会議で完了を報告させる。",
+        "監査の結果を運営委員会に報告し、プログラムを継続するかどうかの判断を求める。",
+        "共有データについてプログラムレベルの品質基準を定め、それに照らしてコンポーネントを監査し、是正処置をプログラムの計画に反映する。"
+      ],
+      "option_explanations": [
+        "コンポーネントごとの品質が良くても、プログラムとしての品質（統合した結果がベネフィットを生むか）は保証されません。",
+        "各チームがばらばらに直すと、また不整合が生まれます。共通の基準が必要です。",
+        "プログラムの中で是正できる問題です。いきなり継続の可否を問うのは飛躍しすぎです。",
+        "正解。プログラムの品質は、プログラムレベルの基準と監査で管理し、結果がベネフィットにつながるようにします（ECO II-21、II-26）。"
+      ],
+      "vocab": [
+        {
+          "en": "quality assurance (QA)",
+          "ja": "品質保証"
+        },
+        {
+          "en": "audit",
+          "ja": "監査"
+        },
+        {
+          "en": "inconsistent",
+          "ja": "不整合な・ばらばらの"
+        },
+        {
+          "en": "duplicate tests",
+          "ja": "重複検査"
+        },
+        {
+          "en": "corrective action",
+          "ja": "是正処置"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0037",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T1",
+      "cross_tags": [
+        "governance"
+      ],
+      "principles": [
+        "Governance"
+      ],
+      "scenario": "While drafting the program charter, the sponsor asks the program manager to include detailed schedules and a work breakdown structure for every component, so that executives can see exactly how the work will be done.",
+      "stem": "How should the program manager respond?",
+      "options": [
+        "Explain that the charter contains high-level scope, benefits, risks, timing, and resources, and that detailed schedules and the WBS will be developed in program planning.",
+        "Include the detailed schedules and WBS for every component in the charter, since the sponsor authorizes the program and decides what the executives need to see.",
+        "Replace the charter with a program management plan, since it already contains the level of detail requested.",
+        "Ask each component project manager to prepare a project charter and attach them to the program charter."
+      ],
+      "answer_index": 0,
+      "distractor_types": [
+        null,
+        "plausible",
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "「なぜその文書を作るのか」「どの順で作るのか」は体験記で頻出とされる論点です。第5版のライフサイクルは、定義（構想 → 計画）→ 提供 → 終結です。憲章は構想（Formulation）サブフェーズで作る高レベルの承認文書で、詳細スケジュールやWBSは計画（Planning）サブフェーズの成果物です。",
+      "scenario_ja": "プログラム憲章の草案を作っている途中で、スポンサーがプログラムマネージャーに、作業の進め方を役員が正確にわかるように、すべてのコンポーネントの詳細スケジュールとWBSを憲章に入れるよう求めた。",
+      "stem_ja": "プログラムマネージャーはどう対応すべきか。",
+      "options_ja": [
+        "憲章には高レベルのスコープ、ベネフィット、リスク、時期、リソースを記載し、詳細スケジュールとWBSはプログラムの計画段階で作ることを説明する。",
+        "プログラムを承認し、役員が何を見る必要があるかを決めるのはスポンサーなので、全コンポーネントの詳細スケジュールとWBSを憲章に入れる。",
+        "求められている詳しさをすでに含んでいるので、憲章の代わりにプログラムマネジメント計画書を出す。",
+        "各コンポーネントのプロジェクトマネージャーにプロジェクト憲章を用意させ、プログラム憲章に添付する。"
+      ],
+      "option_explanations": [
+        "正解。憲章は高レベルの内容をビジネスケースと結びつけるもので、詳細は計画（Planning）サブフェーズでプログラムマネジメント計画書として作ります（ECO II-1、II-8、II-9）。",
+        "憲章はプログラムを承認し、権限を与えるための高レベルの文書です。定義フェーズの最初の時点では、詳細はまだ決まっていません。",
+        "文書の役割と順序を取り違えています。計画書は、憲章で承認を受けた後に作るものです。",
+        "コンポーネントは、プログラムが承認された後、必要な時期に立ち上げるものです。まだ早すぎます。"
+      ],
+      "vocab": [
+        {
+          "en": "draft",
+          "ja": "草案を作る"
+        },
+        {
+          "en": "work breakdown structure (WBS)",
+          "ja": "作業分解構成図"
+        },
+        {
+          "en": "high-level",
+          "ja": "概略の・高レベルの"
+        },
+        {
+          "en": "program planning",
+          "ja": "プログラムの計画（定義フェーズのサブフェーズ）"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D2-0038",
+      "exam": "pgmp",
+      "domain": "D2",
+      "task": "T33",
+      "cross_tags": [
+        "benefits_value"
+      ],
+      "principles": [
+        "Change",
+        "Benefits Realization"
+      ],
+      "scenario": "Halfway through a five-year renewable energy program, the governance board decides to terminate the program because a change in national energy policy has removed the subsidies the business case depended on. Two of the six components have already delivered working assets.",
+      "stem": "What should the program manager do NEXT?",
+      "options": [
+        "Stop all work immediately and release every team member to their functional departments.",
+        "Execute an orderly closure: transition the delivered assets and their benefits to operations, close out contracts and components, and archive knowledge and lessons learned.",
+        "Continue the remaining components until the current phase ends, so that the investment to date is not wasted and the assets can be completed to a usable state.",
+        "Ask the governance board to reconsider the decision, presenting the benefits already delivered."
+      ],
+      "answer_index": 1,
+      "distractor_types": [
+        "plausible",
+        null,
+        "plausible",
+        "plausible"
+      ],
+      "explanation": "プログラムは、ベネフィットを出し切って終わるとは限りません。戦略や環境が変われば早期に終了することもあります（第5版の原則「変化（Change）」）。その場合も終結フェーズとして、実現したベネフィットの移行、契約やコンポーネントの終結、知識の引き継ぎを、ガバナンスの枠組みの中で行います。「すぐ解散する」「続けてしまう」はどちらも誤りです。",
+      "scenario_ja": "5か年の再生可能エネルギー・プログラムの中間時点で、国のエネルギー政策が変わり、ビジネスケースが前提としていた補助金がなくなった。そのため、ガバナンス委員会はプログラムの中止を決めた。6つのコンポーネントのうち2つは、すでに稼働する設備を引き渡している。",
+      "stem_ja": "プログラムマネージャーが次にすべきことは何か。",
+      "options_ja": [
+        "直ちにすべての作業を止め、チームメンバー全員を所属部門に戻す。",
+        "秩序だった終結を行う。引き渡し済みの設備とそのベネフィットを運用部門に移行し、契約とコンポーネントを締めくくり、知識と教訓を保管する。",
+        "これまでの投資を無駄にせず、設備を使える状態まで完成させるため、現在のフェーズが終わるまで残りのコンポーネントを続ける。",
+        "すでに生み出したベネフィットを示して、ガバナンス委員会に決定の再考を求める。"
+      ],
+      "option_explanations": [
+        "終結の手続きを踏まずに解散すると、引き渡し済みの設備の運用・保守、契約の整理、知識の引き継ぎが抜け落ちます。",
+        "正解。早期終了でも終結フェーズの活動は行います。実現したベネフィットの移行、契約やコンポーネントの終結、知識の引き継ぎと教訓の保管です（ECO II-32、II-33、II-35）。",
+        "ガバナンスの決定に従っていません。「これまでの投資がもったいない」という理由は、サンクコストにとらわれた判断です。",
+        "決定はすでに下されています。ここで求められているのは、正しく終結させることです。"
+      ],
+      "vocab": [
+        {
+          "en": "terminate",
+          "ja": "中止する・終了させる"
+        },
+        {
+          "en": "subsidy",
+          "ja": "補助金"
+        },
+        {
+          "en": "working assets",
+          "ja": "稼働する設備・資産"
+        },
+        {
+          "en": "orderly closure",
+          "ja": "秩序だった終結"
+        },
+        {
+          "en": "close out",
+          "ja": "締めくくる・終結処理をする"
+        },
+        {
+          "en": "sunk cost",
+          "ja": "サンクコスト（埋没費用）"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
     }
   ]
 }

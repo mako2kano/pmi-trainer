@@ -253,6 +253,212 @@
         "evaluated_at": "2026-07-13T00:00:00Z"
       },
       "reviewed": false
+    },
+    {
+      "id": "pgmp-D1-0009",
+      "exam": "pgmp",
+      "domain": "D1",
+      "task": "T5",
+      "cross_tags": [
+        "governance",
+        "benefits_value"
+      ],
+      "principles": [
+        "Benefits Realization",
+        "Governance"
+      ],
+      "scenario": "Six months into a program, the organization announces a shift in strategic priorities. Several program benefits are now only partially aligned with the new strategy.",
+      "stem": "What should the program manager do FIRST?",
+      "options": [
+        "Assess the impact of the strategic change on the expected benefits and present recommendations to the program steering committee.",
+        "Continue executing the approved program roadmap, since the program charter has already been authorized and changing course now would disrupt the components.",
+        "Immediately terminate the components that no longer fit the new strategy.",
+        "Request additional funding from the portfolio to add new components aligned with the new strategy."
+      ],
+      "answer_index": 0,
+      "distractor_types": [
+        null,
+        "plausible",
+        "cross_perspective",
+        "plausible"
+      ],
+      "explanation": "戦略が変わったら、プログラムマネージャーはまずベネフィットへの影響を評価し、運営委員会などのガバナンスに提言します。PgMPでは「FIRST（最初に何をするか）」を問われたら、分析してガバナンスに上げる選択肢が正解になりやすいです。",
+      "scenario_ja": "プログラム開始から6か月後、組織が戦略上の優先事項の転換を発表した。いくつかのプログラム・ベネフィットは、新しい戦略と部分的にしか整合しなくなった。",
+      "stem_ja": "プログラムマネージャーが最初にすべきことは何か。",
+      "options_ja": [
+        "戦略の変更が期待ベネフィットに与える影響を評価し、プログラム運営委員会に提言する。",
+        "プログラム憲章はすでに承認されており、いま方針を変えるとコンポーネントが混乱するので、承認済みのプログラム・ロードマップの実行を続ける。",
+        "新しい戦略に合わなくなったコンポーネントを直ちに中止する。",
+        "新しい戦略に整合する新規コンポーネントを追加するため、ポートフォリオに追加予算を要求する。"
+      ],
+      "option_explanations": [
+        "正解。まず影響を分析し、ガバナンス（運営委員会）に提言して判断を仰ぎます。プログラムマネージャーの役割は、戦略との整合をとり続けることです。",
+        "承認済みの計画を守るのはプロジェクト的な発想です。プログラムは戦略に合わせて計画を変えていくのが前提なので、戦略が変わったのに何もしないのは誤りです。",
+        "コンポーネントを止めるかどうかは、影響を分析したうえでガバナンスが判断することです。プログラムマネージャーが独断ですぐ打ち切るのは越権です。",
+        "いきなり追加投資を求めるのは、投資家としての発想に飛んでいます。分析もせずに予算を求めるのは順序が違います。"
+      ],
+      "vocab": [
+        {
+          "en": "strategic priorities",
+          "ja": "戦略上の優先事項"
+        },
+        {
+          "en": "align / alignment",
+          "ja": "整合させる／整合",
+          "note": "PgMPで最重要の単語の1つ。strategic alignment＝組織戦略との整合"
+        },
+        {
+          "en": "steering committee",
+          "ja": "運営委員会",
+          "note": "プログラムの意思決定を担うガバナンス機関。program governance board とも呼ぶ"
+        },
+        {
+          "en": "roadmap",
+          "ja": "ロードマップ",
+          "note": "プログラムの主要マイルストーンと時間軸を示す計画"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D1-0010",
+      "exam": "pgmp",
+      "domain": "D1",
+      "task": "T11",
+      "cross_tags": [
+        "risk"
+      ],
+      "principles": [
+        "Change",
+        "Risk"
+      ],
+      "scenario": "A newly available technology could deliver one of the program's key benefits a year earlier than planned, but it was not part of the original business case.",
+      "stem": "What should the program manager do?",
+      "options": [
+        "Adopt the technology immediately to accelerate benefit delivery.",
+        "Evaluate it as an opportunity against the business case and propose a change to program governance.",
+        "Ignore it because it is outside the approved program scope.",
+        "Recommend that the portfolio launch a separate program to pursue the technology."
+      ],
+      "answer_index": 1,
+      "distractor_types": [
+        "plausible",
+        null,
+        "plausible",
+        "cross_perspective"
+      ],
+      "explanation": "プログラムは、変化や機会に適応していくことを前提にしています。新しい機会は、ビジネスケースやベネフィットへの影響を評価したうえでガバナンスに提案します。「すぐやる」でも「無視する」でもなく、「評価して提案する」が正解のパターンです。",
+      "scenario_ja": "新たに利用可能になった技術を使えば、プログラムの主要なベネフィットの1つを計画より1年早く実現できる可能性がある。ただし、この技術は当初のビジネスケースには含まれていなかった。",
+      "stem_ja": "プログラムマネージャーはどうすべきか。",
+      "options_ja": [
+        "ベネフィットの実現を早めるため、直ちにその技術を採用する。",
+        "機会としてビジネスケースに照らして評価し、プログラム・ガバナンスに変更を提案する。",
+        "承認済みのプログラム・スコープ外なので無視する。",
+        "その技術に取り組む別のプログラムを立ち上げるよう、ポートフォリオに提言する。"
+      ],
+      "option_explanations": [
+        "評価もガバナンスの承認もなしに取り入れるのは危険です。",
+        "正解。機会（ポジティブなリスク）としてビジネスケースに照らして評価し、ガバナンスに変更を提案します。",
+        "プログラムは不確実性や機会に適応していくものです。スコープ外だからと無視するのは誤りです。",
+        "既存のプログラムのベネフィットを早める話なので、まずはこのプログラムの中で評価します。"
+      ],
+      "vocab": [
+        {
+          "en": "newly available",
+          "ja": "新たに利用可能になった"
+        },
+        {
+          "en": "accelerate",
+          "ja": "加速する・早める"
+        },
+        {
+          "en": "opportunity",
+          "ja": "機会（好ましい方向のリスク）"
+        },
+        {
+          "en": "pursue",
+          "ja": "追求する・取り組む"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
+    },
+    {
+      "id": "pgmp-D1-0011",
+      "exam": "pgmp",
+      "domain": "D1",
+      "task": "T1",
+      "cross_tags": [],
+      "principles": [
+        "Synergy"
+      ],
+      "scenario": "An organization is deciding how to structure a set of initiatives that support its strategy.",
+      "stem": "Which situation BEST justifies managing initiatives as a program rather than as separate projects or as a portfolio?",
+      "options": [
+        "A single large initiative producing one unique product with a fixed end date.",
+        "A collection of largely unrelated initiatives that compete for the same investment funds and are prioritized together against strategic objectives.",
+        "Related initiatives whose coordinated management will yield benefits not available from managing them individually.",
+        "Ongoing activities that maintain an existing service."
+      ],
+      "answer_index": 2,
+      "distractor_types": [
+        "plausible",
+        "cross_perspective",
+        null,
+        "plausible"
+      ],
+      "explanation": "プログラムとは「関連するプロジェクト、サブプログラム、プログラム活動を協調して管理し、個別に管理しては得られないベネフィットを実現するもの」です。ポートフォリオ（戦略目標のための投資の集合で、互いに関連がなくてもよい）との違いは頻出です。",
+      "scenario_ja": "ある組織が、戦略を支える一連の取り組みをどのような形で管理するかを検討している。",
+      "stem_ja": "取り組みを、個別のプロジェクトやポートフォリオとしてではなく、プログラムとして管理することが最も妥当なのはどの状況か。",
+      "options_ja": [
+        "固定の終了日を持ち、独自のプロダクトを1つ生み出す、単一の大規模な取り組み。",
+        "同じ投資資金を奪い合い、戦略目標に照らしてまとめて優先順位づけされる、ほとんど関連のない取り組みの集まり。",
+        "協調して管理することで、個別に管理しては得られないベネフィットが生まれる、相互に関連した取り組み。",
+        "既存サービスを維持するための継続的な活動。"
+      ],
+      "option_explanations": [
+        "独自の成果物を1つ作る有期の取り組みは、規模が大きくてもプロジェクトです。",
+        "互いに関連がなくても、投資の最適化のためにまとめるのはポートフォリオです。",
+        "正解。関連する取り組みを協調して管理することで、個別に管理しても得られないベネフィットが生まれる。これがプログラムの定義です。",
+        "既存のサービスを維持する継続的な活動は、定常業務（運用）です。"
+      ],
+      "vocab": [
+        {
+          "en": "justify",
+          "ja": "正当化する・妥当とする"
+        },
+        {
+          "en": "coordinated management",
+          "ja": "協調的なマネジメント"
+        },
+        {
+          "en": "yield",
+          "ja": "生み出す・もたらす"
+        },
+        {
+          "en": "unrelated",
+          "ja": "関連のない"
+        },
+        {
+          "en": "ongoing",
+          "ja": "継続中の・定常的な"
+        }
+      ],
+      "evaluator": {
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T04:25:50Z"
+      },
+      "reviewed": false
     }
   ]
 }
