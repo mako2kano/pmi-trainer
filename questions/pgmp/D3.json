@@ -10,6 +10,10 @@
       "cross_tags": [
         "benefits_value"
       ],
+      "principles": [
+        "Benefits Realization",
+        "Stakeholders"
+      ],
       "scenario": "At program initiation, the program manager must establish how the program's benefits will be measured and reported to the steering committee throughout the life cycle.",
       "stem": "Which is the program manager's primary responsibility here?",
       "options": [
@@ -25,7 +29,39 @@
         null,
         "plausible"
       ],
-      "explanation": "便益管理では、便益実現計画と測定基準を策定してプログラムのベースラインを設定し、ステークホルダーに伝えることが第一の責務（C）。Aはポートフォリオ視点で構成要素の価値を比較し資金判断に使う指標づくりであり、投資判断者の役割。Bは測定の後回しでベースラインを欠く、Dは便益責任を各プロジェクトに丸投げしてプログラム全体の便益統括を放棄している。",
+      "explanation": "ベネフィット・マネジメントの最初の責任は、ベネフィット実現計画と測定基準を作ってベースラインを定め、スポンサーや運営委員会に伝えることです。コンポーネント間で価値を比べて資金配分を決めるのは、ポートフォリオの役割です。",
+      "scenario_ja": "プログラムの立ち上げにあたり、プログラムマネージャーは、ライフサイクルを通じてプログラムのベネフィットをどのように測定し、運営委員会に報告するかを決めなければならない。",
+      "stem_ja": "ここでのプログラムマネージャーの主な責任はどれか。",
+      "options_ja": [
+        "資金配分の判断のために、このプログラムの期待価値を他のポートフォリオ・コンポーネントと比べるポートフォリオレベルの価値指標を作る。",
+        "実行中にベネフィットが出始めるまで、ベネフィットの測定方法の定義を待つ。",
+        "ベネフィット実現計画とその測定基準を作ってプログラムのベースラインを定め、スポンサーや運営委員会を含むステークホルダーに伝える。",
+        "ベネフィットの測定を、構成プロジェクトのマネージャーにすべて任せる。"
+      ],
+      "option_explanations": [
+        "他のコンポーネントと価値を比べて資金配分を決める指標づくりは、ポートフォリオ視点（投資判断者）の役割です。",
+        "測定を後回しにすると、比べる基準（ベースライン）がなくなります。",
+        "正解。ベネフィット実現計画と測定基準を作ってベースラインを定め、ステークホルダーに伝えます（ECO D3-T1）。",
+        "ベネフィットの責任をプロジェクトに丸投げしており、プログラム全体としての統括を放棄しています。"
+      ],
+      "vocab": [
+        {
+          "en": "initiation",
+          "ja": "立ち上げ"
+        },
+        {
+          "en": "measurement criteria",
+          "ja": "測定基準"
+        },
+        {
+          "en": "baseline",
+          "ja": "ベースライン（比較の基準）"
+        },
+        {
+          "en": "life cycle",
+          "ja": "ライフサイクル"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.86,
         "model": "manual-pilot",
@@ -42,6 +78,10 @@
         "benefits_value",
         "governance"
       ],
+      "principles": [
+        "Benefits Realization",
+        "Governance"
+      ],
       "scenario": "Two constituent projects have completed their deliverables and are ready to close. Before approving their closure, the program manager reviews their contribution to the program's intended benefits.",
       "stem": "What should the program manager verify before approving closure of the components?",
       "options": [
@@ -57,7 +97,39 @@
         "plausible",
         null
       ],
-      "explanation": "クローズ承認前に確認すべきは、構成要素のクローズ・移行・統合が、プログラムの戦略目的に必要な便益実現基準を満たす（超える）ことである（D）。Aはポートフォリオのバランスと投資余力という投資判断者の関心であり、プログラムの便益検証とは別。Bは便益を無視した技術的完了のみの確認、Cは事務手続きの確認にとどまり便益検証になっていない。",
+      "explanation": "コンポーネントのクローズを承認する前に、そのクローズ・移行・統合が、戦略目標に必要なベネフィット実現の基準を満たすかを確かめます。成果物の技術的な完成や事務手続きだけでは不十分です。",
+      "scenario_ja": "2つの構成プロジェクトが成果物を完成させ、クローズできる状態になった。クローズを承認する前に、プログラムマネージャーは、それらがプログラムの意図したベネフィットにどう貢献したかを確認する。",
+      "stem_ja": "コンポーネントのクローズを承認する前に、プログラムマネージャーは何を確かめるべきか。",
+      "options_ja": [
+        "コンポーネントを閉じることで、ポートフォリオ全体のバランスが改善し、より優先度の高いコンポーネントのための投資余力が生まれること。",
+        "ベネフィットが実現しているかどうかに関係なく、プロジェクトの成果物が技術的にすべて完成していること。",
+        "プロジェクトマネージャーが最終の事務的な状況報告を提出したこと。",
+        "コンポーネントのクローズ・移行・統合が、プログラムの戦略目標に必要なベネフィット実現の基準を満たす（または上回る）こと。"
+      ],
+      "option_explanations": [
+        "ポートフォリオのバランスや投資余力は投資判断者の関心で、プログラムのベネフィットの検証とは別の話です。",
+        "ベネフィットを無視して、技術的な完成だけを見ています。",
+        "事務手続きの確認にとどまり、ベネフィットの検証になっていません。",
+        "正解。クローズ・移行・統合がベネフィット実現の基準を満たすことを確かめます（ECO D3-T5）。"
+      ],
+      "vocab": [
+        {
+          "en": "verify",
+          "ja": "確かめる・検証する"
+        },
+        {
+          "en": "meet or exceed",
+          "ja": "満たす、または上回る"
+        },
+        {
+          "en": "investment capacity",
+          "ja": "投資余力"
+        },
+        {
+          "en": "administrative",
+          "ja": "事務的な・管理上の"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.82,
         "model": "manual-pilot",
@@ -72,6 +144,10 @@
       "task": "T2",
       "cross_tags": [
         "benefits_value"
+      ],
+      "principles": [
+        "Synergy",
+        "Benefits Realization"
       ],
       "scenario": "Partway through the program, the program manager discovers synergies between two components that could increase realized benefits if captured and communicated.",
       "stem": "What should the program manager do?",
@@ -88,7 +164,39 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "ライフサイクル途中で見つけたシナジーは、特定・獲得したうえで便益実現計画を更新し、スポンサー等ステークホルダーに伝える（A）。Bはシナジー価値に基づき構成要素を投資として継続すべきか再評価する投資判断者の発想で、便益実現の更新という役割から外れる。Cは記録の欠如、Dは共有の遅延。",
+      "explanation": "ライフサイクルの途中で見つけた相乗効果は、特定して取り込み、ベネフィット実現計画を更新して、スポンサーなどのステークホルダーに伝えます。第5版の原則「シナジー」に対応する行動です。",
+      "scenario_ja": "プログラムの途中で、プログラムマネージャーは、2つのコンポーネントの間に、取り込んで共有すれば実現ベネフィットを増やせる相乗効果があることに気づいた。",
+      "stem_ja": "プログラムマネージャーは何をすべきか。",
+      "options_ja": [
+        "相乗効果と効率化を特定して取り込み、ベネフィット実現計画を更新して、スポンサーや運営委員会を含むステークホルダーに伝える。",
+        "新しい相乗効果の価値を踏まえ、それらのコンポーネントが資金を受けるポートフォリオ投資として残るべきかを再評価する。",
+        "相乗効果は非公式のままにし、記録しない。",
+        "プログラムの終結まで、相乗効果について触れない。"
+      ],
+      "option_explanations": [
+        "正解。相乗効果を特定して取り込み、ベネフィット実現計画を更新して伝えます（ECO D3-T2）。",
+        "相乗効果の価値で投資を続けるかを再評価するのは、投資判断者（ポートフォリオ）の発想です。",
+        "記録しないと、計画にも反映されず活かせません。",
+        "共有が遅すぎて、ベネフィットを取り逃します。"
+      ],
+      "vocab": [
+        {
+          "en": "partway through",
+          "ja": "途中で"
+        },
+        {
+          "en": "synergy / efficiency",
+          "ja": "相乗効果／効率化"
+        },
+        {
+          "en": "capture",
+          "ja": "取り込む・獲得する"
+        },
+        {
+          "en": "undocumented",
+          "ja": "記録されていない"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.83,
         "model": "manual-pilot",
@@ -105,6 +213,10 @@
         "benefits_value",
         "risk"
       ],
+      "principles": [
+        "Benefits Realization",
+        "Risk"
+      ],
       "scenario": "Benefit metrics are trending below plan in one area, and the program manager must decide how to respond to keep benefits on track.",
       "stem": "What should the program manager do?",
       "options": [
@@ -120,7 +232,39 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "便益指標の下振れには、予測・差異分析・what-if・因果分析で指標を監視し、是正措置で便益実現を維持/改善する（B）。Aは投資配分の是非を投資判断者に委ねる動きで、プログラム内の便益是正という役割ではない。Cは受動的放置、Dは指標操作で不正。",
+      "explanation": "ベネフィットの指標が下振れしたら、予測・差異分析・what-ifシナリオ・因果分析で原因を探り、是正処置をとってベネフィット実現を維持・改善します。投資を続けるかの判断をポートフォリオに委ねるのは、まだ先の話です。",
+      "scenario_ja": "ある領域でベネフィットの指標が計画を下回る傾向にあり、プログラムマネージャーは、ベネフィットを計画どおりに保つためにどう対応するかを決めなければならない。",
+      "stem_ja": "プログラムマネージャーは何をすべきか。",
+      "options_ja": [
+        "プログラムが今も投資配分に値するかどうかを決めてもらうため、ポートフォリオ委員会にエスカレーションする。",
+        "予測、差異分析、what-ifシナリオ、因果分析を使って指標を監視し、是正処置をとってベネフィット実現を維持または改善する。",
+        "指標が自然に回復するかどうか、様子を見る。",
+        "数字が計画どおりに見えるよう、指標の定義を変える。"
+      ],
+      "option_explanations": [
+        "投資配分を続けるかどうかを投資判断者に委ねる動きで、プログラムの中でベネフィットを是正するという役割ではありません。",
+        "正解。指標を分析して是正処置をとり、ベネフィット実現を維持・改善します（ECO D3-T4）。",
+        "受け身の放置です。",
+        "指標の操作で、不正です。"
+      ],
+      "vocab": [
+        {
+          "en": "trend below plan",
+          "ja": "計画を下回る傾向にある"
+        },
+        {
+          "en": "what-if scenario",
+          "ja": "what-ifシナリオ（仮定に基づく試算）"
+        },
+        {
+          "en": "causal analysis",
+          "ja": "因果分析"
+        },
+        {
+          "en": "merit",
+          "ja": "～に値する"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.82,
         "model": "manual-pilot",
@@ -137,6 +281,10 @@
         "benefits_value",
         "stakeholder"
       ],
+      "principles": [
+        "Benefits Realization",
+        "Stakeholders"
+      ],
       "scenario": "Stakeholders repeatedly ask for the current status of benefits, but there is no single reliable source of benefit progress.",
       "stem": "What should the program manager maintain?",
       "options": [
@@ -152,7 +300,39 @@
         null,
         "plausible"
       ],
-      "explanation": "便益の状況照会には、便益登録簿を維持し進捗を記録して、コミュニケーション計画に沿ってステークホルダーへ報告する（C）。Aは非共有、Bは終結時のみの開示、Dは記録なしの口頭で、信頼できる便益進捗の源にならない。",
+      "explanation": "ベネフィットの状況を一貫して伝えるには、ベネフィット登録簿を維持して進捗を記録し、コミュニケーション計画に沿ってステークホルダーに報告します。",
+      "scenario_ja": "ステークホルダーが何度もベネフィットの現状を尋ねてくるが、ベネフィットの進捗について信頼できる情報源が1つもない。",
+      "stem_ja": "プログラムマネージャーは何を維持すべきか。",
+      "options_ja": [
+        "誰とも共有しない個人用の表計算シート。",
+        "終結時に公表する最終的なベネフィットの数字だけ。",
+        "プログラムの進捗を記録し、コミュニケーション計画に沿ってステークホルダーにベネフィットを報告するためのベネフィット登録簿。",
+        "基準となる記録のない口頭での報告。"
+      ],
+      "option_explanations": [
+        "共有されないので、情報源になりません。",
+        "終結時だけでは、途中の状況がわかりません。",
+        "正解。ベネフィット登録簿を維持し、コミュニケーション計画に沿って報告します（ECO D3-T6）。",
+        "記録がないので、信頼できる情報源になりません。"
+      ],
+      "vocab": [
+        {
+          "en": "benefits register",
+          "ja": "ベネフィット登録簿"
+        },
+        {
+          "en": "communications plan",
+          "ja": "コミュニケーション計画"
+        },
+        {
+          "en": "disclose",
+          "ja": "公表する・開示する"
+        },
+        {
+          "en": "verbal",
+          "ja": "口頭の"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.9,
         "model": "manual-pilot",

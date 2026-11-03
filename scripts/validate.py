@@ -12,6 +12,7 @@ SPEC_v2.md の不変条件をここで検証する。
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -23,6 +24,7 @@ PRINCIPLES = {
     "Change", "Leadership", "Risk", "Governance",
 }
 NUM_OPTIONS = 4
+OPTION_LETTER_REF = re.compile(r"[（(][A-D][）)]|(?<![A-Za-z])[A-D](?:は|・[A-D]|が|の)")
 
 
 def load_json(path: Path):
@@ -134,6 +136,10 @@ def validate_question(
     for key in ("scenario_ja", "stem_ja"):
         if key in q and not q[key]:
             errors.append(f"{prefix}: {key} が空")
+    # 選択肢ごとの解説がある問題はアプリが選択肢を並べ替えるので、
+    # explanation で選択肢を「（D）」「Aは」のような記号で呼んではいけない
+    if "option_explanations" in q and OPTION_LETTER_REF.search(q.get("explanation", "")):
+        errors.append(f"{prefix}: explanation が選択肢を記号（A〜D）で参照している（option_explanations に書くこと）")
     for i, item in enumerate(q.get("vocab", [])):
         if not (isinstance(item, dict) and item.get("en") and item.get("ja")):
             errors.append(f"{prefix}: vocab[{i}] に en と ja が必要")

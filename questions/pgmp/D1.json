@@ -11,6 +11,10 @@
         "benefits_value",
         "governance"
       ],
+      "principles": [
+        "Benefits Realization",
+        "Change"
+      ],
       "scenario": "You are the program manager of a multi-year customer-experience transformation program. Six months in, a competitor's launch has shifted the market, and the program's original business case now shows a materially lower projected benefit. The executive sponsor asks for your recommendation at the next steering committee.",
       "stem": "What should the program manager do first?",
       "options": [
@@ -26,7 +30,44 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "プログラムマネジャーはまず、変化した前提の下でビジネスケース（目的・実現性・準備状況・便益）を再評価し、便益実現計画への影響を定量化してから提言する（A）。Bはポートフォリオ視点（投資判断者）では妥当になり得るが、投資機会間で資金を再配分する判断はポートフォリオマネジメントの責務であり、プログラムマネジャーが最初に取る行動ではない。Cは市場変化を無視、Dは評価前の早計な結論。",
+      "explanation": "前提が変わったら、プログラムマネージャーはまずビジネスケース（目的・実現可能性・準備状況・ベネフィット）を見直し、ベネフィット実現計画への影響を定量化してから提言します。資金の再配分のような投資判断はポートフォリオ側の役割で、ここではもう一方の試験（PfMP）の視点が誤答として置かれています。",
+      "scenario_ja": "あなたは、複数年にわたる顧客体験変革プログラムのプログラムマネージャーである。開始から6か月後、競合他社の新製品投入で市場が変わり、当初のビジネスケースでは見込みベネフィットが大幅に下がっている。エグゼクティブ・スポンサーは、次回の運営委員会であなたの提言を求めている。",
+      "stem_ja": "プログラムマネージャーが最初にすべきことは何か。",
+      "options_ja": [
+        "変化した状況に照らして、プログラムのビジネスケース（目的、実現可能性、準備状況、ベネフィット）を再評価し、変更を提言する前に、ベネフィット実現計画への影響を定量化する。",
+        "プログラムの修正後のリターンを組織の他の投資案と比較し、より収益性の高い取り組みに資金を再配分するよう提言する。",
+        "プログラムチームを動揺させないよう、承認済みのビジネスケースをそのまま実行し続ける。",
+        "ビジネスケースが弱くなったので、直ちにプログラムの中止を提言する。"
+      ],
+      "option_explanations": [
+        "正解。まず変化した前提のもとでビジネスケースを再評価し、ベネフィット実現計画への影響を数字で示してから提言します（ECO D1-T5）。",
+        "ポートフォリオ視点（投資判断者）なら妥当になりえますが、投資案の間で資金を再配分する判断はポートフォリオマネジメントの役割です。プログラムマネージャーが最初にとる行動ではありません。",
+        "市場の変化を無視しています。プログラムは環境の変化に適応することが前提です。",
+        "評価をする前に結論を出しています。中止するかどうかは、影響を分析したうえでガバナンスが判断することです。"
+      ],
+      "vocab": [
+        {
+          "en": "business case",
+          "ja": "ビジネスケース",
+          "note": "投資の妥当性（なぜやるか）を示す文書"
+        },
+        {
+          "en": "materially lower",
+          "ja": "大幅に低い"
+        },
+        {
+          "en": "feasibility / readiness",
+          "ja": "実現可能性／準備状況"
+        },
+        {
+          "en": "benefits realization plan",
+          "ja": "ベネフィット実現計画"
+        },
+        {
+          "en": "reallocate funding",
+          "ja": "資金を再配分する"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.88,
         "model": "manual-pilot",
@@ -41,6 +82,10 @@
       "task": "T6",
       "cross_tags": [
         "benefits_value"
+      ],
+      "principles": [
+        "Benefits Realization",
+        "Stakeholders"
       ],
       "scenario": "You are the program manager initiating a supply-chain modernization program. Stakeholders across three business units each describe benefits they expect from the program; some overlap and some conflict with one another.",
       "stem": "How should the program manager proceed to define the benefits realization plan?",
@@ -57,7 +102,47 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "便益実現計画の定義では、組織戦略とプログラムドライバーを分析して期待便益を特定・定量化し、測定可能な基準を伴う単一の計画に統合する（B）。Aはポートフォリオ視点での構成要素の優先順位付け・選別（投資判断）であり、プログラム内の便益統合を行うべきプログラムマネジャーの役割ではない。Cは対立を放置し定量化を欠く、Dは便益定義を後回しにして初期の戦略整合を損なう。",
+      "explanation": "ベネフィット実現計画は、組織戦略とプログラムの推進要因（program drivers）を分析してベネフィットを特定・定量化し、測定可能な基準を持つ1つの計画にまとめます。ステークホルダーの期待が食い違うときこそ、プログラムとして統合するのが役割です。",
+      "scenario_ja": "あなたは、サプライチェーン近代化プログラムを立ち上げようとしているプログラムマネージャーである。3つの事業部門のステークホルダーが、それぞれプログラムに期待するベネフィットを挙げているが、重なるものもあれば、互いに矛盾するものもある。",
+      "stem_ja": "ベネフィット実現計画を定義するために、プログラムマネージャーはどのように進めるべきか。",
+      "options_ja": [
+        "3つの事業部門の取り組みを競合するポートフォリオ・コンポーネントとして順位づけし、優先順位の基準で最もベネフィットの評価が高い部門にだけ資金を出す。",
+        "組織の戦略とプログラムの推進要因を分析して期待ベネフィットを特定・定量化し、それらを測定可能な基準を持つ1つのベネフィット実現計画に統合する。",
+        "賛同を得るため、各事業部門が挙げたベネフィットをそのまま採用する。",
+        "構成プロジェクトの憲章ができるまで、ベネフィットの定義を先送りする。"
+      ],
+      "option_explanations": [
+        "ポートフォリオ視点での順位づけ・選別（投資判断）です。プログラムの中でベネフィットを統合するプログラムマネージャーの役割ではありません。",
+        "正解。戦略と推進要因からベネフィットを特定・定量化し、測定可能な基準を持つ1つの計画にまとめます（ECO D1-T6）。",
+        "矛盾を放置したままで、定量化もしていません。",
+        "ベネフィットの定義を後回しにすると、初期段階での戦略との整合が損なわれます。"
+      ],
+      "vocab": [
+        {
+          "en": "overlap / conflict",
+          "ja": "重なる／矛盾する"
+        },
+        {
+          "en": "program drivers",
+          "ja": "プログラムの推進要因"
+        },
+        {
+          "en": "quantify",
+          "ja": "定量化する"
+        },
+        {
+          "en": "consolidate",
+          "ja": "統合する・まとめる"
+        },
+        {
+          "en": "verbatim",
+          "ja": "一字一句そのまま"
+        },
+        {
+          "en": "buy-in",
+          "ja": "賛同・支持"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.85,
         "model": "manual-pilot",
@@ -74,6 +159,10 @@
         "benefits_value",
         "governance"
       ],
+      "principles": [
+        "Governance",
+        "Benefits Realization"
+      ],
       "scenario": "You are the program manager preparing to secure funding authorization for a new digital-payments program. Leadership wants to understand what the program will cost and what it will return before committing budget.",
       "stem": "How should the program manager frame the funding request?",
       "options": [
@@ -89,7 +178,43 @@
         null,
         "plausible"
       ],
-      "explanation": "資金認可の獲得では、プログラムの高レベル財務フレームワークと非財務便益を見積もり、認可を得るとともにプログラム内プロジェクトの優先順位付けを推進する（C）。Aは各プロジェクトを独立採算で選別する投資判断者（ポートフォリオ）の発想で、プログラム内で便益を統合すべき役割から外れる。Bは枠組みなしの一括要求、Dは詳細ベースライン待ちで機会を逸する。",
+      "explanation": "資金承認の段階では、プログラム全体の概略の財務枠組み（financial framework）と、非財務的なベネフィットも含めた見積もりを示します。プロジェクトを単独のROIで選別するのは、ポートフォリオ（投資判断者）の発想です。",
+      "scenario_ja": "あなたは、新しいデジタル決済プログラムの資金承認を得る準備をしているプログラムマネージャーである。経営陣は予算を約束する前に、プログラムにどれだけ費用がかかり、何が得られるのかを理解したいと考えている。",
+      "stem_ja": "プログラムマネージャーは資金要求をどのような形でまとめるべきか。",
+      "options_ja": [
+        "構成プロジェクトごとの単独のROIを示し、それぞれが社内の基準収益率を超えるプロジェクトにだけ資金を出すよう経営陣に求める。",
+        "再承認の手間を避けるため、財務の枠組みなしで複数年分の資金を最初に一括で要求する。",
+        "プログラムの概略の財務枠組みと非財務的なベネフィットを見積もり、資金承認を得るとともに、プログラム内のプロジェクトの優先順位づけに役立てる。",
+        "すべての構成プロジェクトに詳細なコスト・ベースラインができるまで、資金要求を先送りする。"
+      ],
+      "option_explanations": [
+        "プロジェクトを単独の採算で選別するのは、投資判断者（ポートフォリオ）の発想です。プログラムはコンポーネント間の相乗効果を含めてベネフィットを捉えます。",
+        "財務の枠組みがないまま一括で求めるのは、ガバナンスの点で不適切です。",
+        "正解。概略の財務枠組みと非財務的なベネフィットを見積もって資金承認を得て、プログラム内の優先順位づけにも使います（ECO D1-T7）。",
+        "詳細なベースラインを待っていると、機会を逃します。この段階で必要なのは概略の見積もりです。"
+      ],
+      "vocab": [
+        {
+          "en": "funding authorization",
+          "ja": "資金承認"
+        },
+        {
+          "en": "financial framework",
+          "ja": "財務の枠組み"
+        },
+        {
+          "en": "nonfinancial benefits",
+          "ja": "非財務的なベネフィット"
+        },
+        {
+          "en": "hurdle rate",
+          "ja": "基準収益率（投資判断の最低ライン）"
+        },
+        {
+          "en": "up front",
+          "ja": "前もって・最初に"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.82,
         "model": "manual-pilot",
@@ -104,6 +229,9 @@
       "task": "T10",
       "cross_tags": [
         "benefits_value"
+      ],
+      "principles": [
+        "Synergy"
       ],
       "scenario": "During program definition, the program manager notices that two constituent projects each plan to build similar data-integration capabilities, and a shared facility could serve both.",
       "stem": "What should the program manager do to maximize benefits?",
@@ -120,7 +248,43 @@
         "plausible",
         null
       ],
-      "explanation": "統合機会（共有ケーパビリティ・資源）を特定・評価し、プログラム横断で整合させて便益をより効率的に実現するのがプログラムマネジャーの責務（D）。Bはどのプロジェクトを投資として中止するかをポートフォリオ委員会に委ねる発想で、プログラム内の統合機会活用という役割を放棄している。A・Cは重複を放置して相乗効果を逃す。",
+      "explanation": "コンポーネント間の重複や共通化の機会を見つけて活かすのは、プログラムとしてまとめて管理する理由そのものです（第5版の原則「シナジー」）。投資として中止するかを上に委ねるのは、ポートフォリオの視点です。",
+      "scenario_ja": "プログラムの定義フェーズで、プログラムマネージャーは、2つの構成プロジェクトがそれぞれ似たデータ統合の機能を作ろうとしており、共有の設備で両方をまかなえることに気づいた。",
+      "stem_ja": "ベネフィットを最大化するために、プログラムマネージャーは何をすべきか。",
+      "options_ja": [
+        "プロジェクトの自律性を保つため、各プロジェクトにそれぞれ独自に機能を作らせる。",
+        "どちらのプロジェクトを投資として中止するか決められるよう、重複をポートフォリオ委員会にエスカレーションする。",
+        "統合するとスケジュールが複雑になるので、重複は無視する。",
+        "統合の機会（共有の機能とリソース）を特定・評価し、プログラム全体で整合させて、ベネフィットをより効率的に実現する。"
+      ],
+      "option_explanations": [
+        "重複を放置しており、相乗効果を逃しています。",
+        "どのプロジェクトを中止するかをポートフォリオ委員会に委ねるのは、プログラム内で統合の機会を活かすという役割の放棄です。",
+        "スケジュールの都合だけで判断し、相乗効果を逃しています。",
+        "正解。統合の機会を特定・評価し、プログラム全体で整合させます（ECO D1-T10）。第5版の原則「シナジー」そのものです。"
+      ],
+      "vocab": [
+        {
+          "en": "data-integration capability",
+          "ja": "データ統合の機能"
+        },
+        {
+          "en": "shared facility",
+          "ja": "共有の設備・基盤"
+        },
+        {
+          "en": "duplication",
+          "ja": "重複"
+        },
+        {
+          "en": "autonomy",
+          "ja": "自律性"
+        },
+        {
+          "en": "integration opportunity",
+          "ja": "統合の機会"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.83,
         "model": "manual-pilot",
@@ -137,6 +301,10 @@
         "benefits_value",
         "risk"
       ],
+      "principles": [
+        "Change",
+        "Benefits Realization"
+      ],
       "scenario": "Midway through a program, a new technology emerges that could significantly increase the program's benefits if adopted, though it introduces change.",
       "stem": "What is the program manager's appropriate response?",
       "options": [
@@ -152,7 +320,39 @@
         "cross_perspective",
         "plausible"
       ],
-      "explanation": "変革の戦略的機会を活用して便益実現を最大化し、その影響をプログラム内で評価するのが適切（A）。Cはプログラムを他のポートフォリオ機会と再ランク付けする投資判断者の動きで越権。Bは機会の放棄、Dは影響分析なしの拙速な全面採用。",
+      "explanation": "第5版の原則「変化（Change）」のとおり、プログラムは変化を機会として活かし、ベネフィットを最大化します。ただし、影響はプログラムの中で評価してから取り入れます。「却下」も「即全面採用」も誤りです。",
+      "scenario_ja": "プログラムの中盤で、採用すればプログラムのベネフィットを大きく高めうる新しい技術が登場した。ただし、その採用には変更がともなう。",
+      "stem_ja": "プログラムマネージャーの適切な対応はどれか。",
+      "options_ja": [
+        "変化という戦略的な機会を活かしてベネフィット実現を最大化し、その影響をプログラムの中で評価する。",
+        "当初の計画どおりに進めるため、その変更を却下する。",
+        "他のポートフォリオの機会と比べてプログラムの順位を付け直すよう、投資委員会に判断を委ねる。",
+        "影響を分析せずに、直ちにすべてのプロジェクトでその技術を採用する。"
+      ],
+      "option_explanations": [
+        "正解。変化を機会として活かし、影響をプログラムの中で評価します（ECO D1-T11）。",
+        "機会を捨てています。プログラムは変化に適応していくものです。",
+        "他の投資案と比べて順位を付け直すのは投資判断者の動きで、プログラムマネージャーの権限を超えています。",
+        "影響分析なしでの全面採用は拙速です。"
+      ],
+      "vocab": [
+        {
+          "en": "emerge",
+          "ja": "現れる・登場する"
+        },
+        {
+          "en": "exploit an opportunity",
+          "ja": "機会を活かす"
+        },
+        {
+          "en": "re-rank",
+          "ja": "順位を付け直す"
+        },
+        {
+          "en": "investment committee",
+          "ja": "投資委員会"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.81,
         "model": "manual-pilot",
@@ -167,6 +367,9 @@
       "task": "T1",
       "cross_tags": [
         "governance"
+      ],
+      "principles": [
+        "Governance"
       ],
       "scenario": "You have been asked to lead a program that leadership believes supports the corporate strategy, but the linkage has never been made explicit.",
       "stem": "What should the program manager do first?",
@@ -183,7 +386,39 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "最初に行うべきは初期プログラムアセスメント（目的・要求・リスクの定義）で、企業戦略計画との整合を確認すること（B）。Aは整合確認前の着手、Cは検証なしの前提、Dはプログラムレベルの整合分析をプロジェクトに丸投げしており不適切。",
+      "explanation": "プログラムの最初の仕事は、戦略との整合をはっきりさせることです。初期のプログラム・アセスメント（目的・要求事項・リスクの定義）で、組織の戦略計画とのつながりを確かめます。",
+      "scenario_ja": "あなたは、経営陣が企業戦略を支えると考えているプログラムのリーダーを任された。しかし、戦略とのつながりがはっきり示されたことはこれまでない。",
+      "stem_ja": "プログラムマネージャーが最初にすべきことは何か。",
+      "options_ja": [
+        "勢いをつけるため、直ちに構成プロジェクトの憲章作成を始める。",
+        "初期のプログラム・アセスメントを行い（目的、要求事項、リスクを定義し）、組織の戦略計画との整合を確かめる。",
+        "経営陣が求めたプログラムなので、整合は取れていると考える。",
+        "整合の分析は、構成プロジェクトのマネージャーに任せる。"
+      ],
+      "option_explanations": [
+        "戦略との整合を確かめる前に着手しています。",
+        "正解。初期のプログラム・アセスメントで目的・要求事項・リスクを定義し、戦略計画との整合を確かめます（ECO D1-T1）。",
+        "検証せずに整合を前提にしています。",
+        "プログラムレベルの整合分析を、プロジェクトに丸投げしています。"
+      ],
+      "vocab": [
+        {
+          "en": "linkage",
+          "ja": "つながり・関連"
+        },
+        {
+          "en": "explicit",
+          "ja": "明示的な・はっきりした"
+        },
+        {
+          "en": "initial program assessment",
+          "ja": "初期のプログラム・アセスメント"
+        },
+        {
+          "en": "momentum",
+          "ja": "勢い"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.9,
         "model": "manual-pilot",
@@ -200,6 +435,10 @@
         "governance",
         "risk"
       ],
+      "principles": [
+        "Stakeholders",
+        "Risk"
+      ],
       "scenario": "A program's objectives may conflict with newly announced environmental regulations and raise social-impact concerns in one region.",
       "stem": "How should the program manager address this during strategic alignment?",
       "options": [
@@ -215,7 +454,47 @@
         null,
         "plausible"
       ],
-      "explanation": "戦略整合の段階では、規制・法・社会・持続可能性・文化・倫理の観点から目的を評価し、ステークホルダー整合と実現性を担保する（C）。Aは事後対応で先送り、Bは分析なしのスコープ削除、Dは過剰な全面停止で、いずれも体系的評価を欠く。",
+      "explanation": "戦略的な整合の段階では、目的を規制・法律・社会的影響・持続可能性・文化・倫理の観点から評価し、ステークホルダーとの整合と実現性を確保します（ECO D1-T8）。事後対応、分析なしの削除、全面停止は、いずれも体系的な評価を欠いています。",
+      "scenario_ja": "あるプログラムの目的が、新たに発表された環境規制と矛盾するおそれがあり、また、ある地域で社会的な影響への懸念を生んでいる。",
+      "stem_ja": "戦略的な整合の段階で、プログラムマネージャーはこれにどう対処すべきか。",
+      "options_ja": [
+        "計画どおり進め、規制の問題は実際に起きたときにだけ対処する。",
+        "懸念を避けるため、分析せずに対象の地域をスコープから外す。",
+        "規制、法律、社会、持続可能性、文化、倫理の観点から目的を評価し、ステークホルダーとの整合とプログラムの実現性を確保する。",
+        "規制の件を法務部門にエスカレーションし、プログラムのすべての活動を無期限に止める。"
+      ],
+      "option_explanations": [
+        "問題を先送りしています。規制や社会的影響は、事前に評価すべきものです。",
+        "分析もせずにスコープを削っています。",
+        "正解。規制・法律・社会・持続可能性・文化・倫理の観点から目的を評価します（ECO D1-T8）。",
+        "全面停止は過剰です。体系的な評価が先です。"
+      ],
+      "vocab": [
+        {
+          "en": "environmental regulations",
+          "ja": "環境規制"
+        },
+        {
+          "en": "social impact",
+          "ja": "社会的影響"
+        },
+        {
+          "en": "sustainability",
+          "ja": "持続可能性"
+        },
+        {
+          "en": "deliverability",
+          "ja": "実現性（成果を出せるか）"
+        },
+        {
+          "en": "materialize",
+          "ja": "実際に起きる"
+        },
+        {
+          "en": "indefinitely",
+          "ja": "無期限に"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.9,
         "model": "manual-pilot",
@@ -230,6 +509,9 @@
       "task": "T9",
       "cross_tags": [
         "governance"
+      ],
+      "principles": [
+        "Governance"
       ],
       "scenario": "The program manager has completed the high-level costs, milestone schedule, and expected benefits and now needs formal authority to start the program.",
       "stem": "What is the appropriate next step?",
@@ -246,7 +528,43 @@
         "plausible",
         null
       ],
-      "explanation": "立ち上げには、高レベルコスト・マイルストーン・便益を含むプログラム憲章を経営リーダーシップに提示して認可を得る（D）。Aは認可前着手、Bは黙示承認の誤用、Cはプログラム全体の認可をプロジェクト単位に分解しており、プログラム立ち上げの正式承認になっていない。",
+      "explanation": "プログラムを立ち上げるには、概略のコスト・マイルストーン・ベネフィットを含むプログラム憲章を経営陣に提示し、正式に承認を受けます。憲章が、プログラムマネージャーに組織のリソースを使う権限を与えます。",
+      "scenario_ja": "プログラムマネージャーは、概略のコスト、マイルストーン・スケジュール、期待されるベネフィットをまとめ終え、プログラムを始めるための正式な権限が必要になった。",
+      "stem_ja": "次にとるべき適切なステップはどれか。",
+      "options_ja": [
+        "時間を節約するため、正式な承認の前にチームの招集を始める。",
+        "計画をメールで回覧し、反応がなければ承認とみなす。",
+        "構成プロジェクトのスポンサーそれぞれに、自分のプロジェクトを個別に承認してもらう。",
+        "概略のコスト、マイルストーン・スケジュール、ベネフィットを含むプログラム憲章を提示して、組織の経営陣の承認を得て、立ち上げの権限を受ける。"
+      ],
+      "option_explanations": [
+        "承認前の着手で、ガバナンスに反します。",
+        "黙示の承認は、正式な承認になりません。",
+        "プロジェクト単位の承認を集めても、プログラム全体の正式な承認にはなりません。",
+        "正解。プログラム憲章を経営陣に提示して承認を受け、立ち上げの権限を得ます（ECO D1-T9）。"
+      ],
+      "vocab": [
+        {
+          "en": "formal authority",
+          "ja": "正式な権限"
+        },
+        {
+          "en": "mobilize",
+          "ja": "（人員を）招集・動員する"
+        },
+        {
+          "en": "circulate",
+          "ja": "回覧する"
+        },
+        {
+          "en": "program charter",
+          "ja": "プログラム憲章"
+        },
+        {
+          "en": "initiate",
+          "ja": "立ち上げる"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.89,
         "model": "manual-pilot",

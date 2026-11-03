@@ -10,6 +10,9 @@
       "cross_tags": [
         "governance"
       ],
+      "principles": [
+        "Governance"
+      ],
       "scenario": "A program has completed a phase, and the program manager seeks authorization to proceed to the next phase. The governance board wants evidence of program status before granting approval.",
       "stem": "What should the program manager do to obtain authorization to proceed?",
       "options": [
@@ -25,7 +28,39 @@
         "plausible",
         null
       ],
-      "explanation": "ガバナンス上、次フェーズへの移行認可は、ステージゲートレビューでガバナンス当局にプログラム状況を提示して認可・承認を得ることで行う（D）。Aは投資委員会による構成要素間の再評価・資金再認可というポートフォリオ視点の判断であり、フェーズゲート通過の手続きとは異なる。Bはゲートを飛ばす統制不全、Cは認可権限のないプロジェクトマネジャーへの委譲で不適切。",
+      "explanation": "次のフェーズへの移行は、ステージゲート・レビューでガバナンスの権限者にプログラムの状況を提示し、承認を得て行います。投資委員会による資金の再評価は、ポートフォリオの手続きです。",
+      "scenario_ja": "あるプログラムが1つのフェーズを終え、プログラムマネージャーは次のフェーズに進むための承認を求めている。ガバナンス委員会は、承認を出す前にプログラムの状況を示す根拠を求めている。",
+      "stem_ja": "次に進む承認を得るために、プログラムマネージャーは何をすべきか。",
+      "options_ja": [
+        "競合する他のポートフォリオ・コンポーネントと比べてプログラムを再評価し、資金配分を承認し直すよう投資委員会に依頼する。",
+        "プログラムを遅らせないよう、ステージゲート・レビューをせずに次のフェーズへ進む。",
+        "承認の判断を、構成プロジェクトのマネージャーに任せる。",
+        "ステージゲート・レビューでガバナンスの権限者にプログラムの状況を提示し、次のフェーズに進むために必要な承認を得る。"
+      ],
+      "option_explanations": [
+        "他のコンポーネントとの比較や資金の再承認は、ポートフォリオ視点の判断です。フェーズゲートを通過する手続きとは別のものです。",
+        "ゲートを飛ばしており、統制がききません。",
+        "承認の権限がないプロジェクトマネージャーに委ねるのは不適切です。",
+        "正解。ステージゲート・レビューで状況を提示し、ガバナンスの承認を得ます（ECO D5-T3）。"
+      ],
+      "vocab": [
+        {
+          "en": "stage gate review",
+          "ja": "ステージゲート・レビュー（フェーズ移行の審査）"
+        },
+        {
+          "en": "governance authorities",
+          "ja": "ガバナンスの権限者"
+        },
+        {
+          "en": "evidence",
+          "ja": "根拠・証拠"
+        },
+        {
+          "en": "reauthorize",
+          "ja": "承認し直す"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.85,
         "model": "manual-pilot",
@@ -42,6 +77,10 @@
         "governance",
         "benefits_value"
       ],
+      "principles": [
+        "Governance",
+        "Benefits Realization"
+      ],
       "scenario": "The governance board wants ongoing assurance that the program is delivering value across risk, finance, compliance, quality, safety, and satisfaction.",
       "stem": "What should the program manager do?",
       "options": [
@@ -57,7 +96,39 @@
         "cross_perspective",
         "plausible"
       ],
-      "explanation": "ライフサイクル全体での便益監視には、リスク・財務・コンプライアンス・品質・安全・満足度のKPIを評価する（A）。Cは各期にプログラムを他の構成要素と再スコアリングする投資判断者の動きで、ガバナンス上の便益監視とは別レイヤー。Bは終結時のみ、Dは単一指標への矮小化。",
+      "explanation": "ガバナンスでは、リスク・財務・コンプライアンス・品質・安全・ステークホルダー満足度などのKPIを評価して、ライフサイクル全体でベネフィットを監視します。",
+      "scenario_ja": "ガバナンス委員会は、プログラムがリスク、財務、コンプライアンス、品質、安全、満足度の面で価値を生み出していることを、継続的に確かめたいと考えている。",
+      "stem_ja": "プログラムマネージャーは何をすべきか。",
+      "options_ja": [
+        "リスク、財務、コンプライアンス、品質、安全、ステークホルダー満足度の重要業績評価指標（KPI）を評価し、プログラムのライフサイクルを通じてベネフィットを監視する。",
+        "最終的なベネフィットだけを、プログラム終結時に報告する。",
+        "期ごとに、他のポートフォリオ・コンポーネントと比べてプログラムを採点し直すよう投資委員会に依頼する。",
+        "スケジュールだけを、すべての価値の代わりの指標として追う。"
+      ],
+      "option_explanations": [
+        "正解。さまざまな面のKPIを評価して、ライフサイクル全体でベネフィットを監視します（ECO D5-T4）。",
+        "終結時だけでは、途中で是正できません。",
+        "他のコンポーネントと比べて採点し直すのは投資判断者の動きで、ガバナンスとしてのベネフィット監視とは別の層です。",
+        "1つの指標に狭めており、価値の全体を捉えられません。"
+      ],
+      "vocab": [
+        {
+          "en": "assurance",
+          "ja": "保証・確証"
+        },
+        {
+          "en": "compliance",
+          "ja": "コンプライアンス（法令・規則の順守）"
+        },
+        {
+          "en": "proxy",
+          "ja": "代わりの指標"
+        },
+        {
+          "en": "re-score",
+          "ja": "採点し直す"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.82,
         "model": "manual-pilot",
@@ -74,6 +145,10 @@
         "risk",
         "governance"
       ],
+      "principles": [
+        "Risk",
+        "Governance"
+      ],
       "scenario": "New risks to the program's strategic objectives have emerged since the last governance cycle, and the board needs an updated basis for decisions.",
       "stem": "What should the program manager do?",
       "options": [
@@ -89,7 +164,39 @@
         "cross_perspective",
         "plausible"
       ],
-      "explanation": "戦略目的に影響する新規/既存リスクは定期評価し、更新したリスク管理計画をガバナンスボードに提示して承認を得る（B）。Cはプログラムの資金を再優先順位付けするポートフォリオへの付託で、ガバナンス上のリスク承認手続きとは異なる。Aは事後対応、Dはボード関与の欠如。",
+      "explanation": "戦略目標に影響するリスクは定期的に評価し、更新したリスク管理計画をガバナンス委員会に提示して承認を得ます。リスクの情報を早めに共有することで、委員会が適切な判断を下せます。",
+      "scenario_ja": "前回のガバナンス・サイクル以降、プログラムの戦略目標に対する新たなリスクが出てきており、委員会には判断のための最新の根拠が必要である。",
+      "stem_ja": "プログラムマネージャーは何をすべきか。",
+      "options_ja": [
+        "リスクが課題（実際の問題）になるまで待ってから、委員会に知らせる。",
+        "戦略目標に影響する新規と既存のリスクを定期的に評価し、更新したリスク管理計画をガバナンス委員会に提示して承認を得る。",
+        "プログラムの資金の優先順位を見直してもらうため、リスクをポートフォリオに付託する。",
+        "委員会を関与させずに、リスク登録簿を内々に更新する。"
+      ],
+      "option_explanations": [
+        "事後の対応では手遅れです。",
+        "正解。リスクを定期的に評価し、更新したリスク管理計画をガバナンス委員会に提示して承認を得ます（ECO D5-T6）。",
+        "資金の優先順位をポートフォリオに委ねるのは、ガバナンスでのリスク承認の手続きとは別のものです。",
+        "委員会が関与しないので、判断の根拠になりません。"
+      ],
+      "vocab": [
+        {
+          "en": "governance cycle",
+          "ja": "ガバナンスのサイクル（定期的な審議の周期）"
+        },
+        {
+          "en": "issue",
+          "ja": "課題（すでに起きている問題）"
+        },
+        {
+          "en": "refer A to B",
+          "ja": "AをBに付託する・委ねる"
+        },
+        {
+          "en": "privately",
+          "ja": "内々に"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.82,
         "model": "manual-pilot",
@@ -106,6 +213,10 @@
         "governance",
         "benefits_value"
       ],
+      "principles": [
+        "Governance",
+        "Change"
+      ],
       "scenario": "Market and business conditions are shifting, and there is a risk the program drifts away from the strategic objectives it was meant to serve.",
       "stem": "What should the program manager do within governance?",
       "options": [
@@ -121,7 +232,39 @@
         null,
         "plausible"
       ],
-      "explanation": "戦略整合の維持には、事業環境・プログラムの機能要件・便益実現を監視し、プログラムが戦略目的に整合し続けることを保証する（C）。Bはプログラムへの投資継続可否をポートフォリオボードに委ねる投資判断者の動きで、ガバナンス上の整合監視とは別。Aは無検証の前提、Dは環境の無視。",
+      "explanation": "環境が変わるときは、事業環境・プログラムの機能要件・ベネフィット実現を監視し、プログラムが戦略目標と整合し続けるようにします。第5版の原則「変化」にも対応します。",
+      "scenario_ja": "市場と事業の状況が変わりつつあり、プログラムが本来支えるはずの戦略目標から外れていくおそれがある。",
+      "stem_ja": "ガバナンスの中で、プログラムマネージャーは何をすべきか。",
+      "options_ja": [
+        "確かめ直さずに、当初の戦略との整合がまだ保たれていると考える。",
+        "プログラムへの投資を続けるかどうかを決めてもらうため、ポートフォリオ委員会にエスカレーションする。",
+        "事業環境、プログラムの機能要件、ベネフィット実現を監視し、プログラムが戦略目標と整合し続けるようにする。",
+        "社内の実行指標だけに集中し、環境は無視する。"
+      ],
+      "option_explanations": [
+        "検証しないまま前提にしています。",
+        "投資を続けるかどうかの判断をポートフォリオに委ねる動きで、ガバナンスとしての整合の監視とは別のものです。",
+        "正解。事業環境・機能要件・ベネフィット実現を監視して、戦略との整合を保ちます（ECO D5-T10）。",
+        "環境の変化を無視しています。"
+      ],
+      "vocab": [
+        {
+          "en": "drift away from",
+          "ja": "～から外れていく"
+        },
+        {
+          "en": "business environment",
+          "ja": "事業環境"
+        },
+        {
+          "en": "functionality requirements",
+          "ja": "機能要件"
+        },
+        {
+          "en": "remain aligned",
+          "ja": "整合し続ける"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.81,
         "model": "manual-pilot",
@@ -136,6 +279,9 @@
       "task": "T1",
       "cross_tags": [
         "governance"
+      ],
+      "principles": [
+        "Governance"
       ],
       "scenario": "Projects within the program use inconsistent management standards and reporting, undermining efficiency and comparability.",
       "stem": "What should the program manager develop?",
@@ -152,7 +298,39 @@
         "plausible",
         null
       ],
-      "explanation": "非効率と比較不能には、業界ベストプラクティスと組織標準を用いて、ガバナンス・ツール・財務・報告の標準と構造を策定し、効率と一貫性を高める（D）。A・B・Cは標準化を欠く、または無適応の流用で、目的を果たさない。",
+      "explanation": "標準や報告がばらばらなときは、業界のベストプラクティスと組織の標準を使って、ガバナンス・ツール・財務・報告の標準と体制を作り、効率と一貫性を高めます。",
+      "scenario_ja": "プログラム内のプロジェクトがばらばらのマネジメント標準と報告形式を使っており、効率と比較可能性が損なわれている。",
+      "stem_ja": "プログラムマネージャーは何を作るべきか。",
+      "options_ja": [
+        "報告はプロジェクトごとに任意とするルール。",
+        "プロジェクトごとにまったく別の標準。",
+        "関係のない業界の標準を、調整せずにそのまま流用したもの。",
+        "業界のベストプラクティスと組織の標準を使った、プログラムとプロジェクトのマネジメント標準と体制（ガバナンス、ツール、財務、報告）。効率と一貫性を高める。"
+      ],
+      "option_explanations": [
+        "標準化になっていません。",
+        "標準化になっていません。",
+        "このプログラムに合わせた調整がありません。",
+        "正解。ベストプラクティスと組織の標準を使って、マネジメント標準と体制を作ります（ECO D5-T1）。"
+      ],
+      "vocab": [
+        {
+          "en": "undermine",
+          "ja": "損なう"
+        },
+        {
+          "en": "comparability",
+          "ja": "比較可能性"
+        },
+        {
+          "en": "best practices",
+          "ja": "ベストプラクティス（最良の実践）"
+        },
+        {
+          "en": "adaptation",
+          "ja": "調整・適応"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.9,
         "model": "manual-pilot",
@@ -167,6 +345,9 @@
       "task": "T2",
       "cross_tags": [
         "governance"
+      ],
+      "principles": [
+        "Governance"
       ],
       "scenario": "The program's practices must conform to the organization's overall governance structure, but no framework has been selected to ensure this.",
       "stem": "What should the program manager do?",
@@ -183,7 +364,39 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "組織ガバナンスへの適合には、方針・手順・標準からなるガバナンスフレームワークを選定し、プログラム実務を組織構造に整合させて一貫して目的を達成する（A）。Bは場当たり、Cは組織との矛盾、Dは未定義で、統制を成立させない。",
+      "explanation": "プログラムのガバナンスは、組織全体のガバナンス体制に適合させる必要があります。方針・手順・標準からなるガバナンスの枠組みを選び、プログラムの実務を組織に整合させます。",
+      "scenario_ja": "プログラムの実務は組織全体のガバナンス体制に適合していなければならないが、それを確実にするための枠組みがまだ選ばれていない。",
+      "stem_ja": "プログラムマネージャーは何をすべきか。",
+      "options_ja": [
+        "プログラムの実務を組織のガバナンス体制に適合させ、一貫して目的を達成できるよう、ガバナンスの枠組み（方針、手順、標準）を選ぶ。",
+        "枠組みなしで、状況ごとに場当たり的なルールを作る。",
+        "組織のガバナンスと矛盾する枠組みを採用する。",
+        "スピードを最大にするため、ガバナンスを定めずにおく。"
+      ],
+      "option_explanations": [
+        "正解。組織のガバナンスに適合するガバナンスの枠組みを選びます（ECO D5-T2）。",
+        "場当たり的で、統制が成り立ちません。",
+        "組織のガバナンスと矛盾します。",
+        "ガバナンスがなければ、統制が成り立ちません。"
+      ],
+      "vocab": [
+        {
+          "en": "conform to",
+          "ja": "～に適合する"
+        },
+        {
+          "en": "governance framework",
+          "ja": "ガバナンスの枠組み"
+        },
+        {
+          "en": "policies / procedures",
+          "ja": "方針／手順"
+        },
+        {
+          "en": "undefined",
+          "ja": "定められていない"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.9,
         "model": "manual-pilot",
@@ -200,6 +413,10 @@
         "governance",
         "stakeholder"
       ],
+      "principles": [
+        "Governance",
+        "Stakeholders"
+      ],
       "scenario": "Program information is scattered across tools, and stakeholders receive inconsistent status because processes are not integrated.",
       "stem": "What should the program manager do?",
       "options": [
@@ -215,7 +432,39 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "情報の散在と不整合には、PMISを整備し必要に応じてプロセスを統合して、プログラム情報を管理しステークホルダーに状況を伝える（B）。A・C・Dは統合や記録・共有を欠き、一貫した状況伝達を妨げる。",
+      "explanation": "情報の散在と報告の不整合には、プログラムマネジメント情報システム（PMIS）を整えて活用し、必要に応じてプロセスを統合します。そのうえでプログラムの情報を管理し、ステークホルダーに一貫した状況を伝えます。",
+      "scenario_ja": "プログラムの情報がさまざまなツールに散らばっており、プロセスが統合されていないため、ステークホルダーに届く状況報告もばらばらになっている。",
+      "stem_ja": "プログラムマネージャーは何をすべきか。",
+      "options_ja": [
+        "統合せずに、別々でつながっていないツールを使い続ける。",
+        "プログラムマネジメント情報システム（PMIS）を整えて活用し、必要に応じてプロセスを統合して、プログラムの情報を管理しステークホルダーに状況を伝える。",
+        "状況は口頭だけで伝え、記録のためのシステムは持たない。",
+        "すべての情報をプログラムマネージャーだけに限定する。"
+      ],
+      "option_explanations": [
+        "情報が散らばったままです。",
+        "正解。PMISを整え、プロセスを統合して、一貫した状況報告を行います（ECO D5-T5）。",
+        "記録がなく、一貫した報告ができません。",
+        "共有されないので、状況が伝わりません。"
+      ],
+      "vocab": [
+        {
+          "en": "scattered",
+          "ja": "散らばった"
+        },
+        {
+          "en": "system of record",
+          "ja": "記録のためのシステム（正式な記録の置き場）"
+        },
+        {
+          "en": "utilize",
+          "ja": "活用する"
+        },
+        {
+          "en": "restrict",
+          "ja": "限定する・制限する"
+        }
+      ],
       "evaluator": {
         "perspective_check": 0.9,
         "model": "manual-pilot",

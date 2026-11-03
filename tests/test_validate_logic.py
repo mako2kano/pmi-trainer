@@ -101,6 +101,8 @@ def test_dr13_optional_fields_are_valid_when_consistent(question):
     q["stem_ja"] = "問いの訳"
     q["options_ja"] = ["訳A", "訳B", "訳C", "訳D"]
     q["option_explanations"] = ["解説A", "解説B", "解説C", "解説D"]
+    # 選択肢ごとの解説があるときは、explanation で選択肢を記号で呼ばない
+    q["explanation"] = "まず便益への影響を評価する。投資判断はポートフォリオの役割。"
     q["vocab"] = [{"en": "benefit", "ja": "ベネフィット"}]
     q["principles"] = ["Benefits Realization"]
     assert validate_question(q, "pgmp", "D1") == []
@@ -123,3 +125,12 @@ def test_dr14_unknown_principle_detected(question):
     q = copy.deepcopy(question)
     q["principles"] = ["Synergy", "Agility"]
     assert any("principles" in e for e in validate_question(q, "pgmp", "D1"))
+
+
+def test_explanation_must_not_reference_option_letters_when_shuffled(question):
+    q = copy.deepcopy(question)
+    q["option_explanations"] = ["a", "b", "c", "d"]
+    q["explanation"] = "正解は（A）。Bはポートフォリオ視点。"
+    assert any("記号" in e for e in validate_question(q, "pgmp", "D1"))
+    q["explanation"] = "ECOのタスク D1-T5 に対応する。PMOとKPIの話。"
+    assert validate_question(q, "pgmp", "D1") == []

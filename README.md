@@ -30,7 +30,7 @@ config/
   taxonomy.pgmp.json / taxonomy.pfmp.json
                     ECO転記（ドメイン・タスク・出題比率）
 questions/
-  pgmp/D1..D5.json  ドメイン別問題バンク（80問：パイロット50問＋訳・単語解説つき30問。M4で500問へ）
+  pgmp/D1..D5.json  ドメイン別問題バンク（80問、全問に訳・単語解説つき。M4で500問へ）
   pfmp/D1..D5.json  （M6で生成）
 schemas/            上記JSONのスキーマ定義（構造の正）＋examples/（テスト基準データ）
 scripts/validate.py config/questions のファイル間整合チェック（純粋Python・CLI兼用）
@@ -58,7 +58,7 @@ python -m scripts.build_site && python -m http.server -d _site 8000
 ## ステータス（マイルストーン）
 
 - [x] M1: リポジトリ初期化＋exams.json/taxonomy整備（両ECO転記完了: PgMP 72タスク/PfMP 35タスク）
-- [~] M2: 生成パイプライン（`pipeline/`）完成。PgMP 80問投入済み・全問Evaluator通過（作者レビュー待ち）。パイロット50問は訳・単語解説（DR-13）が未付与
+- [~] M2: 生成パイプライン（`pipeline/`）完成。PgMP 80問投入済み・全問Evaluator通過・全問に訳・選択肢ごとの解説・単語解説・第5版の原則つき（DR-13/14）。作者レビュー待ち
 - [~] M3: PWA骨格。ドリル画面（素のJS）とGitHub Pagesへのデプロイまで完了。exam切替機構はPfMPバンク投入時に実装
 - [ ] M4: PgMPフルバンク500問＋適応出題
 - [ ] M5: ダッシュボード＋模試モード
