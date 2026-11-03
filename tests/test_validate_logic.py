@@ -93,3 +93,33 @@ def test_taxonomy_domain_mismatch_detected(exams):
 def test_exams_missing_key_detected():
     errors = validate_exams({"pgmp": {"name": "PgMP"}})
     assert errors
+
+
+def test_dr13_optional_fields_are_valid_when_consistent(question):
+    q = copy.deepcopy(question)
+    q["scenario_ja"] = "シナリオの訳"
+    q["stem_ja"] = "問いの訳"
+    q["options_ja"] = ["訳A", "訳B", "訳C", "訳D"]
+    q["option_explanations"] = ["解説A", "解説B", "解説C", "解説D"]
+    q["vocab"] = [{"en": "benefit", "ja": "ベネフィット"}]
+    q["principles"] = ["Benefits Realization"]
+    assert validate_question(q, "pgmp", "D1") == []
+
+
+@pytest.mark.parametrize("key", ["options_ja", "option_explanations"])
+def test_dr13_per_option_fields_must_match_options_length(question, key):
+    q = copy.deepcopy(question)
+    q[key] = ["A", "B", "C"]
+    assert any(key in e for e in validate_question(q, "pgmp", "D1"))
+
+
+def test_dr13_vocab_requires_en_and_ja(question):
+    q = copy.deepcopy(question)
+    q["vocab"] = [{"en": "benefit"}]
+    assert any("vocab" in e for e in validate_question(q, "pgmp", "D1"))
+
+
+def test_dr14_unknown_principle_detected(question):
+    q = copy.deepcopy(question)
+    q["principles"] = ["Synergy", "Agility"]
+    assert any("principles" in e for e in validate_question(q, "pgmp", "D1"))

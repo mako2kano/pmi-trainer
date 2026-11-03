@@ -16,8 +16,10 @@ PMI Adaptive Trainer v2 — PgMP/PfMP両対応のECO準拠シナリオ問題演�
 3. **1画面1問**
 
 設計変更が必要になったら、実装より先にSPEC_v2.md §12のDR表に追記すること。
-現在の追記済みDR: DR-09（React/Vite/TS）・DR-10（問題英語・解説日本語）・
-DR-11（ECO転記のソースは作者提供ファイルが正）。
+現在の追記済みDR: DR-09（React/Vite/TS → **DR-12で素のJSに置き換え**）・DR-10（問題英語・解説日本語）・
+DR-11（ECO転記のソースは作者提供ファイルが正）・DR-12（素のJS PWA）・
+DR-13（解答後の日本語訳・選択肢ごとの解説・単語解説）・DR-14（第5版優先、体験記は種として収集、流出問題は対象外）・
+DR-15（リポジトリ公開＋GitHub Pages）。
 
 ## リポジトリ構成と整合性ルール
 
@@ -43,14 +45,20 @@ null がちょうど1つ・answer_index の位置にあること。
 - `scenario` / `stem` / `options`: 英語（実試験に合わせる）
 - `explanation`: 日本語（作者の学習効率優先）
 - taxonomy: `name`（英語公式名）＋`name_ja`、task は `summary`（英）＋`summary_ja`（日）
+- DR-13の任意項目（解答後に表示）: `scenario_ja` / `stem_ja` / `options_ja`（訳）、
+  `option_explanations`（選択肢ごとの解説、日本語）、`vocab`（`en`/`ja`/`note`）
+- DR-14の任意項目: `principles`（第5版の8原則）。問題作成の基準は docs/question_guidelines.md、
+  種は docs/question_seeds.md。**流出問題（dump）は参照・利用・調査しない**
 
 ## 開発時の注意
 
 - テスト実行: `pytest tests/`（jsonschema未インストールならスキーマ検証のみスキップ）
 - 整合チェックCLI: `python -m scripts.validate`
 - `scripts/` は外部ライブラリ・API・MCPに依存しない純粋Pythonを保つ
-- PWA実装（M3〜）はReact＋Vite＋TypeScript（DR-09）。Windows環境での
-  ローカル開発を前提とし、OS依存のツールチェーンを避ける
+- PWA実装（M3〜）は `app/` にビルド不要の素のJSで置く（DR-12）。npm等のツールチェーンを持ち込まない
+- 公開用サイトは `python -m scripts.build_site` で `_site/` に組み立てる（app/＋config/＋questions/）。
+  GitHub Actions（.github/workflows/pages.yml）が main へのpushでPagesにデプロイする（DR-15）
+- ローカル確認: `python -m scripts.build_site && python -m http.server -d _site 8000`
 - 生成パイプライン（M2）のEvaluatorには `perspective_check`（0〜1）を含める（§6）
 - ECOファイル（公式PDF）が必要なタイミングでは作者に依頼する。Webの公式公開
   情報での暫定転記は可だが、`verified_against_official_eco` は作者照合まで

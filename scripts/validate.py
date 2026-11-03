@@ -17,6 +17,11 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CROSS_TAGS = {"governance", "stakeholder", "benefits_value", "risk"}
 DISTRACTOR_TYPES = {"plausible", "cross_perspective"}
+# The Standard for Program Management 第5版の8原則（DR-14）
+PRINCIPLES = {
+    "Stakeholders", "Benefits Realization", "Synergy", "Team of Teams",
+    "Change", "Leadership", "Risk", "Governance",
+}
 NUM_OPTIONS = 4
 
 
@@ -121,6 +126,22 @@ def validate_question(
     for key in ("scenario", "stem", "explanation"):
         if not q.get(key):
             errors.append(f"{prefix}: {key} が空")
+
+    # DR-13: 任意項目。あるなら options と同じ並び・長さであること
+    for key in ("options_ja", "option_explanations"):
+        if key in q and len(q[key]) != len(options):
+            errors.append(f"{prefix}: {key} は options と同じ長さであること")
+    for key in ("scenario_ja", "stem_ja"):
+        if key in q and not q[key]:
+            errors.append(f"{prefix}: {key} が空")
+    for i, item in enumerate(q.get("vocab", [])):
+        if not (isinstance(item, dict) and item.get("en") and item.get("ja")):
+            errors.append(f"{prefix}: vocab[{i}] に en と ja が必要")
+
+    # DR-14: 第5版の原則
+    unknown_principles = set(q.get("principles", [])) - PRINCIPLES
+    if unknown_principles:
+        errors.append(f"{prefix}: principles に未知の原則 {unknown_principles}")
 
     ev = q.get("evaluator")
     if ev is not None:
