@@ -27,8 +27,16 @@ from pathlib import Path
 from pipeline import evaluator, prompts
 from scripts.validate import REPO_ROOT, load_json
 
-GEN_MODEL_DEFAULT = "claude-sonnet-5"  # SPEC「実装予定モデル: Claude Sonnet系」
-EVAL_MODEL_DEFAULT = "claude-sonnet-5"
+GEN_MODEL_DEFAULT = "claude-sonnet-5-5"  # SPEC「実装予定モデル: Claude Sonnet系」の最新
+EVAL_MODEL_DEFAULT = "claude-sonnet-5-5"
+# Sonnet 5.5は既定で思考（adaptive thinking）し、思考もmax_tokensに数えられる
+MAX_TOKENS = 16000
+# 安全分類器が断った（stop_reason="refusal"）ときに、API推奨のモデルで自動的に再実行する
+FALLBACK_BETA = "server-side-fallback-2026-07-01"
+
+
+class RefusalError(RuntimeError):
+    """フォールバック先も含めてモデルが応答を断った。"""
 
 
 def _load_taxonomy(exam: str) -> dict:
@@ -53,12 +61,20 @@ def _client():
 
 
 def _ask_json(client, model, system, user):
-    msg = client.messages.create(
+    msg = client.beta.messages.create(
         model=model,
-        max_tokens=4096,
+        max_tokens=MAX_TOKENS,
         system=system,
         messages=[{"role": "user", "content": user}],
+        betas=[FALLBACK_BETA],
+        fallbacks="default",
     )
+    if msg.stop_reason == "refusal":
+        category = getattr(msg.stop_details, "category", None)
+        raise RefusalError(f"{model} が応答を断った（category={category}）")
+    if msg.stop_reason == "max_tokens":
+        raise RuntimeError(f"max_tokens（{MAX_TOKENS}）に達して出力が途中で切れた")
+    # 思考ブロック（thinking）などは除き、textブロックだけを読む
     text = "".join(b.text for b in msg.content if getattr(b, "type", None) == "text")
     # ```json フェンスを剥がす
     text = text.strip()
@@ -124,9 +140,14 @@ def main(argv=None):
 
     accepted, rejected = [], []
     for t in tasks:
-        for q in generate_for_task(
-            client, args.exam, domain, t, args.count, args.gen_model, args.eval_model
-        ):
+        try:
+            generated = generate_for_task(
+                client, args.exam, domain, t, args.count, args.gen_model, args.eval_model
+            )
+        except RefusalError as e:
+            print(f"  スキップ {domain['id']}-{t['id']}: {e}")
+            continue
+        for q in generated:
             q["id"] = f"{args.exam}-{args.domain}-{_next_seq(bank):04d}"
             report = evaluator.evaluate_question(
                 q, args.exam, args.domain, valid_tasks,

@@ -52,6 +52,9 @@ null がちょうど1つ・answer_index の位置にあること。
 
 ## 開発時の注意
 
+- Python は最新の安定版（2026-11時点 3.15）を使う。生成パイプラインの anthropic SDK 2.x は 3.10 以上が必要。
+  環境作成: `python3.15 -m venv .venv && .venv/bin/pip install pytest jsonschema -r pipeline/requirements.txt`
+- バージョンは極力最新に合わせる（作者方針）。GitHub Actions と pipeline の依存は Dependabot（.github/dependabot.yml）が毎週更新PRを出す
 - テスト実行: `pytest tests/`（jsonschema未インストールならスキーマ検証のみスキップ）
 - 整合チェックCLI: `python -m scripts.validate`
 - `scripts/` は外部ライブラリ・API・MCPに依存しない純粋Pythonを保つ

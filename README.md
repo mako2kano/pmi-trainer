@@ -44,6 +44,10 @@ tests/              pytest（jsonschemaはoptional）
 ## 開発
 
 ```bash
+# 初回のみ（Python 3.15）
+python3.15 -m venv .venv && .venv/bin/pip install pytest jsonschema -r pipeline/requirements.txt
+source .venv/bin/activate
+
 pytest tests/                 # テスト
 python -m scripts.validate    # config/・questions/ の整合チェック
 

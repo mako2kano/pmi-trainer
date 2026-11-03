@@ -1,0 +1,15 @@
+# 依存関係を最新に保つ（GitHub Actions の部品と、問題生成バッチの Python パッケージ）
+# 更新があると Dependabot が PR を作る。テスト（pages.yml の build ジョブ）が通れば取り込む
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns: ["*"]
+  - package-ecosystem: pip
+    directory: /pipeline
+    schedule:
+      interval: weekly
