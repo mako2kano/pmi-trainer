@@ -16,10 +16,10 @@
       "scenario": "A program has completed a phase, and the program manager seeks authorization to proceed to the next phase. The governance board wants evidence of program status before granting approval.",
       "stem": "What should the program manager do to obtain authorization to proceed?",
       "options": [
-        "Ask the investment committee to re-evaluate the program against competing portfolio components and reauthorize its funding allocation.",
-        "Proceed to the next phase without a stage gate review to avoid delaying the program.",
-        "Delegate the authorization decision to the constituent project managers.",
-        "Present the program status at a stage gate review to the governance authorities to obtain the authorizations and approvals needed to proceed to the next phase."
+        "Ask the investment committee to re-evaluate the program against competing portfolio components and reauthorize its funding.",
+        "Proceed to the next phase and hold the stage gate review afterwards, so that the program is not delayed while evidence is prepared.",
+        "Ask the component managers to confirm their readiness in writing, and present those confirmations as the program's authorization.",
+        "Present the program status at a stage gate review to the governance authorities to obtain approval to proceed."
       ],
       "answer_index": 3,
       "distractor_types": [
@@ -32,15 +32,15 @@
       "scenario_ja": "あるプログラムが1つのフェーズを終え、プログラムマネージャーは次のフェーズに進むための承認を求めている。ガバナンス委員会は、承認を出す前にプログラムの状況を示す根拠を求めている。",
       "stem_ja": "次に進む承認を得るために、プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "競合する他のポートフォリオ・コンポーネントと比べてプログラムを再評価し、資金配分を承認し直すよう投資委員会に依頼する。",
-        "プログラムを遅らせないよう、ステージゲート・レビューをせずに次のフェーズへ進む。",
-        "承認の判断を、構成プロジェクトのマネージャーに任せる。",
-        "ステージゲート・レビューでガバナンスの権限者にプログラムの状況を提示し、次のフェーズに進むために必要な承認を得る。"
+        "競合する他のポートフォリオ・コンポーネントと比べてプログラムを再評価し、資金を承認し直すよう投資委員会に依頼する。",
+        "根拠を準備する間にプログラムが遅れないよう、次のフェーズに進み、ステージゲート・レビューは後で行う。",
+        "コンポーネント・マネージャーに準備完了を書面で確認させ、それをプログラムの承認として提示する。",
+        "ステージゲート・レビューでガバナンスの権限者にプログラムの状況を提示し、次に進む承認を得る。"
       ],
       "option_explanations": [
         "他のコンポーネントとの比較や資金の再承認は、ポートフォリオ視点の判断です。フェーズゲートを通過する手続きとは別のものです。",
-        "ゲートを飛ばしており、統制がききません。",
-        "承認の権限がないプロジェクトマネージャーに委ねるのは不適切です。",
+        "ゲートの前に進むと、ゲートの意味がなくなり、統制がききません。",
+        "承認の権限がないプロジェクトマネージャーの確認は、ガバナンスの承認の代わりになりません。",
         "正解。ステージゲート・レビューで状況を提示し、ガバナンスの承認を得ます（ECO D5-T3）。"
       ],
       "vocab": [
@@ -84,10 +84,10 @@
       "scenario": "The governance board wants ongoing assurance that the program is delivering value across risk, finance, compliance, quality, safety, and satisfaction.",
       "stem": "What should the program manager do?",
       "options": [
-        "Evaluate key performance indicators—risks, financials, compliance, quality, safety, and stakeholder satisfaction—to monitor benefits throughout the program life cycle.",
-        "Report only final benefits at program closure.",
-        "Ask the investment committee to re-score the program against other portfolio components each period.",
-        "Track schedule alone as a proxy for all value."
+        "Evaluate KPIs for risk, finance, compliance, quality, safety, and stakeholder satisfaction to monitor benefits across the life cycle.",
+        "Report the realized benefits to the board at program closure, when all of the components have delivered and can be measured.",
+        "Ask the investment committee to re-score the program against the other portfolio components each period, so the board sees its value.",
+        "Track schedule and budget performance in detail, since they are the most reliable leading indicators of benefit delivery."
       ],
       "answer_index": 0,
       "distractor_types": [
@@ -100,16 +100,16 @@
       "scenario_ja": "ガバナンス委員会は、プログラムがリスク、財務、コンプライアンス、品質、安全、満足度の面で価値を生み出していることを、継続的に確かめたいと考えている。",
       "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "リスク、財務、コンプライアンス、品質、安全、ステークホルダー満足度の重要業績評価指標（KPI）を評価し、プログラムのライフサイクルを通じてベネフィットを監視する。",
-        "最終的なベネフィットだけを、プログラム終結時に報告する。",
-        "期ごとに、他のポートフォリオ・コンポーネントと比べてプログラムを採点し直すよう投資委員会に依頼する。",
-        "スケジュールだけを、すべての価値の代わりの指標として追う。"
+        "リスク、財務、コンプライアンス、品質、安全、ステークホルダー満足度のKPIを評価し、ライフサイクル全体でベネフィットを監視する。",
+        "すべてのコンポーネントが成果を出して測定できるプログラム終結時に、実現したベネフィットを委員会に報告する。",
+        "委員会が価値を把握できるよう、期ごとに他のポートフォリオ・コンポーネントと比べてプログラムを採点し直すよう投資委員会に依頼する。",
+        "ベネフィットの実現を最もよく先取りして示す指標なので、スケジュールと予算の実績を詳しく追う。"
       ],
       "option_explanations": [
         "正解。さまざまな面のKPIを評価して、ライフサイクル全体でベネフィットを監視します（ECO D5-T4）。",
         "終結時だけでは、途中で是正できません。",
         "他のコンポーネントと比べて採点し直すのは投資判断者の動きで、ガバナンスとしてのベネフィット監視とは別の層です。",
-        "1つの指標に狭めており、価値の全体を捉えられません。"
+        "スケジュールと予算だけでは、コンプライアンスや安全、満足度などの価値を捉えられません。"
       ],
       "vocab": [
         {
@@ -152,10 +152,10 @@
       "scenario": "New risks to the program's strategic objectives have emerged since the last governance cycle, and the board needs an updated basis for decisions.",
       "stem": "What should the program manager do?",
       "options": [
-        "Wait for the risks to become issues before informing the board.",
-        "Regularly evaluate new and existing risks that impact strategic objectives and present an updated risk management plan to the governance board for approval.",
-        "Refer the risks to the portfolio for re-prioritization of the program's funding.",
-        "Update the risk register privately without board involvement."
+        "Monitor the new risks closely, and inform the board only if any of them turns into an issue that affects the program.",
+        "Evaluate the new and existing risks to strategic objectives, and present an updated risk management plan to the board.",
+        "Refer the new risks to the portfolio office so that it can re-prioritize the program's funding to reflect the higher exposure.",
+        "Update the risk register with the new risks and their owners, and include the changes in the next quarterly status report."
       ],
       "answer_index": 1,
       "distractor_types": [
@@ -168,16 +168,16 @@
       "scenario_ja": "前回のガバナンス・サイクル以降、プログラムの戦略目標に対する新たなリスクが出てきており、委員会には判断のための最新の根拠が必要である。",
       "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "リスクが課題（実際の問題）になるまで待ってから、委員会に知らせる。",
-        "戦略目標に影響する新規と既存のリスクを定期的に評価し、更新したリスク管理計画をガバナンス委員会に提示して承認を得る。",
-        "プログラムの資金の優先順位を見直してもらうため、リスクをポートフォリオに付託する。",
-        "委員会を関与させずに、リスク登録簿を内々に更新する。"
+        "新しいリスクを注意深く監視し、プログラムに影響する課題になった場合にだけ委員会に知らせる。",
+        "戦略目標に対する新規と既存のリスクを評価し、更新したリスク管理計画を委員会に提示する。",
+        "高まったリスクを反映してプログラムの資金の優先順位を見直してもらうため、新しいリスクをポートフォリオ・オフィスに付託する。",
+        "新しいリスクとそのオーナーをリスク登録簿に追加し、変更を次の四半期の状況報告に含める。"
       ],
       "option_explanations": [
-        "事後の対応では手遅れです。",
+        "課題になってからでは手遅れです。委員会は判断の根拠を必要としています。",
         "正解。リスクを定期的に評価し、更新したリスク管理計画をガバナンス委員会に提示して承認を得ます（ECO D5-T6）。",
         "資金の優先順位をポートフォリオに委ねるのは、ガバナンスでのリスク承認の手続きとは別のものです。",
-        "委員会が関与しないので、判断の根拠になりません。"
+        "登録簿の更新は必要ですが、委員会の承認を得る手続きが抜けており、報告のタイミングも遅すぎます。"
       ],
       "vocab": [
         {
@@ -220,10 +220,10 @@
       "scenario": "Market and business conditions are shifting, and there is a risk the program drifts away from the strategic objectives it was meant to serve.",
       "stem": "What should the program manager do within governance?",
       "options": [
-        "Assume the original strategic alignment still holds without rechecking.",
-        "Escalate to the portfolio board to decide whether to keep investing in the program.",
-        "Monitor the business environment, program functionality requirements, and benefits realization to ensure the program remains aligned with strategic objectives.",
-        "Focus only on internal execution metrics and ignore the environment."
+        "Assume the original alignment still holds, since the business case was approved recently and no strategy change has been announced.",
+        "Escalate to the portfolio board so that it can decide whether to keep investing in the program under the new conditions.",
+        "Monitor the business environment, functional requirements, and benefits realization to keep the program aligned with strategy.",
+        "Focus on the program's internal execution metrics, since changes in the business environment are outside the program's control."
       ],
       "answer_index": 2,
       "distractor_types": [
@@ -236,16 +236,16 @@
       "scenario_ja": "市場と事業の状況が変わりつつあり、プログラムが本来支えるはずの戦略目標から外れていくおそれがある。",
       "stem_ja": "ガバナンスの中で、プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "確かめ直さずに、当初の戦略との整合がまだ保たれていると考える。",
-        "プログラムへの投資を続けるかどうかを決めてもらうため、ポートフォリオ委員会にエスカレーションする。",
-        "事業環境、プログラムの機能要件、ベネフィット実現を監視し、プログラムが戦略目標と整合し続けるようにする。",
-        "社内の実行指標だけに集中し、環境は無視する。"
+        "ビジネスケースは最近承認され、戦略の変更も発表されていないので、当初の整合はまだ保たれていると考える。",
+        "新しい状況のもとでプログラムへの投資を続けるかどうかを決めてもらうため、ポートフォリオ委員会にエスカレーションする。",
+        "事業環境、機能要件、ベネフィット実現を監視し、プログラムを戦略と整合させ続ける。",
+        "事業環境の変化はプログラムでは制御できないので、プログラム内部の実行指標に集中する。"
       ],
       "option_explanations": [
-        "検証しないまま前提にしています。",
+        "検証しないまま前提にしています。戦略が発表上変わっていなくても、環境の変化で整合は崩れます。",
         "投資を続けるかどうかの判断をポートフォリオに委ねる動きで、ガバナンスとしての整合の監視とは別のものです。",
         "正解。事業環境・機能要件・ベネフィット実現を監視して、戦略との整合を保ちます（ECO D5-T10）。",
-        "環境の変化を無視しています。"
+        "制御できなくても、監視して対応することはプログラムの責任です。"
       ],
       "vocab": [
         {

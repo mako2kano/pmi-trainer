@@ -50,3 +50,18 @@ def test_eligible_task_questions_have_cross_perspective():
     for exam, domain_id, tasks, q in _iter_questions():
         if tasks.get(q["task"], {}).get("cross_perspective_eligible"):
             assert evaluator.cross_perspective_count(q) == 1, q["id"]
+
+
+def test_correct_option_is_not_given_away_by_length():
+    """正解だけが目立って長いと、読まずに当てられてしまう（docs/question_guidelines.md 4章）。
+    正解が2番目に長い選択肢より4文字以上長い問題を、バンク全体の1割未満に抑える。"""
+    questions = [q for _, _, _, q in _iter_questions()]
+    if not questions:
+        return
+    longest = [
+        q["id"]
+        for q in questions
+        if len(q["options"][q["answer_index"]])
+        > sorted(len(o) for o in q["options"])[-2] + 3
+    ]
+    assert len(longest) < len(questions) * 0.1, longest

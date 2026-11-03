@@ -17,10 +17,10 @@
       "scenario": "A program is approaching the delivery of its first major capability. The program manager is developing the benefits management plan and must decide how the delivered capability will be handed over and kept delivering value after the program ends.",
       "stem": "Which action best reflects the program manager's responsibility?",
       "options": [
-        "Define benefits integration, transition, and sustainment with exit criteria so the delivered capability is handed to operations and its benefits are sustained after program closure.",
-        "Decide whether the capability should remain in the enterprise portfolio or be divested based on its ongoing contribution to investment returns.",
-        "Transfer the capability to operations immediately upon technical completion, before any sustainment measures are defined.",
-        "Retain the capability within the program indefinitely to keep direct control of its performance."
+        "Define benefit integration, transition, and sustainment with exit criteria, so that operations can sustain the benefits after closure.",
+        "Decide whether the capability should stay in the enterprise portfolio or be divested, based on its expected investment returns.",
+        "Transfer the capability to operations as soon as it is technically complete, and let operations define how to sustain its benefits.",
+        "Keep the capability inside the program until its benefits are fully proven, so that the program retains control of its performance."
       ],
       "answer_index": 0,
       "distractor_types": [
@@ -33,16 +33,16 @@
       "scenario_ja": "あるプログラムが、最初の主要な機能の提供を間近に控えている。プログラムマネージャーはベネフィット・マネジメント計画を作成しており、提供した機能をどう引き渡し、プログラム終了後も価値を生み続けさせるかを決めなければならない。",
       "stem_ja": "プログラムマネージャーの責任を最もよく表している行動はどれか。",
       "options_ja": [
-        "ベネフィットの統合・移行・維持を終了基準とともに定義し、提供した機能が運用部門に引き渡され、プログラム終結後もそのベネフィットが維持されるようにする。",
-        "その機能が投資リターンに貢献し続けるかどうかに基づいて、企業のポートフォリオに残すか売却するかを決める。",
-        "維持の方策を何も決めないうちに、技術的に完成した時点で直ちに機能を運用部門へ移す。",
-        "機能の性能を直接管理し続けるため、プログラムの中に無期限に置いておく。"
+        "ベネフィットの統合・移行・維持を終了基準とともに定め、プログラム終結後も運用部門がベネフィットを維持できるようにする。",
+        "期待される投資リターンにもとづいて、その機能を企業のポートフォリオに残すか売却するかを決める。",
+        "技術的に完成したらすぐに機能を運用部門へ移し、ベネフィットの維持方法は運用部門に決めてもらう。",
+        "機能の性能をプログラムが管理し続けられるよう、ベネフィットが完全に証明されるまでプログラムの中に置いておく。"
       ],
       "option_explanations": [
         "正解。ベネフィットの統合・移行・維持を終了基準とともに定義し、プログラム終結後もベネフィットが続くようにします（ECO D2-T13）。",
         "資産を持ち続けるか売却するかは、ポートフォリオ視点の投資判断です。プログラムのベネフィット移行の設計とは別の層の責任です。",
-        "維持の方策を決める前に移すのは拙速です。",
-        "移行を怠り、プログラムを不必要に引き延ばしています。"
+        "維持の方法を決めずに移すと、移行後にベネフィットが続かないおそれがあります。設計はプログラムの責任です。",
+        "移行を遅らせ、プログラムを不必要に引き延ばしています。"
       ],
       "vocab": [
         {
@@ -89,10 +89,10 @@
       "scenario": "A constituent project requests a scope change that would accelerate one program benefit but increases overall program risk and cost. The program manager must respond within the established governance framework.",
       "stem": "What is the program manager's most appropriate next step?",
       "options": [
-        "Decide the change by weighing it against other portfolio components competing for the same enterprise funding.",
-        "Conduct an impact assessment of the change across scope, cost, schedule, risk, and benefits, and recommend a decision to the governance board per the change management plan.",
-        "Approve the change immediately because it accelerates a program benefit.",
-        "Reject the change outright to protect the program's cost baseline."
+        "Weigh the change against other portfolio components that compete for the same enterprise funding, and decide on that basis.",
+        "Assess the change's impact on scope, cost, schedule, risk, and benefits, and recommend a decision to the governance board.",
+        "Approve the change, because it accelerates a program benefit, and absorb the added cost within the program's contingency reserve.",
+        "Reject the change to protect the cost baseline, and ask the component to propose it again once the program is further along."
       ],
       "answer_index": 1,
       "distractor_types": [
@@ -105,16 +105,16 @@
       "scenario_ja": "ある構成プロジェクトが、プログラムのベネフィットの1つを前倒しできる一方で、プログラム全体のリスクとコストを増やすスコープ変更を要求してきた。プログラムマネージャーは、確立されたガバナンスの枠組みの中で対応しなければならない。",
       "stem_ja": "プログラムマネージャーが次にとる最も適切なステップはどれか。",
       "options_ja": [
-        "同じ全社の資金を奪い合う他のポートフォリオ・コンポーネントと比べて、変更を判断する。",
-        "スコープ、コスト、スケジュール、リスク、ベネフィットへの変更の影響を評価し、変更管理計画に沿ってガバナンス委員会に判断を提言する。",
-        "プログラムのベネフィットを前倒しできるので、直ちに変更を承認する。",
-        "プログラムのコスト・ベースラインを守るため、変更をすぐに却下する。"
+        "同じ全社の資金を奪い合う他のポートフォリオ・コンポーネントと比べて変更を判断する。",
+        "スコープ、コスト、スケジュール、リスク、ベネフィットへの変更の影響を評価し、ガバナンス委員会に判断を提言する。",
+        "プログラムのベネフィットを前倒しできるので変更を承認し、増えるコストはプログラムの予備費で吸収する。",
+        "コスト・ベースラインを守るため変更を却下し、プログラムがもっと進んでから改めて提案するようコンポーネントに求める。"
       ],
       "option_explanations": [
         "他のポートフォリオ・コンポーネントとの投資配分で比べるのは、ポートフォリオ視点の判断です。1つのプログラム内の変更への対応としては権限を超えています。",
         "正解。影響を評価し、変更管理計画に沿ってガバナンス委員会に提言します（ECO D2-T29）。",
-        "影響を評価する前に承認しており、ガバナンスの手続きを飛ばしています。",
-        "ベネフィットの機会を無視した却下で、これも手続きを飛ばしています。"
+        "リスクとコストへの影響を評価する前に承認しており、ガバナンスの手続きを飛ばしています。",
+        "ベネフィットの機会を評価せずに退けており、これも手続きを飛ばしています。"
       ],
       "vocab": [
         {
@@ -1757,10 +1757,10 @@
       "scenario": "All component projects have delivered their outputs.",
       "stem": "What must be confirmed before the program can be formally closed?",
       "options": [
-        "That all component budgets have been fully spent.",
-        "That benefits have been transitioned to sustaining owners and the governance board has approved closure.",
-        "That all deliverables have been accepted by the component customers.",
-        "That the portfolio has approved funding for a follow-on program."
+        "That all component budgets have been closed out and any unspent funds have been returned to the organization's finance office.",
+        "That benefits have been transitioned to sustaining owners and that the governance board has approved the program's closure.",
+        "That all component deliverables have been formally accepted by their customers and that every component has been closed.",
+        "That the portfolio has approved funding for a follow-on program, so that the team and its knowledge can move on to it."
       ],
       "answer_index": 1,
       "distractor_types": [
@@ -1773,15 +1773,15 @@
       "scenario_ja": "すべてのコンポーネント・プロジェクトがアウトプットを引き渡した。",
       "stem_ja": "プログラムを正式に終結する前に、何を確認しなければならないか。",
       "options_ja": [
-        "すべてのコンポーネント予算が使い切られていること。",
-        "ベネフィットが維持責任者に移行され、ガバナンス委員会が終結を承認していること。",
-        "すべての成果物がコンポーネントの顧客に受け入れられていること。",
-        "後続プログラムへの資金拠出をポートフォリオが承認していること。"
+        "すべてのコンポーネントの予算が締められ、使われなかった資金が組織の財務部門に返されていること。",
+        "ベネフィットが維持責任者に移行され、ガバナンス委員会がプログラムの終結を承認していること。",
+        "すべてのコンポーネントの成果物が顧客に正式に受け入れられ、すべてのコンポーネントが終結していること。",
+        "チームとその知識が移れるよう、後続プログラムへの資金拠出をポートフォリオが承認していること。"
       ],
       "option_explanations": [
-        "予算を使い切ったかどうかは、クローズの条件ではありません。",
-        "正解。ベネフィットの維持責任が引き継がれ、ガバナンスがクローズを承認していることが条件です。",
-        "成果物が受け入れられているのはコンポーネント単位の条件です。プログラムのクローズにはそれだけでは足りません。",
+        "予算の締めは終結作業の一部ですが、プログラムを終結してよいかの条件ではありません。",
+        "正解。ベネフィットの維持責任が引き継がれ、ガバナンスがクローズを承認していることが条件です（ECO D2-T33）。",
+        "成果物の受け入れはコンポーネント単位の条件です。プログラムのクローズにはベネフィットの移行とガバナンスの承認が必要です。",
         "後続プログラムの投資判断は、このプログラムのクローズとは別の話です。"
       ],
       "vocab": [
@@ -2038,10 +2038,10 @@
       "scenario": "A component that delivers a customer self-service portal has completed all deliverables defined in its charter, and acceptance has been signed off. During the closure review, business stakeholders request two additional features that they say will increase adoption.",
       "stem": "What should the program manager do?",
       "options": [
-        "Keep the component open and add the features, since they will improve benefits realization.",
-        "Approve the closure of the component and submit the new requests through the program change management process for evaluation.",
-        "Reject the requests because the component's scope is closed.",
-        "Ask the portfolio board to fund a new program for the additional features."
+        "Keep the component open and add the two features, since they will raise adoption and improve the realization of benefits.",
+        "Approve the component's closure, and send the new requests through program change management to be evaluated.",
+        "Reject the requests, because the component's scope is complete and reopening it would put the program's schedule at risk.",
+        "Ask the portfolio board to fund a new program for the additional features, since they fall outside this program's charter."
       ],
       "answer_index": 1,
       "distractor_types": [
@@ -2054,14 +2054,14 @@
       "scenario_ja": "顧客向けセルフサービス・ポータルを提供するコンポーネントが、憲章で定めた成果物をすべて完成させ、受け入れの承認も済んだ。クローズのレビューの場で、業務側のステークホルダーが、利用率を上げるためだとして機能を2つ追加するよう求めてきた。",
       "stem_ja": "プログラムマネージャーはどうすべきか。",
       "options_ja": [
-        "ベネフィット実現が向上するので、コンポーネントを継続して機能を追加する。",
-        "コンポーネントのクローズを承認し、新しい要求はプログラムの変更管理プロセスに提出して評価する。",
-        "コンポーネントのスコープは閉じているので、要求を却下する。",
-        "追加機能のために新しいプログラムを立ち上げる資金を、ポートフォリオ委員会に求める。"
+        "利用率を上げ、ベネフィット実現を高めるので、コンポーネントを継続して2つの機能を追加する。",
+        "コンポーネントのクローズを承認し、新しい要求はプログラムの変更管理に回して評価する。",
+        "コンポーネントのスコープは完了しており、再開するとプログラムのスケジュールが危うくなるので、要求を却下する。",
+        "追加機能はこのプログラムの憲章の範囲外なので、新しいプログラムに資金を出すようポートフォリオ委員会に求める。"
       ],
       "option_explanations": [
         "定義した成果物が完了したコンポーネントを開いたまま、スコープを足すことになります。スコープ・クリープの典型です。",
-        "正解。定義した成果物が完了したら、コンポーネントのクローズを承認します（ECO II-24）。追加の要求は、プログラムの変更として評価します（必要なら新しいコンポーネントにする）。",
+        "正解。定義した成果物が完了したら、コンポーネントのクローズを承認します（ECO D2-T24）。追加の要求は、プログラムの変更として評価します。",
         "ベネフィットにつながるかもしれない要求を、評価もせず却下するのは誤りです。",
         "2つの機能追加なら、まずは既存のプログラムの中で変更として評価する規模です。"
       ],
@@ -2506,10 +2506,10 @@
       "scenario": "While drafting the program charter, the sponsor asks the program manager to include detailed schedules and a work breakdown structure for every component, so that executives can see exactly how the work will be done.",
       "stem": "How should the program manager respond?",
       "options": [
-        "Explain that the charter contains high-level scope, benefits, risks, timing, and resources, and that detailed schedules and the WBS will be developed in program planning.",
-        "Include the detailed schedules and WBS for every component in the charter, since the sponsor authorizes the program and decides what the executives need to see.",
-        "Replace the charter with a program management plan, since it already contains the level of detail requested.",
-        "Ask each component project manager to prepare a project charter and attach them to the program charter."
+        "Explain that the charter covers high-level scope, benefits, risks, timing, and resources, and that detail comes in planning.",
+        "Include the detailed schedules and WBS for every component in the charter, since the sponsor decides what executives need to see.",
+        "Replace the charter with a draft program management plan, since that document already contains the level of detail requested.",
+        "Ask each component manager to prepare a project charter with schedules, and attach those charters to the program charter."
       ],
       "answer_index": 0,
       "distractor_types": [
@@ -2522,14 +2522,14 @@
       "scenario_ja": "プログラム憲章の草案を作っている途中で、スポンサーがプログラムマネージャーに、作業の進め方を役員が正確にわかるように、すべてのコンポーネントの詳細スケジュールとWBSを憲章に入れるよう求めた。",
       "stem_ja": "プログラムマネージャーはどう対応すべきか。",
       "options_ja": [
-        "憲章には高レベルのスコープ、ベネフィット、リスク、時期、リソースを記載し、詳細スケジュールとWBSはプログラムの計画段階で作ることを説明する。",
-        "プログラムを承認し、役員が何を見る必要があるかを決めるのはスポンサーなので、全コンポーネントの詳細スケジュールとWBSを憲章に入れる。",
-        "求められている詳しさをすでに含んでいるので、憲章の代わりにプログラムマネジメント計画書を出す。",
-        "各コンポーネントのプロジェクトマネージャーにプロジェクト憲章を用意させ、プログラム憲章に添付する。"
+        "憲章には概略のスコープ、ベネフィット、リスク、時期、リソースを記載し、詳細は計画段階で作ることを説明する。",
+        "役員が何を見る必要があるかを決めるのはスポンサーなので、全コンポーネントの詳細スケジュールとWBSを憲章に入れる。",
+        "求められている詳しさをすでに含んでいるので、憲章の代わりにプログラムマネジメント計画書の草案を出す。",
+        "各コンポーネント・マネージャーにスケジュール付きのプロジェクト憲章を用意させ、プログラム憲章に添付する。"
       ],
       "option_explanations": [
-        "正解。憲章は高レベルの内容をビジネスケースと結びつけるもので、詳細は計画（Planning）サブフェーズでプログラムマネジメント計画書として作ります（ECO II-1、II-8、II-9）。",
-        "憲章はプログラムを承認し、権限を与えるための高レベルの文書です。定義フェーズの最初の時点では、詳細はまだ決まっていません。",
+        "正解。憲章は概略の内容をビジネスケースと結びつけるもので、詳細は計画（Planning）サブフェーズでプログラムマネジメント計画書として作ります（ECO D2-T1、D2-T8、D2-T9）。",
+        "憲章はプログラムを承認し権限を与える概略の文書です。定義フェーズの最初の時点では、詳細はまだ決まっていません。",
         "文書の役割と順序を取り違えています。計画書は、憲章で承認を受けた後に作るものです。",
         "コンポーネントは、プログラムが承認された後、必要な時期に立ち上げるものです。まだ早すぎます。"
       ],
@@ -2573,10 +2573,10 @@
       "scenario": "Halfway through a five-year renewable energy program, the governance board decides to terminate the program because a change in national energy policy has removed the subsidies the business case depended on. Two of the six components have already delivered working assets.",
       "stem": "What should the program manager do NEXT?",
       "options": [
-        "Stop all work immediately and release every team member to their functional departments.",
-        "Execute an orderly closure: transition the delivered assets and their benefits to operations, close out contracts and components, and archive knowledge and lessons learned.",
-        "Continue the remaining components until the current phase ends, so that the investment to date is not wasted and the assets can be completed to a usable state.",
-        "Ask the governance board to reconsider the decision, presenting the benefits already delivered."
+        "Stop all work immediately and return every team member to their functional departments, since the decision has been made.",
+        "Carry out an orderly closure: transition delivered assets and benefits to operations, close contracts, and archive lessons.",
+        "Continue the remaining components until the current phase ends, so that the investment to date is not wasted and the assets can be completed.",
+        "Ask the governance board to reconsider the decision, presenting the benefits already delivered and the cost of stopping now."
       ],
       "answer_index": 1,
       "distractor_types": [
@@ -2589,14 +2589,14 @@
       "scenario_ja": "5か年の再生可能エネルギー・プログラムの中間時点で、国のエネルギー政策が変わり、ビジネスケースが前提としていた補助金がなくなった。そのため、ガバナンス委員会はプログラムの中止を決めた。6つのコンポーネントのうち2つは、すでに稼働する設備を引き渡している。",
       "stem_ja": "プログラムマネージャーが次にすべきことは何か。",
       "options_ja": [
-        "直ちにすべての作業を止め、チームメンバー全員を所属部門に戻す。",
-        "秩序だった終結を行う。引き渡し済みの設備とそのベネフィットを運用部門に移行し、契約とコンポーネントを締めくくり、知識と教訓を保管する。",
-        "これまでの投資を無駄にせず、設備を使える状態まで完成させるため、現在のフェーズが終わるまで残りのコンポーネントを続ける。",
-        "すでに生み出したベネフィットを示して、ガバナンス委員会に決定の再考を求める。"
+        "決定は下されたので、直ちにすべての作業を止め、チームメンバー全員を所属部門に戻す。",
+        "秩序だった終結を行う。引き渡し済みの設備とベネフィットを運用部門に移し、契約を締めくくり、教訓を保管する。",
+        "これまでの投資を無駄にせず、設備を完成させるため、現在のフェーズが終わるまで残りのコンポーネントを続ける。",
+        "すでに生み出したベネフィットと、今止めることのコストを示して、ガバナンス委員会に決定の再考を求める。"
       ],
       "option_explanations": [
         "終結の手続きを踏まずに解散すると、引き渡し済みの設備の運用・保守、契約の整理、知識の引き継ぎが抜け落ちます。",
-        "正解。早期終了でも終結フェーズの活動は行います。実現したベネフィットの移行、契約やコンポーネントの終結、知識の引き継ぎと教訓の保管です（ECO II-32、II-33、II-35）。",
+        "正解。早期終了でも終結フェーズの活動は行います。実現したベネフィットの移行、契約やコンポーネントの終結、知識の引き継ぎと教訓の保管です（ECO D2-T32、D2-T33、D2-T35）。",
         "ガバナンスの決定に従っていません。「これまでの投資がもったいない」という理由は、サンクコストにとらわれた判断です。",
         "決定はすでに下されています。ここで求められているのは、正しく終結させることです。"
       ],

@@ -18,10 +18,10 @@
       "scenario": "You are the program manager of a multi-year customer-experience transformation program. Six months in, a competitor's launch has shifted the market, and the program's original business case now shows a materially lower projected benefit. The executive sponsor asks for your recommendation at the next steering committee.",
       "stem": "What should the program manager do first?",
       "options": [
-        "Reassess the program's business case—objectives, feasibility, readiness, and benefits—against the changed conditions and quantify the impact on the benefits realization plan before recommending any change.",
-        "Compare the program's revised return against the organization's other investment options and recommend reallocating its funding to a higher-yielding initiative.",
-        "Continue executing the approved business case unchanged to avoid destabilizing the program team.",
-        "Recommend terminating the program immediately because the business case has weakened."
+        "Reassess the business case against the changed market, and quantify the impact on the benefits plan before recommending a change.",
+        "Compare the program's revised return with the organization's other investment options, and recommend moving its funding to a better one.",
+        "Continue executing the approved business case for now, and revisit it at the next scheduled annual review to avoid unsettling the team.",
+        "Recommend pausing all components until the competitor's impact is clear, so that no further money is spent on weak assumptions."
       ],
       "answer_index": 0,
       "distractor_types": [
@@ -34,16 +34,16 @@
       "scenario_ja": "あなたは、複数年にわたる顧客体験変革プログラムのプログラムマネージャーである。開始から6か月後、競合他社の新製品投入で市場が変わり、当初のビジネスケースでは見込みベネフィットが大幅に下がっている。エグゼクティブ・スポンサーは、次回の運営委員会であなたの提言を求めている。",
       "stem_ja": "プログラムマネージャーが最初にすべきことは何か。",
       "options_ja": [
-        "変化した状況に照らして、プログラムのビジネスケース（目的、実現可能性、準備状況、ベネフィット）を再評価し、変更を提言する前に、ベネフィット実現計画への影響を定量化する。",
-        "プログラムの修正後のリターンを組織の他の投資案と比較し、より収益性の高い取り組みに資金を再配分するよう提言する。",
-        "プログラムチームを動揺させないよう、承認済みのビジネスケースをそのまま実行し続ける。",
-        "ビジネスケースが弱くなったので、直ちにプログラムの中止を提言する。"
+        "変化した市場に照らしてビジネスケースを再評価し、変更を提言する前に、ベネフィット実現計画への影響を定量化する。",
+        "プログラムの修正後のリターンを組織の他の投資案と比べ、より良い案へ資金を移すよう提言する。",
+        "チームを動揺させないよう、承認済みのビジネスケースを当面そのまま実行し、次の定例の年次レビューで見直す。",
+        "弱い前提にこれ以上お金を使わないよう、競合の影響がはっきりするまで全コンポーネントの一時停止を提言する。"
       ],
       "option_explanations": [
         "正解。まず変化した前提のもとでビジネスケースを再評価し、ベネフィット実現計画への影響を数字で示してから提言します（ECO D1-T5）。",
-        "ポートフォリオ視点（投資判断者）なら妥当になりえますが、投資案の間で資金を再配分する判断はポートフォリオマネジメントの役割です。プログラムマネージャーが最初にとる行動ではありません。",
-        "市場の変化を無視しています。プログラムは環境の変化に適応することが前提です。",
-        "評価をする前に結論を出しています。中止するかどうかは、影響を分析したうえでガバナンスが判断することです。"
+        "ポートフォリオ視点（投資判断者）なら妥当になりえますが、投資案の間で資金を移す判断はポートフォリオマネジメントの役割です。プログラムマネージャーが最初にとる行動ではありません。",
+        "年次レビューまで待つと、変化への対応が遅れます。前提が大きく変わったときは、すぐに見直します。",
+        "評価をする前に全体を止めるのは過剰です。止めるかどうかは、影響を分析したうえでガバナンスが判断します。"
       ],
       "vocab": [
         {
@@ -90,10 +90,10 @@
       "scenario": "You are the program manager initiating a supply-chain modernization program. Stakeholders across three business units each describe benefits they expect from the program; some overlap and some conflict with one another.",
       "stem": "How should the program manager proceed to define the benefits realization plan?",
       "options": [
-        "Rank the three business units' initiatives as competing portfolio components and fund only the units whose benefits score highest against prioritization criteria.",
-        "Analyze the organizational strategy and program drivers to identify and quantify the expected benefits, then consolidate them into a single benefits realization plan with measurable criteria.",
-        "Adopt each business unit's stated benefits verbatim to secure their buy-in.",
-        "Defer benefits definition until the program's constituent projects have been chartered."
+        "Rank the three business units' initiatives against prioritization criteria, and include only the benefits of the highest-scoring units.",
+        "Analyze the strategy and program drivers to identify and quantify the benefits, then consolidate them into one measurable plan.",
+        "Adopt each business unit's stated benefits as they are, and resolve any conflicts later when the components are being executed.",
+        "Defer defining the benefits until the components are chartered, so that each benefit can be tied to a specific component's scope."
       ],
       "answer_index": 1,
       "distractor_types": [
@@ -106,16 +106,16 @@
       "scenario_ja": "あなたは、サプライチェーン近代化プログラムを立ち上げようとしているプログラムマネージャーである。3つの事業部門のステークホルダーが、それぞれプログラムに期待するベネフィットを挙げているが、重なるものもあれば、互いに矛盾するものもある。",
       "stem_ja": "ベネフィット実現計画を定義するために、プログラムマネージャーはどのように進めるべきか。",
       "options_ja": [
-        "3つの事業部門の取り組みを競合するポートフォリオ・コンポーネントとして順位づけし、優先順位の基準で最もベネフィットの評価が高い部門にだけ資金を出す。",
-        "組織の戦略とプログラムの推進要因を分析して期待ベネフィットを特定・定量化し、それらを測定可能な基準を持つ1つのベネフィット実現計画に統合する。",
-        "賛同を得るため、各事業部門が挙げたベネフィットをそのまま採用する。",
-        "構成プロジェクトの憲章ができるまで、ベネフィットの定義を先送りする。"
+        "優先順位の基準で3つの事業部門の取り組みを順位づけし、評価の高い部門のベネフィットだけを計画に含める。",
+        "戦略とプログラムの推進要因を分析してベネフィットを特定・定量化し、測定可能な1つの計画に統合する。",
+        "各事業部門が挙げたベネフィットをそのまま採用し、矛盾はコンポーネントの実行中に後で解決する。",
+        "各ベネフィットを特定のコンポーネントのスコープに結びつけられるよう、コンポーネントの憲章ができるまでベネフィットの定義を先送りする。"
       ],
       "option_explanations": [
-        "ポートフォリオ視点での順位づけ・選別（投資判断）です。プログラムの中でベネフィットを統合するプログラムマネージャーの役割ではありません。",
+        "取り組みを順位づけして選別するのは、ポートフォリオ視点（投資判断）です。プログラムの中でベネフィットを統合するプログラムマネージャーの役割ではありません。",
         "正解。戦略と推進要因からベネフィットを特定・定量化し、測定可能な基準を持つ1つの計画にまとめます（ECO D1-T6）。",
-        "矛盾を放置したままで、定量化もしていません。",
-        "ベネフィットの定義を後回しにすると、初期段階での戦略との整合が損なわれます。"
+        "矛盾を後回しにすると、実行中にコンポーネント同士がぶつかります。定量化もしていません。",
+        "ベネフィットはコンポーネントを定める前提です。後回しにすると、戦略との整合が損なわれます。"
       ],
       "vocab": [
         {
@@ -166,10 +166,10 @@
       "scenario": "You are the program manager preparing to secure funding authorization for a new digital-payments program. Leadership wants to understand what the program will cost and what it will return before committing budget.",
       "stem": "How should the program manager frame the funding request?",
       "options": [
-        "Present each constituent project's isolated ROI and ask leadership to fund only the projects that individually clear the corporate hurdle rate.",
-        "Request full multi-year funding up front without a financial framework, to avoid re-authorization overhead.",
-        "Estimate the program's high-level financial framework and nonfinancial benefits to obtain funding authorization and drive prioritization of projects within the program.",
-        "Defer the funding request until all constituent projects have detailed cost baselines."
+        "Present each component's own ROI, and ask leadership to fund only the components that individually clear the corporate hurdle rate.",
+        "Request the full multi-year funding up front based on the business case, to avoid the overhead of repeated funding authorizations.",
+        "Estimate the program's high-level financial framework and nonfinancial benefits to obtain funding and guide priorities within it.",
+        "Defer the funding request until every component has a detailed cost baseline, so that leadership sees precise figures before deciding."
       ],
       "answer_index": 2,
       "distractor_types": [
@@ -182,14 +182,14 @@
       "scenario_ja": "あなたは、新しいデジタル決済プログラムの資金承認を得る準備をしているプログラムマネージャーである。経営陣は予算を約束する前に、プログラムにどれだけ費用がかかり、何が得られるのかを理解したいと考えている。",
       "stem_ja": "プログラムマネージャーは資金要求をどのような形でまとめるべきか。",
       "options_ja": [
-        "構成プロジェクトごとの単独のROIを示し、それぞれが社内の基準収益率を超えるプロジェクトにだけ資金を出すよう経営陣に求める。",
-        "再承認の手間を避けるため、財務の枠組みなしで複数年分の資金を最初に一括で要求する。",
-        "プログラムの概略の財務枠組みと非財務的なベネフィットを見積もり、資金承認を得るとともに、プログラム内のプロジェクトの優先順位づけに役立てる。",
-        "すべての構成プロジェクトに詳細なコスト・ベースラインができるまで、資金要求を先送りする。"
+        "コンポーネントごとのROIを示し、それぞれが社内の基準収益率を超えるコンポーネントにだけ資金を出すよう経営陣に求める。",
+        "資金承認を何度も受ける手間を避けるため、ビジネスケースにもとづいて複数年分の資金を最初に一括で求める。",
+        "プログラムの概略の財務枠組みと非財務的なベネフィットを見積もり、資金承認を得るとともに、プログラム内の優先順位づけに役立てる。",
+        "経営陣が正確な数字を見てから判断できるよう、すべてのコンポーネントに詳細なコスト・ベースラインができるまで資金要求を先送りする。"
       ],
       "option_explanations": [
-        "プロジェクトを単独の採算で選別するのは、投資判断者（ポートフォリオ）の発想です。プログラムはコンポーネント間の相乗効果を含めてベネフィットを捉えます。",
-        "財務の枠組みがないまま一括で求めるのは、ガバナンスの点で不適切です。",
+        "コンポーネントを単独の採算で選別するのは、投資判断者（ポートフォリオ）の発想です。プログラムはコンポーネント間の相乗効果を含めてベネフィットを捉えます。",
+        "財務の枠組みなしに一括で求めるのは、ガバナンスの点で不適切です。",
         "正解。概略の財務枠組みと非財務的なベネフィットを見積もって資金承認を得て、プログラム内の優先順位づけにも使います（ECO D1-T7）。",
         "詳細なベースラインを待っていると、機会を逃します。この段階で必要なのは概略の見積もりです。"
       ],
@@ -236,10 +236,10 @@
       "scenario": "During program definition, the program manager notices that two constituent projects each plan to build similar data-integration capabilities, and a shared facility could serve both.",
       "stem": "What should the program manager do to maximize benefits?",
       "options": [
-        "Let each project build its own capability independently to preserve project autonomy.",
-        "Escalate the duplication to the portfolio board so it can decide which project to cancel as an investment.",
-        "Ignore the overlap because consolidating would complicate the schedule.",
-        "Identify and evaluate the integration opportunity (shared capability and resources) and align it across the program to realize benefits more efficiently."
+        "Let each project build its own capability, since each has a separate budget and sharing would create dependencies between them.",
+        "Escalate the duplication to the portfolio board, so that it can decide which of the two projects should be cancelled as an investment.",
+        "Keep both designs, but ask the two project managers to share lessons learned so that the second project can build its version faster.",
+        "Evaluate a shared capability and shared resources for the two projects, and align them in the program plan to realize benefits."
       ],
       "answer_index": 3,
       "distractor_types": [
@@ -252,15 +252,15 @@
       "scenario_ja": "プログラムの定義フェーズで、プログラムマネージャーは、2つの構成プロジェクトがそれぞれ似たデータ統合の機能を作ろうとしており、共有の設備で両方をまかなえることに気づいた。",
       "stem_ja": "ベネフィットを最大化するために、プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "プロジェクトの自律性を保つため、各プロジェクトにそれぞれ独自に機能を作らせる。",
-        "どちらのプロジェクトを投資として中止するか決められるよう、重複をポートフォリオ委員会にエスカレーションする。",
-        "統合するとスケジュールが複雑になるので、重複は無視する。",
-        "統合の機会（共有の機能とリソース）を特定・評価し、プログラム全体で整合させて、ベネフィットをより効率的に実現する。"
+        "それぞれ予算が別で、共有すると互いに依存関係が生まれるので、各プロジェクトに独自に機能を作らせる。",
+        "どちらのプロジェクトを投資として中止すべきか決められるよう、重複をポートフォリオ委員会にエスカレーションする。",
+        "両方の設計は残し、2人のプロジェクトマネージャーに教訓を共有させて、2つ目のプロジェクトが早く作れるようにする。",
+        "2つのプロジェクトで機能とリソースを共有する案を評価し、プログラムの計画の中で整合させてベネフィットを実現する。"
       ],
       "option_explanations": [
-        "重複を放置しており、相乗効果を逃しています。",
-        "どのプロジェクトを中止するかをポートフォリオ委員会に委ねるのは、プログラム内で統合の機会を活かすという役割の放棄です。",
-        "スケジュールの都合だけで判断し、相乗効果を逃しています。",
+        "依存関係を避けることを優先し、相乗効果を逃しています。依存関係はプログラムが管理するものです。",
+        "どちらを中止するかをポートフォリオ委員会に委ねるのは、プログラム内で統合の機会を活かすという役割の放棄です。",
+        "教訓の共有は役立ちますが、重複そのものは残り、共有による効率化を逃しています。",
         "正解。統合の機会を特定・評価し、プログラム全体で整合させます（ECO D1-T10）。第5版の原則「シナジー」そのものです。"
       ],
       "vocab": [
@@ -308,10 +308,10 @@
       "scenario": "Midway through a program, a new technology emerges that could significantly increase the program's benefits if adopted, though it introduces change.",
       "stem": "What is the program manager's appropriate response?",
       "options": [
-        "Exploit the strategic opportunity for change to maximize benefits realization, assessing its impact within the program.",
-        "Reject the change to keep the program on its original plan.",
-        "Refer the decision to the investment committee to re-rank the program against other portfolio opportunities.",
-        "Adopt the technology immediately across all projects without impact analysis."
+        "Treat the technology as a strategic opportunity, assess its impact on the program and its benefits, and then propose the change.",
+        "Decline the technology for now and record it for a possible follow-on program, so that the current plan remains stable.",
+        "Refer the decision to the investment committee, so that it can re-rank the program against the other portfolio opportunities.",
+        "Pilot the technology in all projects at once to learn quickly, and roll it back in any project where it causes problems."
       ],
       "answer_index": 0,
       "distractor_types": [
@@ -324,16 +324,16 @@
       "scenario_ja": "プログラムの中盤で、採用すればプログラムのベネフィットを大きく高めうる新しい技術が登場した。ただし、その採用には変更がともなう。",
       "stem_ja": "プログラムマネージャーの適切な対応はどれか。",
       "options_ja": [
-        "変化という戦略的な機会を活かしてベネフィット実現を最大化し、その影響をプログラムの中で評価する。",
-        "当初の計画どおりに進めるため、その変更を却下する。",
-        "他のポートフォリオの機会と比べてプログラムの順位を付け直すよう、投資委員会に判断を委ねる。",
-        "影響を分析せずに、直ちにすべてのプロジェクトでその技術を採用する。"
+        "その技術を戦略的な機会として扱い、プログラムとベネフィットへの影響を評価したうえで変更を提案する。",
+        "今の計画を安定させるため、いったんその技術は見送り、後続のプログラムの候補として記録しておく。",
+        "他のポートフォリオの機会と比べてプログラムの順位を付け直せるよう、投資委員会に判断を委ねる。",
+        "早く学べるよう、すべてのプロジェクトで一斉に試行し、問題が出たプロジェクトでは元に戻す。"
       ],
       "option_explanations": [
-        "正解。変化を機会として活かし、影響をプログラムの中で評価します（ECO D1-T11）。",
-        "機会を捨てています。プログラムは変化に適応していくものです。",
+        "正解。変化を機会として活かし、影響をプログラムの中で評価してから提案します（ECO D1-T11）。",
+        "機会を先送りしており、ベネフィットを大きく高めるチャンスを逃します。",
         "他の投資案と比べて順位を付け直すのは投資判断者の動きで、プログラムマネージャーの権限を超えています。",
-        "影響分析なしでの全面採用は拙速です。"
+        "影響を評価しないまま全プロジェクトに広げるのは拙速で、リスクが大きすぎます。"
       ],
       "vocab": [
         {
@@ -659,10 +659,10 @@
       "scenario": "A newly available technology could deliver one of the program's key benefits a year earlier than planned, but it was not part of the original business case.",
       "stem": "What should the program manager do?",
       "options": [
-        "Adopt the technology immediately to accelerate benefit delivery.",
-        "Evaluate it as an opportunity against the business case and propose a change to program governance.",
-        "Ignore it because it is outside the approved program scope.",
-        "Recommend that the portfolio launch a separate program to pursue the technology."
+        "Adopt the technology immediately in the affected component, since it accelerates a key benefit and can only improve the business case.",
+        "Evaluate it as an opportunity against the business case and the program's benefits, and then propose the change to governance.",
+        "Record it for a possible future program, because the technology was not in the approved scope and changing now would add risk.",
+        "Recommend that the portfolio launch a separate program to pursue the technology, so that this program's baseline stays protected."
       ],
       "answer_index": 1,
       "distractor_types": [
@@ -675,15 +675,15 @@
       "scenario_ja": "新たに利用可能になった技術を使えば、プログラムの主要なベネフィットの1つを計画より1年早く実現できる可能性がある。ただし、この技術は当初のビジネスケースには含まれていなかった。",
       "stem_ja": "プログラムマネージャーはどうすべきか。",
       "options_ja": [
-        "ベネフィットの実現を早めるため、直ちにその技術を採用する。",
-        "機会としてビジネスケースに照らして評価し、プログラム・ガバナンスに変更を提案する。",
-        "承認済みのプログラム・スコープ外なので無視する。",
-        "その技術に取り組む別のプログラムを立ち上げるよう、ポートフォリオに提言する。"
+        "主要なベネフィットを前倒しでき、ビジネスケースを良くするだけなので、影響を受けるコンポーネントで直ちにその技術を採用する。",
+        "機会としてビジネスケースとプログラムのベネフィットに照らして評価し、そのうえでガバナンスに変更を提案する。",
+        "その技術は承認済みのスコープになく、今変えるとリスクが増えるので、将来のプログラムの候補として記録しておく。",
+        "このプログラムのベースラインを守るため、その技術に取り組む別のプログラムを立ち上げるようポートフォリオに提言する。"
       ],
       "option_explanations": [
-        "評価もガバナンスの承認もなしに取り入れるのは危険です。",
-        "正解。機会（ポジティブなリスク）としてビジネスケースに照らして評価し、ガバナンスに変更を提案します。",
-        "プログラムは不確実性や機会に適応していくものです。スコープ外だからと無視するのは誤りです。",
+        "評価もガバナンスの承認もなしに取り入れるのは危険です。良いことばかりとは限りません。",
+        "正解。機会（ポジティブなリスク）としてビジネスケースに照らして評価し、ガバナンスに変更を提案します（ECO D1-T11）。",
+        "プログラムは変化や機会に適応するものです。スコープ外だからと見送るのは誤りです。",
         "既存のプログラムのベネフィットを早める話なので、まずはこのプログラムの中で評価します。"
       ],
       "vocab": [

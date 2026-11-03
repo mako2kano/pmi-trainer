@@ -18,10 +18,10 @@
       "scenario": "A key sponsor is wavering in their support for the program because they doubt it will deliver its promised benefits. The program manager needs to secure and maintain the sponsor's alignment with the program objectives.",
       "stem": "What is the most effective action for the program manager?",
       "options": [
-        "Advise the sponsor to reprioritize the enterprise portfolio so that funding shifts toward initiatives with clearer near-term returns.",
-        "Reassure the sponsor verbally that the benefits will be delivered, without agreeing on any measurable criteria.",
-        "Escalate the sponsor's doubt to the governance board and wait for instruction before acting.",
-        "Negotiate the sponsor's support by agreeing on clear expectations and acceptance criteria (for example, KPIs) for the program benefits to keep them aligned with the program objectives."
+        "Advise the sponsor to reprioritize the portfolio so that funding shifts toward initiatives with clearer near-term returns.",
+        "Reassure the sponsor by sharing success stories from similar programs, and invite them to the next program review meeting.",
+        "Escalate the sponsor's doubts to the governance board, and wait for its guidance before discussing the benefits with the sponsor.",
+        "Agree with the sponsor on clear expectations and acceptance criteria, such as KPIs, for the benefits, to secure their support."
       ],
       "answer_index": 3,
       "distractor_types": [
@@ -34,14 +34,14 @@
       "scenario_ja": "主要なスポンサーの1人が、プログラムが約束したベネフィットを本当に出せるのか疑い、支持が揺らいでいる。プログラムマネージャーは、スポンサーの支持を得て、プログラムの目的との整合を保ち続ける必要がある。",
       "stem_ja": "プログラムマネージャーにとって最も効果的な行動はどれか。",
       "options_ja": [
-        "短期のリターンがよりはっきりした取り組みに資金が移るよう、企業のポートフォリオの優先順位を見直すことをスポンサーに助言する。",
-        "測定可能な基準には何も合意せず、ベネフィットは必ず出せると口頭でスポンサーを安心させる。",
-        "スポンサーの疑念をガバナンス委員会にエスカレーションし、指示があるまで動かない。",
-        "プログラムのベネフィットについて明確な期待と受け入れ基準（KPIなど）に合意してスポンサーの支持を取りつけ、プログラムの目的との整合を保つ。"
+        "短期のリターンがよりはっきりした取り組みに資金が移るよう、ポートフォリオの優先順位を見直すことをスポンサーに助言する。",
+        "似たプログラムの成功事例を紹介してスポンサーを安心させ、次回のプログラム・レビューに招く。",
+        "スポンサーの疑念をガバナンス委員会にエスカレーションし、その指示があるまでスポンサーとベネフィットについて話さない。",
+        "ベネフィットについての明確な期待と、KPIなどの受け入れ基準にスポンサーと合意し、支持を取りつける。"
       ],
       "option_explanations": [
         "ポートフォリオの優先順位の見直しは投資判断者への助言で、スポンサーの支持を得る手段としては筋違いです。",
-        "測定可能な基準のない口約束では、疑念は解けません。",
+        "他のプログラムの成功事例では、このプログラムのベネフィットへの疑念は解けません。測定可能な基準が必要です。",
         "自分で関与せず放置しています。",
         "正解。ベネフィットの期待と受け入れ基準（KPIなど）に合意して支持を取りつけます（ECO D4-T3）。"
       ],
@@ -510,10 +510,10 @@
       "scenario": "A newly onboarded sponsor is enthusiastic but has not agreed to any measurable criteria for what the program's benefits must achieve.",
       "stem": "What should the program manager do?",
       "options": [
-        "Advise the sponsor to compare the program against other portfolio investments before committing.",
-        "Accept the sponsor's enthusiasm as sufficient without criteria.",
-        "Negotiate the sponsor's support by setting clear expectations and acceptance criteria (for example, KPIs) for the program benefits to achieve and maintain alignment with program objectives.",
-        "Postpone any agreement on criteria until late in the program."
+        "Advise the sponsor to compare the program with other portfolio investments before committing personal support to it.",
+        "Welcome the sponsor's enthusiasm, and agree to define measurable criteria once the first component has delivered results.",
+        "Agree with the sponsor on clear expectations and acceptance criteria, such as KPIs, for what the benefits must achieve.",
+        "Ask the steering committee to set the benefit criteria for the sponsor, since the committee approved the business case."
       ],
       "answer_index": 2,
       "distractor_types": [
@@ -526,16 +526,16 @@
       "scenario_ja": "新しく加わったスポンサーは意欲的だが、プログラムのベネフィットが何を達成すべきかについて、測定可能な基準にはまだ何も合意していない。",
       "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "コミットする前に、プログラムを他のポートフォリオ投資と比べるようスポンサーに助言する。",
-        "基準がなくても、スポンサーの意欲があれば十分だと受け止める。",
-        "プログラムのベネフィットについて明確な期待と受け入れ基準（KPIなど）を設定してスポンサーの支持を取りつけ、プログラムの目的との整合を確立し維持する。",
-        "基準についての合意は、プログラムの終盤まで先送りする。"
+        "個人として支持を約束する前に、プログラムを他のポートフォリオ投資と比べるようスポンサーに助言する。",
+        "スポンサーの意欲を歓迎し、測定可能な基準は最初のコンポーネントが成果を出してから定めることに合意する。",
+        "ベネフィットが何を達成すべきかについて、明確な期待と、KPIなどの受け入れ基準にスポンサーと合意する。",
+        "ビジネスケースを承認したのは運営委員会なので、スポンサーの代わりにベネフィットの基準を定めるよう委員会に頼む。"
       ],
       "option_explanations": [
         "他の投資と比べさせるのは、投資判断者の視点への誘導で、支持を得る手段として筋違いです。",
-        "基準がないと、後で期待がずれます。",
+        "基準の合意を先送りすると、成果が出たときに期待とずれていることが分かります。",
         "正解。明確な期待と受け入れ基準（KPIなど）を設定して支持を取りつけます（ECO D4-T3）。",
-        "合意を先送りすると、期待を管理できません。"
+        "スポンサー自身が基準に合意しなければ、スポンサーの期待は管理できません。"
       ],
       "vocab": [
         {
@@ -577,10 +577,10 @@
       "scenario": "The head of an operations department, a key stakeholder, is openly resisting the changes the program will introduce.",
       "stem": "What should the program manager do?",
       "options": [
-        "Meet with the stakeholder to understand their concerns and update the stakeholder engagement strategy accordingly.",
-        "Ask the program sponsor to mandate the stakeholder's cooperation.",
-        "Increase the frequency of status reports sent to the stakeholder.",
-        "Proceed as planned and record the resistance as a program risk."
+        "Meet with the stakeholder to understand their concerns, and update the stakeholder engagement strategy accordingly.",
+        "Ask the program sponsor to secure the stakeholder's cooperation, since operations must accept the changes for benefits to occur.",
+        "Send the stakeholder more detailed and more frequent status reports, so that their concerns can be answered with facts.",
+        "Proceed as planned and record the resistance as a program risk, with a contingency response if it starts to cause delays."
       ],
       "answer_index": 0,
       "distractor_types": [
@@ -594,14 +594,14 @@
       "stem_ja": "プログラムマネージャーはどうすべきか。",
       "options_ja": [
         "そのステークホルダーと面談して懸念を理解し、それに応じてステークホルダー・エンゲージメント戦略を更新する。",
-        "プログラム・スポンサーに、そのステークホルダーの協力を命じてもらう。",
-        "そのステークホルダーへの状況報告の頻度を増やす。",
-        "計画どおり進め、その抵抗をプログラム・リスクとして記録する。"
+        "運用部門が変化を受け入れないとベネフィットが出ないので、そのステークホルダーの協力を取りつけるようスポンサーに頼む。",
+        "懸念に事実で答えられるよう、そのステークホルダーにより詳しい状況報告をより頻繁に送る。",
+        "計画どおり進め、抵抗はプログラム・リスクとして記録し、遅れが出始めたときの対応策を用意しておく。"
       ],
       "option_explanations": [
         "正解。抵抗の理由を理解し、エンゲージメント戦略を見直します。運用部門はベネフィットを受け取り、維持していく当事者です。",
         "すぐスポンサーの権限に頼るのは最後の手段です。抵抗の原因をつかまないまま押し付けると、ベネフィットの定着を妨げます。",
-        "情報を一方的に送る回数を増やしても、懸念は解けません。必要なのは双方向のエンゲージメントです。",
+        "情報を一方的に送る量を増やしても、懸念は解けません。必要なのは双方向のエンゲージメントです。",
         "リスクとして記録するだけで、エンゲージメント活動をしないのは消極的すぎます。"
       ],
       "vocab": [
