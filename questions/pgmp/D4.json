@@ -85,13 +85,13 @@
       "principles": [
         "Stakeholders"
       ],
-      "scenario": "You have just been assigned as the program manager for a newly authorized program spanning several departments and multiple external vendors.",
-      "stem": "What is the appropriate first step in stakeholder engagement?",
+      "scenario": "You have just been appointed program manager for a newly authorized program that will replace the payroll and HR systems of a manufacturing group with 12,000 employees in four countries. The sponsor hands you a list of 15 executives who attended the approval meeting and says these are your stakeholders. Several external payroll vendors and two labor unions are also involved.",
+      "stem": "What should the program manager do FIRST?",
       "options": [
-        "Identify the stakeholders, including the sponsors and steering committee, and create a stakeholder matrix documenting their position relative to the program.",
-        "Begin drafting detailed communications before identifying who the stakeholders are.",
-        "Engage only the executive sponsor and defer all other stakeholders until execution begins.",
-        "Assume the constituent projects' stakeholder lists are complete and reuse them unchanged."
+        "Identify all stakeholders, including vendors and unions, and build a stakeholder matrix recording each one's position.",
+        "Schedule individual meetings with the 15 executives on the sponsor's list to understand their expectations of the program.",
+        "Draft a communications plan for the 15 executives, and add the other groups once the components begin execution.",
+        "Ask the HR department to nominate union representatives so that the program can work through a single point of contact."
       ],
       "answer_index": 0,
       "distractor_types": [
@@ -100,37 +100,41 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "ステークホルダー・エンゲージメントの出発点は、スポンサーや運営委員会を含むステークホルダーを特定し、プログラムに対する立場をマトリクスに記録することです。分析や計画は、その後に続きます。",
-      "scenario_ja": "あなたは、いくつもの部門と複数の外部ベンダーにまたがる、新しく承認されたプログラムのプログラムマネージャーに任命されたばかりである。",
-      "stem_ja": "ステークホルダー・エンゲージメントの最初のステップとして適切なのはどれか。",
+      "explanation": "スポンサーから渡された一覧は出発点にすぎません。ステークホルダー・エンゲージメントの最初の一歩は、ベンダーや労働組合を含むすべてのステークホルダーを特定し、プログラムに対する立場をマトリクスに記録することです。一覧の役員とだけ面談したり計画を作ったりすると、影響の大きい外部の関係者が抜け落ちます。「12,000人」「4か国」は判断に関係のない情報です。",
+      "scenario_ja": "あなたは、4か国で12,000人の従業員を抱える製造業グループの給与・人事システムを置き換える、新しく承認されたプログラムのプログラムマネージャーに任命されたばかりである。スポンサーは承認会議に出席した15人の役員の一覧を渡し、これがあなたのステークホルダーだと言う。プログラムには、社外の給与計算ベンダー数社と2つの労働組合も関わっている。",
+      "stem_ja": "プログラムマネージャーが最初にすべきことは何か。",
       "options_ja": [
-        "スポンサーや運営委員会を含むステークホルダーを特定し、プログラムに対するそれぞれの立場を記録したステークホルダー・マトリクスを作る。",
-        "誰がステークホルダーなのかを特定する前に、詳細なコミュニケーションの文案を作り始める。",
-        "エグゼクティブ・スポンサーとだけ関わり、ほかのステークホルダーは実行が始まるまで後回しにする。",
-        "構成プロジェクトのステークホルダー一覧で足りると考え、そのまま流用する。"
+        "ベンダーや労働組合を含むすべてのステークホルダーを特定し、それぞれの立場を記録したステークホルダー・マトリクスを作る。",
+        "スポンサーの一覧にある15人の役員と個別に面談し、プログラムへの期待を把握する。",
+        "15人の役員向けのコミュニケーション計画を作り、他のグループはコンポーネントの実行が始まってから加える。",
+        "プログラムが1つの窓口とやりとりできるよう、人事部門に労働組合の代表者を指名してもらう。"
       ],
       "option_explanations": [
-        "正解。ステークホルダーを特定し、立場を記録したマトリクスを作ります（ECO D4-T1）。",
-        "特定する前に伝える内容を作るのは、順序が逆です。",
-        "対象を絞りすぎています。",
-        "プロジェクトの一覧を検証せずに使っており、プログラムレベルの網羅性が欠けます。"
+        "正解。すべてのステークホルダーを特定し、立場をマトリクスに記録します（ECO D4-T1）。",
+        "役員の期待を知ることは大事ですが、一覧にない外部の関係者が抜けたままです。",
+        "影響の大きいベンダーや組合を後回しにしており、特定の段階が不完全です。",
+        "組合との関わり方を人事部門に任せており、まずステークホルダーを特定・分析するという順序を飛ばしています。"
       ],
       "vocab": [
         {
-          "en": "span",
-          "ja": "～にまたがる"
+          "en": "appoint",
+          "ja": "任命する"
+        },
+        {
+          "en": "payroll",
+          "ja": "給与計算"
+        },
+        {
+          "en": "labor union",
+          "ja": "労働組合"
         },
         {
           "en": "stakeholder matrix",
           "ja": "ステークホルダー・マトリクス"
         },
         {
-          "en": "position relative to",
-          "ja": "～に対する立場"
-        },
-        {
-          "en": "defer",
-          "ja": "後回しにする"
+          "en": "single point of contact",
+          "ja": "単一の窓口"
         }
       ],
       "evaluator": {
@@ -151,13 +155,13 @@
       "principles": [
         "Stakeholders"
       ],
-      "scenario": "The stakeholder matrix exists, but the program manager needs a deeper understanding of stakeholders to plan how to engage them.",
-      "stem": "What should the program manager do next?",
+      "scenario": "An airport authority's terminal expansion program has produced a stakeholder register listing airlines, ground-handling companies, retail tenants, local residents, and the civil aviation regulator. The program manager must now plan how to engage each group. Contracts with two airlines include clauses about construction noise and gate availability during the works.",
+      "stem": "What should the program manager do NEXT?",
       "options": [
-        "Send identical mass communications to everyone regardless of their needs.",
-        "Perform stakeholder analysis—using history, interviews, knowledge bases, and review of formal agreements—to create the stakeholder engagement plan.",
-        "Engage only the stakeholders who volunteer.",
-        "Assume the matrix alone is sufficient and skip analysis."
+        "Send a standard program newsletter to every group in the register, and then adjust its content based on the feedback each group sends.",
+        "Analyze each group's interests and influence using interviews, past experience, and the airline contracts, then build the plan.",
+        "Focus engagement on the regulator and the airlines, because they have the most power to stop or delay the program.",
+        "Ask the legal department to review the airline contracts and to manage all communication with the two airlines."
       ],
       "answer_index": 1,
       "distractor_types": [
@@ -166,37 +170,41 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "マトリクスの次は、過去の経緯・面談・ナレッジベース・正式な合意文書（RFPや契約など）を使ってステークホルダー分析を行い、その結果からエンゲージメント計画を作ります。",
-      "scenario_ja": "ステークホルダー・マトリクスはできたが、どのように関わっていくかを計画するには、ステークホルダーをもっと深く理解する必要がある。",
+      "explanation": "ステークホルダー登録簿ができたら、次は分析です。面談、過去の経験、契約などの正式な合意文書を使って、各グループの関心と影響力を把握し、それをもとにエンゲージメント計画を作ります。画一的な発信、影響力の強い相手だけへの集中、法務への丸投げは、いずれも分析を飛ばしています。",
+      "scenario_ja": "ある空港運営会社のターミナル拡張プログラムで、航空会社、地上支援会社、テナントの小売店、地域住民、民間航空の規制当局を載せたステークホルダー登録簿ができた。プログラムマネージャーは次に、各グループとどのように関わるかを計画しなければならない。2つの航空会社との契約には、工事中の騒音や搭乗ゲートの利用についての条項がある。",
       "stem_ja": "プログラムマネージャーが次にすべきことは何か。",
       "options_ja": [
-        "ニーズに関係なく、全員に同じ一斉連絡を送る。",
-        "過去の経緯、面談、ナレッジベース、正式な合意文書の確認を使ってステークホルダー分析を行い、ステークホルダー・エンゲージメント計画を作る。",
-        "自分から名乗り出たステークホルダーとだけ関わる。",
-        "マトリクスだけで十分と考え、分析を省く。"
+        "登録簿のすべてのグループに標準的なプログラム・ニュースレターを送り、各グループから寄せられた反応をもとに内容を調整する。",
+        "面談、過去の経験、航空会社との契約を使って各グループの関心と影響力を分析し、そのうえで計画を作る。",
+        "プログラムを止めたり遅らせたりする力が最も強いので、規制当局と航空会社に絞って関わる。",
+        "法務部門に航空会社との契約を確認させ、2つの航空会社とのやりとりをすべて任せる。"
       ],
       "option_explanations": [
-        "画一的な連絡では、相手ごとのニーズに応えられません。",
+        "画一的な発信から始めており、グループごとの関心を分析していません。",
         "正解。さまざまな情報源でステークホルダー分析を行い、エンゲージメント計画を作ります（ECO D4-T2）。",
-        "対象が偏ります。",
-        "分析を省くと、計画の土台がなくなります。"
+        "影響力だけで絞ると、住民やテナントなど、関心の高いグループを見落とします。",
+        "契約の確認は分析の材料の1つですが、関係づくりを法務に任せるのはプログラムマネージャーの役割の放棄です。"
       ],
       "vocab": [
         {
-          "en": "stakeholder analysis",
-          "ja": "ステークホルダー分析"
+          "en": "ground handling",
+          "ja": "地上支援業務（手荷物・給油など）"
         },
         {
-          "en": "knowledge base",
-          "ja": "ナレッジベース"
+          "en": "retail tenant",
+          "ja": "テナントの小売店"
         },
         {
-          "en": "formal agreements",
-          "ja": "正式な合意文書（契約など）"
+          "en": "civil aviation regulator",
+          "ja": "民間航空の規制当局"
         },
         {
-          "en": "mass communication",
-          "ja": "一斉連絡"
+          "en": "clause",
+          "ja": "（契約の）条項"
+        },
+        {
+          "en": "interest / influence",
+          "ja": "関心／影響力"
         }
       ],
       "evaluator": {
@@ -218,52 +226,56 @@
         "Stakeholders",
         "Leadership"
       ],
-      "scenario": "As the program progresses, stakeholder attention drifts and support for the program's strategic objectives is weakening.",
+      "scenario": "In the third year of a five-year water network renewal program, a new city administration takes office. Several new council members know little about the program, and attendance at the quarterly program review has dropped by half. The program is currently on schedule and within budget.",
       "stem": "What should the program manager do?",
       "options": [
-        "Stop communicating to avoid bothering stakeholders.",
-        "Assume support is permanent once initially given.",
-        "Generate and maintain visibility for the program and confirm stakeholder support to achieve the program's strategic objectives.",
-        "Shift all engagement to after the program ends."
+        "Continue as planned, because the program's on-schedule and within-budget performance will speak for itself at the next budget review.",
+        "Ask the sponsor to require all council members to attend the quarterly program review from now on.",
+        "Raise the program's visibility with the new administration through briefings and site visits, and confirm their support.",
+        "Ask the portfolio office to reconfirm the program's priority against the new administration's other initiatives."
       ],
       "answer_index": 2,
       "distractor_types": [
         "plausible",
         "plausible",
         null,
-        "plausible"
+        "cross_perspective"
       ],
-      "explanation": "ステークホルダーの支持は、一度得たら終わりではありません。プログラムの存在感（visibility）を生み出して保ち、戦略目標の達成に向けた支持を継続的に確かめます。",
-      "scenario_ja": "プログラムが進むにつれて、ステークホルダーの関心が薄れ、プログラムの戦略目標への支持が弱まっている。",
+      "explanation": "体制が変わると、プログラムへの理解と支持は自然には引き継がれません。説明の機会や現場の見学などで新しい体制へのプログラムの存在感（可視性）を高め、目的への支持を確かめます。順調な実績だけでは支持は保てず、出席の義務化では理解は深まりません。優先順位の再確認はポートフォリオ側の判断です。",
+      "scenario_ja": "5か年の水道管網の更新プログラムの3年目に、新しい市の執行部が就任した。新しい議員の何人かはプログラムのことをほとんど知らず、四半期ごとのプログラム・レビューへの出席者は半分に減っている。プログラムは現在、スケジュールどおりで予算内に収まっている。",
       "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "ステークホルダーの手をわずらわせないよう、連絡をやめる。",
-        "一度得た支持はずっと続くと考える。",
-        "プログラムの存在感（可視性）を生み出して維持し、戦略目標の達成に向けたステークホルダーの支持を確かめる。",
-        "関わりはすべてプログラム終了後に回す。"
+        "スケジュールどおり・予算内という実績が次の予算審査で物を言うので、計画どおりに進める。",
+        "今後はすべての議員に四半期レビューへの出席を義務づけるよう、スポンサーに頼む。",
+        "説明会や現場の見学を通じて新しい執行部へのプログラムの可視性を高め、支持を確かめる。",
+        "新しい執行部の他の施策と比べたプログラムの優先順位を再確認するよう、ポートフォリオ・オフィスに依頼する。"
       ],
       "option_explanations": [
-        "可視性がさらに下がり、支持も失われます。",
-        "支持は固定的なものではありません。",
-        "正解。プログラムの可視性を保ち、支持を確かめ続けます（ECO D4-T4）。",
-        "時期が遅すぎます。"
+        "実績があっても、知られていなければ支持は得られません。受け身の対応です。",
+        "出席を義務づけても、理解や支持が深まるとは限りません。",
+        "正解。新しい関係者への可視性を高め、支持を確かめます（ECO D4-T4）。",
+        "優先順位の判断はポートフォリオ側の役割です。プログラムマネージャーがすべきことは、支持を得るための働きかけです。"
       ],
       "vocab": [
         {
-          "en": "drift",
-          "ja": "（関心が）薄れる・それる"
+          "en": "water network renewal",
+          "ja": "水道管網の更新"
         },
         {
-          "en": "visibility",
-          "ja": "可視性・存在感"
+          "en": "administration",
+          "ja": "（自治体の）執行部・政権"
         },
         {
-          "en": "confirm",
-          "ja": "確かめる"
+          "en": "take office",
+          "ja": "就任する"
         },
         {
-          "en": "permanent",
-          "ja": "永続的な"
+          "en": "briefing",
+          "ja": "説明会・状況説明"
+        },
+        {
+          "en": "speak for itself",
+          "ja": "それ自体が証明する・物を言う"
         }
       ],
       "evaluator": {
@@ -284,13 +296,13 @@
       "principles": [
         "Stakeholders"
       ],
-      "scenario": "Different stakeholder groups need different information and framing, but the program currently sends one-size-fits-all updates.",
+      "scenario": "A national rail operator's ticketing modernization program sends the same 25-page monthly report to the board, station managers, the unions, and the technology vendors. The unions complain that changes to staff duties appear in the report only after they are decided, and the vendors say the report lacks the technical detail they need to plan their work.",
       "stem": "What should the program manager do?",
       "options": [
-        "Continue identical updates for all groups.",
-        "Communicate only with the sponsor and no one else.",
-        "Reduce all communication to a single annual report.",
-        "Define and maintain communications adapted to different stakeholders, including sponsors and the steering committee, to ensure their support."
+        "Shorten the monthly report to five pages and send it to all stakeholder groups to reduce the reading burden.",
+        "Keep the monthly report unchanged, and hold an open question-and-answer session each month for any group that needs more information.",
+        "Ask each component manager to communicate directly with the stakeholders who are affected by their component.",
+        "Define communications for each group's needs, such as early notice on duties for the unions and technical detail for vendors."
       ],
       "answer_index": 3,
       "distractor_types": [
@@ -299,33 +311,37 @@
         "plausible",
         null
       ],
-      "explanation": "ステークホルダーごとに必要な情報や伝え方は違います。スポンサーや運営委員会を含む、それぞれに合わせたコミュニケーションを定めて維持することで、支持を確保します。",
-      "scenario_ja": "ステークホルダーのグループによって必要な情報や伝え方が違うのに、プログラムは現在、全員に同じ内容の報告を送っている。",
+      "explanation": "ステークホルダーによって、必要な情報の内容・詳しさ・タイミングは違います。組合には職務変更を決定前に知らせ、ベンダーには技術的な詳細を渡すなど、グループごとに合わせたコミュニケーションを定めます。全員に同じ報告を短くしたり、質問の場を設けたりするだけでは、それぞれのニーズに応えられません。",
+      "scenario_ja": "ある国営鉄道会社の乗車券システム近代化プログラムは、取締役会、駅長、労働組合、技術ベンダーに、同じ25ページの月次報告を送っている。組合は、職員の職務の変更が決まった後にしか報告に載らないと不満を言い、ベンダーは、作業を計画するのに必要な技術的な詳細が報告に足りないと言っている。",
       "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "全グループへの同じ報告を続ける。",
-        "スポンサーとだけ連絡をとり、ほかとはとらない。",
-        "すべての連絡を年1回の報告書にまとめる。",
-        "スポンサーや運営委員会を含む、それぞれのステークホルダーに合わせたコミュニケーションを定め、維持して、支持を確保する。"
+        "読む負担を減らすため、月次報告を5ページに縮めて、すべてのステークホルダー・グループに送る。",
+        "月次報告はそのままにし、さらに情報が必要なグループのために、毎月、自由参加の質疑応答の場を設ける。",
+        "各コンポーネントのマネージャーに、自分のコンポーネントの影響を受けるステークホルダーと直接やりとりさせる。",
+        "組合には職務変更の早めの通知、ベンダーには技術的な詳細というように、グループごとのニーズに合わせたコミュニケーションを定める。"
       ],
       "option_explanations": [
-        "画一的なままで、問題が解決しません。",
-        "ほかのステークホルダーの支持を失います。",
-        "頻度が低すぎます。",
-        "正解。ステークホルダーごとに合わせたコミュニケーションを定め、維持します（ECO D4-T5）。"
+        "全員に同じものを送る点は変わらず、組合やベンダーのニーズには応えられません。",
+        "報告の中身とタイミングの問題は解決しません。",
+        "コンポーネントごとにばらばらに伝えると、プログラムとして一貫したメッセージになりません。",
+        "正解。ステークホルダーごとのニーズに合わせたコミュニケーションを定め、維持します（ECO D4-T5）。"
       ],
       "vocab": [
         {
-          "en": "framing",
-          "ja": "（伝える際の）切り口・見せ方"
+          "en": "ticketing",
+          "ja": "乗車券（発券）"
         },
         {
-          "en": "one-size-fits-all",
-          "ja": "画一的な・全員同じの"
+          "en": "staff duties",
+          "ja": "職員の職務"
         },
         {
-          "en": "adapted to",
-          "ja": "～に合わせた"
+          "en": "reading burden",
+          "ja": "読む負担"
+        },
+        {
+          "en": "advance notice / early notice",
+          "ja": "事前の通知"
         }
       ],
       "evaluator": {
@@ -348,56 +364,56 @@
         "Stakeholders",
         "Risk"
       ],
-      "scenario": "A steering-committee member raises a risk the program team had not captured, which could affect program outcomes.",
+      "scenario": "During a supplier conference for an automotive company's electric-vehicle battery program, a key supplier warns that a shortage of a rare mineral may delay its deliveries next year. The program risk register does not include this risk, and the procurement department says its supply forecasts look stable.",
       "stem": "What should the program manager do?",
       "options": [
-        "Evaluate the stakeholder-identified risk and incorporate it into the program risk management plan as necessary.",
-        "Dismiss the risk because it did not originate with the program team.",
-        "Record it only in meeting minutes with no follow-up.",
-        "Immediately halt the program over a single raised risk."
+        "Evaluate the risk raised by the supplier and, if supported, add it to the risk management plan with response actions.",
+        "Rely on the procurement department's forecast, since it is based on the company's official supply chain data.",
+        "Ask the supplier to provide formal evidence of the shortage before the program spends any time analyzing the risk.",
+        "Ask the portfolio board to fund research into an alternative battery technology as a hedge against the possible mineral shortage."
       ],
       "answer_index": 0,
       "distractor_types": [
         null,
         "plausible",
         "plausible",
-        "plausible"
+        "cross_perspective"
       ],
-      "explanation": "ステークホルダーは、リスク情報の重要な情報源です。指摘されたリスクは評価し、必要に応じてプログラムのリスク管理計画に組み込みます。",
-      "scenario_ja": "運営委員会のメンバーの1人が、プログラムチームが把握していなかったリスクを指摘した。それはプログラムの成果に影響するおそれがある。",
+      "explanation": "ステークホルダーは、プログラムチームが気づいていないリスクの重要な情報源です。指摘されたリスクは評価し、必要なら対応策とともにリスク管理計画に組み込みます。社内の予測を理由に退けたり、証拠を求めて先延ばしにしたりするのは誤りです。代替技術への投資判断は、評価の後にポートフォリオが考えることです。",
+      "scenario_ja": "ある自動車会社の電気自動車用バッテリー・プログラムのサプライヤー会議で、主要サプライヤーが、希少鉱物の不足で来年の納入が遅れるかもしれないと警告した。プログラムのリスク登録簿にこのリスクはなく、調達部門は供給の予測は安定していると言っている。",
       "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "ステークホルダーが指摘したリスクを評価し、必要に応じてプログラムのリスク管理計画に組み込む。",
-        "プログラムチームから出たものではないので、そのリスクを退ける。",
-        "会議の議事録にだけ記録し、その後の対応はしない。",
-        "指摘されたリスク1つを理由に、直ちにプログラムを止める。"
+        "サプライヤーが提起したリスクを評価し、裏づけがあれば、対応策とともにリスク管理計画に加える。",
+        "会社の公式なサプライチェーンのデータにもとづいているので、調達部門の予測を信頼する。",
+        "プログラムがリスク分析に時間を使う前に、不足の正式な証拠を出すようサプライヤーに求める。",
+        "鉱物不足への備えとして、代替のバッテリー技術の研究に資金を出すようポートフォリオ委員会に求める。"
       ],
       "option_explanations": [
-        "正解。指摘されたリスクを評価し、必要に応じてリスク管理計画に組み込みます（ECO D4-T6）。",
-        "出どころを理由に軽視しています。",
-        "記録するだけで、対応がありません。",
-        "過剰な反応です。"
+        "正解。ステークホルダーが指摘したリスクを評価し、必要に応じてリスク管理計画に組み込みます（ECO D4-T6）。",
+        "社内の予測と食い違う情報こそ評価する価値があります。退けるのは早すぎます。",
+        "証拠を待って先延ばしにすると、対応が遅れます。評価はプログラム側で行います。",
+        "代替技術への投資は、リスクを評価した後に検討することで、判断もポートフォリオ側の役割です。"
       ],
       "vocab": [
         {
-          "en": "raise a risk",
-          "ja": "リスクを指摘する・提起する"
+          "en": "supplier conference",
+          "ja": "サプライヤー会議"
         },
         {
-          "en": "capture",
-          "ja": "把握する・記録する"
+          "en": "rare mineral",
+          "ja": "希少鉱物"
         },
         {
-          "en": "dismiss",
-          "ja": "退ける・取り合わない"
+          "en": "shortage",
+          "ja": "不足"
         },
         {
-          "en": "meeting minutes",
-          "ja": "議事録"
+          "en": "procurement",
+          "ja": "調達"
         },
         {
-          "en": "halt",
-          "ja": "止める"
+          "en": "hedge",
+          "ja": "（リスクへの）備え・ヘッジ"
         }
       ],
       "evaluator": {
@@ -419,13 +435,13 @@
         "Stakeholders",
         "Leadership"
       ],
-      "scenario": "Communication with several key stakeholders is transactional, and their support tends to waver at difficult moments.",
-      "stem": "What should the program manager do to strengthen support?",
+      "scenario": "A program to merge the IT operations of two recently combined insurance companies depends on support from both companies' operations directors. The program manager meets them only at monthly steering committee meetings, where they tend to raise objections that surprise the program team. Both directors have worked at their companies for more than 20 years.",
+      "stem": "What should the program manager do to strengthen their support?",
       "options": [
-        "Contact stakeholders only when a problem arises.",
-        "Develop and foster relationships with stakeholders, including sponsors and the steering committee, to improve communication and enhance their support.",
-        "Keep interactions strictly formal and infrequent.",
-        "Rely solely on written status reports for all relationships."
+        "Send the directors the steering committee materials a week in advance so that they can prepare their questions.",
+        "Build relationships with both directors through regular one-on-one talks to understand their concerns and involve them earlier.",
+        "Ask the sponsor to remind the directors that the board has already made the decision to merge the operations.",
+        "Record each of the directors' objections in the issue log and resolve them one by one through the program's formal issue management process."
       ],
       "answer_index": 1,
       "distractor_types": [
@@ -434,37 +450,41 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "困難な局面でも支持してもらうには、日頃からスポンサーや運営委員会を含むステークホルダーとの関係を築き、育てておくことが大切です。事務的なやりとりや書面だけでは、関係は深まりません。",
-      "scenario_ja": "何人かの主要なステークホルダーとのやりとりが事務的で、困難な局面になると彼らの支持が揺らぎがちである。",
-      "stem_ja": "支持を強めるために、プログラムマネージャーは何をすべきか。",
+      "explanation": "会議の場でしか接点がないと、懸念は会議で初めて表に出ます。定期的な1対1の対話で関係を築き、懸念を早く理解して巻き込むことで、支持を強めます。資料の事前送付や課題管理は役立ちますが、関係づくりの代わりにはなりません。権威で押さえ込むと、表面的な同意しか得られません。",
+      "scenario_ja": "最近統合した2つの保険会社のIT運用を一本化するプログラムは、両社の運用部門長の支持に頼っている。プログラムマネージャーが2人と会うのは毎月の運営委員会だけで、そこで2人はプログラムチームが予想していなかった反対意見をよく出してくる。2人とも、それぞれの会社で20年以上働いている。",
+      "stem_ja": "2人の支持を強めるために、プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "問題が起きたときだけ、ステークホルダーに連絡する。",
-        "スポンサーや運営委員会を含むステークホルダーとの関係を築いて育て、コミュニケーションを改善し、支持を強める。",
-        "やりとりは厳格に形式的に、回数も少なく保つ。",
-        "すべての関係を、書面の状況報告だけに頼る。"
+        "質問を準備できるよう、運営委員会の資料を1週間前に2人へ送る。",
+        "定期的な1対1の対話を通じて2人と関係を築き、懸念を理解して、早い段階から巻き込む。",
+        "運用の統合は取締役会がすでに決めたことだと2人に念を押すよう、スポンサーに頼む。",
+        "2人の反対意見をそれぞれ課題ログに記録し、プログラムの正式な課題管理プロセスで1つずつ解決する。"
       ],
       "option_explanations": [
-        "問題のときだけの連絡では、信頼関係が育ちません。",
-        "正解。関係を築いて育て、コミュニケーションと支持を強めます（ECO D4-T7）。",
-        "関係づくりになっていません。",
-        "書面だけでは関係を築けません。"
+        "事前準備には役立ちますが、懸念を早く理解して関係を築くことにはなりません。",
+        "正解。日頃から関係を築き育てることで、コミュニケーションと支持を強めます（ECO D4-T7）。",
+        "権威で押さえ込むと、表面的な同意しか得られず、運用部門の協力が得られません。",
+        "課題として処理するだけでは、なぜ反対するのかという関係の問題に向き合えません。"
       ],
       "vocab": [
         {
-          "en": "transactional",
-          "ja": "事務的な・取引的な"
+          "en": "merge",
+          "ja": "統合する・一本化する"
         },
         {
-          "en": "foster",
-          "ja": "育てる・促進する"
+          "en": "objection",
+          "ja": "反対意見"
         },
         {
-          "en": "enhance",
-          "ja": "強める・高める"
+          "en": "one-on-one",
+          "ja": "1対1の"
         },
         {
-          "en": "infrequent",
-          "ja": "まれな・回数の少ない"
+          "en": "issue log",
+          "ja": "課題ログ"
+        },
+        {
+          "en": "remind",
+          "ja": "念を押す・思い出させる"
         }
       ],
       "evaluator": {

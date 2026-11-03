@@ -283,52 +283,52 @@
       "principles": [
         "Governance"
       ],
-      "scenario": "Projects within the program use inconsistent management standards and reporting, undermining efficiency and comparability.",
-      "stem": "What should the program manager develop?",
+      "scenario": "A logistics company's warehouse automation program combines four components run by different business units. Each unit uses its own templates for status, budget tracking, and risk reporting. The steering committee spends most of its monthly meeting reconciling numbers instead of making decisions. The two largest components are led by highly experienced project managers.",
+      "stem": "What should the program manager do?",
       "options": [
-        "A rule that reporting is optional for each project.",
-        "Entirely separate standards for every project.",
-        "Standards copied from an unrelated industry without adaptation.",
-        "Program and project management standards and structure—governance, tools, finance, and reporting—using industry best practices and organizational standards to drive efficiency and consistency."
+        "Ask the two most experienced project managers to share their templates so that the other units can use them if they wish.",
+        "Ask the PMO to prepare a reconciled summary of all component reports before each steering committee meeting.",
+        "Propose that the portfolio office standardize reporting across all of the company's programs before the next quarter.",
+        "Set program standards for governance, finance, and reporting, based on company standards, and apply them to every component."
       ],
       "answer_index": 3,
       "distractor_types": [
         "plausible",
         "plausible",
-        "plausible",
+        "cross_perspective",
         null
       ],
-      "explanation": "標準や報告がばらばらなときは、業界のベストプラクティスと組織の標準を使って、ガバナンス・ツール・財務・報告の標準と体制を作り、効率と一貫性を高めます。",
-      "scenario_ja": "プログラム内のプロジェクトがばらばらのマネジメント標準と報告形式を使っており、効率と比較可能性が損なわれている。",
-      "stem_ja": "プログラムマネージャーは何を作るべきか。",
+      "explanation": "コンポーネントごとに報告の形式がばらばらで、運営委員会が数字合わせに時間を取られているなら、組織の標準を踏まえてプログラムとしての標準（ガバナンス・財務・報告）を定め、全コンポーネントに適用します。PMOが毎回数字を合わせるのは対症療法で、任意のテンプレート共有では統一されません。全社の標準化はポートフォリオ側の取り組みで、このプログラムの問題をすぐには解決しません。",
+      "scenario_ja": "ある物流会社の倉庫自動化プログラムは、異なる事業部門が担当する4つのコンポーネントからなる。各部門は、状況報告、予算管理、リスク報告にそれぞれ独自のテンプレートを使っている。運営委員会は、毎月の会議の大半を判断ではなく数字のすり合わせに費やしている。最も大きい2つのコンポーネントは、経験豊富なプロジェクトマネージャーが率いている。",
+      "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "報告はプロジェクトごとに任意とするルール。",
-        "プロジェクトごとにまったく別の標準。",
-        "関係のない業界の標準を、調整せずにそのまま流用したもの。",
-        "業界のベストプラクティスと組織の標準を使った、プログラムとプロジェクトのマネジメント標準と体制（ガバナンス、ツール、財務、報告）。効率と一貫性を高める。"
+        "経験豊富な2人のプロジェクトマネージャーにテンプレートを共有してもらい、他の部門が希望すれば使えるようにする。",
+        "運営委員会の会議の前に、PMOに全コンポーネントの報告をすり合わせた要約を作らせる。",
+        "次の四半期までに、会社の全プログラムの報告を標準化するよう、ポートフォリオ・オフィスに提案する。",
+        "会社の標準を踏まえて、ガバナンス・財務・報告についてのプログラムの標準を定め、全コンポーネントに適用する。"
       ],
       "option_explanations": [
-        "標準化になっていません。",
-        "標準化になっていません。",
-        "このプログラムに合わせた調整がありません。",
-        "正解。ベストプラクティスと組織の標準を使って、マネジメント標準と体制を作ります（ECO D5-T1）。"
+        "使うかどうかが任意なので、ばらつきは解消しません。",
+        "毎回の数字合わせは対症療法で、根本の原因（標準がないこと）が残ります。",
+        "全社の標準化はポートフォリオ側の取り組みで、範囲が広く時間もかかります。このプログラムの問題には、プログラムとして対処します。",
+        "正解。組織の標準を踏まえてプログラムの標準と体制を定め、効率と一貫性を高めます（ECO D5-T1）。"
       ],
       "vocab": [
         {
-          "en": "undermine",
-          "ja": "損なう"
+          "en": "warehouse automation",
+          "ja": "倉庫の自動化"
         },
         {
-          "en": "comparability",
-          "ja": "比較可能性"
+          "en": "template",
+          "ja": "テンプレート（ひな形）"
         },
         {
-          "en": "best practices",
-          "ja": "ベストプラクティス（最良の実践）"
+          "en": "reconcile",
+          "ja": "（数字を）すり合わせる"
         },
         {
-          "en": "adaptation",
-          "ja": "調整・適応"
+          "en": "standardize",
+          "ja": "標準化する"
         }
       ],
       "evaluator": {
@@ -349,13 +349,13 @@
       "principles": [
         "Governance"
       ],
-      "scenario": "The program's practices must conform to the organization's overall governance structure, but no framework has been selected to ensure this.",
-      "stem": "What should the program manager do?",
+      "scenario": "A government agency is launching a program to modernize its tax collection systems. The agency has a mandatory investment governance policy with defined approval thresholds and audit requirements. The main vendor proposes using its own agile governance model, which has worked well for its private-sector clients and would shorten decision cycles.",
+      "stem": "How should the program manager establish the governance of the program?",
       "options": [
-        "Select a governance framework—policies, procedures, and standards—that conforms program practices with the organization's governance structure to deliver objectives consistently.",
-        "Invent ad hoc rules per situation with no framework.",
-        "Adopt a framework that conflicts with organizational governance.",
-        "Leave governance undefined to maximize speed."
+        "Select a framework whose policies and procedures conform to the agency's policy, adopting vendor practices that fit.",
+        "Adopt the vendor's governance model, because it has a proven track record and will shorten the program's decision cycles.",
+        "Design a new governance model only for this program to avoid the constraints that the agency's general policy imposes.",
+        "Apply the agency's policy only to components above the approval thresholds, and let the vendor govern the remaining work."
       ],
       "answer_index": 0,
       "distractor_types": [
@@ -364,37 +364,41 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "プログラムのガバナンスは、組織全体のガバナンス体制に適合させる必要があります。方針・手順・標準からなるガバナンスの枠組みを選び、プログラムの実務を組織に整合させます。",
-      "scenario_ja": "プログラムの実務は組織全体のガバナンス体制に適合していなければならないが、それを確実にするための枠組みがまだ選ばれていない。",
-      "stem_ja": "プログラムマネージャーは何をすべきか。",
+      "explanation": "プログラムのガバナンスは、組織（ここでは行政機関）のガバナンス体制に適合させる必要があります。義務的な方針がある以上、それに適合する枠組みを選び、ベンダーの良い実践は合う部分だけ取り入れます。ベンダー方式の全面採用、独自方式の新設、しきい値での使い分けは、いずれも組織のガバナンスとの整合を損ないます。",
+      "scenario_ja": "ある行政機関が、税の徴収システムを近代化するプログラムを立ち上げようとしている。この機関には、承認のしきい値と監査の要件を定めた、義務的な投資ガバナンス方針がある。主要ベンダーは、民間の顧客でうまくいき、意思決定の周期も短くできる自社のアジャイル型ガバナンス・モデルを使うことを提案している。",
+      "stem_ja": "プログラムマネージャーは、プログラムのガバナンスをどのように確立すべきか。",
       "options_ja": [
-        "プログラムの実務を組織のガバナンス体制に適合させ、一貫して目的を達成できるよう、ガバナンスの枠組み（方針、手順、標準）を選ぶ。",
-        "枠組みなしで、状況ごとに場当たり的なルールを作る。",
-        "組織のガバナンスと矛盾する枠組みを採用する。",
-        "スピードを最大にするため、ガバナンスを定めずにおく。"
+        "方針と手順が機関の方針に適合する枠組みを選び、ベンダーの実践は合う部分で取り入れる。",
+        "実績があり、プログラムの意思決定の周期を短くできるので、ベンダーのガバナンス・モデルを採用する。",
+        "機関の一般的な方針による制約を避けるため、このプログラム専用の新しいガバナンス・モデルを設計する。",
+        "機関の方針は承認のしきい値を超えるコンポーネントだけに適用し、残りの作業はベンダーに管理させる。"
       ],
       "option_explanations": [
-        "正解。組織のガバナンスに適合するガバナンスの枠組みを選びます（ECO D5-T2）。",
-        "場当たり的で、統制が成り立ちません。",
-        "組織のガバナンスと矛盾します。",
-        "ガバナンスがなければ、統制が成り立ちません。"
+        "正解。組織のガバナンスに適合する枠組みを選び、プログラムの実務を整合させます（ECO D5-T2）。",
+        "実績があっても、組織の義務的な方針に適合しなければ使えません。",
+        "組織の方針を避けるための独自方式は、ガバナンスとの不整合を生みます。",
+        "ガバナンスを分断すると、プログラム全体としての統制と監査ができなくなります。"
       ],
       "vocab": [
         {
-          "en": "conform to",
-          "ja": "～に適合する"
+          "en": "tax collection",
+          "ja": "税の徴収"
         },
         {
-          "en": "governance framework",
-          "ja": "ガバナンスの枠組み"
+          "en": "mandatory",
+          "ja": "義務的な"
         },
         {
-          "en": "policies / procedures",
-          "ja": "方針／手順"
+          "en": "approval threshold",
+          "ja": "承認のしきい値"
         },
         {
-          "en": "undefined",
-          "ja": "定められていない"
+          "en": "audit requirements",
+          "ja": "監査の要件"
+        },
+        {
+          "en": "track record",
+          "ja": "実績"
         }
       ],
       "evaluator": {
@@ -417,13 +421,13 @@
         "Governance",
         "Stakeholders"
       ],
-      "scenario": "Program information is scattered across tools, and stakeholders receive inconsistent status because processes are not integrated.",
+      "scenario": "A pharmaceutical company's clinical-systems program has grown to six components. Schedules are kept in one tool, risks in spreadsheets, and change requests in email. Before each steering committee meeting, the PMO spends three days collecting data, and stakeholders often receive status that is already out of date. The company plans an enterprise-wide tool migration in two years.",
       "stem": "What should the program manager do?",
       "options": [
-        "Maintain separate, unlinked tools with no integration.",
-        "Develop and utilize the program management information system and integrate the different processes as needed to manage program information and communicate status to stakeholders.",
-        "Communicate status only verbally and keep no system of record.",
-        "Restrict all information to the program manager alone."
+        "Wait for the enterprise-wide tool migration, so that the program does not invest in a tool that will soon be replaced.",
+        "Develop the program information system, integrating schedule, risk, and change processes into a single source of status.",
+        "Add two analysts to the PMO so that the data collection can be completed in one day instead of three days.",
+        "Ask each component manager to report status directly to the steering committee in the format that suits them best."
       ],
       "answer_index": 1,
       "distractor_types": [
@@ -432,37 +436,41 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "情報の散在と報告の不整合には、プログラムマネジメント情報システム（PMIS）を整えて活用し、必要に応じてプロセスを統合します。そのうえでプログラムの情報を管理し、ステークホルダーに一貫した状況を伝えます。",
-      "scenario_ja": "プログラムの情報がさまざまなツールに散らばっており、プロセスが統合されていないため、ステークホルダーに届く状況報告もばらばらになっている。",
+      "explanation": "情報が複数のツールに散らばり、報告が遅れているときは、プログラムマネジメント情報システム（PMIS）を整え、スケジュール・リスク・変更のプロセスを統合して、1つの情報源から状況を出せるようにします。2年後の全社移行を待つと、それまで問題が続きます。人を増やすのは対症療法です。「製薬会社」「6つのコンポーネント」は判断に関係のない情報です。",
+      "scenario_ja": "ある製薬会社の臨床システム・プログラムは、6つのコンポーネントにまで大きくなった。スケジュールは1つのツールに、リスクは表計算シートに、変更要求はメールに置かれている。運営委員会の会議の前には、PMOが3日かけてデータを集めており、ステークホルダーに届く状況報告はすでに古くなっていることが多い。会社は2年後に全社的なツール移行を予定している。",
       "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "統合せずに、別々でつながっていないツールを使い続ける。",
-        "プログラムマネジメント情報システム（PMIS）を整えて活用し、必要に応じてプロセスを統合して、プログラムの情報を管理しステークホルダーに状況を伝える。",
-        "状況は口頭だけで伝え、記録のためのシステムは持たない。",
-        "すべての情報をプログラムマネージャーだけに限定する。"
+        "すぐに置き換わるツールに投資しないよう、全社的なツール移行を待つ。",
+        "プログラムの情報システムを整え、スケジュール・リスク・変更のプロセスを統合して、状況を1つの情報源から出せるようにする。",
+        "データ収集が3日ではなく1日で終わるよう、PMOに分析担当者を2人増やす。",
+        "各コンポーネントのマネージャーに、自分に合った形式で運営委員会へ直接状況を報告させる。"
       ],
       "option_explanations": [
-        "情報が散らばったままです。",
-        "正解。PMISを整え、プロセスを統合して、一貫した状況報告を行います（ECO D5-T5）。",
-        "記録がなく、一貫した報告ができません。",
-        "共有されないので、状況が伝わりません。"
+        "2年間、古い情報で判断を続けることになります。今の問題に対処していません。",
+        "正解。PMISを整えてプロセスを統合し、一貫した状況を伝えます（ECO D5-T5）。",
+        "人手を増やしても、情報が散らばっているという根本の問題は残ります。",
+        "形式がばらばらになり、プログラム全体の状況がかえって見えなくなります。"
       ],
       "vocab": [
         {
-          "en": "scattered",
-          "ja": "散らばった"
+          "en": "pharmaceutical",
+          "ja": "製薬の"
         },
         {
-          "en": "system of record",
-          "ja": "記録のためのシステム（正式な記録の置き場）"
+          "en": "clinical systems",
+          "ja": "臨床（試験）のシステム"
         },
         {
-          "en": "utilize",
-          "ja": "活用する"
+          "en": "out of date",
+          "ja": "古くなった"
         },
         {
-          "en": "restrict",
-          "ja": "限定する・制限する"
+          "en": "enterprise-wide",
+          "ja": "全社的な"
+        },
+        {
+          "en": "migration",
+          "ja": "移行"
         }
       ],
       "evaluator": {

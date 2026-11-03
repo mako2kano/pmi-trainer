@@ -285,13 +285,13 @@
         "Benefits Realization",
         "Stakeholders"
       ],
-      "scenario": "Stakeholders repeatedly ask for the current status of benefits, but there is no single reliable source of benefit progress.",
-      "stem": "What should the program manager maintain?",
+      "scenario": "A retail bank's branch digitalization program has nine components. The CFO, the head of retail operations, and the regional directors keep asking for the latest benefits figures, and each receives different numbers from different component managers. Some figures count expected savings, while others count only savings that have already been realized.",
+      "stem": "What should the program manager do to resolve this situation?",
       "options": [
-        "A private spreadsheet shared with no one.",
-        "Only final benefit figures disclosed at closure.",
-        "A benefits register, recording program progress to report benefits to stakeholders via the communications plan.",
-        "Verbal updates with no recorded baseline."
+        "Ask each component manager to send benefit figures directly to whoever requests them, with a note explaining the assumptions.",
+        "Report only realized benefits from now on, because expected benefits are uncertain and are the main source of confusion.",
+        "Maintain one benefits register of planned and realized benefits, and report from it through the communications plan.",
+        "Ask the finance department to take over benefit reporting, since it already produces the bank's financial statements."
       ],
       "answer_index": 2,
       "distractor_types": [
@@ -300,37 +300,41 @@
         null,
         "plausible"
       ],
-      "explanation": "ベネフィットの状況を一貫して伝えるには、ベネフィット登録簿を維持して進捗を記録し、コミュニケーション計画に沿ってステークホルダーに報告します。",
-      "scenario_ja": "ステークホルダーが何度もベネフィットの現状を尋ねてくるが、ベネフィットの進捗について信頼できる情報源が1つもない。",
-      "stem_ja": "プログラムマネージャーは何を維持すべきか。",
+      "explanation": "ベネフィットの数字がばらばらに伝わるときは、計画値と実績値を記録するベネフィット登録簿を1つにまとめ、そこからコミュニケーション計画に沿って報告します。実績だけにすると、計画との差（今後の見通し）が見えなくなります。財務部門への移管は、プログラムとしてのベネフィット管理の放棄です。",
+      "scenario_ja": "あるリテール銀行の支店デジタル化プログラムには、9つのコンポーネントがある。CFO、リテール業務の責任者、各地域の部長が最新のベネフィットの数字を何度も求めてくるが、コンポーネントのマネージャーによって渡す数字が違う。見込みの削減額を数えているものもあれば、すでに実現した削減額だけを数えているものもある。",
+      "stem_ja": "この状況を解決するために、プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "誰とも共有しない個人用の表計算シート。",
-        "終結時に公表する最終的なベネフィットの数字だけ。",
-        "プログラムの進捗を記録し、コミュニケーション計画に沿ってステークホルダーにベネフィットを報告するためのベネフィット登録簿。",
-        "基準となる記録のない口頭での報告。"
+        "各コンポーネントのマネージャーに、求めてきた人へ直接ベネフィットの数字を送らせ、前提条件の説明を添えさせる。",
+        "見込みのベネフィットは不確かで混乱のもとなので、今後は実現したベネフィットだけを報告する。",
+        "計画値と実績値を記録するベネフィット登録簿を1つにし、そこからコミュニケーション計画に沿って報告する。",
+        "銀行の財務諸表をすでに作っている財務部門に、ベネフィットの報告を引き継いでもらう。"
       ],
       "option_explanations": [
-        "共有されないので、情報源になりません。",
-        "終結時だけでは、途中の状況がわかりません。",
-        "正解。ベネフィット登録簿を維持し、コミュニケーション計画に沿って報告します（ECO D3-T6）。",
-        "記録がないので、信頼できる情報源になりません。"
+        "情報源がばらばらのままで、問題が解決しません。",
+        "計画との比較ができなくなり、ベネフィットの見通しを管理できません。",
+        "正解。ベネフィット登録簿を1つの情報源にし、コミュニケーション計画に沿って報告します（ECO D3-T6）。",
+        "財務諸表とベネフィットの管理は別物です。プログラムとしての責任を手放しています。"
       ],
       "vocab": [
         {
-          "en": "benefits register",
-          "ja": "ベネフィット登録簿"
+          "en": "retail bank",
+          "ja": "リテール銀行（個人向け銀行）"
         },
         {
-          "en": "communications plan",
-          "ja": "コミュニケーション計画"
+          "en": "figures",
+          "ja": "数字・数値"
         },
         {
-          "en": "disclose",
-          "ja": "公表する・開示する"
+          "en": "realized savings",
+          "ja": "実現した削減額"
         },
         {
-          "en": "verbal",
-          "ja": "口頭の"
+          "en": "take over",
+          "ja": "引き継ぐ"
+        },
+        {
+          "en": "financial statements",
+          "ja": "財務諸表"
         }
       ],
       "evaluator": {

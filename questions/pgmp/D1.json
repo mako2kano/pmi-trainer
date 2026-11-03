@@ -369,54 +369,59 @@
         "governance"
       ],
       "principles": [
-        "Governance"
+        "Governance",
+        "Stakeholders"
       ],
-      "scenario": "You have been asked to lead a program that leadership believes supports the corporate strategy, but the linkage has never been made explicit.",
-      "stem": "What should the program manager do first?",
+      "scenario": "A regional hospital group has asked you to lead a new program to consolidate laboratory services across its five hospitals. The CEO says the program obviously supports the group's five-year strategy, and two hospital directors are already pressing to start construction of a central laboratory. No formal link between the program and the strategic plan has been documented.",
+      "stem": "What should the program manager do FIRST?",
       "options": [
-        "Begin chartering constituent projects immediately to build momentum.",
-        "Perform an initial program assessment—defining objectives, requirements, and risks—to ensure alignment with the organization's strategic plan.",
-        "Assume alignment exists because leadership requested the program.",
-        "Delegate the alignment analysis to the constituent project managers."
+        "Charter the central laboratory construction as the first component so that visible progress builds support for the program.",
+        "Assess the program's objectives, requirements, and key risks against the strategic plan, and document how the program supports it.",
+        "Ask the portfolio office to score the program against the other proposed investments in the group before any further work is done.",
+        "Interview the five hospital directors to collect their expectations, then adopt the consolidated list as the objectives of the program."
       ],
       "answer_index": 1,
       "distractor_types": [
         "plausible",
         null,
-        "plausible",
+        "cross_perspective",
         "plausible"
       ],
-      "explanation": "プログラムの最初の仕事は、戦略との整合をはっきりさせることです。初期のプログラム・アセスメント（目的・要求事項・リスクの定義）で、組織の戦略計画とのつながりを確かめます。",
-      "scenario_ja": "あなたは、経営陣が企業戦略を支えると考えているプログラムのリーダーを任された。しかし、戦略とのつながりがはっきり示されたことはこれまでない。",
+      "explanation": "経営トップが「戦略を支えるのは明らか」と言っていても、つながりが文書になっていなければ、まずプログラムの目的・要求事項・主要リスクを戦略計画に照らして評価し、整合を示します（初期のプログラム・アセスメント）。工事の着手やステークホルダーの要望集めは、その後です。「5つの病院」「検査部門」は判断に関係のない情報です。",
+      "scenario_ja": "ある地域の病院グループから、5つの病院の検査業務を統合する新しいプログラムのリーダーを任された。CEOは、このプログラムがグループの5か年戦略を支えるのは明らかだと言い、2人の病院長はすでに中央検査センターの建設を始めるよう迫っている。プログラムと戦略計画とのつながりは、正式には何も文書化されていない。",
       "stem_ja": "プログラムマネージャーが最初にすべきことは何か。",
       "options_ja": [
-        "勢いをつけるため、直ちに構成プロジェクトの憲章作成を始める。",
-        "初期のプログラム・アセスメントを行い（目的、要求事項、リスクを定義し）、組織の戦略計画との整合を確かめる。",
-        "経営陣が求めたプログラムなので、整合は取れていると考える。",
-        "整合の分析は、構成プロジェクトのマネージャーに任せる。"
+        "目に見える進捗で支持を集めるため、中央検査センターの建設を最初のコンポーネントとして憲章を発行する。",
+        "プログラムの目的、要求事項、主要なリスクを戦略計画に照らして評価し、プログラムが戦略をどう支えるかを文書化する。",
+        "これ以上作業を進める前に、グループ内の他の投資案と比べてプログラムを採点するよう、ポートフォリオ・オフィスに依頼する。",
+        "5人の病院長に面談して期待を集め、その一覧をまとめてプログラムの目的として採用する。"
       ],
       "option_explanations": [
-        "戦略との整合を確かめる前に着手しています。",
-        "正解。初期のプログラム・アセスメントで目的・要求事項・リスクを定義し、戦略計画との整合を確かめます（ECO D1-T1）。",
-        "検証せずに整合を前提にしています。",
-        "プログラムレベルの整合分析を、プロジェクトに丸投げしています。"
+        "戦略との整合を確かめる前に、目立つ工事から始めています。プロジェクト的な発想です。",
+        "正解。初期のプログラム・アセスメントで目的・要求事項・リスクを評価し、戦略との整合を示します（ECO D1-T1）。",
+        "他の投資案と比べて採点するのは、ポートフォリオ側の役割です。プログラムマネージャーが最初にやることは、自分のプログラムと戦略の整合を示すことです。",
+        "ステークホルダーの期待は大事ですが、戦略と照らさずに目的にすると、整合が取れないまま進んでしまいます。"
       ],
       "vocab": [
         {
-          "en": "linkage",
-          "ja": "つながり・関連"
+          "en": "consolidate",
+          "ja": "統合する・集約する"
         },
         {
-          "en": "explicit",
-          "ja": "明示的な・はっきりした"
+          "en": "press to",
+          "ja": "～するよう迫る"
         },
         {
-          "en": "initial program assessment",
-          "ja": "初期のプログラム・アセスメント"
+          "en": "formal link",
+          "ja": "正式なつながり"
         },
         {
-          "en": "momentum",
-          "ja": "勢い"
+          "en": "visible progress",
+          "ja": "目に見える進捗"
+        },
+        {
+          "en": "score against",
+          "ja": "～と比べて採点する"
         }
       ],
       "evaluator": {
@@ -439,60 +444,56 @@
         "Stakeholders",
         "Risk"
       ],
-      "scenario": "A program's objectives may conflict with newly announced environmental regulations and raise social-impact concerns in one region.",
-      "stem": "How should the program manager address this during strategic alignment?",
+      "scenario": "You manage a program to build three wind farms along a coastline. During program definition, a national agency publishes draft rules on protecting bird migration routes, and a fishing cooperative in one region claims the turbines will damage its livelihood. The engineering design for all three sites is about 60 percent complete.",
+      "stem": "What is the BEST action for the program manager at this stage?",
       "options": [
-        "Proceed as planned and handle any regulatory issues only if they materialize.",
-        "Remove the affected region from scope without analysis to avoid the concern.",
-        "Evaluate the objectives against regulatory, legal, social, sustainability, cultural, and ethical factors to ensure stakeholder alignment and deliverability.",
-        "Escalate the regulation to legal and pause all program activity indefinitely."
+        "Complete the engineering design first, so that the regulatory and community issues can be assessed against a stable baseline.",
+        "Ask the portfolio board whether the affected site should be replaced with a lower-risk investment in another region.",
+        "Evaluate the objectives against the draft rules, community impact, and sustainability, and engage the affected groups.",
+        "Assign the legal department to monitor the draft rules and to answer the cooperative's claims through formal channels."
       ],
       "answer_index": 2,
       "distractor_types": [
         "plausible",
-        "plausible",
+        "cross_perspective",
         null,
         "plausible"
       ],
-      "explanation": "戦略的な整合の段階では、目的を規制・法律・社会的影響・持続可能性・文化・倫理の観点から評価し、ステークホルダーとの整合と実現性を確保します（ECO D1-T8）。事後対応、分析なしの削除、全面停止は、いずれも体系的な評価を欠いています。",
-      "scenario_ja": "あるプログラムの目的が、新たに発表された環境規制と矛盾するおそれがあり、また、ある地域で社会的な影響への懸念を生んでいる。",
-      "stem_ja": "戦略的な整合の段階で、プログラムマネージャーはこれにどう対処すべきか。",
+      "explanation": "定義フェーズで規制案や地域社会への影響が出てきたら、設計を固める前に、プログラムの目的を規制・社会的影響・持続可能性の観点から評価し、影響を受ける人々と関わります。設計を先に終えると手戻りが大きくなり、法務任せでは地域との整合が取れません。投資の差し替えはポートフォリオの判断です。",
+      "scenario_ja": "あなたは、海岸沿いに3つの風力発電所を建設するプログラムをマネジメントしている。定義フェーズの途中で、国の機関が渡り鳥の移動経路を保護する規則案を公表し、ある地域の漁業協同組合は、風車が自分たちの生計を損なうと主張している。3つの発電所すべての設計は約60%まで進んでいる。",
+      "stem_ja": "この段階で、プログラムマネージャーにとって最善の行動はどれか。",
       "options_ja": [
-        "計画どおり進め、規制の問題は実際に起きたときにだけ対処する。",
-        "懸念を避けるため、分析せずに対象の地域をスコープから外す。",
-        "規制、法律、社会、持続可能性、文化、倫理の観点から目的を評価し、ステークホルダーとの整合とプログラムの実現性を確保する。",
-        "規制の件を法務部門にエスカレーションし、プログラムのすべての活動を無期限に止める。"
+        "安定したベースラインに照らして規制や地域の問題を評価できるよう、まず設計を完了させる。",
+        "影響を受ける発電所を、別の地域のよりリスクの低い投資に差し替えるべきかどうか、ポートフォリオ委員会に尋ねる。",
+        "目的を、規則案、地域社会への影響、持続可能性に照らして評価し、影響を受ける人々と関わる。",
+        "法務部門に規則案の動向を見張らせ、漁協の主張には正式な窓口を通じて回答させる。"
       ],
       "option_explanations": [
-        "問題を先送りしています。規制や社会的影響は、事前に評価すべきものです。",
-        "分析もせずにスコープを削っています。",
-        "正解。規制・法律・社会・持続可能性・文化・倫理の観点から目的を評価します（ECO D1-T8）。",
-        "全面停止は過剰です。体系的な評価が先です。"
+        "設計を先に固めると、規制や地域の問題で大きな手戻りが出ます。評価は早い段階で行います。",
+        "投資の差し替えはポートフォリオの判断です。まずプログラムとして評価し、対応を検討します。",
+        "正解。目的を規制・社会的影響・持続可能性の観点から評価し、ステークホルダーと関わります（ECO D1-T8）。",
+        "法務に任せて正式な回答をするだけでは、地域社会との整合が取れません。"
       ],
       "vocab": [
         {
-          "en": "environmental regulations",
-          "ja": "環境規制"
+          "en": "draft rules",
+          "ja": "規則案"
         },
         {
-          "en": "social impact",
-          "ja": "社会的影響"
+          "en": "migration route",
+          "ja": "渡りの経路"
         },
         {
-          "en": "sustainability",
-          "ja": "持続可能性"
+          "en": "cooperative",
+          "ja": "協同組合"
         },
         {
-          "en": "deliverability",
-          "ja": "実現性（成果を出せるか）"
+          "en": "livelihood",
+          "ja": "生計・暮らし"
         },
         {
-          "en": "materialize",
-          "ja": "実際に起きる"
-        },
-        {
-          "en": "indefinitely",
-          "ja": "無期限に"
+          "en": "formal channels",
+          "ja": "正式な窓口・経路"
         }
       ],
       "evaluator": {
@@ -513,13 +514,13 @@
       "principles": [
         "Governance"
       ],
-      "scenario": "The program manager has completed the high-level costs, milestone schedule, and expected benefits and now needs formal authority to start the program.",
-      "stem": "What is the appropriate next step?",
+      "scenario": "The program manager for a citywide smart-parking program has prepared the high-level costs, a milestone schedule, and the expected benefits. The deputy mayor, who sponsors the program, says the city council will meet next month and asks the program manager to just get started with the first sensor installation, because a budget line for parking improvements already exists.",
+      "stem": "What should the program manager do NEXT?",
       "options": [
-        "Start mobilizing teams before formal authorization to save time.",
-        "Circulate the plan by email and treat silence as approval.",
-        "Ask each constituent project sponsor to authorize their own project independently.",
-        "Obtain organizational leadership approval by presenting the program charter, with its high-level costs, milestone schedule, and benefits, to receive authorization to initiate."
+        "Begin the first installation using the existing budget line, and present its results to the council as evidence for the program.",
+        "Ask each department head to approve the components in their own area so that work can start in parallel across the city.",
+        "Develop the detailed program management plan so that the council can review a complete plan when it meets next month.",
+        "Present the program charter, with its costs, milestones, and benefits, to the council to obtain authorization to start."
       ],
       "answer_index": 3,
       "distractor_types": [
@@ -528,41 +529,41 @@
         "plausible",
         null
       ],
-      "explanation": "プログラムを立ち上げるには、概略のコスト・マイルストーン・ベネフィットを含むプログラム憲章を経営陣に提示し、正式に承認を受けます。憲章が、プログラムマネージャーに組織のリソースを使う権限を与えます。",
-      "scenario_ja": "プログラムマネージャーは、概略のコスト、マイルストーン・スケジュール、期待されるベネフィットをまとめ終え、プログラムを始めるための正式な権限が必要になった。",
-      "stem_ja": "次にとるべき適切なステップはどれか。",
+      "explanation": "スポンサーが「始めてしまおう」と言っても、プログラムを始めるには、概略のコスト・マイルストーン・ベネフィットを含むプログラム憲章を承認権限者（ここでは市議会）に提示し、正式な承認を得ます。既存の予算での先行着手や、部門ごとの承認では、プログラム全体の承認になりません。詳細な計画書は承認の後に作ります。",
+      "scenario_ja": "市全体のスマート駐車場プログラムのプログラムマネージャーが、概略のコスト、マイルストーン・スケジュール、期待されるベネフィットをまとめた。スポンサーである副市長は、市議会は来月開かれると言い、駐車場改善の予算項目がすでにあるのだから、最初のセンサー設置をとにかく始めてほしいと頼んでいる。",
+      "stem_ja": "プログラムマネージャーが次にすべきことは何か。",
       "options_ja": [
-        "時間を節約するため、正式な承認の前にチームの招集を始める。",
-        "計画をメールで回覧し、反応がなければ承認とみなす。",
-        "構成プロジェクトのスポンサーそれぞれに、自分のプロジェクトを個別に承認してもらう。",
-        "概略のコスト、マイルストーン・スケジュール、ベネフィットを含むプログラム憲章を提示して、組織の経営陣の承認を得て、立ち上げの権限を受ける。"
+        "既存の予算項目を使って最初の設置を始め、その結果をプログラムの根拠として議会に示す。",
+        "市内で並行して作業を始められるよう、各部門長に自分の担当範囲のコンポーネントを承認してもらう。",
+        "来月の議会で完全な計画をレビューしてもらえるよう、詳細なプログラムマネジメント計画書を作る。",
+        "コスト、マイルストーン、ベネフィットを含むプログラム憲章を議会に提示し、開始の承認を得る。"
       ],
       "option_explanations": [
-        "承認前の着手で、ガバナンスに反します。",
-        "黙示の承認は、正式な承認になりません。",
-        "プロジェクト単位の承認を集めても、プログラム全体の正式な承認にはなりません。",
-        "正解。プログラム憲章を経営陣に提示して承認を受け、立ち上げの権限を得ます（ECO D1-T9）。"
+        "正式な承認の前に、別の予算で先行着手しています。ガバナンスを飛ばしています。",
+        "部門ごとの承認を集めても、プログラム全体の正式な承認にはなりません。",
+        "詳細な計画書は、憲章で承認を得た後の計画段階で作ります。順序が逆です。",
+        "正解。プログラム憲章を承認権限者に提示し、立ち上げの承認を得ます（ECO D1-T9）。"
       ],
       "vocab": [
         {
-          "en": "formal authority",
-          "ja": "正式な権限"
+          "en": "deputy mayor",
+          "ja": "副市長"
         },
         {
-          "en": "mobilize",
-          "ja": "（人員を）招集・動員する"
+          "en": "city council",
+          "ja": "市議会"
         },
         {
-          "en": "circulate",
-          "ja": "回覧する"
+          "en": "budget line",
+          "ja": "予算項目"
         },
         {
-          "en": "program charter",
-          "ja": "プログラム憲章"
+          "en": "in parallel",
+          "ja": "並行して"
         },
         {
-          "en": "initiate",
-          "ja": "立ち上げる"
+          "en": "authorization",
+          "ja": "承認・認可"
         }
       ],
       "evaluator": {
