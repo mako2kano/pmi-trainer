@@ -153,15 +153,15 @@
       "cross_tags": [],
       "principles": [
         "Synergy",
-        "Team of Teams"
+        "Risk"
       ],
-      "scenario": "You are the program manager finalizing the program management plan. The constituent project schedules were built independently and contain conflicting resource assumptions and misaligned milestones.",
-      "stem": "What should the program manager do to establish the program management plan and schedule?",
+      "scenario": "You are establishing the program management plan for a five-component hospital digitalization program. Each component has its own risk and quality plans, each using a different rating scale, but there is no program-level risk, quality, or communication plan. Executives receive conflicting risk ratings for the same issue from different components.",
+      "stem": "What should the program manager do?",
       "options": [
-        "Publish the program schedule as the simple sum of the project schedules without reconciling the conflicts.",
-        "Let each project keep its own independent schedule and manage the program only by exception.",
-        "Integrate the constituent project plans and the supporting function plans (quality, risk, communication, resources) into a coherent program plan and schedule, resolving the conflicting assumptions.",
-        "Freeze all project schedules and forbid changes until program closure."
+        "Adopt the risk and quality plans of the largest component as the program's plans, since they are the most mature.",
+        "Ask the PMO to combine all component plans into one program document without changing their content or scales.",
+        "Create program-level supporting plans and integrate the component plans with them into the program plan and schedule.",
+        "Ask each component to align its risk rating scale with the corporate risk office so that the ratings can be compared."
       ],
       "answer_index": 2,
       "distractor_types": [
@@ -170,47 +170,43 @@
         null,
         "plausible"
       ],
-      "explanation": "プログラムマネジメント計画書は、構成プロジェクトの計画と支援機能（品質・リスク・コミュニケーション・リソース）の計画を統合して作ります。その過程で、リソースの前提やマイルストーンの食い違いを解消するのがプログラムマネージャーの役割です。",
-      "scenario_ja": "あなたはプログラムマネジメント計画書を仕上げているプログラムマネージャーである。構成プロジェクトのスケジュールはそれぞれ別々に作られており、リソースの前提が食い違い、マイルストーンもそろっていない。",
-      "stem_ja": "プログラムマネジメント計画書とスケジュールを確立するために、プログラムマネージャーは何をすべきか。",
+      "explanation": "プログラムマネジメント計画書は、コンポーネントの計画を集めるだけでは足りません。プログラムレベルの支援計画（リスク・品質・コミュニケーションなど）を作り、コンポーネントの計画をそれと統合して、プログラムの計画とスケジュールにします。1つのコンポーネントの計画の流用や、ただの合本では統合になりません。尺度をそろえるのは一部の改善にすぎません。",
+      "scenario_ja": "あなたは、5つのコンポーネントからなる病院デジタル化プログラムのプログラムマネジメント計画書を確立しようとしている。各コンポーネントは独自のリスク計画と品質計画を持ち、評価の尺度もそれぞれ違うが、プログラムレベルのリスク・品質・コミュニケーションの計画はない。役員には、同じ問題について、コンポーネントごとに食い違うリスク評価が届いている。",
+      "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "食い違いを解消しないまま、プロジェクトのスケジュールを単純に合計したものをプログラム・スケジュールとして公表する。",
-        "各プロジェクトに独立したスケジュールを持たせたままにし、プログラムは例外が起きたときだけ管理する。",
-        "構成プロジェクトの計画と、支援機能（品質、リスク、コミュニケーション、リソース）の計画を、一貫したプログラムの計画とスケジュールに統合し、食い違う前提を解消する。",
-        "プログラムが終わるまで、すべてのプロジェクト・スケジュールを凍結して変更を禁止する。"
+        "最も成熟しているので、最大のコンポーネントのリスク計画と品質計画をプログラムの計画として採用する。",
+        "内容や尺度を変えずに、全コンポーネントの計画を1つのプログラム文書にまとめるようPMOに依頼する。",
+        "プログラムレベルの支援計画を作り、コンポーネントの計画をそれと統合して、プログラムの計画とスケジュールにする。",
+        "評価を比較できるよう、各コンポーネントにリスクの評価尺度を全社のリスク管理部門の尺度に合わせさせる。"
       ],
       "option_explanations": [
-        "食い違いを残したまま足し合わせただけで、統合になっていません。",
-        "統合という中心的な責任を放棄しています。",
-        "正解。プロジェクトの計画と支援機能の計画を統合し、前提の食い違いを解消します（ECO D2-T9）。",
-        "硬直的になり、変更に対応できません。"
+        "1つのコンポーネントの計画では、プログラム全体のリスクや品質を扱えません。",
+        "合本しただけでは食い違いが残り、統合になっていません。",
+        "正解。プログラムレベルの支援計画を作り、コンポーネントの計画と統合します（ECO D2-T9）。",
+        "尺度をそろえるのは役に立ちますが、プログラムレベルの計画がないという根本の問題は残ります。"
       ],
       "vocab": [
         {
-          "en": "finalize",
-          "ja": "仕上げる・確定させる"
+          "en": "rating scale",
+          "ja": "評価の尺度"
         },
         {
-          "en": "misaligned",
-          "ja": "そろっていない・ずれた"
+          "en": "supporting plans",
+          "ja": "支援計画（リスク・品質など）"
         },
         {
-          "en": "reconcile",
-          "ja": "（食い違いを）解消する・調整する"
+          "en": "mature",
+          "ja": "成熟した"
         },
         {
-          "en": "coherent",
-          "ja": "一貫した"
-        },
-        {
-          "en": "manage by exception",
-          "ja": "例外管理（問題が起きたときだけ介入する）"
+          "en": "corporate risk office",
+          "ja": "全社のリスク管理部門"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.9,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
@@ -223,15 +219,16 @@
         "governance"
       ],
       "principles": [
-        "Governance"
+        "Governance",
+        "Stakeholders"
       ],
-      "scenario": "A newly authorized program has an approved business case, but no charter yet exists to anchor scope, benefits, stakeholders, and resources.",
-      "stem": "What should the program manager produce to initiate and design the program?",
+      "scenario": "The business case for a national rural broadband program has just been approved. The sponsor wants to start procurement of long-lead network equipment next week and asks the program manager to draft the program charter in parallel. The regional governments, which must grant permits and co-fund part of the work, have not yet been consulted.",
+      "stem": "What should the program manager do?",
       "options": [
-        "A detailed WBS for every constituent project before anything else.",
-        "A communications plan sent to all stakeholders before scope is defined.",
-        "A closure checklist to prepare for eventual program end.",
-        "The program charter—scope, assumptions, constraints, high-level risks and benefits, key stakeholders, and resource allocation—tying the program to the business case."
+        "Start procurement of the long-lead equipment, using the approved business case as authority, while drafting the charter.",
+        "Convert the business case into the charter format to save time, since it already contains the approved information.",
+        "Draft the charter with the sponsor only, and circulate it to the regional governments for comment after it is approved.",
+        "Develop the charter, covering scope, assumptions, constraints, risks, benefits, and resources, with all stakeholders' input."
       ],
       "answer_index": 3,
       "distractor_types": [
@@ -240,43 +237,47 @@
         "plausible",
         null
       ],
-      "explanation": "プログラムの立ち上げ・設計では、スコープ・前提条件・制約条件・概略のリスクとベネフィット・主要ステークホルダー・リソース配分を含むプログラム憲章を作り、ビジネスケースと結びつけます。詳細なWBSや計画書は、その後の計画段階で作ります。",
-      "scenario_ja": "新たに承認されたプログラムには、承認済みのビジネスケースはあるが、スコープ、ベネフィット、ステークホルダー、リソースの拠りどころとなる憲章はまだない。",
-      "stem_ja": "プログラムを立ち上げ、設計するために、プログラムマネージャーは何を作るべきか。",
+      "explanation": "プログラム憲章は、スコープ・前提条件・制約条件・概略のリスクとベネフィット・主要ステークホルダー・リソース配分などをまとめ、プログラムをビジネスケースと結びつける文書です。許認可と資金の一部を担う地方政府のように、影響の大きいステークホルダーの意見を入れて作ります。ビジネスケースは承認の根拠ではなく、憲章前の調達着手はガバナンスを飛ばしています。",
+      "scenario_ja": "全国の地方部にブロードバンドを整備するプログラムのビジネスケースが承認されたところである。スポンサーは、納期の長いネットワーク機器の調達を来週にも始めたいと考え、並行してプログラム憲章の草案を作るようプログラムマネージャーに頼んでいる。許認可を出し、作業の一部に資金を出す地方政府には、まだ相談していない。",
+      "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "何よりも先に、すべての構成プロジェクトの詳細なWBS。",
-        "スコープが定義される前に全ステークホルダーへ送る、コミュニケーション計画。",
-        "いずれ来るプログラム終了に備えるクローズのチェックリスト。",
-        "プログラムをビジネスケースと結びつける、プログラム憲章（スコープ、前提条件、制約条件、概略のリスクとベネフィット、主要ステークホルダー、リソース配分）。"
+        "承認済みのビジネスケースを根拠に、憲章の草案を作りながら、納期の長い機器の調達を始める。",
+        "承認済みの情報がすでに含まれているので、時間を節約するため、ビジネスケースを憲章の形式に書き換える。",
+        "スポンサーとだけ憲章の草案を作り、承認された後に地方政府へ回覧して意見を求める。",
+        "すべてのステークホルダーの意見を入れて、スコープ、前提条件、制約条件、リスク、ベネフィット、リソースを含む憲章を作る。"
       ],
       "option_explanations": [
-        "順序が飛んでいます。詳細なWBSは憲章の後、計画段階で作ります。",
-        "スコープが決まっていない段階で伝達しても意味がありません。",
-        "クローズの準備には早すぎます。",
-        "正解。ビジネスケースと結びついたプログラム憲章を作ります（ECO D2-T1）。"
+        "ビジネスケースは投資の妥当性を示す文書で、プログラムを始める権限は与えません。憲章の承認前の着手はガバナンス違反です。",
+        "ビジネスケースと憲章は目的が違います。憲章には前提条件・制約条件・主要ステークホルダー・リソース配分などが必要です。",
+        "承認後に意見を求めても、許認可や資金を担う地方政府の合意が憲章に反映されません。",
+        "正解。ステークホルダーの意見を入れて、ビジネスケースと結びついた憲章を作ります（ECO D2-T1）。"
       ],
       "vocab": [
         {
-          "en": "anchor",
-          "ja": "拠りどころとする・固定する"
+          "en": "rural broadband",
+          "ja": "地方部のブロードバンド（高速通信網）"
         },
         {
-          "en": "assumptions / constraints",
-          "ja": "前提条件／制約条件"
+          "en": "long-lead equipment",
+          "ja": "納期の長い機器"
         },
         {
-          "en": "resource allocation",
-          "ja": "リソース配分"
+          "en": "grant permits",
+          "ja": "許認可を出す"
         },
         {
-          "en": "closure checklist",
-          "ja": "クローズのチェックリスト"
+          "en": "co-fund",
+          "ja": "共同で資金を出す"
+        },
+        {
+          "en": "circulate",
+          "ja": "回覧する"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.9,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
@@ -291,13 +292,13 @@
       "principles": [
         "Stakeholders"
       ],
-      "scenario": "Leadership has stated strategic objectives at a high level, but the program's scope has not yet been articulated in a way stakeholders agree on.",
+      "scenario": "A university's board approves a strategic objective to become a leader in online education within five years. The program manager is asked to define the program scope. The faculty deans, the IT department, and the finance office each have very different views on what the program should include, and the steering committee meets in three weeks.",
       "stem": "How should the program manager proceed?",
       "options": [
-        "Translate the strategic objectives into high-level program scope statements by negotiating with stakeholders, including sponsors and the steering committee.",
-        "Write the scope alone and publish it as final without stakeholder input.",
-        "Copy the scope from a previous, unrelated program.",
-        "Skip scope definition and move directly to scheduling."
+        "Translate the objective into high-level scope by negotiating with the deans, IT, finance, and the steering committee.",
+        "Ask the IT department to propose the program scope, since the online platform is the core of the strategic objective.",
+        "Define the scope as the list of courses that each dean wants to put online, so that every faculty supports the program.",
+        "Benchmark the online programs of three leading universities and adopt their combined scope as this program's scope."
       ],
       "answer_index": 0,
       "distractor_types": [
@@ -306,43 +307,43 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "戦略目標を概略のプログラム・スコープに落とし込むときは、スポンサーや運営委員会を含むステークホルダーと交渉して合意を作ります。独断、流用、省略はいずれも誤りです。",
-      "scenario_ja": "経営陣は戦略目標を大まかに示しているが、プログラムのスコープは、ステークホルダーが合意できる形ではまだ言葉になっていない。",
+      "explanation": "「5年でオンライン教育のリーダーになる」のような抽象的な戦略目標は、スポンサーや運営委員会を含むステークホルダーと交渉しながら、概略のプログラム・スコープに落とし込みます。1つの部門に任せる、要望を集めるだけ、他大学をまねるだけでは、戦略目標とステークホルダーの合意の両方を満たせません。",
+      "scenario_ja": "ある大学の理事会が、5年以内にオンライン教育のリーダーになるという戦略目標を承認した。プログラムマネージャーは、プログラムのスコープを定めるよう求められている。各学部長、IT部門、財務部門は、プログラムに何を含めるべきかについてそれぞれ大きく異なる意見を持っており、運営委員会は3週間後に開かれる。",
       "stem_ja": "プログラムマネージャーはどのように進めるべきか。",
       "options_ja": [
-        "スポンサーや運営委員会を含むステークホルダーと交渉しながら、戦略目標を概略のプログラム・スコープ記述に落とし込む。",
-        "ステークホルダーの意見を聞かずに一人でスコープを書き、確定版として公表する。",
-        "関係のない過去のプログラムのスコープを流用する。",
-        "スコープの定義を飛ばし、直接スケジュール作成に進む。"
+        "学部長、IT部門、財務部門、運営委員会と交渉しながら、目標を概略のスコープ記述に落とし込む。",
+        "オンラインの基盤が戦略目標の中心なので、IT部門にプログラムのスコープを提案してもらう。",
+        "すべての学部がプログラムを支持するよう、各学部長がオンライン化したい科目の一覧をスコープとする。",
+        "先進的な3つの大学のオンライン・プログラムを調べ、それらを合わせたスコープをこのプログラムのスコープとして採用する。"
       ],
       "option_explanations": [
-        "正解。ステークホルダーとの交渉を通じて、戦略目標をスコープ記述に落とし込みます（ECO D2-T2）。",
-        "合意形成を欠いた独断です。",
-        "関係のないプログラムの流用では、このプログラムの戦略目標を反映できません。",
-        "スコープを定義しないと、その後の計画がすべて崩れます。"
+        "正解。ステークホルダーと交渉して、戦略目標を概略のスコープに落とし込みます（ECO D2-T2）。",
+        "1つの部門の視点に偏り、他のステークホルダーとの合意が取れません。",
+        "要望を集めただけで、戦略目標から導いたスコープになっていません。",
+        "他大学の事例は参考になりますが、この大学の戦略とステークホルダーに合わせた交渉が抜けています。"
       ],
       "vocab": [
         {
-          "en": "articulate",
-          "ja": "はっきり言葉にする"
+          "en": "board",
+          "ja": "理事会・取締役会"
         },
         {
-          "en": "translate A into B",
-          "ja": "AをBに落とし込む・変換する"
+          "en": "faculty dean",
+          "ja": "学部長"
         },
         {
-          "en": "scope statement",
-          "ja": "スコープ記述書"
+          "en": "high-level scope statement",
+          "ja": "概略のスコープ記述"
         },
         {
-          "en": "negotiate",
-          "ja": "交渉する"
+          "en": "benchmark",
+          "ja": "（他者と）比較・調査する"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.9,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
@@ -356,15 +357,15 @@
       ],
       "principles": [
         "Stakeholders",
-        "Governance"
+        "Benefits Realization"
       ],
-      "scenario": "The program manager needs an artifact that aligns the program to strategy and manages stakeholder expectations about sequencing and dependencies over time.",
-      "stem": "Which artifact should the program manager develop?",
+      "scenario": "Executives of a food manufacturer keep asking when each new production line will start and how the lines relate to the company's export targets. Detailed component schedules exist, but the executives find them hard to follow. The benefits realization plan was approved last month, and the company plans to enter two new export markets in three years.",
+      "stem": "What should the program manager develop?",
       "options": [
-        "A detailed daily task list for the program team.",
-        "A program roadmap built from the program's goals, historical information, and benefits realization plan.",
-        "A procurement contract for the largest vendor.",
-        "A closure report template."
+        "An integrated master schedule of all components, with a one-page summary for the executives on top of it.",
+        "A program roadmap that shows major milestones, dependencies, and links to the export goals and the benefits plan.",
+        "A monthly slot at the steering committee where each component manager presents the latest schedule of their component.",
+        "A dashboard that shows the percentage of work completed for each component, updated every week for executives."
       ],
       "answer_index": 1,
       "distractor_types": [
@@ -373,47 +374,43 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "プログラム・ロードマップは、主要なマイルストーン・順序・依存関係を時間軸で示し、戦略との整合とステークホルダーの期待管理に使います。プログラムの目標、過去の情報、ベネフィット実現計画などから作ります。",
-      "scenario_ja": "プログラムマネージャーには、プログラムを戦略と整合させ、時間軸での順序や依存関係についてのステークホルダーの期待を管理するための成果物が必要である。",
-      "stem_ja": "プログラムマネージャーはどの成果物を作るべきか。",
+      "explanation": "役員が知りたいのは、細かい作業日程ではなく、主要なマイルストーンの時期、コンポーネント間の依存関係、そして輸出目標（戦略）とのつながりです。それを示すのがプログラム・ロードマップで、目標・ベネフィット実現計画・過去の情報などから作ります。詳細スケジュールの要約や進捗率のダッシュボードでは、戦略とのつながりが見えません。",
+      "scenario_ja": "ある食品メーカーの役員たちは、新しい生産ラインがそれぞれいつ稼働し、それが会社の輸出目標とどう関係するのかを何度も尋ねてくる。コンポーネントの詳細なスケジュールはあるが、役員には分かりにくい。ベネフィット実現計画は先月承認されており、会社は3年後に2つの新しい輸出市場に参入する予定である。",
+      "stem_ja": "プログラムマネージャーは何を作るべきか。",
       "options_ja": [
-        "プログラムチーム向けの、詳細な日々のタスク一覧。",
-        "プログラムの目標、過去の情報、ベネフィット実現計画をもとに作るプログラム・ロードマップ。",
-        "最大のベンダーとの調達契約。",
-        "クローズ報告書のテンプレート。"
+        "全コンポーネントの統合マスタースケジュールと、その上に付ける役員向けの1ページの要約。",
+        "主要なマイルストーン、依存関係、輸出目標やベネフィット計画とのつながりを示すプログラム・ロードマップ。",
+        "各コンポーネントのマネージャーが最新のスケジュールを発表する、運営委員会での毎月の時間枠。",
+        "役員向けに毎週更新する、各コンポーネントの作業完了率を示すダッシュボード。"
       ],
       "option_explanations": [
-        "細かすぎます。戦略との整合や期待の管理には使えません。",
-        "正解。プログラム・ロードマップは、目標・過去の情報・ベネフィット実現計画から作り、戦略との整合と期待の管理に使います（ECO D2-T3）。",
-        "目的が違う成果物です。",
-        "目的が違う成果物です。"
+        "要約を付けても、戦略（輸出目標）とのつながりは示せません。",
+        "正解。プログラム・ロードマップで、戦略との整合と期待の管理を行います（ECO D2-T3）。",
+        "コンポーネントごとの説明では、プログラム全体の流れと戦略とのつながりが見えません。",
+        "進捗率は役に立ちますが、いつ何が稼働し、それが目標にどうつながるかは分かりません。"
       ],
       "vocab": [
         {
-          "en": "artifact",
-          "ja": "成果物・文書"
+          "en": "production line",
+          "ja": "生産ライン"
         },
         {
-          "en": "sequencing",
-          "ja": "順序（づけ）"
+          "en": "export target",
+          "ja": "輸出目標"
         },
         {
-          "en": "dependencies",
-          "ja": "依存関係"
+          "en": "integrated master schedule",
+          "ja": "統合マスタースケジュール"
         },
         {
-          "en": "roadmap",
-          "ja": "ロードマップ"
-        },
-        {
-          "en": "historical information",
-          "ja": "過去の情報"
+          "en": "dashboard",
+          "ja": "ダッシュボード（一覧表示の画面）"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.91,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
@@ -429,13 +426,13 @@
         "Team of Teams",
         "Governance"
       ],
-      "scenario": "As the program ramps up, roles are unclear and it is uncertain which work belongs to the program versus the constituent projects.",
+      "scenario": "Three months into an ERP replacement program, two component managers both claim responsibility for data migration, while nobody owns the program-level testing strategy. Several specialists split their time between the program office and the components and are unsure whom they report to. The program has 140 team members in total.",
       "stem": "What should the program manager create?",
       "options": [
-        "A single shared inbox for all decisions.",
-        "A rule that the program manager personally approves every task.",
-        "A responsibility assignment matrix that builds the core team and differentiates program from project resources.",
-        "An org chart of the customer's company only."
+        "A decision giving data migration to the more experienced component manager, with the testing strategy to be assigned later.",
+        "A request to HR to update the job descriptions of the specialists so that their reporting lines are formally recorded.",
+        "A responsibility assignment matrix that sets program roles and separates program resources from project resources.",
+        "A rule that the specialists report only to the program office, so that their time is no longer split between components."
       ],
       "answer_index": 2,
       "distractor_types": [
@@ -444,43 +441,47 @@
         null,
         "plausible"
       ],
-      "explanation": "役割をはっきりさせるには、責任分担マトリクス（RAM）を作ってプログラムの役割と責任を割り当て、コアチームを編成します。プログラムのリソースとプロジェクトのリソースを区別するのがポイントです。",
-      "scenario_ja": "プログラムが本格的に動き出すにつれ、役割があいまいになり、どの作業がプログラムのもので、どの作業が構成プロジェクトのものかがはっきりしなくなっている。",
+      "explanation": "責任の重複と空白、報告先のあいまいさは、責任分担マトリクス（RAM）でプログラムの役割と責任を定め、プログラムのリソースとプロジェクトのリソースを区別して解消します。1つの重複だけを決める、人事に記録を任せる、専門家をプログラム側に固定するといった対応は、全体の責任の構造を整えていません。",
+      "scenario_ja": "ERP（基幹業務システム）の入れ替えプログラムの開始から3か月、2人のコンポーネント・マネージャーがどちらもデータ移行は自分の担当だと主張する一方で、プログラムレベルのテスト戦略は誰も担当していない。何人かの専門家は、プログラム・オフィスとコンポーネントの両方に時間を割いており、誰に報告すればよいのか分からなくなっている。プログラムの人員は合計140人である。",
       "stem_ja": "プログラムマネージャーは何を作るべきか。",
       "options_ja": [
-        "すべての判断を受け付ける1つの共有受信箱。",
-        "すべてのタスクをプログラムマネージャーが自ら承認するというルール。",
-        "コアチームを編成し、プログラムとプロジェクトのリソースを区別する責任分担マトリクス（RAM）。",
-        "顧客企業だけの組織図。"
+        "データ移行は経験の多いコンポーネント・マネージャーの担当と決め、テスト戦略は後で割り当てるという決定。",
+        "報告先が正式に記録されるよう、専門家の職務記述書を更新してほしいという人事部門への依頼。",
+        "プログラムの役割を定め、プログラムのリソースとプロジェクトのリソースを区別する責任分担マトリクス。",
+        "専門家の時間がコンポーネントに分散しないよう、専門家はプログラム・オフィスにだけ報告するというルール。"
       ],
       "option_explanations": [
-        "責任の所在がはっきりしません。",
-        "プログラムマネージャーがボトルネックになり、責任の区別もできません。",
-        "正解。責任分担マトリクスで役割を割り当て、プログラムとプロジェクトのリソースを区別します（ECO D2-T4）。",
-        "自分たちの役割分担が定義されません。"
+        "目の前の重複を1つ片づけるだけで、空白（テスト戦略）は残ります。",
+        "人事上の記録は、プログラムでの役割と責任の定義の代わりにはなりません。",
+        "正解。責任分担マトリクスで役割を定め、プログラムとプロジェクトのリソースを区別します（ECO D2-T4）。",
+        "コンポーネントが必要とする専門性を使えなくなるおそれがあり、役割の整理にもなっていません。"
       ],
       "vocab": [
         {
-          "en": "ramp up",
-          "ja": "本格的に立ち上がる"
+          "en": "ERP replacement",
+          "ja": "ERP（基幹業務システム）の入れ替え"
         },
         {
-          "en": "responsibility assignment matrix (RAM)",
-          "ja": "責任分担マトリクス"
+          "en": "data migration",
+          "ja": "データ移行"
         },
         {
-          "en": "core team",
-          "ja": "コアチーム"
+          "en": "claim responsibility",
+          "ja": "自分の担当だと主張する"
         },
         {
-          "en": "differentiate",
-          "ja": "区別する"
+          "en": "reporting line",
+          "ja": "報告の系統（誰に報告するか）"
+        },
+        {
+          "en": "job description",
+          "ja": "職務記述書"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.9,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
@@ -493,64 +494,65 @@
         "governance"
       ],
       "principles": [
-        "Governance"
+        "Governance",
+        "Benefits Realization"
       ],
-      "scenario": "Constituent projects report progress inconsistently, making it hard to compare their contribution to program success.",
+      "scenario": "A mobile network operator's 5G rollout program has seven regional components. Each region reports progress differently: one counts sites installed, another counts sites in service, and another reports the percentage of budget spent. The steering committee cannot tell which regions are contributing to the national coverage targets.",
       "stem": "What should the program manager establish?",
       "options": [
-        "A rule that each project defines its own private metrics.",
-        "A single end-of-program review with no interim checkpoints.",
-        "Subjective status colors chosen by each project manager.",
-        "Standard measurement criteria and KPIs, with review points across all constituent projects, based on stakeholder expectations."
+        "A request that each region add the number of sites in service to its existing report, alongside its current measures.",
+        "A request that the portfolio office define common KPIs for all of the company's programs, including this one.",
+        "A comparison of the regions based on the percentage of budget spent, since every region already reports that figure.",
+        "Standard criteria and KPIs linked to the coverage targets, with common review points for all of the regional components."
       ],
       "answer_index": 3,
       "distractor_types": [
         "plausible",
-        "plausible",
+        "cross_perspective",
         "plausible",
         null
       ],
-      "explanation": "コンポーネントの貢献を比べ、プログラムを監視・コントロールするには、ステークホルダーの期待にもとづく標準の測定基準とKPI、全構成プロジェクトに共通のレビュー・ポイントを定めます。",
-      "scenario_ja": "構成プロジェクトの進捗報告がばらばらで、プログラムの成功への各プロジェクトの貢献を比べにくくなっている。",
+      "explanation": "コンポーネントの貢献を比べ、プログラムを監視・コントロールするには、ステークホルダーの期待（ここでは全国のカバー率目標）に結びついた標準の測定基準とKPI、そして共通のレビュー・ポイントを定めます。指標を1つ足すだけ、予算の消化率で比べるだけでは、目標への貢献は分かりません。全社のKPI定義はポートフォリオ側の取り組みです。",
+      "scenario_ja": "ある携帯電話会社の5G展開プログラムには、7つの地域コンポーネントがある。地域ごとに進捗の報告の仕方が違い、ある地域は設置した基地局の数を、別の地域は運用を始めた基地局の数を、また別の地域は予算の消化率を報告している。運営委員会は、どの地域が全国のカバー率目標に貢献しているのかが分からない。",
       "stem_ja": "プログラムマネージャーは何を確立すべきか。",
       "options_ja": [
-        "各プロジェクトが独自の指標を定めるというルール。",
-        "途中のチェックポイントを設けず、プログラム終了時に1回だけ行うレビュー。",
-        "各プロジェクトマネージャーが主観で選ぶ状況の色分け。",
-        "ステークホルダーの期待にもとづく標準の測定基準とKPI、そして全構成プロジェクトに共通のレビュー・ポイント。"
+        "各地域に、今の指標に加えて、運用を始めた基地局の数を既存の報告に追加してもらう依頼。",
+        "このプログラムを含む会社の全プログラムに共通のKPIを定めるよう、ポートフォリオ・オフィスに求める依頼。",
+        "どの地域もすでに報告しているので、予算の消化率による地域間の比較。",
+        "カバー率目標に結びついた標準の基準とKPI、そしてすべての地域コンポーネントに共通のレビュー・ポイント。"
       ],
       "option_explanations": [
-        "基準がばらばらのままで、比較できません。",
-        "途中で点検する機会がなく、監視とコントロールができません。",
-        "主観的で、比較の基準になりません。",
-        "正解。標準の測定基準・KPIと共通のレビュー・ポイントを定めます（ECO D2-T5）。"
+        "指標を足すだけでは、ばらばらな報告の構造は変わりません。",
+        "全社のKPIを定めるのはポートフォリオ側の取り組みで、このプログラムの監視に必要な基準は、プログラムとして定めます。",
+        "予算の消化率は、カバー率目標への貢献を表しません。",
+        "正解。目標に結びついた標準の基準・KPIと共通のレビュー・ポイントを定めます（ECO D2-T5）。"
       ],
       "vocab": [
         {
-          "en": "inconsistently",
-          "ja": "ばらばらに・一貫性なく"
+          "en": "rollout",
+          "ja": "展開・導入"
         },
         {
-          "en": "measurement criteria",
-          "ja": "測定基準"
+          "en": "site (cell site)",
+          "ja": "基地局"
         },
         {
-          "en": "KPI (key performance indicator)",
-          "ja": "重要業績評価指標"
+          "en": "in service",
+          "ja": "運用中の"
+        },
+        {
+          "en": "coverage target",
+          "ja": "カバー率（エリア）目標"
         },
         {
           "en": "review point",
           "ja": "レビュー・ポイント（点検の時点）"
-        },
-        {
-          "en": "interim checkpoint",
-          "ja": "途中のチェックポイント"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.9,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
@@ -566,13 +568,13 @@
         "Stakeholders",
         "Leadership"
       ],
-      "scenario": "The program is authorized and planned, and the organization needs to be brought on board before execution accelerates.",
+      "scenario": "A program to introduce a new customer relationship system across a bank's 300 branches has just been authorized. The component teams are eager to start work immediately. The branch managers, whose daily routines will change significantly, have heard about the program only through rumors.",
       "stem": "What should the program manager do?",
       "options": [
-        "Conduct a program kick-off with key stakeholders to build familiarity and obtain buy-in.",
-        "Skip any kickoff and begin execution silently.",
-        "Announce the program only after it is complete.",
-        "Hold a kickoff with the program team but exclude sponsors."
+        "Hold a program kick-off with key stakeholders, including branch representatives, to explain the program and gain buy-in.",
+        "Let the components start work now, and hold a kick-off once the first release is ready to demonstrate to the branches.",
+        "Send all branch managers the detailed training schedule so that they can plan their staff's time for the coming changes.",
+        "Hold a kick-off with the component teams only, so that the teams are aligned before the branches become involved."
       ],
       "answer_index": 0,
       "distractor_types": [
@@ -581,43 +583,47 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "実行が本格化する前に、主要なステークホルダーとキックオフを行い、組織にプログラムを知ってもらい、賛同（buy-in）を得ます。スポンサーを含む主要ステークホルダーを巻き込むことが重要です。",
-      "scenario_ja": "プログラムは承認され、計画もできた。実行が本格化する前に、組織を巻き込む必要がある。",
+      "explanation": "日々の業務が大きく変わる支店長たちが噂でしか知らない状態は、抵抗の原因になります。実行が本格化する前に、支店の代表を含む主要なステークホルダーとキックオフを行い、プログラムを説明して賛同を得ます。成果ができてからの説明や、チーム内だけのキックオフでは遅く、研修日程の送付は順序が早すぎます。",
+      "scenario_ja": "銀行の300の支店に新しい顧客管理システムを導入するプログラムが承認されたところである。コンポーネントのチームはすぐにでも作業を始めたがっている。日々の業務が大きく変わる支店長たちは、プログラムのことを噂でしか聞いていない。",
       "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "主要なステークホルダーとプログラムのキックオフを行い、理解を深めてもらい賛同を得る。",
-        "キックオフはせず、黙って実行を始める。",
-        "プログラムが完了してから発表する。",
-        "プログラムチームとはキックオフを行うが、スポンサーは呼ばない。"
+        "支店の代表を含む主要なステークホルダーとプログラムのキックオフを行い、プログラムを説明して賛同を得る。",
+        "コンポーネントには今すぐ作業を始めさせ、最初のリリースを支店に見せられるようになってからキックオフを行う。",
+        "今後の変化に向けて職員の時間を計画できるよう、すべての支店長に詳細な研修日程を送る。",
+        "支店を巻き込む前にチームの足並みをそろえるため、コンポーネントのチームとだけキックオフを行う。"
       ],
       "option_explanations": [
         "正解。主要なステークホルダーとのキックオフで、組織の理解と賛同を得ます（ECO D2-T6）。",
-        "周知をしていないので、賛同が得られません。",
-        "事後の発表では意味がありません。",
-        "スポンサーを外すと、賛同の形成に失敗します。"
+        "成果ができてからでは、噂による不安や抵抗が広がった後になります。",
+        "何のためのプログラムかを説明する前に研修日程を送っても、賛同は得られません。",
+        "チームの足並みは大事ですが、影響を受ける支店を外したままでは賛同が得られません。"
       ],
       "vocab": [
         {
-          "en": "bring on board",
-          "ja": "巻き込む・仲間に入れる"
+          "en": "customer relationship system",
+          "ja": "顧客管理システム"
         },
         {
-          "en": "kick-off",
-          "ja": "キックオフ（立ち上げの会議）"
+          "en": "eager to",
+          "ja": "しきりに～したがる"
         },
         {
-          "en": "familiarity",
-          "ja": "なじみ・理解"
+          "en": "daily routine",
+          "ja": "日々の業務"
         },
         {
-          "en": "buy-in",
-          "ja": "賛同・支持"
+          "en": "rumor",
+          "ja": "噂"
+        },
+        {
+          "en": "demonstrate",
+          "ja": "実演して見せる"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.91,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
@@ -630,15 +636,16 @@
         "governance"
       ],
       "principles": [
-        "Stakeholders"
+        "Stakeholders",
+        "Risk"
       ],
-      "scenario": "The high-level scope exists, but planning teams need a fuller articulation incorporating the program vision and internal and external objectives.",
+      "scenario": "A port authority's container terminal automation program has an approved high-level scope. As planning begins, the program manager learns of new national data-security rules for port systems, union agreements that limit the pace of automation, and shipping lines' requirements on berth availability. The current scope covers only the authority's internal operational goals.",
       "stem": "What should the program manager develop?",
       "options": [
-        "A one-line scope summary only.",
-        "A detailed program scope statement incorporating the program vision and all internal and external objectives, goals, influences, and variables.",
-        "A scope statement limited to internal objectives, ignoring external ones.",
-        "A budget spreadsheet in place of scope."
+        "A scope statement limited to the internal operational goals, with the external factors managed separately as program risks.",
+        "A detailed scope statement that includes the vision and both internal and external objectives, influences, and variables.",
+        "A separate scope statement for each component, so that each component manager can address the external factors that apply.",
+        "A request to the legal department to determine which of the new data-security rules fall within the program's scope."
       ],
       "answer_index": 1,
       "distractor_types": [
@@ -647,43 +654,47 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "全体の計画を支えるには、プログラムのビジョンと、社内外の目的・目標・影響要因・変数を盛り込んだ詳細なプログラム・スコープ記述書を作ります。社外の要因（規制、市場、顧客など）も含めることが大切です。",
-      "scenario_ja": "概略のスコープはできているが、計画チームには、プログラムのビジョンと社内外の目標を盛り込んだ、より詳しいスコープの記述が必要である。",
+      "explanation": "計画を本格化する前に、プログラムのビジョンと、社内外の目的・目標・影響要因・変数を盛り込んだ詳細なプログラム・スコープ記述書を作ります。規制、労働協約、顧客（海運会社）の要件のような社外の要因は、リスクとして脇に置くのではなく、スコープの前提として扱います。",
+      "scenario_ja": "ある港湾管理者のコンテナ・ターミナル自動化プログラムでは、概略のスコープが承認されている。計画を始めるにあたり、プログラムマネージャーは、港湾システムに関する新しい国のデータセキュリティ規則、自動化のペースを制限する労働組合との協定、岸壁の利用についての海運会社の要件を知った。現在のスコープは、管理者の社内の運営目標しか扱っていない。",
       "stem_ja": "プログラムマネージャーは何を作るべきか。",
       "options_ja": [
-        "1行のスコープ要約だけ。",
-        "プログラムのビジョンと、社内外のすべての目的・目標・影響要因・変数を盛り込んだ、詳細なプログラム・スコープ記述書。",
-        "社内の目的だけに絞り、社外の目的は無視したスコープ記述書。",
-        "スコープの代わりとなる予算の表計算シート。"
+        "社内の運営目標に限ったスコープ記述書。社外の要因は、プログラムのリスクとして別に管理する。",
+        "ビジョンと、社内外の目的・影響要因・変数を盛り込んだ詳細なスコープ記述書。",
+        "各コンポーネントのマネージャーが関係する社外の要因に対処できるよう、コンポーネントごとに分けたスコープ記述書。",
+        "新しいデータセキュリティ規則のどれがプログラムのスコープに入るかを決めてほしいという、法務部門への依頼。"
       ],
       "option_explanations": [
-        "詳しさが足りません。",
-        "正解。ビジョンと社内外の目的・目標・影響要因・変数を盛り込んだ詳細なスコープ記述書を作ります（ECO D2-T7）。",
-        "社外の要因が抜けています。",
-        "予算はスコープの代わりになりません。"
+        "規制や協定はすでに分かっている前提条件で、起きるかどうか分からないリスクではありません。スコープに含めて計画します。",
+        "正解。ビジョンと社内外の目的・影響要因・変数を盛り込んだ詳細なスコープ記述書を作ります（ECO D2-T7）。",
+        "コンポーネントごとに分けると、プログラム全体で一貫した前提になりません。",
+        "法務の助言は役立ちますが、スコープを決めるのはプログラムの責任です。"
       ],
       "vocab": [
         {
-          "en": "articulation",
-          "ja": "（はっきりした）記述・表現"
+          "en": "port authority",
+          "ja": "港湾管理者"
         },
         {
-          "en": "incorporate",
-          "ja": "盛り込む・組み込む"
+          "en": "container terminal",
+          "ja": "コンテナ・ターミナル"
+        },
+        {
+          "en": "berth",
+          "ja": "岸壁（船の停泊場所）"
+        },
+        {
+          "en": "shipping line",
+          "ja": "海運会社"
         },
         {
           "en": "influences / variables",
           "ja": "影響要因／変数"
-        },
-        {
-          "en": "in place of",
-          "ja": "～の代わりに"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.9,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
@@ -696,15 +707,16 @@
         "governance"
       ],
       "principles": [
-        "Governance"
+        "Governance",
+        "Synergy"
       ],
-      "scenario": "The program needs a structured decomposition so that tasks and deliverables can be planned and assigned consistently.",
-      "stem": "Which tool should the program manager develop?",
+      "scenario": "In a defense logistics modernization program, each of the four components has developed its own WBS. Program-level work such as integration testing, governance, and benefits tracking appears in none of them, and several deliverables appear in two of the WBSs. The first component is scheduled to start execution in six weeks.",
+      "stem": "What should the program manager do?",
       "options": [
-        "A stakeholder register.",
-        "A risk register.",
-        "The program WBS, to determine, plan, and assign program tasks and deliverables.",
-        "A lessons-learned archive."
+        "Combine the four component WBSs into a single document so that the program has one consolidated view of all work.",
+        "Ask the component managers to resolve the overlapping deliverables among themselves before execution starts.",
+        "Develop a program WBS that covers program-level work and component deliverables without gaps or overlaps.",
+        "Add the program-level work to the WBS of the largest component, since it has the most resources available."
       ],
       "answer_index": 2,
       "distractor_types": [
@@ -713,43 +725,43 @@
         null,
         "plausible"
       ],
-      "explanation": "タスクと成果物を体系的に分解して計画・割り当てるには、プログラムWBS（作業分解構成図）を作ります。目的に合った成果物を選べるかを問う、知識寄りの問題です。",
-      "scenario_ja": "タスクと成果物を一貫した形で計画し割り当てられるように、プログラムには体系的な分解が必要である。",
-      "stem_ja": "プログラムマネージャーはどのツールを作るべきか。",
+      "explanation": "プログラムWBSは、コンポーネントの成果物に加えて、統合テスト・ガバナンス・ベネフィットの追跡のようなプログラムレベルの作業も含め、抜けや重複がないようにタスクと成果物を定め、計画し、割り当てるためのものです。コンポーネントのWBSをまとめるだけ、当事者同士で調整させるだけでは、プログラムレベルの作業の抜けが残ります。",
+      "scenario_ja": "ある防衛物流の近代化プログラムでは、4つのコンポーネントがそれぞれ独自のWBSを作った。統合テスト、ガバナンス、ベネフィットの追跡といったプログラムレベルの作業はどのWBSにも入っておらず、いくつかの成果物は2つのWBSに重複して入っている。最初のコンポーネントは6週間後に実行を始める予定である。",
+      "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "ステークホルダー登録簿。",
-        "リスク登録簿。",
-        "プログラムのタスクと成果物を決め、計画し、割り当てるためのプログラムWBS。",
-        "教訓のアーカイブ。"
+        "プログラムがすべての作業を1つにまとめて見られるよう、4つのコンポーネントのWBSを1つの文書に合わせる。",
+        "実行が始まる前に、重複している成果物をコンポーネント・マネージャー同士で解決させる。",
+        "プログラムレベルの作業とコンポーネントの成果物を、抜けも重複もなく含むプログラムWBSを作る。",
+        "最もリソースが多いので、最大のコンポーネントのWBSにプログラムレベルの作業を加える。"
       ],
       "option_explanations": [
-        "ステークホルダーの管理に使うもので、作業の分解には使いません。",
-        "リスクの管理に使うもので、作業の分解には使いません。",
-        "正解。プログラムWBSで作業を分解し、タスクと成果物を計画・割り当てます（ECO D2-T8）。",
-        "教訓の蓄積に使うもので、作業の分解には使いません。"
+        "まとめただけでは、プログラムレベルの作業の抜けと重複が残ります。",
+        "重複は解消できても、プログラムレベルの作業の抜けは残ります。",
+        "正解。プログラムWBSで作業を分解し、抜けや重複なく計画・割り当てます（ECO D2-T8）。",
+        "プログラムレベルの作業を1つのコンポーネントに押しつけると、責任の所在がゆがみます。"
       ],
       "vocab": [
         {
-          "en": "decomposition",
-          "ja": "分解"
+          "en": "defense logistics",
+          "ja": "防衛物流"
         },
         {
-          "en": "WBS (work breakdown structure)",
-          "ja": "作業分解構成図"
+          "en": "integration testing",
+          "ja": "統合テスト"
         },
         {
-          "en": "stakeholder register",
-          "ja": "ステークホルダー登録簿"
+          "en": "benefits tracking",
+          "ja": "ベネフィットの追跡"
         },
         {
-          "en": "lessons-learned archive",
-          "ja": "教訓のアーカイブ（保管庫）"
+          "en": "gaps or overlaps",
+          "ja": "抜けや重複"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.9,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
@@ -764,58 +776,62 @@
       "principles": [
         "Synergy"
       ],
-      "scenario": "Reviewing the integrated plan, the program manager finds resource requirements are uneven—some periods overloaded, others idle—reducing efficiency across projects.",
+      "scenario": "While reviewing the integrated plan of a hospital construction program, the program manager sees that the same structural engineers are scheduled for three components in the second quarter, while they will be underused in the third quarter. The program budget includes a 5 percent contingency reserve.",
       "stem": "What should the program manager do?",
       "options": [
-        "Hire enough staff to cover every peak regardless of cost.",
-        "Let overloaded projects slip without adjusting the plan.",
-        "Freeze resources at current levels and forbid reallocation.",
-        "Optimize the program management plan by identifying, reviewing, and leveling resource requirements to gain efficiencies and synergies among components."
+        "Use the contingency reserve to hire contract structural engineers for the second quarter so that all schedules remain unchanged.",
+        "Let each component manager negotiate directly with the engineering manager for the engineers' time in the second quarter.",
+        "Ask the portfolio board to move the lowest-priority component to the next fiscal year to remove the overload in the second quarter.",
+        "Level the resource demand across components, such as by shifting non-critical work into the third quarter, to optimize the plan."
       ],
       "answer_index": 3,
       "distractor_types": [
         "plausible",
         "plausible",
-        "plausible",
+        "cross_perspective",
         null
       ],
-      "explanation": "リソースの山と谷は、需要を洗い出し・見直し・平準化（leveling）して、プログラムマネジメント計画を最適化します。コンポーネントをまたいでリソースを融通できるのは、プログラムとして管理する利点（シナジー）の1つです。",
-      "scenario_ja": "統合した計画を見直したところ、プログラムマネージャーは、リソースの需要に偏りがあり（ある時期は過負荷、別の時期は手が空いている）、プロジェクト全体の効率が下がっていることに気づいた。",
+      "explanation": "コンポーネントをまたいで同じ専門家の需要が偏っているときは、クリティカルでない作業をずらすなどしてリソースを平準化し、プログラムマネジメント計画を最適化します。予備費で人を雇うのは、平準化で解決できるかを確かめてからです。コンポーネント同士の取り合いに任せるとプログラム全体の最適になりません。コンポーネントの先送りはポートフォリオの判断で、過剰な対応です。",
+      "scenario_ja": "病院建設プログラムの統合計画を見直していたプログラムマネージャーは、同じ構造エンジニアたちが第2四半期に3つのコンポーネントに割り当てられている一方で、第3四半期には手が空くことに気づいた。プログラムの予算には5%の予備費がある。",
       "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "コストに関係なく、すべてのピークをまかなえるだけの人員を雇う。",
-        "計画を調整せず、過負荷のプロジェクトが遅れるのに任せる。",
-        "リソースを現在の水準で固定し、再配分を禁止する。",
-        "リソースの需要を洗い出し、見直し、平準化してプログラムマネジメント計画を最適化し、コンポーネント間の効率と相乗効果を得る。"
+        "すべてのスケジュールを変えずに済むよう、予備費を使って第2四半期に外部の構造エンジニアを雇う。",
+        "第2四半期のエンジニアの時間について、各コンポーネント・マネージャーにエンジニアリング部門の責任者と直接交渉させる。",
+        "第2四半期の過負荷をなくすため、最も優先度の低いコンポーネントを次の会計年度に移すようポートフォリオ委員会に求める。",
+        "クリティカルでない作業を第3四半期にずらすなどしてコンポーネント間でリソースの需要を平準化し、計画を最適化する。"
       ],
       "option_explanations": [
-        "コストを度外視しており、最適化になっていません。",
-        "問題を放置しています。",
-        "硬直的で、最適化になっていません。",
-        "正解。リソースを洗い出し・見直し・平準化して計画を最適化し、コンポーネント間の相乗効果を得ます（ECO D2-T10）。"
+        "平準化で解決できるかを確かめる前に予備費を使っています。コストの最適化になっていません。",
+        "コンポーネント同士の取り合いになり、プログラム全体の最適になりません。",
+        "コンポーネントを年度ごと先送りするのはポートフォリオの判断で、リソースの偏りへの対応としては過剰です。",
+        "正解。リソースを平準化してプログラムマネジメント計画を最適化し、コンポーネント間の効率を高めます（ECO D2-T10）。"
       ],
       "vocab": [
         {
-          "en": "uneven",
-          "ja": "偏りのある・でこぼこの"
+          "en": "structural engineer",
+          "ja": "構造エンジニア"
         },
         {
-          "en": "overloaded / idle",
-          "ja": "過負荷の／手が空いている"
+          "en": "underused",
+          "ja": "十分に使われていない"
         },
         {
-          "en": "resource leveling",
-          "ja": "リソースの平準化"
+          "en": "contingency reserve",
+          "ja": "予備費（コンティンジェンシー予備）"
         },
         {
-          "en": "regardless of",
-          "ja": "～に関係なく"
+          "en": "non-critical work",
+          "ja": "クリティカルでない作業（遅れても全体に響かない作業）"
+        },
+        {
+          "en": "fiscal year",
+          "ja": "会計年度"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.9,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
@@ -831,13 +847,13 @@
         "Synergy",
         "Team of Teams"
       ],
-      "scenario": "Constituent projects are duplicating documents and losing knowledge because there is no common way to share information across the program.",
-      "stem": "What should the program manager define?",
+      "scenario": "A global consulting firm's internal transformation program has teams in five countries. The same design documents are recreated in several components, lessons from the first wave are lost when people rotate out, and last month a client-confidential document was accidentally shared in an open chat channel.",
+      "stem": "What should the program manager do?",
       "options": [
-        "A PMIS (tools and processes) to share knowledge, intellectual property, and documentation across components per the governance framework.",
-        "A rule banning all documentation to save time.",
-        "Separate, disconnected file stores for each project.",
-        "A single person who memorizes all program information."
+        "Define a program information system with tools, processes, and access rules for sharing knowledge across components.",
+        "Ask each component to keep its documents in its own secure folder, so that confidential client information cannot leak again.",
+        "Buy a collaboration tool license for all team members, and let each team organize its content in the way it prefers.",
+        "Ask the corporate knowledge management team to collect the program's documents and lessons when the program closes."
       ],
       "answer_index": 0,
       "distractor_types": [
@@ -846,43 +862,43 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "情報共有の仕組みがないときは、ガバナンスの枠組みに沿って、コンポーネント間で知識・知的財産・文書を共有するPMIS（プロジェクト／プログラム・マネジメント情報システム）のツールとプロセスを定めます。重複をなくし、相乗効果とベネフィット実現につなげます。",
-      "scenario_ja": "プログラム全体で情報を共有する共通の方法がないため、構成プロジェクトが同じような文書を重複して作り、知識が失われている。",
-      "stem_ja": "プログラムマネージャーは何を定めるべきか。",
+      "explanation": "知識が共有されず、情報漏えいも起きているときは、ガバナンスの枠組みに沿って、コンポーネント間で知識・知的財産・文書を共有するためのPMIS（ツール、プロセス、アクセスのルール）を定めます。各自の安全なフォルダに閉じると漏えいは防げても共有ができず、ツールを買うだけではルールがありません。終結時の回収では遅すぎます。",
+      "scenario_ja": "あるグローバルなコンサルティング会社の社内変革プログラムには、5か国にチームがある。同じ設計文書がいくつものコンポーネントで作り直され、第1弾で得た教訓は人が異動すると失われ、先月は顧客の機密文書が誤って公開のチャット・チャンネルで共有された。",
+      "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "ガバナンスの枠組みに沿って、コンポーネント間で知識・知的財産・文書を共有するためのPMIS（ツールとプロセス）。",
-        "時間を節約するため、文書化を一切禁止するルール。",
-        "プロジェクトごとに分かれた、互いにつながらないファイル置き場。",
-        "プログラムの全情報を覚えておく担当者1名。"
+        "コンポーネント間で知識を共有するための、ツール・プロセス・アクセスのルールを備えたプログラムの情報システムを定める。",
+        "顧客の機密情報が二度と漏れないよう、各コンポーネントに自分たちの安全なフォルダで文書を管理させる。",
+        "全メンバー分のコラボレーション・ツールのライセンスを買い、各チームに好きな方法で内容を整理させる。",
+        "プログラムが終わるときに、文書と教訓を集めるよう全社のナレッジ管理チームに依頼する。"
       ],
       "option_explanations": [
-        "正解。PMISで知識・知的財産・文書をコンポーネント間で共有します（ECO D2-T11）。",
-        "共有を妨げ、知識の喪失を悪化させます。",
-        "共有を妨げ、重複も解消しません。",
-        "属人化し、仕組みになっていません。"
+        "正解。ガバナンスに沿ったPMISで、知識・知的財産・文書を共有しつつ守ります（ECO D2-T11）。",
+        "漏えいは防げても、コンポーネント間の共有ができなくなり、重複と知識の喪失が続きます。",
+        "ツールだけでは、何をどう共有し、誰がアクセスできるかのルールがありません。",
+        "終結時の回収では、途中の重複や知識の喪失を防げません。"
       ],
       "vocab": [
         {
-          "en": "PMIS",
-          "ja": "プロジェクト／プログラム・マネジメント情報システム"
+          "en": "rotate out",
+          "ja": "（異動で）抜ける"
         },
         {
-          "en": "intellectual property",
-          "ja": "知的財産"
+          "en": "client-confidential",
+          "ja": "顧客の機密の"
         },
         {
-          "en": "duplicate",
-          "ja": "重複して作る"
+          "en": "access rules",
+          "ja": "アクセスのルール（権限）"
         },
         {
-          "en": "disconnected",
-          "ja": "つながっていない"
+          "en": "knowledge management",
+          "ja": "ナレッジ管理"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.9,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
@@ -899,13 +915,13 @@
         "Governance",
         "Risk"
       ],
-      "scenario": "A project-level issue remains unresolved and is beginning to threaten the program's benefits, but no escalation path was agreed.",
+      "scenario": "At a quarterly review of a multi-site retail transformation program, the program manager learns that one component has had an unresolved issue for two months: store staff cannot be released for system training. The issue now threatens the benefit planned for the holiday season. The component managers say they did not know when issues should be escalated.",
       "stem": "What should the program manager do?",
       "options": [
-        "Wait for the project manager to resolve it eventually.",
-        "Identify and manage the unresolved issue by establishing a monitoring and escalation mechanism and selecting a course of action consistent with program constraints and objectives.",
-        "Absorb the issue into the program budget silently.",
-        "Cancel the constituent project immediately."
+        "Resolve this issue now by reallocating the training budget, and remind the component managers to escalate issues sooner.",
+        "Set issue monitoring and escalation criteria for all components, and choose a response to this issue within constraints.",
+        "Require every component manager to report all open issues to the program office each week, regardless of their severity.",
+        "Replace the component manager, because an issue that threatens a program benefit should have been escalated much earlier."
       ],
       "answer_index": 1,
       "distractor_types": [
@@ -914,43 +930,43 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "プロジェクトで解決できない課題がベネフィットを脅かしているときは、監視とエスカレーションの仕組みを確立し、プログラムの制約と目的に沿った対応を選びます。エスカレーションの経路がないこと自体が、ガバナンスの欠陥です。",
-      "scenario_ja": "プロジェクトレベルの課題が未解決のまま残り、プログラムのベネフィットを脅かし始めている。しかし、エスカレーションの経路は決められていなかった。",
+      "explanation": "この問題の核心は、課題そのものに加えて「いつ上げるべきか分からなかった」というエスカレーションの仕組みの欠如です。全コンポーネントに課題の監視とエスカレーションの基準を設け、そのうえでこの課題にはプログラムの制約と目的に沿った対応を選びます。今回だけ解決しても再発し、全件の週次報告は負担が大きすぎます。",
+      "scenario_ja": "複数の店舗にまたがる小売業の変革プログラムの四半期レビューで、プログラムマネージャーは、あるコンポーネントで2か月間未解決の課題があることを知った。店舗の職員をシステム研修に出せないのである。この課題は、年末商戦に予定しているベネフィットを脅かしている。コンポーネント・マネージャーたちは、課題をいつエスカレーションすべきか分からなかったと言っている。",
       "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "プロジェクトマネージャーがいずれ解決するのを待つ。",
-        "監視とエスカレーションの仕組みを確立し、プログラムの制約と目的に沿った行動方針を選んで、未解決の課題を特定・管理する。",
-        "課題を黙ってプログラムの予算で吸収する。",
-        "その構成プロジェクトを直ちに中止する。"
+        "研修予算を付け替えて今回の課題をすぐに解決し、コンポーネント・マネージャーにはもっと早くエスカレーションするよう念を押す。",
+        "全コンポーネントに課題の監視とエスカレーションの基準を設け、今回の課題には制約の範囲で対応を選ぶ。",
+        "重要度に関係なく、すべての未解決の課題を毎週プログラム・オフィスに報告するよう、各コンポーネント・マネージャーに求める。",
+        "ベネフィットを脅かす課題はもっと早くエスカレーションすべきだったので、そのコンポーネント・マネージャーを交代させる。"
       ],
       "option_explanations": [
-        "放置しています。ベネフィットへの脅威がすでに出ています。",
-        "正解。監視とエスカレーションの仕組みをつくり、プログラムの制約と目的に沿って対応を選びます（ECO D2-T12）。",
-        "透明性がなく、問題の根本にも対処していません。",
-        "過剰な反応です。"
+        "今回は解決できても、いつ上げるかの基準がないままなので、同じことが繰り返されます。",
+        "正解。監視とエスカレーションの仕組みを確立し、プログラムの制約と目的に沿って対応を選びます（ECO D2-T12）。",
+        "全件報告は負担が大きく、重要な課題が埋もれます。基準にもとづく仕組みが必要です。",
+        "基準を示していなかったのはプログラム側の問題です。個人を責めても仕組みは直りません。"
       ],
       "vocab": [
         {
-          "en": "escalation path",
-          "ja": "エスカレーションの経路"
+          "en": "release (staff) for",
+          "ja": "（職員を）～に出す"
         },
         {
-          "en": "monitoring mechanism",
-          "ja": "監視の仕組み"
+          "en": "holiday season",
+          "ja": "年末商戦の時期"
         },
         {
-          "en": "course of action",
-          "ja": "行動方針・対応策"
+          "en": "escalation criteria",
+          "ja": "エスカレーションの基準"
         },
         {
-          "en": "absorb",
-          "ja": "吸収する"
+          "en": "severity",
+          "ja": "重要度・深刻度"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.89,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
@@ -963,16 +979,16 @@
         "governance"
       ],
       "principles": [
-        "Governance",
-        "Benefits Realization"
+        "Benefits Realization",
+        "Governance"
       ],
-      "scenario": "The program needs measurable indicators derived from its objectives so that scope and quality can be managed consistently.",
+      "scenario": "A city's smart-traffic program has a strategic objective to reduce average commute time by 15 percent within four years. The component teams measure only their technical outputs, such as the number of traffic signals upgraded and sensors installed. Nobody can tell whether the program is on track toward the commute-time objective.",
       "stem": "What should the program manager do?",
       "options": [
-        "Use only anecdotal feedback instead of indicators.",
-        "Adopt a competitor's KPIs without mapping to program objectives.",
-        "Develop KPIs via decomposition and mapping, and implement a scope and quality management system within the program.",
-        "Measure activity counts unrelated to objectives."
+        "Measure the citywide average commute time every month, and report it to the steering committee as the program's KPI.",
+        "Keep the technical output measures, because they are objective, easy to verify, and already familiar to the teams.",
+        "Decompose the objective into KPIs that are mapped to each component, and build scope and quality control around them.",
+        "Ask the city's transport department to report the commute-time figures once a year, since it already collects traffic data."
       ],
       "answer_index": 2,
       "distractor_types": [
@@ -981,43 +997,47 @@
         null,
         "plausible"
       ],
-      "explanation": "KPIは、プログラムの目的を分解し、対応づけて作ります。目的に結びついた指標があって初めて、スコープと品質を一貫して管理できます。",
-      "scenario_ja": "スコープと品質を一貫して管理できるよう、プログラムには目的から導いた測定可能な指標が必要である。",
+      "explanation": "戦略目標（通勤時間15%短縮）とコンポーネントの作業をつなぐには、目標を分解して各コンポーネントに対応づけたKPI（例：交差点ごとの遅延時間）を作り、それを軸にスコープと品質を管理します。全体の通勤時間だけでは、どのコンポーネントが効いているか分からず、技術的なアウトプットだけでは目標への進み具合が分かりません。",
+      "scenario_ja": "ある市のスマート交通プログラムには、4年以内に平均通勤時間を15%短くするという戦略目標がある。コンポーネントのチームは、更新した信号機の数や設置したセンサーの数といった技術的なアウトプットしか測っていない。プログラムが通勤時間の目標に向けて順調なのかどうか、誰にも分からない。",
       "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "指標の代わりに、個人的な感想だけを使う。",
-        "プログラムの目的と対応づけずに、競合他社のKPIをそのまま採用する。",
-        "分解と対応づけ（マッピング）によってKPIを作り、プログラムの中にスコープと品質のマネジメントの仕組みを導入する。",
-        "目的と関係のない活動の件数を測る。"
+        "市全体の平均通勤時間を毎月測り、それをプログラムのKPIとして運営委員会に報告する。",
+        "客観的で確認しやすく、チームも慣れているので、技術的なアウトプットの指標を使い続ける。",
+        "目標を分解して各コンポーネントに対応づけたKPIを作り、それを軸にスコープと品質の管理を組み立てる。",
+        "交通データをすでに集めているので、市の交通部門に年1回、通勤時間の数字を報告してもらう。"
       ],
       "option_explanations": [
-        "測定できる指標になっていません。",
-        "このプログラムの目的と結びついていません。",
-        "正解。目的を分解して対応づけたKPIを作り、スコープと品質を管理します（ECO D2-T14）。",
-        "目的と結びつかない指標では、管理の土台になりません。"
+        "全体の結果だけでは、どのコンポーネントがどれだけ貢献しているかが分からず、管理に使えません。",
+        "アウトプットを数えても、ベネフィット（通勤時間の短縮）に近づいているかは分かりません。",
+        "正解。目標を分解・対応づけてKPIを作り、スコープと品質の管理に使います（ECO D2-T14）。",
+        "年1回では頻度が低く、コンポーネントとの対応もありません。"
       ],
       "vocab": [
         {
-          "en": "derive from",
-          "ja": "～から導き出す"
+          "en": "commute time",
+          "ja": "通勤時間"
         },
         {
-          "en": "anecdotal",
-          "ja": "（データでなく）個人的な体験談にもとづく"
+          "en": "traffic signal",
+          "ja": "信号機"
         },
         {
-          "en": "decomposition / mapping",
-          "ja": "分解／対応づけ"
+          "en": "on track",
+          "ja": "順調に進んでいる"
         },
         {
-          "en": "quality management system",
-          "ja": "品質マネジメントの仕組み"
+          "en": "decompose",
+          "ja": "分解する"
+        },
+        {
+          "en": "map to",
+          "ja": "～に対応づける"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.9,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
@@ -1030,15 +1050,16 @@
         "governance"
       ],
       "principles": [
-        "Governance"
+        "Governance",
+        "Team of Teams"
       ],
-      "scenario": "With the program plan in place, the constituent projects have not yet been formally started or resourced.",
+      "scenario": "The program plan for a utility's smart-meter program has been approved, and the data-platform component is due to start next month because two other components depend on it. The preferred candidate for component manager is finishing another project and will not be available for two months. A functional manager has offered to run the component part-time in the meantime.",
       "stem": "What should the program manager do?",
       "options": [
-        "Let projects self-start without charters or assigned managers.",
-        "Delay all projects until the program is nearly complete.",
-        "Assign one manager to personally execute every project.",
-        "Charter and initiate the constituent projects by assigning project managers and allocating appropriate resources to achieve program objectives."
+        "Accept the functional manager's offer to run the component part-time until the preferred candidate becomes available.",
+        "Delay the start of the data-platform component by two months so that the preferred candidate can lead it from the start.",
+        "Start the component's work under the program manager's direct supervision, and issue the component charter later.",
+        "Charter the component, assign a manager who can lead it from the start, and allocate the resources it needs on schedule."
       ],
       "answer_index": 3,
       "distractor_types": [
@@ -1047,39 +1068,47 @@
         "plausible",
         null
       ],
-      "explanation": "構成プロジェクトは、プロジェクトマネージャーを任命し、適切なリソースを割り当てて、憲章を発行し正式に立ち上げます。",
-      "scenario_ja": "プログラムの計画はできたが、構成プロジェクトはまだ正式に開始されておらず、リソースも割り当てられていない。",
+      "explanation": "他のコンポーネントが依存しているので、データ基盤のコンポーネントは予定どおり始める必要があります。憲章を発行し、最初から責任を持って率いることができるマネージャーを任命し、必要なリソースを割り当てて立ち上げます。片手間の代行、依存関係を無視した延期、憲章なしの着手は、いずれもプログラムの目的を危うくします。",
+      "scenario_ja": "ある電力会社のスマートメーター・プログラムの計画が承認され、他の2つのコンポーネントが依存しているデータ基盤のコンポーネントは来月開始の予定である。コンポーネント・マネージャーの第一候補は別のプロジェクトを終えようとしているところで、2か月間は手が空かない。ある機能部門の管理者が、その間、片手間でコンポーネントを率いると申し出ている。",
       "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "憲章も担当マネージャーもないまま、プロジェクトが自然に始まるのに任せる。",
-        "プログラムがほぼ完了するまで、すべてのプロジェクトを遅らせる。",
-        "1人のマネージャーにすべてのプロジェクトを自ら実行させる。",
-        "プロジェクトマネージャーを任命し、適切なリソースを割り当てて、構成プロジェクトの憲章を発行し立ち上げる。"
+        "第一候補の手が空くまで、機能部門の管理者が片手間でコンポーネントを率いるという申し出を受ける。",
+        "第一候補が最初から率いられるよう、データ基盤のコンポーネントの開始を2か月遅らせる。",
+        "プログラムマネージャーの直接の監督のもとでコンポーネントの作業を始め、憲章は後で発行する。",
+        "コンポーネントの憲章を発行し、最初から率いることができるマネージャーを任命して、必要なリソースを予定どおり割り当てる。"
       ],
       "option_explanations": [
-        "憲章も責任者もなく、統制がききません。",
-        "理由のない遅延です。",
-        "1人に集中させるのは現実的ではありません。",
-        "正解。PMを任命し、リソースを割り当てて、構成プロジェクトを正式に立ち上げます（ECO D2-T16）。"
+        "片手間では、他のコンポーネントが依存する重要な立ち上げを担えません。途中での交代もリスクです。",
+        "依存している2つのコンポーネントまで遅れ、プログラム全体に影響します。",
+        "憲章なしの着手は、責任と権限があいまいなままで、ガバナンスに反します。",
+        "正解。憲章を発行し、マネージャーを任命してリソースを割り当て、コンポーネントを立ち上げます（ECO D2-T16）。"
       ],
       "vocab": [
         {
-          "en": "in place",
-          "ja": "整っている・できている"
+          "en": "utility",
+          "ja": "電力・ガスなどの公益事業者"
         },
         {
-          "en": "charter (v.)",
-          "ja": "憲章を発行して正式に認める"
+          "en": "smart meter",
+          "ja": "スマートメーター（通信機能つき電力量計）"
         },
         {
-          "en": "self-start",
-          "ja": "自然に（勝手に）始まる"
+          "en": "preferred candidate",
+          "ja": "第一候補"
+        },
+        {
+          "en": "part-time",
+          "ja": "片手間で・兼務で"
+        },
+        {
+          "en": "in the meantime",
+          "ja": "その間"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.9,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
@@ -1094,13 +1123,13 @@
       "principles": [
         "Governance"
       ],
-      "scenario": "Projects within the program apply inconsistent standards and tools, causing rework and unreliable decision information.",
-      "stem": "What should the program manager establish?",
+      "scenario": "In a program to build a new online insurance platform, the component teams use three different defect-tracking tools and two different definitions of done. Before the planned launch, the steering committee cannot decide whether the platform is ready, because the quality reports from the teams cannot be compared. The launch is scheduled in ten weeks.",
+      "stem": "What should the program manager do?",
       "options": [
-        "Consistency by deploying the governance framework, uniform standards, resources, infrastructure, tools, and processes to enable informed decision-making.",
-        "A policy letting each project choose entirely different standards.",
-        "No standards at all, to maximize flexibility.",
-        "Standards that apply only to the largest project."
+        "Deploy common standards, tools, and processes under the governance framework so that decisions rest on consistent data.",
+        "Ask the quality lead to translate each team's defect counts into a common format every month before the committee meets.",
+        "Let the steering committee base its launch decision on a readiness statement that each component manager signs.",
+        "Postpone the launch decision until the teams agree among themselves on a single tool and a single definition of done."
       ],
       "answer_index": 0,
       "distractor_types": [
@@ -1109,43 +1138,47 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "標準とツールがばらばらだと、手戻りが起き、判断の情報も比べられません。ガバナンスの枠組み、統一された標準・ツール・プロセスなどを展開して一貫性を確保し、情報にもとづく意思決定を可能にします。",
-      "scenario_ja": "プログラム内のプロジェクトがばらばらの標準とツールを使っているため、手戻りが起き、判断に使う情報も信頼できなくなっている。",
-      "stem_ja": "プログラムマネージャーは何を確立すべきか。",
+      "explanation": "判断に使う情報がそろっていないのは、標準・ツール・プロセスが統一されていないからです。ガバナンスの枠組みのもとで共通の標準・ツール・プロセスを展開し、一貫したデータで意思決定できるようにします。毎月の変換作業は対症療法で、各自の宣言書ではプログラムとして比べられません。チーム任せで合意を待つのは、プログラムマネージャーの役割の放棄です。",
+      "scenario_ja": "新しいオンライン保険の基盤を作るプログラムで、コンポーネントのチームは3種類の不具合管理ツールと、2種類の「完了」の定義を使っている。予定しているリリースの前に、チームの品質報告を比べられないため、運営委員会は基盤がリリースできる状態かどうかを判断できない。リリースは10週間後の予定である。",
+      "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "ガバナンスの枠組み、統一された標準、リソース、基盤、ツール、プロセスを展開して一貫性を確保し、情報にもとづく意思決定ができるようにする。",
-        "各プロジェクトがまったく別の標準を選べる方針。",
-        "柔軟性を最大にするため、標準を一切設けない。",
-        "最大のプロジェクトにだけ適用される標準。"
+        "ガバナンスの枠組みのもとで共通の標準・ツール・プロセスを展開し、一貫したデータにもとづいて判断できるようにする。",
+        "委員会の前に毎月、各チームの不具合件数を共通の形式に変換するよう、品質責任者に頼む。",
+        "各コンポーネント・マネージャーが署名したリリース準備完了の宣言書をもとに、運営委員会にリリースを判断させる。",
+        "チーム同士が1つのツールと1つの「完了」の定義に合意するまで、リリースの判断を延期する。"
       ],
       "option_explanations": [
-        "正解。ガバナンスの枠組みと統一された標準・ツール・プロセスで一貫性を確保します（ECO D2-T17）。",
-        "不整合が残り、判断の情報が信頼できないままです。",
-        "不整合が残ります。",
-        "他のプロジェクトとの不整合が残ります。"
+        "正解。ガバナンスの枠組み・統一された標準・ツール・プロセスを展開し、情報にもとづく意思決定を可能にします（ECO D2-T17）。",
+        "毎月の変換は手間がかかるうえ、定義の違いという根本の問題が残ります。",
+        "基準が違う宣言書を並べても、プログラムとしての判断の根拠になりません。",
+        "合意をチームに任せて待つと、リリースが遅れます。標準を定めるのはプログラムの役割です。"
       ],
       "vocab": [
         {
-          "en": "rework",
-          "ja": "手戻り"
+          "en": "defect tracking",
+          "ja": "不具合の管理"
         },
         {
-          "en": "uniform standards",
-          "ja": "統一された標準"
+          "en": "definition of done",
+          "ja": "「完了」の定義"
         },
         {
-          "en": "infrastructure",
-          "ja": "基盤"
+          "en": "readiness",
+          "ja": "準備ができていること"
         },
         {
-          "en": "informed decision-making",
-          "ja": "情報にもとづく意思決定"
+          "en": "rest on",
+          "ja": "～にもとづく"
+        },
+        {
+          "en": "sign",
+          "ja": "署名する"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.9,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
@@ -1162,13 +1195,13 @@
         "Governance",
         "Benefits Realization"
       ],
-      "scenario": "Execution is underway, and the program manager must ensure the various management plans (quality, risk, communication, resourcing) are actually being carried out and are delivering the intended results.",
+      "scenario": "Halfway through a public-housing renovation program, the program's quality plan requires inspections by an independent auditor at each completed building. Under schedule pressure, two components have skipped several inspections. Complaints from tenants about defects are rising, and the program's benefits include improved tenant satisfaction.",
       "stem": "What should the program manager do?",
       "options": [
-        "Assume the plans are being followed without verification.",
-        "Execute the appropriate program management plans using the planned tools and audit the results to ensure outcomes align with strategy and deliver benefits.",
-        "Discard the plans once execution begins.",
-        "Execute only the quality plan and ignore the others."
+        "Allow the components to skip inspections temporarily to recover the schedule, and catch up on the inspections later.",
+        "Ensure the quality plan is carried out, including the skipped inspections, and audit results against the expected outcomes.",
+        "Ask the tenants to report defects through the property management office so that the repairs can be handled separately.",
+        "Revise the quality plan to remove the independent inspections for buildings that have had low defect rates so far."
       ],
       "answer_index": 1,
       "distractor_types": [
@@ -1177,43 +1210,47 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "実行段階では、各マネジメント計画を計画したツールで実行し、結果を監査します。成果が戦略と整合し、期待したベネフィットを生んでいるかを確かめることが目的です。",
-      "scenario_ja": "実行が進んでおり、プログラムマネージャーは、さまざまなマネジメント計画（品質、リスク、コミュニケーション、リソース）が実際に実行され、意図した結果を生んでいることを確かめなければならない。",
+      "explanation": "計画したマネジメント計画（ここでは品質計画）が実行されていないと、成果とベネフィットが損なわれます。抜けた検査を含めて品質計画を確実に実行させ、結果を監査して、成果が期待どおり（入居者満足度の向上）になっているかを確かめます。一時的な省略の容認や、分析なしの計画変更は、ベネフィットを危うくします。",
+      "scenario_ja": "公営住宅の改修プログラムの中盤である。プログラムの品質計画では、各建物の完成時に独立した監査人による検査を行うことになっている。スケジュールの圧力から、2つのコンポーネントがいくつかの検査を省いた。入居者からの不具合の苦情が増えており、プログラムのベネフィットには入居者満足度の向上が含まれている。",
       "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "確認せずに、計画どおりに進んでいると考える。",
-        "計画したツールを使って適切なプログラムマネジメント計画を実行し、結果を監査して、成果が戦略と整合しベネフィットを生んでいることを確かめる。",
-        "実行が始まったら計画は捨てる。",
-        "品質計画だけを実行し、ほかは無視する。"
+        "スケジュールを取り戻すため、コンポーネントが一時的に検査を省くことを認め、後で検査を取り戻す。",
+        "省かれた検査も含めて品質計画が確実に実行されるようにし、期待する成果に照らして結果を監査する。",
+        "修繕を別に扱えるよう、入居者に不具合を住宅管理事務所へ報告してもらう。",
+        "これまで不具合率が低かった建物については、独立した検査をなくすよう品質計画を改める。"
       ],
       "option_explanations": [
-        "確認していないので、統制が成り立ちません。",
-        "正解。計画を実行し、結果を監査して、戦略との整合とベネフィットを確かめます（ECO D2-T21）。",
-        "計画を放棄しています。",
-        "一部の計画しか実行していません。"
+        "検査を省いた結果、すでに苦情が増えています。ベネフィット（満足度）を損ないます。",
+        "正解。計画を実行し、結果を監査して、成果が戦略と合いベネフィットを生んでいるかを確かめます（ECO D2-T21）。",
+        "修繕の窓口を作っても、品質計画が守られていないという問題は解決しません。",
+        "分析もせずに検査をなくすのは、問題が起きている最中の対応として不適切です。"
       ],
       "vocab": [
         {
-          "en": "underway",
-          "ja": "進行中で"
+          "en": "public housing",
+          "ja": "公営住宅"
         },
         {
-          "en": "carry out",
-          "ja": "実行する"
+          "en": "renovation",
+          "ja": "改修"
         },
         {
-          "en": "audit",
-          "ja": "監査する"
+          "en": "independent auditor",
+          "ja": "独立した監査人"
         },
         {
-          "en": "verification",
-          "ja": "確認・検証"
+          "en": "tenant",
+          "ja": "入居者"
+        },
+        {
+          "en": "catch up on",
+          "ja": "（遅れを）取り戻す"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.89,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
@@ -1226,16 +1263,16 @@
         "risk"
       ],
       "principles": [
-        "Governance",
-        "Risk"
+        "Risk",
+        "Governance"
       ],
-      "scenario": "Program dashboards show costs and schedule drifting from plan in several components, and the program manager must understand why before acting.",
+      "scenario": "In a core banking replacement program, defect rates have risen for three months in a row in two components, while cost and schedule remain on plan. The component managers say the defect rates are still within their own thresholds. Testing for the third component starts next month.",
       "stem": "What should the program manager do?",
       "options": [
-        "React to each daily fluctuation with immediate plan changes.",
-        "Ignore variances until program closure.",
-        "Analyze variances and trends in cost, schedule, quality, and risk by comparing actual and forecast to planned values to identify corrective actions or opportunities.",
-        "Report only favorable variances to stakeholders."
+        "Take no action for now, because cost and schedule are on plan and the defect rates remain within the agreed thresholds.",
+        "Instruct the two components to tighten their defect thresholds immediately so that the rising trend is stopped.",
+        "Analyze quality and risk trends against plan alongside cost and schedule, and identify any corrective actions needed.",
+        "Add an extra testing team to the two components to find and fix defects faster before the third component's testing."
       ],
       "answer_index": 2,
       "distractor_types": [
@@ -1244,47 +1281,47 @@
         null,
         "plausible"
       ],
-      "explanation": "計画からのずれには、まず差異（variance）と傾向（trend）を分析します。実績と予測を計画値と比べることで、是正処置が必要か、逆に活かせる機会があるかを判断します。",
-      "scenario_ja": "プログラムのダッシュボードで、いくつかのコンポーネントのコストとスケジュールが計画からずれ始めていることがわかった。プログラムマネージャーは、行動する前にその理由を理解しなければならない。",
+      "explanation": "コストとスケジュールが計画どおりでも、品質の悪化が続いているのは見逃せない傾向です。コスト・スケジュール・品質・リスクの差異と傾向を、実績・予測と計画値を比べて分析し、是正処置や機会を特定します。しきい値内だから放置する、原因を分析せずに基準を変える・人を足す、といった対応は誤りです。",
+      "scenario_ja": "勘定系システムの入れ替えプログラムで、2つのコンポーネントの不具合率が3か月連続で上がっている。一方、コストとスケジュールは計画どおりである。コンポーネント・マネージャーたちは、不具合率はまだ自分たちのしきい値の範囲内だと言っている。3つ目のコンポーネントのテストは来月始まる。",
       "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "日々の変動のたびに、すぐ計画を変更して対応する。",
-        "プログラム終結まで差異を無視する。",
-        "実績と予測を計画値と比べて、コスト・スケジュール・品質・リスクの差異と傾向を分析し、是正処置や機会を特定する。",
-        "好ましい差異だけをステークホルダーに報告する。"
+        "コストとスケジュールが計画どおりで、不具合率も合意したしきい値の範囲内なので、今は何もしない。",
+        "上昇傾向を止めるため、2つのコンポーネントに不具合のしきい値をすぐに厳しくするよう指示する。",
+        "コストとスケジュールと合わせて、品質とリスクの傾向を計画と比べて分析し、必要な是正処置を特定する。",
+        "3つ目のコンポーネントのテストの前に不具合を早く見つけて直すため、2つのコンポーネントにテスト・チームを追加する。"
       ],
       "option_explanations": [
-        "過剰な反応です。傾向を見ずに場当たりで変えています。",
-        "放置しています。",
-        "正解。実績・予測と計画値を比べて差異と傾向を分析し、是正処置や機会を見つけます（ECO D2-T25）。",
-        "選んで報告するのは透明性に欠けます。"
+        "しきい値内でも、3か月続く上昇は重要な傾向です。放置すると後のコンポーネントにも影響します。",
+        "原因を分析する前に基準だけを変えても、不具合は減りません。",
+        "正解。品質・リスクも含めて差異と傾向を分析し、是正処置や機会を特定します（ECO D2-T25）。",
+        "原因が分からないまま人を足すのは早すぎます。まず分析です。"
       ],
       "vocab": [
         {
-          "en": "drift",
-          "ja": "（徐々に）ずれる"
+          "en": "core banking",
+          "ja": "勘定系（銀行の中核システム）"
         },
         {
-          "en": "variance / trend",
-          "ja": "差異／傾向"
+          "en": "defect rate",
+          "ja": "不具合率"
         },
         {
-          "en": "actual / forecast / planned",
-          "ja": "実績／予測／計画"
+          "en": "in a row",
+          "ja": "連続で"
         },
         {
-          "en": "fluctuation",
-          "ja": "変動"
+          "en": "threshold",
+          "ja": "しきい値"
         },
         {
-          "en": "favorable",
-          "ja": "好ましい・有利な"
+          "en": "tighten",
+          "ja": "厳しくする"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.9,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
@@ -1298,15 +1335,16 @@
         "risk"
       ],
       "principles": [
-        "Governance"
+        "Governance",
+        "Synergy"
       ],
-      "scenario": "Multiple change requests are arriving that affect scope, cost, schedule, and contracts, and the program manager must keep them under control to protect benefits.",
+      "scenario": "A defense electronics program has received 40 change requests this quarter. Some went through the program change board, but others were approved informally by component managers, including a contract change with a key supplier that now affects the schedules of two other components.",
       "stem": "What should the program manager do?",
       "options": [
-        "Approve every requested change to keep requesters satisfied.",
-        "Refuse all changes regardless of merit.",
-        "Let each project apply changes without program coordination.",
-        "Manage changes per the change management plan to control scope, quality, schedule, cost, contracts, risks, and rewards to achieve program benefits."
+        "Reverse all of the informally approved changes immediately, and reject any further changes that are made outside the board.",
+        "Accept the informal changes made so far, and require all future changes to go through the program change board.",
+        "Ask the procurement department to review the contract change with the supplier and decide whether it should stand.",
+        "Bring all changes, including the informal ones, under the change management plan and assess their program-wide impacts."
       ],
       "answer_index": 3,
       "distractor_types": [
@@ -1315,43 +1353,43 @@
         "plausible",
         null
       ],
-      "explanation": "変更は、変更管理計画に沿って評価・判断し、スコープ・品質・スケジュール・コスト・契約・リスクなどを統制します。目的はプログラムのベネフィットを守り、達成することです。",
-      "scenario_ja": "スコープ、コスト、スケジュール、契約に影響する変更要求が次々に届いている。プログラムマネージャーは、ベネフィットを守るために、それらを統制しなければならない。",
+      "explanation": "変更は、変更管理計画に沿ってスコープ・品質・スケジュール・コスト・契約・リスクへの影響を評価し、統制します。非公式に承認された変更も含めてすべてを変更管理の対象に戻し、プログラム全体への影響（他の2つのコンポーネントへの影響など）を評価します。一律の取り消しは過剰で、過去分の追認は影響を見逃し、調達部門任せではプログラムとしての判断になりません。",
+      "scenario_ja": "ある防衛電子機器プログラムには、この四半期に40件の変更要求が届いた。プログラムの変更管理委員会を通ったものもあれば、コンポーネント・マネージャーが非公式に承認したものもある。その中には主要サプライヤーとの契約変更があり、それが他の2つのコンポーネントのスケジュールに影響している。",
       "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "要求者を満足させるため、すべての変更要求を承認する。",
-        "内容に関係なく、すべての変更を拒否する。",
-        "プログラムとしての調整をせず、各プロジェクトに変更を適用させる。",
-        "変更管理計画に沿って変更を管理し、スコープ・品質・スケジュール・コスト・契約・リスク・報酬を統制して、プログラムのベネフィットを達成する。"
+        "非公式に承認された変更をすべて直ちに取り消し、今後委員会を通らない変更はすべて却下する。",
+        "これまでの非公式な変更は認め、今後のすべての変更はプログラムの変更管理委員会を通すよう求める。",
+        "サプライヤーとの契約変更を確認し、有効とすべきかを判断するよう調達部門に依頼する。",
+        "非公式なものも含めたすべての変更を変更管理計画のもとに置き、プログラム全体への影響を評価する。"
       ],
       "option_explanations": [
-        "無制限に承認していて、統制になっていません。",
-        "一律の拒否は、ベネフィットにつながる変更まで失います。",
-        "プログラムとしての調整が欠けています。",
-        "正解。変更管理計画に沿って変更を統制します（ECO D2-T28）。"
+        "影響を評価せずに一律に取り消すと、必要な変更まで失い、混乱を招きます。",
+        "過去の変更を追認すると、すでに出ている影響（他のコンポーネントの遅れ）を見逃します。",
+        "契約の確認は必要ですが、プログラム全体への影響を判断するのは変更管理のプロセスです。",
+        "正解。変更管理計画に沿ってすべての変更を統制し、プログラム全体への影響を評価します（ECO D2-T28）。"
       ],
       "vocab": [
         {
-          "en": "change request",
-          "ja": "変更要求"
+          "en": "change board",
+          "ja": "変更管理委員会"
         },
         {
-          "en": "keep under control",
-          "ja": "統制下に置く"
+          "en": "informally",
+          "ja": "非公式に"
         },
         {
-          "en": "merit",
-          "ja": "（内容の）良し悪し・価値"
+          "en": "reverse",
+          "ja": "取り消す・元に戻す"
         },
         {
-          "en": "rewards",
-          "ja": "報酬・見返り"
+          "en": "stand",
+          "ja": "（決定などが）有効である"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.9,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
@@ -1364,16 +1402,15 @@
         "risk"
       ],
       "principles": [
-        "Risk",
-        "Benefits Realization"
+        "Risk"
       ],
-      "scenario": "Program risks are materializing and threaten benefits, but responses are being handled ad hoc by individual projects.",
+      "scenario": "The risk management plan of a pharmaceutical plant construction program assigns a response owner and a trigger to each key risk. The trigger for a key risk, a delay in the regulatory inspection schedule, has just occurred. The response owner is on leave for two weeks, and the component team is waiting for instructions.",
       "stem": "What should the program manager do?",
       "options": [
-        "Manage risk per the risk management plan to ensure benefits realization.",
-        "Address risks only after benefits are already lost.",
-        "Transfer all risk decisions to the projects with no program oversight.",
-        "Remove risks from reporting to avoid alarming stakeholders."
+        "Implement the planned response under the risk management plan, assigning a backup owner while the owner is away.",
+        "Wait for the response owner to return, since the owner is accountable for deciding how the response is carried out.",
+        "Escalate the risk to the steering committee and ask it to approve a new response that reflects the latest situation.",
+        "Ask the component team to design a new response from scratch, because it is closest to the regulatory inspection work."
       ],
       "answer_index": 0,
       "distractor_types": [
@@ -1382,43 +1419,47 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "プログラムのリスクは、リスク管理計画に沿ってプログラムとして管理し、ベネフィット実現を守ります。個々のプロジェクトの場当たり的な対応に任せるのは、プログラムマネジメントの放棄です。",
-      "scenario_ja": "プログラムのリスクが現実になり、ベネフィットを脅かしている。しかし、その対応は個々のプロジェクトが場当たり的に行っている。",
+      "explanation": "リスク管理計画で対応策・オーナー・トリガーまで決めてあるなら、トリガーが起きたときは計画どおりに対応を実行します。オーナーが不在なら代わりの担当者を立てます。オーナーの帰りを待つ、計画があるのに委員会に新しい対応を求める、一から作り直すといった対応は、計画を活かしておらず、ベネフィットを守れません。",
+      "scenario_ja": "ある医薬品工場の建設プログラムのリスク管理計画では、主要なリスクごとに対応のオーナーとトリガーを定めている。主要なリスクの1つである規制当局の査察日程の遅れについて、トリガーとなる事象が起きたところである。対応のオーナーは2週間の休暇中で、コンポーネントのチームは指示を待っている。",
       "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "リスク管理計画に沿ってリスクを管理し、ベネフィット実現を確実にする。",
-        "ベネフィットが失われてから、リスクに対処する。",
-        "プログラムとして監督せずに、リスクの判断をすべてプロジェクトに移す。",
-        "ステークホルダーを不安にさせないよう、リスクを報告から外す。"
+        "リスク管理計画に沿って計画済みの対応を実行し、オーナーの不在中は代わりの担当者を割り当てる。",
+        "対応をどう実行するかを決める責任はオーナーにあるので、オーナーが戻るのを待つ。",
+        "リスクを運営委員会にエスカレーションし、最新の状況を反映した新しい対応を承認してもらう。",
+        "査察の作業に最も近いので、コンポーネントのチームに一から新しい対応を考えさせる。"
       ],
       "option_explanations": [
-        "正解。リスク管理計画に沿って、プログラムとしてリスクを管理します（ECO D2-T30）。",
-        "事後の対応で、ベネフィットを守れません。",
-        "プログラムとしての統括を放棄しています。",
-        "リスクを隠すと、ガバナンスが正しく判断できません。"
+        "正解。リスク管理計画に沿ってリスクを管理し、ベネフィット実現を守ります（ECO D2-T30）。",
+        "2週間待つと、対応が遅れて影響が広がります。",
+        "計画済みの対応があるので、委員会に新しい対応を求める必要はありません。",
+        "計画を無視して一から作り直すと、時間を失い、計画の意味がなくなります。"
       ],
       "vocab": [
         {
-          "en": "materialize",
-          "ja": "（リスクが）現実になる"
+          "en": "response owner",
+          "ja": "（リスク）対応のオーナー（責任者）"
         },
         {
-          "en": "ad hoc",
-          "ja": "場当たり的に"
+          "en": "trigger",
+          "ja": "トリガー（対応を始めるきっかけとなる事象）"
         },
         {
-          "en": "oversight",
-          "ja": "監督"
+          "en": "regulatory inspection",
+          "ja": "規制当局の査察"
         },
         {
-          "en": "alarm",
-          "ja": "不安にさせる・警戒させる"
+          "en": "on leave",
+          "ja": "休暇中で"
+        },
+        {
+          "en": "from scratch",
+          "ja": "一から"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.9,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
@@ -1434,13 +1475,13 @@
         "Benefits Realization",
         "Governance"
       ],
-      "scenario": "The program's objectives are met and the program manager must wind it down, handing ongoing activities to the functional organization and preserving knowledge.",
+      "scenario": "All components of a state's digital ID program have delivered, the first-year benefit targets are being met, and the steering committee has approved program closure. The operations department will run the system from now on. Some contractors still have warranty obligations that continue for 18 months.",
       "stem": "What should the program manager do?",
       "options": [
-        "Disband the team overnight without transition or archiving.",
-        "Execute the transition and close-out of the program and its components—administrative and PMIS closure, archiving documents and lessons learned, and transferring ongoing activities to operations.",
-        "Keep the program open indefinitely to retain control.",
-        "Delete program records to simplify closure."
+        "Keep the program office open for another 18 months so that it can manage the contractors' warranty obligations directly.",
+        "Complete closure and transition, including PMIS closure, archiving lessons, and handing warranty management to operations.",
+        "Release all program staff immediately, and let the operations department find any program documents it needs later.",
+        "Hand all the activities over to operations, and end the contracts early to reduce the program's remaining costs."
       ],
       "answer_index": 1,
       "distractor_types": [
@@ -1449,47 +1490,47 @@
         "plausible",
         "plausible"
       ],
-      "explanation": "プログラムの終結では、プログラムとコンポーネントの移行とクローズアウトを行います。管理面とPMISのクローズ、文書と教訓の保管、継続する活動の運用部門への移管によって、ベネフィットの維持と組織の学習を確保します。",
-      "scenario_ja": "プログラムの目的は達成された。プログラムマネージャーはプログラムを終わらせ、継続する活動を機能部門に引き渡し、知識を保存しなければならない。",
+      "explanation": "終結が承認されたら、プログラムとコンポーネントの移行とクローズアウトを実行します。管理面とPMISのクローズ、文書と教訓の保管、そして保証の管理のような継続する活動を運用部門へ移管することが含まれます。保証のためにプログラムを延命する、引き継ぎをせずに解散する、契約上の義務を早期に打ち切るのは、いずれも誤りです。",
+      "scenario_ja": "ある州のデジタルID（電子身分証）プログラムのすべてのコンポーネントが成果物を引き渡し、初年度のベネフィット目標も達成されつつあり、運営委員会はプログラムの終結を承認した。今後は運用部門がシステムを運用する。一部の請負業者には、18か月続く保証の義務が残っている。",
       "stem_ja": "プログラムマネージャーは何をすべきか。",
       "options_ja": [
-        "移行も保管もせずに、一晩でチームを解散する。",
-        "プログラムとそのコンポーネントの移行と終結を実行する。管理面とPMISのクローズ、文書と教訓の保管、継続する活動の運用部門への移管を行う。",
-        "統制を保つため、プログラムを無期限に続ける。",
-        "クローズを簡単にするため、プログラムの記録を削除する。"
+        "請負業者の保証義務を直接管理できるよう、プログラム・オフィスを18か月間存続させる。",
+        "PMISのクローズ、教訓の保管、保証の管理の運用部門への引き渡しを含めて、終結と移行を完了させる。",
+        "プログラムの職員を直ちに全員解放し、運用部門には必要なプログラム文書を後から自分で探してもらう。",
+        "すべての活動を運用部門に引き渡し、プログラムの残りのコストを減らすため、契約を早期に終了する。"
       ],
       "option_explanations": [
-        "移行と知識の保存が抜けています。",
-        "正解。管理面とPMISのクローズ、文書と教訓の保管、運用への移管を行います（ECO D2-T33）。",
-        "不必要にプログラムを引き延ばしています。",
-        "記録を消すと、組織の学習ができなくなります。"
+        "保証の管理は継続する活動として運用部門に移すべきもので、プログラムを延命する理由になりません。",
+        "正解。管理面とPMISのクローズ、文書と教訓の保管、継続する活動の移管を行います（ECO D2-T33）。",
+        "引き継ぎがないと、運用でのベネフィットの維持と組織の学習が損なわれます。",
+        "保証の義務が残る契約を早期に打ち切ると、運用中の不具合に対応できなくなります。"
       ],
       "vocab": [
         {
-          "en": "wind down",
-          "ja": "（段階的に）終わらせる"
+          "en": "digital ID",
+          "ja": "デジタルID（電子身分証）"
         },
         {
-          "en": "functional organization",
-          "ja": "機能部門（ライン組織）"
+          "en": "warranty obligation",
+          "ja": "保証の義務"
         },
         {
-          "en": "close-out",
-          "ja": "終結処理"
+          "en": "contractor",
+          "ja": "請負業者"
         },
         {
-          "en": "disband",
-          "ja": "解散する"
+          "en": "hand over",
+          "ja": "引き渡す"
         },
         {
-          "en": "archive",
-          "ja": "保管する"
+          "en": "release (staff)",
+          "ja": "（職員を）解放する"
         }
       ],
       "evaluator": {
-        "perspective_check": 0.9,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },

@@ -338,9 +338,9 @@
         }
       ],
       "evaluator": {
-        "perspective_check": 0.9,
-        "model": "manual-pilot",
-        "evaluated_at": "2026-07-13T00:00:00Z"
+        "perspective_check": 0.85,
+        "model": "manual:claude-opus-5-5",
+        "evaluated_at": "2026-11-03T05:43:56Z"
       },
       "reviewed": false
     },
