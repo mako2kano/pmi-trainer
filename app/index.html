@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f3a5f">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="PMI Trainer">
+  <title>PMI Adaptive Trainer</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>PMI Trainer <span id="exam-badge" class="exam-badge"></span></h1>
+    <button id="btn-stats" class="link">成績</button>
+  </header>
+
+  <section id="filters" class="filters">
+    <label>ドメイン
+      <select id="sel-domain"></select>
+    </label>
+    <label>出題
+      <select id="sel-mode">
+        <option value="smart">おすすめ（未回答・誤答優先）</option>
+        <option value="wrong">間違えた問題だけ</option>
+        <option value="random">ランダム</option>
+      </select>
+    </label>
+  </section>
+
+  <main id="view-quiz">
+    <article id="question-card" class="card">
+      <div class="meta"><span id="q-domain" class="badge"></span><span id="q-id" class="qid"></span></div>
+      <p id="q-scenario" class="question" lang="en"></p>
+      <p id="q-stem" class="question stem" lang="en"></p>
+      <button id="btn-hint" class="link">単語ヒントを見る</button>
+      <ul id="hint" class="vocab hidden"></ul>
+      <ol id="choices" class="choices" lang="en"></ol>
+    </article>
+
+    <article id="result" class="card hidden">
+      <p id="verdict" class="verdict"></p>
+      <section id="sec-translation">
+        <h2>問題文（日本語訳）</h2>
+        <p id="question-ja" class="translation"></p>
+      </section>
+      <h2>解説</h2>
+      <p id="explanation"></p>
+      <div id="principles" class="principles"></div>
+      <p id="eco-task" class="eco-task"></p>
+      <section id="sec-notes">
+        <h2>選択肢ごとの解説</h2>
+        <ol id="choice-notes" class="notes"></ol>
+      </section>
+      <section id="sec-vocab">
+        <h2>単語・用語</h2>
+        <ul id="vocab" class="vocab"></ul>
+      </section>
+    </article>
+
+    <div class="actions">
+      <button id="btn-next" class="primary hidden">次の問題 →</button>
+    </div>
+    <p id="empty" class="empty hidden">この条件で出題できる問題がありません。</p>
+  </main>
+
+  <main id="view-stats" class="hidden">
+    <article class="card">
+      <h2>成績</h2>
+      <table id="stats-table"></table>
+      <p class="note-small">成績はこの端末のブラウザ内にだけ保存されます（端末をまたいだ同期はしません）。</p>
+      <div class="actions">
+        <button id="btn-back" class="primary">問題に戻る</button>
+        <button id="btn-reset" class="danger">成績をリセット</button>
+      </div>
+    </article>
+  </main>
+
+  <footer class="disclaimer">
+    PgMP®・PfMP® は Project Management Institute, Inc. の登録商標です。本アプリはPMI非公認の個人製作物で、問題はすべてオリジナルです。
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
